@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { AbsoluteFill, interpolate, useCurrentFrame, Audio, staticFile } from "remotion";
+import { AbsoluteFill, interpolate, useCurrentFrame, spring, Audio, staticFile } from "remotion";
 import { SummaryContent } from "@/lib/script-types";
 import { VIDEO_FPS } from "../shared";
 
@@ -9,142 +9,268 @@ const FPS = VIDEO_FPS;
 
 interface Props {
   content: SummaryContent;
-  audioDurationInFrames?: number; // 语音时长（帧数）
-  audioUrl?: string; // 旁白音频 URL
+  audioDurationInFrames?: number;
+  audioUrl?: string;
 }
 
 export const SummaryScene: React.FC<Props> = ({ content, audioDurationInFrames = 60, audioUrl }) => {
   const frame = useCurrentFrame();
-
-  const titleOpacity = interpolate(frame, [0, 15], [0, 1], {
-    extrapolateRight: "clamp",
-  });
-
-  // 防御性检查：确保 points 存在且是数组
   const points = Array.isArray(content.points) ? content.points : [];
 
-  // 计算每个要点的平均语音时长（帧数）
-  const avgPointDuration = points.length > 0 ? Math.floor(audioDurationInFrames / points.length) : 60;
-  const pointsStartFrame = 20;
+  // Title: spring scale + glow
+  const titleSpring = spring({
+    frame,
+    fps: FPS,
+    from: 0,
+    to: 1,
+    config: { damping: 12, stiffness: 100 },
+  });
+  const glowPulse = Math.sin(frame * 0.06) * 0.15 + 0.85;
+
+  // Card: fade + slide up
+  const cardSpring = spring({
+    frame,
+    fps: FPS,
+    from: 0,
+    to: 1,
+    delay: 20,
+    config: { damping: 14, stiffness: 80 },
+  });
+
+  // Decorative ring rotation
+  const ring1Rotate = interpolate(frame, [0, 300], [0, 25], { extrapolateRight: "extend" });
+  const ring2Rotate = interpolate(frame, [0, 300], [0, -15], { extrapolateRight: "extend" });
+
+  // Decorative dots
+  const dots = [
+    { x: 100, y: 120, r: 6, color: "#FFD93D" },
+    { x: 1820, y: 180, r: 8, color: "#4ECDC4" },
+    { x: 80, y: 900, r: 5, color: "#FF6B9D" },
+    { x: 1750, y: 850, r: 7, color: "#FFD93D" },
+    { x: 960, y: 50, r: 4, color: "#95E1D3" },
+    { x: 1600, y: 950, r: 6, color: "#4ECDC4" },
+  ];
+  const dotSpring = spring({
+    frame,
+    fps: FPS,
+    from: 0,
+    to: 1,
+    delay: 30,
+    config: { damping: 15, stiffness: 90 },
+  });
+
+  if (points.length === 0) {
+    return (
+      <>
+        {audioUrl && <Audio src={staticFile(audioUrl.replace(/^\//, ""))} />}
+        <AbsoluteFill
+          style={{
+            background: "linear-gradient(135deg, #0f0c29 0%, #1a1a3e 40%, #24243e 100%)",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <div style={{ fontSize: 28, color: "#FF6B6B", fontFamily: "'Noto Sans SC', sans-serif" }}>
+            总结内容格式错误，请重新生成
+          </div>
+        </AbsoluteFill>
+      </>
+    );
+  }
 
   return (
     <>
       {audioUrl && <Audio src={staticFile(audioUrl.replace(/^\//, ""))} />}
       <AbsoluteFill
-      style={{
-        background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: 80,
-      }}
-    >
-      <div
         style={{
-          width: "80%",
-          maxWidth: 1000,
+          background: "linear-gradient(135deg, #0f0c29 0%, #1a1a3e 40%, #24243e 100%)",
+          justifyContent: "center",
+          alignItems: "center",
+          overflow: "hidden",
+          fontFamily: "'Poppins', 'Noto Sans SC', sans-serif",
         }}
       >
-        {/* 标题 */}
+        {/* Background glow */}
         <div
           style={{
-            fontSize: 48,
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            width: 700,
+            height: 700,
+            background: "radial-gradient(circle, rgba(78,205,196,0.1) 0%, transparent 70%)",
+            borderRadius: "50%",
+            pointerEvents: "none",
+          }}
+        />
+
+        {/* Decorative ring 1 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            width: 500,
+            height: 500,
+            transform: `translate(-50%, -50%) rotate(${ring1Rotate}deg)`,
+            borderRadius: "50%",
+            border: "1px solid rgba(78,205,196,0.15)",
+            pointerEvents: "none",
+          }}
+        />
+
+        {/* Decorative ring 2 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            width: 680,
+            height: 680,
+            transform: `translate(-50%, -50%) rotate(${ring2Rotate}deg)`,
+            borderRadius: "50%",
+            border: "1px dashed rgba(255,217,61,0.1)",
+            pointerEvents: "none",
+          }}
+        />
+
+        {/* Decorative dots */}
+        {dots.map((dot, i) => (
+          <div
+            key={i}
+            style={{
+              position: "absolute",
+              left: dot.x,
+              top: dot.y,
+              width: dot.r * 2,
+              height: dot.r * 2,
+              borderRadius: "50%",
+              backgroundColor: dot.color,
+              opacity: dotSpring * 0.5,
+              boxShadow: `0 0 ${dot.r * 2}px ${dot.color}`,
+              pointerEvents: "none",
+            }}
+          />
+        ))}
+
+        {/* Title */}
+        <div
+          style={{
+            fontSize: 56,
+            fontWeight: 700,
             color: "#4ECDC4",
-            fontWeight: "bold",
-            fontFamily: "'Microsoft YaHei', sans-serif",
             textAlign: "center",
-            marginBottom: 50,
-            opacity: titleOpacity,
+            marginBottom: 40,
+            transform: `scale(${titleSpring})`,
+            opacity: titleSpring,
+            textShadow: `0 0 20px rgba(78,205,196,${glowPulse * 0.6})`,
+            letterSpacing: 8,
           }}
         >
-          📝 总结
+          今日要点
         </div>
 
-        {/* 要点列表 */}
+        {/* Card container */}
         <div
           style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 24,
+            width: "75%",
+            maxWidth: 1100,
+            background: "rgba(255,255,255,0.05)",
+            backdropFilter: "blur(10px)",
+            borderRadius: 24,
+            padding: "40px 50px",
+            border: "1px solid rgba(255,255,255,0.1)",
+            boxShadow: "0 20px 60px rgba(0,0,0,0.3)",
+            transform: `translateY(${(1 - cardSpring) * 30}px)`,
+            opacity: cardSpring,
           }}
         >
-          {points.length === 0 ? (
-            <div
-              style={{
-                fontSize: 28,
-                color: "#FF6B6B",
-                textAlign: "center",
-                fontFamily: "'Microsoft YaHei', sans-serif",
-              }}
-            >
-              ⚠️ 总结内容格式错误，请重新生成
-            </div>
-          ) : (
-            points.map((point, index) => {
-              // 每个要点的开始时间 = 前面所有要点的时长总和
-              const pointStart = pointsStartFrame + index * avgPointDuration;
-              const typewriterDuration = 30; // 打字机效果持续 1 秒
-
-              const pointOpacity = interpolate(
+          <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+            {points.map((point, index) => {
+              const pointSpring = spring({
                 frame,
-                [pointStart, pointStart + 10],
-                [0, 1],
-                { extrapolateRight: "clamp" }
-              );
+                fps: FPS,
+                from: 0,
+                to: 1,
+                delay: 40 + index * 15,
+                config: { damping: 13, stiffness: 90 },
+              });
 
-              // 打字机效果：逐字显示
-              const charsToShow = Math.floor(
-                interpolate(
-                  frame,
-                  [pointStart, pointStart + typewriterDuration],
-                  [0, point.length],
-                  { extrapolateRight: "clamp" }
-                )
-              );
-              const displayText = point.slice(0, charsToShow);
+              const numSpring = spring({
+                frame,
+                fps: FPS,
+                from: 0,
+                to: 1,
+                delay: 40 + index * 15,
+                config: { damping: 10, stiffness: 120 },
+              });
 
               return (
-                  <div
+                <div
                   key={index}
                   style={{
                     display: "flex",
                     alignItems: "center",
                     gap: 20,
-                    opacity: pointOpacity,
+                    transform: `translateX(${(1 - pointSpring) * -40}px)`,
+                    opacity: pointSpring,
                   }}
                 >
+                  {/* Number badge */}
                   <div
                     style={{
-                      width: 40,
-                      height: 40,
+                      width: 44,
+                      height: 44,
                       borderRadius: "50%",
-                      backgroundColor: "#4ECDC4",
+                      background: "linear-gradient(135deg, #FFD93D 0%, #FF9A3C 100%)",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      fontSize: 20,
-                      fontWeight: "bold",
+                      fontSize: 22,
+                      fontWeight: 800,
                       color: "#1a1a2e",
                       flexShrink: 0,
+                      transform: `scale(${numSpring})`,
+                      boxShadow: "0 0 15px rgba(255,217,61,0.4)",
                     }}
                   >
                     {index + 1}
                   </div>
+
+                  {/* Point text */}
                   <div
                     style={{
-                      fontSize: 32,
+                      fontSize: 28,
                       color: "#fff",
-                      fontFamily: "'Microsoft YaHei', sans-serif",
+                      fontFamily: "'Noto Sans SC', sans-serif",
+                      fontWeight: 500,
+                      lineHeight: 1.5,
+                      opacity: pointSpring,
                     }}
                   >
-                    {displayText}
+                    {point}
                   </div>
                 </div>
               );
-            })
-          )}
+            })}
+          </div>
         </div>
-      </div>
-    </AbsoluteFill>
+
+        {/* Bottom accent line */}
+        <div
+          style={{
+            position: "absolute",
+            bottom: 60,
+            left: "50%",
+            transform: `translateX(-50%) scaleX(${cardSpring})`,
+            width: 300,
+            height: 2,
+            background: "linear-gradient(90deg, transparent, #FFD93D, transparent)",
+            opacity: 0.5,
+          }}
+        />
+      </AbsoluteFill>
     </>
   );
 };
