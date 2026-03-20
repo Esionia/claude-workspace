@@ -1,0 +1,23 @@
+{
+  "skill_name": "vocab-teaching-video-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "生成 creativity 的教学视频",
+      "expected_output": "生成词汇教学视频，包含 title、vocabulary-card、highlight、example、summary 场景，使用 Remotion 渲染",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我制作 imagination 单词的教学视频",
+      "expected_output": "生成词汇教学视频，词根词缀拆解准确，例句地道",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "create vocabulary teaching video for ephemeral",
+      "expected_output": "生成英语词汇视频，包含词根 eph- = around, -mer- = day 相关知识点",
+      "files": []
+    }
+  ]
+}

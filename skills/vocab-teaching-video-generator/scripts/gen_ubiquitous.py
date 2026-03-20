@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+单词教学视频生成器（简化版）
+直接从 .env 读取配置生成视频
+
+用法:
+    python gen_ubiquitous.py --word creativity
+
+注意: 推荐使用 generate_vocab_video.py 作为入口脚本
+"""
 import sys
 import json
 import re
@@ -8,12 +17,40 @@ import uuid
 import asyncio
 import edge_tts
 import os
+import argparse
+from pathlib import Path
 
-# 配置
-LLM_API_KEY = 'sk-cp-gdGTi4HzW2-ylk3C987WKCgdAo_iDFzwpGJtW6mB7J4oYfXcczI_nj5zLntBP-Z9l1SSqlIsfBw2ZUAx2Pc2XSfjscQUPZh_SBkDok3SqXERDFbzIb0mOzU'
-LLM_BASE_URL = 'https://api.minimax.chat/v1'
-LLM_MODEL = 'MiniMax-M2.5-highspeed'
-PEXELS_API_KEY = 'Dshxi5xWpb66eycODl7Es8D5hyX8vkKqeBZIdvt34isCVRXr67SHu0A2'
+# ========== 从 .env 加载配置 ==========
+def load_env():
+    """从 .env 文件加载配置"""
+    script_dir = Path(__file__).parent
+    env_paths = [
+        script_dir / ".env",
+        script_dir.parent / ".env",
+        Path.cwd() / ".env",
+    ]
+    env_file = None
+    for p in env_paths:
+        if p.exists():
+            env_file = p
+            break
+
+    config = {}
+    if env_file:
+        with open(env_file, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    key, value = line.split("=", 1)
+                    config[key.strip()] = value.strip().strip('"').strip("'")
+    return config
+
+env_config = load_env()
+LLM_API_KEY = env_config.get("LLM_API_KEY")
+LLM_BASE_URL = env_config.get("LLM_BASE_URL", "https://api.minimax.chat/v1")
+LLM_MODEL = env_config.get("LLM_MODEL", "MiniMax-M2.5-highspeed")
+PEXELS_API_KEY = env_config.get("PEXELS_API_KEY")
+# ========== 配置结束 ==========
 
 VOCABULARY_SYSTEM_PROMPT = """你是一个专业的英语教学视频脚本生成助手。
 

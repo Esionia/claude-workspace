@@ -1,3 +1,14 @@
+# Skills copies (development backups with hardcoded API keys)
+skills/* - 副本/
+skills/*-copy/
+skills/*_copy/
+
+# TTS audio files
+skills/*/scripts/public/audio/tts/*.wav
+skills/* - 副本/
+skills/*-copy/
+skills/*_copy/
+
 # Dependencies (in skills)
 skills/*/node_modules/
 skills/vocab-teaching-video-generator/scripts/node_modules/

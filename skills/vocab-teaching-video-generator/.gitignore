@@ -1,0 +1,22 @@
+# Environment files (contain API keys)
+.env
+*.env.local
+
+# Generated files
+public/videos/*.mp4
+public/audio/tts/*.wav
+tmp/*.json
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
