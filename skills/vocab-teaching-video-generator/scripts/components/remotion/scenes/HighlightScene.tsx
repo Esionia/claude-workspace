@@ -224,7 +224,10 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
     // 顶部公式动画：单词淡入(0-20帧) + 每个词根逐个出现(25 + index*20帧，持续15帧)
     const topFormulaEndFrame = 25 + (rootAffixList.length - 1) * 20 + 15;
     const bufferAfterFormula = 30; // 公式展示完后的缓冲时间
-    const blockStartBase = topFormulaEndFrame + bufferAfterFormula;
+    // 详细区域起始帧 = 顶部公式结束后 + 缓冲 + 旁白结束后
+    // 旁白 audioUrl 在父组件 Sequence 帧 0 开始播放，持续 audioDurationInFrames 帧
+    // 因此详细区域从 audioDurationInFrames 开始，与旁白完全错开
+    const blockStartBase = topFormulaEndFrame + bufferAfterFormula + (audioDurationInFrames || 0);
 
     // 构建每个词根块的时间轴（基于实际音频时长，包括相关单词）
     let currentFrame = blockStartBase;

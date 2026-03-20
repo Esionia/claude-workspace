@@ -151,6 +151,15 @@ export const VocabularyCardScene: React.FC<VocabularyCardSceneProps> = ({
     };
 
     return (
+      <>
+        {/* 播放旁白音频（narration） */}
+        {audioUrl && (
+          <Audio
+            src={staticFile(audioUrl.replace(/^\//, ""))}
+            startFrom={0}
+            volume={1}
+          />
+        )}
       <AbsoluteFill
         style={{
           background: "linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e22ce 100%)",
@@ -244,6 +253,7 @@ export const VocabularyCardScene: React.FC<VocabularyCardSceneProps> = ({
           </div>
         </div>
       </AbsoluteFill>
+      </>
     );
   }
 
@@ -323,127 +333,127 @@ export const VocabularyCardScene: React.FC<VocabularyCardSceneProps> = ({
         />
       )}
       <AbsoluteFill
-      style={{
-        background: "linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e22ce 100%)",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: 80,
-      }}
-    >
-      {/* 播放短语发音音频 */}
-      {phraseAudioUrl && (
-        <Audio
-          src={staticFile(phraseAudioUrl.replace(/^\//, ""))}
-          startFrom={0}
-          volume={1}
-        />
-      )}
-
-      {/* 播放例句朗读音频（在例句开始显示时播放） */}
-      {exampleAudioUrl && (
-        <Audio
-          src={staticFile(exampleAudioUrl.replace(/^\//, ""))}
-          startFrom={exampleStart}
-          volume={1}
-        />
-      )}
-
-      {/* 主卡片容器 */}
-      <div
         style={{
-          width: "85%",
-          maxWidth: 1400,
-          backgroundColor: "rgba(255, 255, 255, 0.08)",
-          borderRadius: 24,
-          padding: "60px 80px",
-          boxShadow: "0 20px 60px rgba(0, 0, 0, 0.4)",
-          border: "1px solid rgba(255, 255, 255, 0.1)",
-          display: "flex",
-          flexDirection: "column",
-          gap: 40,
+          background: "linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e22ce 100%)",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: 80,
         }}
       >
-        {/* 短语（大字体，弹性动画） */}
+        {/* 播放短语发音音频 */}
+        {phraseAudioUrl && (
+          <Audio
+            src={staticFile(phraseAudioUrl.replace(/^\//, ""))}
+            startFrom={0}
+            volume={1}
+          />
+        )}
+
+        {/* 播放例句朗读音频（在例句开始显示时播放） */}
+        {exampleAudioUrl && (
+          <Audio
+            src={staticFile(exampleAudioUrl.replace(/^\//, ""))}
+            startFrom={exampleStart}
+            volume={1}
+          />
+        )}
+
+        {/* 主卡片容器 */}
         <div
           style={{
-            fontSize: 80,
-            fontWeight: "bold",
-            color: "#fff",
-            fontFamily: "Arial, sans-serif",
-            textAlign: "center",
-            opacity: phraseOpacity,
-            transform: `translateX(${phraseSlideX}px) scale(${phraseScale})`,
-            textShadow: "0 4px 20px rgba(0, 0, 0, 0.3)",
-            letterSpacing: 2,
+            width: "85%",
+            maxWidth: 1400,
+            backgroundColor: "rgba(255, 255, 255, 0.08)",
+            borderRadius: 24,
+            padding: "60px 80px",
+            boxShadow: "0 20px 60px rgba(0, 0, 0, 0.4)",
+            border: "1px solid rgba(255, 255, 255, 0.1)",
+            display: "flex",
+            flexDirection: "column",
+            gap: 40,
           }}
         >
-          {phrase}
-        </div>
+          {/* 短语（大字体，弹性动画） */}
+          <div
+            style={{
+              fontSize: 80,
+              fontWeight: "bold",
+              color: "#fff",
+              fontFamily: "Arial, sans-serif",
+              textAlign: "center",
+              opacity: phraseOpacity,
+              transform: `translateX(${phraseSlideX}px) scale(${phraseScale})`,
+              textShadow: "0 4px 20px rgba(0, 0, 0, 0.3)",
+              letterSpacing: 2,
+            }}
+          >
+            {phrase}
+          </div>
 
-        {/* 中文释义（淡入） */}
-        <div
-          style={{
-            fontSize: 48,
-            color: "#D1D5DB",
-            fontFamily: "'Microsoft YaHei', sans-serif",
-            textAlign: "center",
-            opacity: meaningOpacity,
-          }}
-        >
-          {meaning}
-        </div>
+          {/* 中文释义（淡入） */}
+          <div
+            style={{
+              fontSize: 48,
+              color: "#D1D5DB",
+              fontFamily: "'Microsoft YaHei', sans-serif",
+              textAlign: "center",
+              opacity: meaningOpacity,
+            }}
+          >
+            {meaning}
+          </div>
 
-        {/* 分隔线 */}
-        <div
-          style={{
-            width: `${lineWidth}%`,
-            height: 2,
-            background: "linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent)",
-            margin: "0 auto",
-          }}
-        />
+          {/* 分隔线 */}
+          <div
+            style={{
+              width: `${lineWidth}%`,
+              height: 2,
+              background: "linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent)",
+              margin: "0 auto",
+            }}
+          />
 
-        {/* 例句（打字机效果，关键词高亮） */}
-        <div
-          style={{
-            fontSize: 36,
-            color: "#fff",
-            fontFamily: "Arial, sans-serif",
-            lineHeight: 1.6,
-            textAlign: "center",
-            minHeight: 100,
-          }}
-        >
-          {renderExampleWithHighlight()}
-          {/* 打字机光标 */}
-          {exampleCharsToShow < example!.length && (
-            <span
-              style={{
-                opacity: frame % 20 < 10 ? 1 : 0,
-                color: "#FFD700",
-                marginLeft: 4,
-              }}
-            >
-              |
-            </span>
-          )}
-        </div>
+          {/* 例句（打字机效果，关键词高亮） */}
+          <div
+            style={{
+              fontSize: 36,
+              color: "#fff",
+              fontFamily: "Arial, sans-serif",
+              lineHeight: 1.6,
+              textAlign: "center",
+              minHeight: 100,
+            }}
+          >
+            {renderExampleWithHighlight()}
+            {/* 打字机光标 */}
+            {exampleCharsToShow < example!.length && (
+              <span
+                style={{
+                  opacity: frame % 20 < 10 ? 1 : 0,
+                  color: "#FFD700",
+                  marginLeft: 4,
+                }}
+              >
+                |
+              </span>
+            )}
+          </div>
 
-        {/* 中文翻译（延迟淡入） */}
-        <div
-          style={{
-            fontSize: 32,
-            color: "#9CA3AF",
-            fontFamily: "'Microsoft YaHei', sans-serif",
-            textAlign: "center",
-            lineHeight: 1.6,
-            opacity: chineseOpacity,
-          }}
-        >
-          {exampleChinese}
+          {/* 中文翻译（延迟淡入） */}
+          <div
+            style={{
+              fontSize: 32,
+              color: "#9CA3AF",
+              fontFamily: "'Microsoft YaHei', sans-serif",
+              textAlign: "center",
+              lineHeight: 1.6,
+              opacity: chineseOpacity,
+            }}
+          >
+            {exampleChinese}
+          </div>
         </div>
-      </div>
-    </AbsoluteFill>
+      </AbsoluteFill>
     </>
   );
 };

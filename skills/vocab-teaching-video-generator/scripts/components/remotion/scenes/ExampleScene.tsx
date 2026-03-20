@@ -1,28 +1,26 @@
 "use client";
 
 import React from "react";
-import { AbsoluteFill, Audio, interpolate, useCurrentFrame, staticFile } from "remotion";
+import { AbsoluteFill, Audio, interpolate, useCurrentFrame, staticFile, Sequence } from "remotion";
 import { ExampleContent } from "@/lib/script-types";
 import { VIDEO_FPS } from "../shared";
 
 interface Props {
   content: ExampleContent;
   englishAudioDuration?: number;
+  narrationAudioUrl?: string;
+  narrationAudioDuration?: number;
 }
 
 const FPS = VIDEO_FPS;
 
-export const ExampleScene: React.FC<Props> = ({ content, englishAudioDuration }) => {
+export const ExampleScene: React.FC<Props> = ({ content, englishAudioDuration, narrationAudioUrl, narrationAudioDuration }) => {
   const frame = useCurrentFrame();
 
-  // 使用 content 中的音频信息（优先）或传入的 prop
-  const audioUrl = content.englishAudioUrl;
-  const audioDuration = content.englishAudioDuration || englishAudioDuration;
-
-  // 有英文音频时，中文翻译延迟到英文朗读结束后出现
-  const audioDelayFrames = audioDuration
-    ? Math.round((audioDuration + 0.3) * FPS)
-    : 0;
+  // Chinese translation appears after English audio finishes + 0.5s buffer
+  // Use the English audio duration passed from parent (actual value)
+  const engDuration = englishAudioDuration || 3;
+  const audioDelayFrames = Math.round((engDuration + 0.5) * FPS);
 
   // 英文句子动画
   const englishOpacity = interpolate(frame, [0, 20], [0, 1], {
@@ -251,13 +249,24 @@ export const ExampleScene: React.FC<Props> = ({ content, englishAudioDuration })
         padding: "60px 80px",
       }}
     >
-      {/* 播放英文例句音频 */}
-      {audioUrl && (
+      {/* 播放英文例句音频（立即） */}
+      {content.englishAudioUrl && (
         <Audio
-          src={staticFile(audioUrl.replace(/^\//, ""))}
+          src={staticFile(content.englishAudioUrl.replace(/^\//, ""))}
           startFrom={0}
           volume={1}
         />
+      )}
+
+      {/* 播放中文旁白（延迟到英文结束后） */}
+      {narrationAudioUrl && (
+        <Sequence from={audioDelayFrames}>
+          <Audio
+            src={staticFile(narrationAudioUrl.replace(/^\//, ""))}
+            startFrom={0}
+            volume={1}
+          />
+        </Sequence>
       )}
 
       {/* 整体内容容器 */}

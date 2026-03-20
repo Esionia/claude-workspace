@@ -62,7 +62,16 @@ const renderScene = (scene: Scene, durationInFrames: number) => {
     }
     case "example": {
       const ec = c as ExampleContent;
-      return <ExampleScene content={ec} englishAudioDuration={ec.englishAudioDuration} />;
+      const audioUrl = scene.audioUrl || audioUrls[scene.id];
+      const narrationDuration = scene.audioDuration || 3;
+      return (
+        <ExampleScene
+          content={ec}
+          englishAudioDuration={ec.englishAudioDuration}
+          narrationAudioUrl={audioUrl}
+          narrationAudioDuration={narrationDuration}
+        />
+      );
     }
     case "practice":
       return <PracticeScene content={c as PracticeContent} />;
@@ -132,17 +141,9 @@ export const TeachingVideo: React.FC<Props> = ({
       )}
 
       {sequences.map(({ scene, startFrame, durationInFrames }) => {
-        // 检查是否为带英文音频的 example 场景
-        const exContent =
-          scene.type === 'example' && scene.content.type === 'example'
-            ? (scene.content as ExampleContent)
-            : null;
-        const englishAudioUrl = exContent?.englishAudioUrl ?? null;
-        const englishAudioDuration = exContent?.englishAudioDuration ?? 0;
-        // 旁白延迟帧数 = 英文音频时长 + 0.5秒缓冲
-        const narrationDelay = englishAudioUrl
-          ? Math.round((englishAudioDuration + 0.5) * FPS)
-          : 0;
+        // ExampleScene owns all its audio internally (english + narration)
+        // Other scenes get audio from parent level
+        const isExampleScene = scene.type === 'example';
 
         return (
           <Sequence
@@ -152,33 +153,17 @@ export const TeachingVideo: React.FC<Props> = ({
           >
             {renderScene(scene, durationInFrames)}
 
-            {/* 英文例句朗读音频（场景开头播放） */}
-            {englishAudioUrl && (
-              <Audio src={resolveAudioSrc(englishAudioUrl)} />
-            )}
-
-            {/* 旁白音频（example 场景延迟播放，其他场景立即播放） */}
-            {/* 优先使用 scene.audioUrl（TTS 生成器存储的），其次使用 audioUrls prop */}
-            {(() => {
+            {/* Non-example scenes: render audio at parent level */}
+            {!isExampleScene && (() => {
               const audioUrl = scene.audioUrl || audioUrls[scene.id];
               if (!audioUrl) return null;
 
-              // Highlight 场景的引导语音频在场景开头播放
-              // 每个词根的音频由 HighlightScene 组件内部控制
+              // Highlight scene's guiding narration plays at scene start
               if (scene.type === 'highlight') {
                 return <Audio src={resolveAudioSrc(audioUrl)} />;
               }
 
-              // Example 场景延迟播放旁白
-              if (narrationDelay > 0) {
-                return (
-                  <Sequence from={narrationDelay}>
-                    <Audio src={resolveAudioSrc(audioUrl)} />
-                  </Sequence>
-                );
-              }
-
-              // 其他场景立即播放
+              // Other scenes: immediate playback
               return <Audio src={resolveAudioSrc(audioUrl)} />;
             })()}
           </Sequence>
