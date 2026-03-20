@@ -1,0 +1,288 @@
+{
+  "script": {
+    "id": "video_script_aborted_001",
+    "topic": "英语词汇教学:aborted",
+    "description": "通过词根词缀法讲解单词aborted(中止的；流产的)的构成、含义和使用",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "aborted",
+          "subtitle": "中止的；流产的"
+        },
+        "narration": "今天我们要学习的单词是aborted",
+        "narrationLang": "zh",
+        "durationSeconds": 4,
+        "audioUrl": "/audio/tts/narration_scene_001_3b011d.wav",
+        "audioDuration": 3.5
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "aborted",
+          "meaning": "中止的；流产的",
+          "partOfSpeech": "adj./v.",
+          "definitions": [
+            "中止的；被终止的",
+            "流产的；失败的"
+          ]
+        },
+        "narration": "aborted是abort的过去分词形式,作为形容词使用时表示中止的、流产的",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_002_8207bf.wav",
+        "audioDuration": 7.2
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "aborted = ab- + -ort + -ed",
+          "highlights": [
+            {
+              "text": "ab-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "ort",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ed",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "ab-",
+              "meaning": "离开、远离",
+              "label": "前缀",
+              "narration": "前缀ab-表示离开、远离的意思,表示脱离或中止的状态",
+              "relatedWords": [
+                {
+                  "word": "absent",
+                  "meaning": "缺席的",
+                  "highlight": "ab-",
+                  "narration": "absent,缺席的",
+                  "audioUrl": "/audio/tts/rw_absent_b722.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "abandon",
+                  "meaning": "放弃",
+                  "highlight": "ab-",
+                  "narration": "abandon,放弃",
+                  "audioUrl": "/audio/tts/rw_abandon_7093.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "abstract",
+                  "meaning": "抽象的",
+                  "highlight": "ab-",
+                  "narration": "abstract,抽象的",
+                  "audioUrl": "/audio/tts/rw_abstract_fd49.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_ab-_6d94.wav",
+              "audioDuration": 5.9
+            },
+            {
+              "root": "-ort-",
+              "meaning": "出生、产生",
+              "label": "词根",
+              "narration": "词根ort来自拉丁语oriri,表示出生、产生的意思",
+              "relatedWords": [
+                {
+                  "word": "abort",
+                  "meaning": "中止、流产",
+                  "highlight": "-ort-",
+                  "narration": "abort,中止",
+                  "audioUrl": "/audio/tts/rw_abort_5f5e.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "origin",
+                  "meaning": "起源",
+                  "highlight": "-orig-",
+                  "narration": "origin,起源",
+                  "audioUrl": "/audio/tts/rw_origin_7a32.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "adorable",
+                  "meaning": "可爱的",
+                  "highlight": "or-",
+                  "narration": "adorable,可爱的",
+                  "audioUrl": "/audio/tts/rw_adorable_f75a.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ort-_bef5.wav",
+              "audioDuration": 5.5
+            },
+            {
+              "root": "-ed",
+              "meaning": "过去分词后缀",
+              "label": "后缀",
+              "narration": "后缀-ed表示过去分词形式,构成动词的过去式或形容词",
+              "relatedWords": [
+                {
+                  "word": "developed",
+                  "meaning": "发达的",
+                  "highlight": "-ed",
+                  "narration": "developed发达的",
+                  "audioUrl": "/audio/tts/rw_developed_2e12.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "excited",
+                  "meaning": "兴奋的",
+                  "highlight": "-ed",
+                  "narration": "excited兴奋的",
+                  "audioUrl": "/audio/tts/rw_excited_0c61.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "finished",
+                  "meaning": "完成的",
+                  "highlight": "-ed",
+                  "narration": "finished完成的",
+                  "audioUrl": "/audio/tts/rw_finished_e19e.wav",
+                  "audioDuration": 1.9
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ed_a0cd.wav",
+              "audioDuration": 6.1
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/11055476/pexels-photo-11055476.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Artistic black and white photo featuring sheer gloved hands in expressive poses.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分解这个单词的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 44,
+        "audioUrl": "/audio/tts/narration_scene_003_175009.wav",
+        "audioDuration": 3.2
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The mission was aborted due to severe weather conditions.",
+          "chinese": "由于恶劣天气条件,任务被迫中止.",
+          "highlights": [
+            {
+              "text": "aborted",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/12149072/pexels-photo-12149072.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Women gather outdoors holding pro-abortion rights signs in an urban protest setting.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_4b46ed.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "The mission was aborted due to severe weather conditions. 意思是:由于恶劣天气条件,任务被迫中止.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_f56b84.wav",
+        "audioDuration": 8.4
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The aborted pregnancy left her heartbroken.",
+          "chinese": "流产的经历让她心碎.",
+          "highlights": [
+            {
+              "text": "aborted",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/30885772/pexels-photo-30885772.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Scrabble tiles spell the word 'abort' on a wooden table, sparking discussion.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_4aad4a.wav",
+          "englishAudioDuration": 2.9
+        },
+        "narration": "The aborted pregnancy left her heartbroken. 意思是:流产的经历让她心碎.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_005_855a3e.wav",
+        "audioDuration": 6.8
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "aborted来源于拉丁语abortari,由前缀ab-(离开)+词根ort(出生)+后缀-ed(过去分词)构成",
+            "字面含义是\"离开出生\",即未能正常出生或进行,因此表示中止的、流产的",
+            "常见用法包括aborted mission(中止的任务)、aborted flight(取消的航班)等",
+            "与abort(中止、流产)是同源词,记忆时可以将两者关联起来"
+          ]
+        },
+        "narration": "今天我们学习了aborted这个单词,它由前缀ab-、词根ort和后缀-ed组成,表示中止的、流产的含义",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_40d0da.wav",
+        "audioDuration": 9.8
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_3b011d.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_8207bf.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_175009.wav",
+    "scene_003_root_ab-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_ab-_6d94.wav",
+    "scene_003_rw_absent": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_absent_b722.wav",
+    "scene_003_rw_abandon": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_abandon_7093.wav",
+    "scene_003_rw_abstract": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_abstract_fd49.wav",
+    "scene_003_root_-ort-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ort-_bef5.wav",
+    "scene_003_rw_abort": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_abort_5f5e.wav",
+    "scene_003_rw_origin": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_origin_7a32.wav",
+    "scene_003_rw_adorable": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_adorable_f75a.wav",
+    "scene_003_root_-ed": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ed_a0cd.wav",
+    "scene_003_rw_developed": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_developed_2e12.wav",
+    "scene_003_rw_excited": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_excited_0c61.wav",
+    "scene_003_rw_finished": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_finished_e19e.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_f56b84.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_4b46ed.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_855a3e.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_4aad4a.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_40d0da.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-aborted-48f60325.mp4"
+}

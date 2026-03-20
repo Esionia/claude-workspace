@@ -1,0 +1,252 @@
+{
+  "script": {
+    "id": "video_script_quickly_001",
+    "topic": "英语词汇教学:quickly",
+    "description": "通过词根词缀法讲解副词quickly的构成、含义和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "quickly",
+          "subtitle": "快速地、迅速地"
+        },
+        "narration": "今天我们要学习的单词是quickly,表示快速地、迅速地的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_c464ef.wav",
+        "audioDuration": 5.9
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "quickly",
+          "meaning": "快速地、迅速地",
+          "partOfSpeech": "adv.",
+          "definitions": [
+            "快速地、迅速地",
+            "不久、很快",
+            "敏捷地、机敏地"
+          ]
+        },
+        "narration": "quickly是一个副词,它有多个含义,最基本的意思是快速地、迅速地,还可以表示不久、很快以及敏捷地、机敏地.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_002_97378d.wav",
+        "audioDuration": 11.1
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "quickly = quick + -ly",
+          "highlights": [
+            {
+              "text": "quick",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ly",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:时钟指针快速转动,象征快速的动作",
+              "alt": "时钟指针快速转动图示",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/12785124/pexels-photo-12785124.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A city intersection under a bridge with cars and traffic lights during dusk.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "quick",
+              "meaning": "快的、迅速的",
+              "label": "词根",
+              "narration": "quick是核心词根,来源于古英语cwic,意思是活的、快的,引申为迅速、敏捷的含义.",
+              "relatedWords": [
+                {
+                  "word": "quick",
+                  "meaning": "快的、迅速的(形容词)",
+                  "highlight": "quick",
+                  "narration": "quick,快的",
+                  "audioUrl": "/audio/tts/rw_quick_609e.wav",
+                  "audioDuration": 1.8
+                },
+                {
+                  "word": "quickness",
+                  "meaning": "快速、敏捷",
+                  "highlight": "quick",
+                  "narration": "quickness,快速",
+                  "audioUrl": "/audio/tts/rw_quickness_b122.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "quicksilver",
+                  "meaning": "水银",
+                  "highlight": "quick",
+                  "narration": "quicksilver,水银",
+                  "audioUrl": "/audio/tts/rw_quicksilver_649e.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_quick_39cc.wav",
+              "audioDuration": 8.4
+            },
+            {
+              "root": "-ly",
+              "meaning": "副词后缀",
+              "label": "后缀",
+              "narration": "-ly是常见的副词后缀,通常加在形容词后面,将形容词转化为副词,表示方式或状态.",
+              "relatedWords": [
+                {
+                  "word": "slowly",
+                  "meaning": "慢慢地",
+                  "highlight": "-ly",
+                  "narration": "slowly,慢慢地",
+                  "audioUrl": "/audio/tts/rw_slowly_637b.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "happily",
+                  "meaning": "快乐地",
+                  "highlight": "-ly",
+                  "narration": "happily,快乐地",
+                  "audioUrl": "/audio/tts/rw_happily_8f40.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "easily",
+                  "meaning": "容易地",
+                  "highlight": "-ly",
+                  "narration": "easily,容易地",
+                  "audioUrl": "/audio/tts/rw_easily_5f15.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ly_845c.wav",
+              "audioDuration": 8.6
+            }
+          ]
+        },
+        "narration": "现在让我们来分析quickly的构成,看看词根和词缀是怎么组合的.",
+        "narrationLang": "zh",
+        "durationSeconds": 39,
+        "audioUrl": "/audio/tts/narration_scene_003_d3453c.wav",
+        "audioDuration": 6.1
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She ran quickly to catch the bus.",
+          "chinese": "她快速地跑着去赶公交车.",
+          "highlights": [
+            {
+              "text": "quickly",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/1349509/pexels-photo-1349509.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Football player leaps to catch a ball with a vibrant rainbow backdrop on a sunny field.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_8e64aa.wav",
+          "englishAudioDuration": 2.3
+        },
+        "narration": "She ran quickly to catch the bus. 意思是:她快速地跑着去赶公交车.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_004_4d38ca.wav",
+        "audioDuration": 6.4
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "He quickly realized his mistake.",
+          "chinese": "他很快意识到了自己的错误.",
+          "highlights": [
+            {
+              "text": "quickly",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6193764/pexels-photo-6193764.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A blue eraser with 'I Love Mistakes' next to a pencil and crossed-out text on a pink background.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_302bde.wav",
+          "englishAudioDuration": 2.0
+        },
+        "narration": "He quickly realized his mistake. 意思是:他很快意识到了自己的错误.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_005_2a8f79.wav",
+        "audioDuration": 6.5
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "quickly是副词,意思是快速地、迅速地,表示动作进行的速度很快",
+            "构词法:quick(词根,快的)+ -ly(副词后缀)= quickly",
+            "-ly是常见的副词后缀,加在形容词后面构成副词",
+            "常见搭配:run quickly(快速跑)、realize quickly(很快意识到)、answer quickly(快速回答)"
+          ]
+        },
+        "narration": "今天我们学习了副词quickly,它由词根quick加上副词后缀-ly构成,意思是快速地、迅速地.掌握词根词缀法可以帮助我们更好地记忆和理解英语单词.",
+        "narrationLang": "zh",
+        "durationSeconds": 17,
+        "audioUrl": "/audio/tts/narration_scene_006_c2ae2c.wav",
+        "audioDuration": 14.0
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "public\\audio\\tts\\narration_scene_001_c464ef.wav",
+    "scene_002_narration": "public\\audio\\tts\\narration_scene_002_97378d.wav",
+    "scene_003_narration": "public\\audio\\tts\\narration_scene_003_d3453c.wav",
+    "scene_003_root_quick": "public\\audio\\tts\\root_quick_39cc.wav",
+    "scene_003_rw_quick": "public\\audio\\tts\\rw_quick_609e.wav",
+    "scene_003_rw_quickness": "public\\audio\\tts\\rw_quickness_b122.wav",
+    "scene_003_rw_quicksilver": "public\\audio\\tts\\rw_quicksilver_649e.wav",
+    "scene_003_root_-ly": "public\\audio\\tts\\root_-ly_845c.wav",
+    "scene_003_rw_slowly": "public\\audio\\tts\\rw_slowly_637b.wav",
+    "scene_003_rw_happily": "public\\audio\\tts\\rw_happily_8f40.wav",
+    "scene_003_rw_easily": "public\\audio\\tts\\rw_easily_5f15.wav",
+    "scene_004_narration": "public\\audio\\tts\\narration_scene_004_4d38ca.wav",
+    "scene_004_english": "public\\audio\\tts\\example_en_scene_004_8e64aa.wav",
+    "scene_005_narration": "public\\audio\\tts\\narration_scene_005_2a8f79.wav",
+    "scene_005_english": "public\\audio\\tts\\example_en_scene_005_302bde.wav",
+    "scene_006_narration": "public\\audio\\tts\\narration_scene_006_c2ae2c.wav"
+  },
+  "outputPath": "public\\videos\\teaching-quickly-a502efd9.mp4"
+}

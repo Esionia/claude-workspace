@@ -1,0 +1,252 @@
+{
+  "script": {
+    "id": "video_script_possibility_001",
+    "topic": "英语词汇教学:possibility",
+    "description": "通过词根词缀法讲解单词possibility,掌握其含义、构成和相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 100,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "possibility",
+          "subtitle": "可能性"
+        },
+        "narration": "今天我们来学习possibility",
+        "narrationLang": "zh",
+        "durationSeconds": 4,
+        "audioUrl": "/audio/tts/narration_scene_001_8bbc85.wav",
+        "audioDuration": 3.0
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "possibility",
+          "meaning": "可能性；可能的事",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "可能性",
+            "可能发生的事",
+            "潜在的机会"
+          ]
+        },
+        "narration": "possibility是名词,表示可能性",
+        "narrationLang": "zh",
+        "durationSeconds": 4,
+        "audioUrl": "/audio/tts/narration_scene_002_248b69.wav",
+        "audioDuration": 3.5
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "possibility = poss(能够)+ ibility(名词后缀)",
+          "highlights": [
+            {
+              "text": "poss",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "ibility",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=400",
+              "alt": "可能性概念图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/17485710/pexels-photo-17485710.png?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Dynamic abstract art with blue and purple brush strokes on a light background.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "poss-",
+              "meaning": "能够、有能力",
+              "label": "词根",
+              "narration": "词根poss来源于拉丁语possess,意为能够、有能力的.",
+              "relatedWords": [
+                {
+                  "word": "possible",
+                  "meaning": "可能的",
+                  "highlight": "poss",
+                  "narration": "possible,可能的",
+                  "audioUrl": "/audio/tts/rw_possible_86de.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "impossible",
+                  "meaning": "不可能的",
+                  "highlight": "im-poss",
+                  "narration": "impossible,不可能的",
+                  "audioUrl": "/audio/tts/rw_impossible_9983.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "potential",
+                  "meaning": "潜在的",
+                  "highlight": "poten",
+                  "narration": "potential,潜在的",
+                  "audioUrl": "/audio/tts/rw_potential_6802.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_poss-_d4b0.wav",
+              "audioDuration": 5.5
+            },
+            {
+              "root": "-ibility",
+              "meaning": "表示性质或状态",
+              "label": "后缀",
+              "narration": "ibility是名词后缀,表示某种性质或状态,-ible的名词形式.",
+              "relatedWords": [
+                {
+                  "word": "responsibility",
+                  "meaning": "责任",
+                  "highlight": "-ibility",
+                  "narration": "responsibility,责任",
+                  "audioUrl": "/audio/tts/rw_responsibility_121d.wav",
+                  "audioDuration": 2.6
+                },
+                {
+                  "word": "flexibility",
+                  "meaning": "灵活性",
+                  "highlight": "-ibility",
+                  "narration": "flexibility,灵活性",
+                  "audioUrl": "/audio/tts/rw_flexibility_e758.wav",
+                  "audioDuration": 2.7
+                },
+                {
+                  "word": "capability",
+                  "meaning": "能力",
+                  "highlight": "-ility",
+                  "narration": "capability,能力",
+                  "audioUrl": "/audio/tts/rw_capability_bbef.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ibility_f876.wav",
+              "audioDuration": 6.3
+            }
+          ]
+        },
+        "narration": "来看possibility的词根构成",
+        "narrationLang": "zh",
+        "durationSeconds": 33,
+        "audioUrl": "/audio/tts/narration_scene_003_4fbeb0.wav",
+        "audioDuration": 3.0
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Is there any possibility that she will come to the party?",
+          "highlights": [
+            {
+              "text": "possibility",
+              "color": "#FFD93D"
+            }
+          ],
+          "chinese": "她有可能来参加聚会吗？",
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/20335180/pexels-photo-20335180.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Aerial view of the ancient Armenian church ruins in Turkey, showcasing historical architecture.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_fe0b27.wav",
+          "englishAudioDuration": 2.8
+        },
+        "narration": "Is there any possibility that she will come to the party? 意思是:她有可能来参加聚会吗？",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_004_3495c5.wav",
+        "audioDuration": 7.3
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "We should consider all the possibilities before making a decision.",
+          "highlights": [
+            {
+              "text": "possibilities",
+              "color": "#FFD93D"
+            }
+          ],
+          "chinese": "在做出决定之前,我们应该考虑所有可能性.",
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6392630/pexels-photo-6392630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Woman standing on a block holding a feminist sign, advocating equality.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_195589.wav",
+          "englishAudioDuration": 3.6
+        },
+        "narration": "We should consider all the possibilities before making a decision. 意思是:在做出决定之前,我们应该考虑所有可能性.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_005_326295.wav",
+        "audioDuration": 9.5
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "possibility是名词,意为\"可能性\"或\"可能的事\"",
+            "词根poss-表示\"能够\",后缀-ibility表示\"性质或状态\"",
+            "相关词汇包括:possible(可能的)、impossible(不可能的)、responsibility(责任)",
+            "常用短语:there is possibility that...(有可能......)"
+          ]
+        },
+        "narration": "今天我们学习了possibility及其词根构成,希望对大家记单词有帮助",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_b602c6.wav",
+        "audioDuration": 6.8
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_8bbc85.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_248b69.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_4fbeb0.wav",
+    "scene_003_root_poss-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_poss-_d4b0.wav",
+    "scene_003_rw_possible": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_possible_86de.wav",
+    "scene_003_rw_impossible": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_impossible_9983.wav",
+    "scene_003_rw_potential": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_potential_6802.wav",
+    "scene_003_root_-ibility": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ibility_f876.wav",
+    "scene_003_rw_responsibility": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_responsibility_121d.wav",
+    "scene_003_rw_flexibility": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_flexibility_e758.wav",
+    "scene_003_rw_capability": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_capability_bbef.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_3495c5.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_fe0b27.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_326295.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_195589.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_b602c6.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-possibility-43a37599.mp4"
+}

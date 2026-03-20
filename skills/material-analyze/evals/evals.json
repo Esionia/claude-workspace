@@ -1,0 +1,17 @@
+{
+  "skill_name": "material-analyze",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "分析这个视频文件的内容：outputs/赚钱先让自己值钱.mp4",
+      "expected_output": "返回JSON格式的分析结果，包含description字段",
+      "files": ["outputs/赚钱先让自己值钱.mp4"]
+    },
+    {
+      "id": 2,
+      "prompt": "用AI分析这张图片的内容",
+      "expected_output": "返回JSON格式的图片描述",
+      "files": []
+    }
+  ]
+}

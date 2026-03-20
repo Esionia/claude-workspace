@@ -1,0 +1,250 @@
+{
+  "script": {
+    "id": "video_script_luckily_001",
+    "topic": "英语词汇教学:luckily",
+    "description": "通过词根词缀法讲解副词 luckily,剖析 luck 词根与 -ily 后缀的构词规律,帮助学习者掌握幸运地这一常用副词的用法.",
+    "targetAudience": "英语学习者(初中级及以上)",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "luckily",
+          "subtitle": "幸运地"
+        },
+        "narration": "今天我们要学习的单词是 luckily,在中文里表示幸运地的意思.这是一个在日常英语中非常实用的副词,让我们一起来掌握它吧！",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_001_d7b4b5.wav",
+        "audioDuration": 11.1
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "luckily",
+          "partOfSpeech": "adv.",
+          "definitions": [
+            "幸运地,运气好地",
+            "幸好,多亏"
+          ]
+        },
+        "narration": "让我们先来看一下单词的基本信息.luckily 是一个副词,它的基本含义是幸运地、运气好地,还有一个常见的用法是表示幸好、多亏的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_002_76bb46.wav",
+        "audioDuration": 12.4
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "luckily = luck + -ily(幸运地)",
+          "highlights": [
+            {
+              "text": "luck",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ily",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:字母组成示意图,展示 luck + -ily = luckily 的组合",
+              "alt": "luckily 构词法分解图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A soothing abstract blurred gradient background with warm tones.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "luck",
+              "meaning": "运气,幸运",
+              "label": "词根",
+              "narration": "luck 是一个英语单词,本身就可以独立使用,表示运气、幸运的意思.它源自古英语 hlāfweard,字面意思是 guardian of bread(面包守护者),后来引申为命运或运气.",
+              "relatedWords": [
+                {
+                  "word": "lucky",
+                  "meaning": "幸运的,吉祥的",
+                  "highlight": "luck",
+                  "narration": "lucky,幸运的,在 luck 后面加上形容词后缀 -y,意思是拥有好运气的.",
+                  "audioUrl": "/audio/tts/rw_lucky_17d6.wav",
+                  "audioDuration": 7.1
+                },
+                {
+                  "word": "luck",
+                  "meaning": "运气,好运",
+                  "highlight": "luck",
+                  "narration": "luck,运气,直接使用词根,表示偶然的或不可预测的好结果.",
+                  "audioUrl": "/audio/tts/rw_luck_ffc0.wav",
+                  "audioDuration": 6.2
+                },
+                {
+                  "word": "unlucky",
+                  "meaning": "不幸的,倒霉的",
+                  "highlight": "luck",
+                  "narration": "unlucky,不幸的,前缀 un- 表示否定,加上 luck,意思是没有好运气的.",
+                  "audioUrl": "/audio/tts/rw_unlucky_2566.wav",
+                  "audioDuration": 7.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_luck_2ae4.wav",
+              "audioDuration": 14.6
+            },
+            {
+              "root": "-ily",
+              "meaning": "副词后缀",
+              "label": "后缀",
+              "narration": "-ily 是一个常见的副词后缀,通常加在形容词后面将其变为副词.将 lucky 变为副词时,把 y 变成 i 再加 -y,变成 luckily,意思是 in a lucky manner,以幸运的方式.",
+              "relatedWords": [
+                {
+                  "word": "happily",
+                  "meaning": "快乐地,幸福地",
+                  "highlight": "-ily",
+                  "narration": "happily,快乐地,由 happy 加 -ily 变成,意思是快乐地、高兴地.",
+                  "audioUrl": "/audio/tts/rw_happily_f3c2.wav",
+                  "audioDuration": 6.6
+                },
+                {
+                  "word": "easily",
+                  "meaning": "容易地,轻松地",
+                  "highlight": "-ily",
+                  "narration": "easily,容易地,由 easy 加 -ily 变成,意思是不费力地、轻松地.",
+                  "audioUrl": "/audio/tts/rw_easily_84f2.wav",
+                  "audioDuration": 6.8
+                },
+                {
+                  "word": "angrily",
+                  "meaning": "愤怒地,生气地",
+                  "highlight": "-ily",
+                  "narration": "angrily,愤怒地,由 angry 加 -ily 变成,意思是以愤怒的方式.",
+                  "audioUrl": "/audio/tts/rw_angrily_78cd.wav",
+                  "audioDuration": 6.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ily_ce5d.wav",
+              "audioDuration": 15.6
+            }
+          ]
+        },
+        "narration": "现在让我们深入了解这个单词的构成.luckily 是由 luck 和 -ily 两部分组成的.",
+        "narrationLang": "zh",
+        "durationSeconds": 81,
+        "audioUrl": "/audio/tts/narration_scene_003_f01938.wav",
+        "audioDuration": 7.2
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Luckily, we arrived before the rain started.",
+          "chinese": "幸运的是,我们在雨开始前到达了.",
+          "highlights": [
+            {
+              "text": "Luckily",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3782134/pexels-photo-3782134.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Corkboard with inspiring notes and goals pinned, emphasizing creativity and innovation.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_77a62e.wav",
+          "englishAudioDuration": 2.8
+        },
+        "narration": "第一个例句:Luckily, we arrived before the rain started. 意思是:幸运的是,我们在雨开始前到达了.这句话用 luckily 修饰整个句子,表示一种幸运的情况.",
+        "narrationLang": "zh",
+        "durationSeconds": 17,
+        "audioUrl": "/audio/tts/narration_scene_004_309e0e.wav",
+        "audioDuration": 13.6
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She luckily found her lost keys under the seat.",
+          "chinese": "她幸运地在座位下找到了丢失的钥匙.",
+          "highlights": [
+            {
+              "text": "luckily",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7869720/pexels-photo-7869720.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A smartphone is left unattended on concrete steps outdoors, next to a person in blue clothing.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_a00db2.wav",
+          "englishAudioDuration": 3.3
+        },
+        "narration": "第二个例句:She luckily found her lost keys under the seat. 意思是:她幸运地在座位下找到了丢失的钥匙.这里 luckily 修饰动词 found,表示动作发生的幸运方式.",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_005_71584c.wav",
+        "audioDuration": 13.9
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "luckily 是副词,意为\"幸运地\"、\"幸好\",用于修饰整个句子或动词",
+            "构词法:luck(运气)+ -ily(副词后缀),-ily 常用于将形容词变为副词",
+            "相关词汇:lucky(adj. 幸运的)、luck(n. 运气)、unlucky(adj. 不幸的)",
+            "口语中,luckily 常用于引出好消息或表达庆幸之情,使用频率很高"
+          ]
+        },
+        "narration": "让我们来总结一下今天学习的内容.首先,luckily 是一个副词,表示幸运地或幸好的意思.其次,它的构词法是 luck 加上副词后缀 -ily,-ily 可以帮助我们把形容词变成副词.此外,luck 这个词根还能衍生出 lucky、luck、unlucky 等相关词汇.最后,luckily 在口语和书面语中都很常用,特别是在表达庆幸之情时非常好用.",
+        "narrationLang": "zh",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_006_27292c.wav",
+        "audioDuration": 29.7
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_d7b4b5.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_76bb46.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_f01938.wav",
+    "scene_003_root_luck": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_luck_2ae4.wav",
+    "scene_003_rw_lucky": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_lucky_17d6.wav",
+    "scene_003_rw_luck": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_luck_ffc0.wav",
+    "scene_003_rw_unlucky": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_unlucky_2566.wav",
+    "scene_003_root_-ily": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ily_ce5d.wav",
+    "scene_003_rw_happily": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_happily_f3c2.wav",
+    "scene_003_rw_easily": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_easily_84f2.wav",
+    "scene_003_rw_angrily": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_angrily_78cd.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_309e0e.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_77a62e.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_71584c.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_a00db2.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_27292c.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-luckily-27610b24.mp4"
+}

@@ -1,0 +1,294 @@
+{
+  "script": {
+    "id": "video_script_committee_001",
+    "topic": "英语词汇教学:committee",
+    "description": "通过词根词缀法讲解committee的构成、含义和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 179,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "committee",
+          "subtitle": "委员会"
+        },
+        "narration": "欢迎来到今天的词汇课堂,我们将一起学习一个常用单词",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_9e6426.wav",
+        "audioDuration": 5.3
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "committee",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "委员会",
+            "全体委员",
+            "受托人(法律)"
+          ]
+        },
+        "narration": "首先让我们来看一下这个单词的基本信息,它是一个名词,意思是委员会",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_002_c7456b.wav",
+        "audioDuration": 7.4
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "committee = com- + -mit- + -ee(委员会)",
+          "highlights": [
+            {
+              "text": "com-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "-mit-",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ee",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:三个人围坐在会议桌旁的简笔画,表示'共同'的概念",
+              "alt": "三个人围坐表示共同参与",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/11229928/pexels-photo-11229928.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A vibrant cityscape featuring the iconic People's Committee Building in Ho Chi Minh City, Vietnam.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "com-",
+              "meaning": "共同、一起",
+              "label": "前缀",
+              "narration": "前缀com-来源于拉丁语,表示'共同、一起'的含义,强调多人共同参与的意思",
+              "relatedWords": [
+                {
+                  "word": "combine",
+                  "meaning": "合并、结合",
+                  "highlight": "com-",
+                  "narration": "combine,合并",
+                  "audioUrl": "/audio/tts/rw_combine_d32a.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "cooperate",
+                  "meaning": "合作",
+                  "highlight": "co-",
+                  "narration": "cooperate,合作",
+                  "audioUrl": "/audio/tts/rw_cooperate_5e59.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "connect",
+                  "meaning": "连接",
+                  "highlight": "con-",
+                  "narration": "connect,连接",
+                  "audioUrl": "/audio/tts/rw_connect_ddfe.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_com-_5720.wav",
+              "audioDuration": 7.3
+            },
+            {
+              "root": "-mit-",
+              "meaning": "发送、派遣",
+              "label": "词根",
+              "narration": "词根mit-来自拉丁语mittere,意思是'发送、派遣',这是committee的核心含义所在",
+              "relatedWords": [
+                {
+                  "word": "commit",
+                  "meaning": "承诺、提交",
+                  "highlight": "-mit-",
+                  "narration": "commit,承诺",
+                  "audioUrl": "/audio/tts/rw_commit_cf8a.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "permit",
+                  "meaning": "允许",
+                  "highlight": "-mit-",
+                  "narration": "permit,允许",
+                  "audioUrl": "/audio/tts/rw_permit_0840.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "transmit",
+                  "meaning": "传输、传送",
+                  "highlight": "-mit-",
+                  "narration": "transmit,传输",
+                  "audioUrl": "/audio/tts/rw_transmit_ed5f.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-mit-_3f15.wav",
+              "audioDuration": 7.8
+            },
+            {
+              "root": "-ee",
+              "meaning": "被...的人、机构",
+              "label": "后缀",
+              "narration": "后缀-ee源自法语,表示'被...的人'或接受动作的实体,在committee中指代一群被共同派遣或选举出来的人组成的机构",
+              "relatedWords": [
+                {
+                  "word": "employee",
+                  "meaning": "雇员",
+                  "highlight": "-ee",
+                  "narration": "employee,雇员",
+                  "audioUrl": "/audio/tts/rw_employee_053a.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "trainee",
+                  "meaning": "实习生",
+                  "highlight": "-ee",
+                  "narration": "trainee,实习生",
+                  "audioUrl": "/audio/tts/rw_trainee_fc82.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "interviewee",
+                  "meaning": "被面试者",
+                  "highlight": "-ee",
+                  "narration": "interviewee,被面试者",
+                  "audioUrl": "/audio/tts/rw_interviewee_b800.wav",
+                  "audioDuration": 2.5
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ee_ba5d.wav",
+              "audioDuration": 11.4
+            }
+          ]
+        },
+        "narration": "下面让我们一起来拆解这个单词的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 54,
+        "audioUrl": "/audio/tts/narration_scene_003_81f398.wav",
+        "audioDuration": 4.0
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The committee has decided to postpone the meeting until next week.",
+          "chinese": "委员会决定将会议推迟到下周.",
+          "highlights": [
+            {
+              "text": "committee",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/11229928/pexels-photo-11229928.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A vibrant cityscape featuring the iconic People's Committee Building in Ho Chi Minh City, Vietnam.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_6bc6ca.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "The committee has decided to postpone the meeting until next week. 意思是:委员会决定将会议推迟到下周.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_95e88e.wav",
+        "audioDuration": 9.0
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She serves on the education committee and helps make school policies.",
+          "chinese": "她任职于教育委员会,帮助制定学校政策.",
+          "highlights": [
+            {
+              "text": "committee",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_0055a9.wav",
+          "englishAudioDuration": 4.4
+        },
+        "narration": "She serves on the education committee and helps make school policies. 意思是:她任职于教育委员会,帮助制定学校政策.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_005_e9dfbe.wav",
+        "audioDuration": 10.0
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "committee是名词,中文意思是'委员会'或'全体委员'",
+            "它由前缀com-(共同)、词根mit-(发送、派遣)和后缀-ee(表示机构或群体)三部分组成",
+            "记忆技巧:'被共同派遣出去做事的一群人'就是委员会",
+            "常见的相关词汇有commit提交、permit允许、transmit传输等,它们都含有词根mit-"
+          ]
+        },
+        "narration": "今天我们学习了committee这个重要单词,它的意思是委员会,由词根词缀构成,希望大家能够掌握这个词的用法和记忆方法",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_92a62f.wav",
+        "audioDuration": 11.2
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_9e6426.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_c7456b.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_81f398.wav",
+    "scene_003_root_com-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_com-_5720.wav",
+    "scene_003_rw_combine": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_combine_d32a.wav",
+    "scene_003_rw_cooperate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_cooperate_5e59.wav",
+    "scene_003_rw_connect": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_connect_ddfe.wav",
+    "scene_003_root_-mit-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-mit-_3f15.wav",
+    "scene_003_rw_commit": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_commit_cf8a.wav",
+    "scene_003_rw_permit": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_permit_0840.wav",
+    "scene_003_rw_transmit": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_transmit_ed5f.wav",
+    "scene_003_root_-ee": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ee_ba5d.wav",
+    "scene_003_rw_employee": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_employee_053a.wav",
+    "scene_003_rw_trainee": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_trainee_fc82.wav",
+    "scene_003_rw_interviewee": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_interviewee_b800.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_95e88e.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_6bc6ca.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_e9dfbe.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_0055a9.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_92a62f.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-committee-8230d59d.mp4"
+}

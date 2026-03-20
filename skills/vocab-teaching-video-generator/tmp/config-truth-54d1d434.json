@@ -1,0 +1,252 @@
+{
+  "script": {
+    "id": "video_script_truth_001",
+    "topic": "英语词汇教学:truth",
+    "description": "通过词根词缀法讲解单词truth,帮助学习者掌握其含义、用法及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "truth",
+          "subtitle": "真相；真理；事实"
+        },
+        "narration": "欢迎来到英语词汇学习课堂,今天我们要学习一个非常重要的单词:truth",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_001_84d392.wav",
+        "audioDuration": 6.9
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "truth",
+          "meaning": "真相；真理；事实",
+          "partOfSpeech": "noun",
+          "definitions": [
+            "真相,真情(指事件的真实情况)",
+            "真理(经证实或普遍接受的真实道理)",
+            "事实,真实性(指事物的本来面貌)"
+          ]
+        },
+        "narration": "我们先来看一下这个单词的基本信息,truth是一个名词,中文意思是真相、真理和事实",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_002_d44aba.wav",
+        "audioDuration": 8.6
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "truth = tru(真实) + th(名词后缀)",
+          "highlights": [
+            {
+              "text": "tru",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "th",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:一个人手持放大镜寻找真相的示意图",
+              "alt": "truth词根词缀拆解示意图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/675920/pexels-photo-675920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Portrait of a young woman with long hair in a pink lace dress, outdoors in a serene setting.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "tru",
+              "meaning": "真实的,真实的",
+              "label": "词根",
+              "narration": "词根tru来自形容词true,表示真实的、正确的意思,是这个单词的核心含义所在",
+              "relatedWords": [
+                {
+                  "word": "true",
+                  "meaning": "真实的,正确的",
+                  "highlight": "tru",
+                  "narration": "true,真实的",
+                  "audioUrl": "/audio/tts/rw_true_764c.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "truly",
+                  "meaning": "真正地,真实地",
+                  "highlight": "tru",
+                  "narration": "truly,真正地",
+                  "audioUrl": "/audio/tts/rw_truly_b6b9.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "trust",
+                  "meaning": "信任,相信",
+                  "highlight": "tru",
+                  "narration": "trust,信任",
+                  "audioUrl": "/audio/tts/rw_trust_36f6.wav",
+                  "audioDuration": 1.9
+                }
+              ],
+              "audioUrl": "/audio/tts/root_tru_4104.wav",
+              "audioDuration": 7.6
+            },
+            {
+              "root": "th",
+              "meaning": "表示状态或性质的名词后缀",
+              "label": "后缀",
+              "narration": "后缀th是常见的名词后缀,表示某种状态或性质,加在形容词后面构成抽象名词",
+              "relatedWords": [
+                {
+                  "word": "length",
+                  "meaning": "长度",
+                  "highlight": "th",
+                  "narration": "length,长度",
+                  "audioUrl": "/audio/tts/rw_length_0d15.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "width",
+                  "meaning": "宽度",
+                  "highlight": "th",
+                  "narration": "width,宽度",
+                  "audioUrl": "/audio/tts/rw_width_9432.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "depth",
+                  "meaning": "深度",
+                  "highlight": "th",
+                  "narration": "depth,深度",
+                  "audioUrl": "/audio/tts/rw_depth_355d.wav",
+                  "audioDuration": 1.9
+                }
+              ],
+              "audioUrl": "/audio/tts/root_th_3fda.wav",
+              "audioDuration": 8.9
+            }
+          ]
+        },
+        "narration": "接下来让我们深入了解这个单词的构成,看看它是由哪些部分组成的",
+        "narrationLang": "zh",
+        "durationSeconds": 38,
+        "audioUrl": "/audio/tts/narration_scene_003_da70cf.wav",
+        "audioDuration": 6.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Everyone deserves to know the truth about what happened that night.",
+          "chinese": "每个人都应该知道那天晚上发生的事情的真相.",
+          "highlights": [
+            {
+              "text": "truth",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/698324/pexels-photo-698324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Vintage typewriter displaying Oscar Wilde's quote 'Be yourself, everyone else is already taken.'",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_fcd046.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "Everyone deserves to know the truth about what happened that night. 意思是:每个人都应该知道那天晚上发生的事情的真相.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_46b8f5.wav",
+        "audioDuration": 9.4
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Time reveals all hidden truths, and justice will eventually prevail.",
+          "chinese": "时间会揭示所有隐藏的真理,正义最终必将获胜.",
+          "highlights": [
+            {
+              "text": "truths",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/28380062/pexels-photo-28380062.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Torn white paper exposing a lined notebook page beneath.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_d8cc41.wav",
+          "englishAudioDuration": 5.2
+        },
+        "narration": "Time reveals all hidden truths, and justice will eventually prevail. 意思是:时间会揭示所有隐藏的真理,正义最终必将获胜.",
+        "narrationLang": "zh",
+        "durationSeconds": 17,
+        "audioUrl": "/audio/tts/narration_scene_005_f1602f.wav",
+        "audioDuration": 10.8
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "truth是名词,核心含义是真相、真理和事实",
+            "词根tru来自true,表示真实的、正确的意思",
+            "后缀th加在形容词后构成名词,表示某种状态或性质",
+            "常见的相关词汇包括true、truly、trust、length、width、depth等"
+          ]
+        },
+        "narration": "今天我们学习了单词truth,它由词根tru和后缀th组成,表示真实的状态,也就是真相和真理.掌握词根词缀法可以让我们更高效地记忆单词.我们下节课再见！",
+        "narrationLang": "zh",
+        "durationSeconds": 17,
+        "audioUrl": "/audio/tts/narration_scene_006_3eb02f.wav",
+        "audioDuration": 14.6
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_84d392.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_d44aba.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_da70cf.wav",
+    "scene_003_root_tru": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_tru_4104.wav",
+    "scene_003_rw_true": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_true_764c.wav",
+    "scene_003_rw_truly": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_truly_b6b9.wav",
+    "scene_003_rw_trust": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_trust_36f6.wav",
+    "scene_003_root_th": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_th_3fda.wav",
+    "scene_003_rw_length": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_length_0d15.wav",
+    "scene_003_rw_width": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_width_9432.wav",
+    "scene_003_rw_depth": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_depth_355d.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_46b8f5.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_fcd046.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_f1602f.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_d8cc41.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_3eb02f.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-truth-54d1d434.mp4"
+}

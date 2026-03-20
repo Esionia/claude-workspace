@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>虚拟语气 The Subjunctive Mood</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/theme/white.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #028090; --accent: #02C39A; }
+        .reveal { font-family: 'Noto Sans SC', sans-serif; }
+        .reveal h1 { color: var(--primary); }
+        .card { background: #f8f9fa; border-radius: 12px; padding: 20px; margin: 15px 0; border-left: 4px solid var(--primary); }
+        .card.pink { border-left-color: #EC4899; }
+        .card.green { border-left-color: #10B981; }
+        .card.orange { border-left-color: #F59E0B; }
+        .formula { background: linear-gradient(135deg, #028090, #02C39A); color: white; padding: 15px 20px; border-radius: 8px; margin: 10px 0; }
+        .hl { color: #EC4899; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-background-gradient="linear-gradient(135deg, #e0f7fa, #b2dfdb)">
+                <h1>虚拟语气</h1>
+                <h3>The Subjunctive Mood</h3>
+                <p><small>英语语法专题 · 小英老师 📚</small></p>
+            </section>
+            
+            <section>
+                <h2>什么是虚拟语气？</h2>
+                <div class="card">
+                    <p>表达<b>假设、愿望、建议、命令</b>等与事实相反的情况</p>
+                </div>
+                <div class="card pink">
+                    <p>Used to express hypothetical situations contrary to fact</p>
+                </div>
+            </section>
+            
+            <section>
+                <h2>四大类型</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div class="card">🚗 条件句 Conditional</div>
+                    <div class="card pink">💫 Wish 愿望</div>
+                    <div class="card green">📝 建议/命令</div>
+                    <div class="card orange">🗣️ Would Rather</div>
+                </div>
+            </section>
+            
+            <section>
+                <h2>条件句：与现在相反</h2>
+                <div class="formula"><strong>If + 过去式, would + 动词原形</strong></div>
+                <div class="card">
+                    <p>✅ If I <span class="hl">were</span> you, I <span class="hl">would study</span> harder.</p>
+                    <p><small>如果我是你，我会更加努力学习。</small></p>
+                </div>
+            </section>
+            
+            <section>
+                <h2>条件句：与过去相反</h2>
+                <div class="formula"><strong>If + 过去完成时, would have + 过去分词</strong></div>
+                <div class="card">
+                    <p>✅ If I <span class="hl">had studied</span> harder, I <span class="hl">would have passed</span> the exam.</p>
+                    <p><small>如果我学习更努力，就能通过了。（实际没通过）</small></p>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Wish 句型</h2>
+                <div class="card">
+                    <p><strong>与现在相反：</strong> I wish + 过去式</p>
+                    <p>✅ I wish I <span class="hl">were</span> taller. (我希望更高)</p>
+                </div>
+                <div class="card pink">
+                    <p><strong>与过去相反：</strong> I wish + 过去完成时</p>
+                    <p>✅ I wish I <span class="hl">had studied</span> harder. (后悔没努力)</p>
+                </div>
+            </section>
+            
+            <section>
+                <h2>建议/命令句</h2>
+                <div class="formula"><strong>动词 + that + (should) + 动词原形</strong></div>
+                <div class="card">
+                    <p>✅ I suggest that he <span class="hl">(should) take</span> a break.</p>
+                    <p>✅ They demanded that the meeting <span class="hl">(should) be</span> postponed.</p>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Would Rather</h2>
+                <div class="card">
+                    <p><strong>现在：</strong> would rather + 动词原形</p>
+                    <p>✅ I would rather stay at home.</p>
+                </div>
+                <div class="card orange">
+                    <p><strong>与过去相反：</strong> would rather + 过去完成时</p>
+                    <p>✅ I would rather she had gone yesterday.</p>
+                </div>
+            </section>
+            
+            <section>
+                <h2>速查表</h2>
+                <table style="font-size: 0.7em;">
+                    <tr><th>类型</th><th>时态</th><th>例句</th></tr>
+                    <tr><td>与现在相反</td><td>过去式</td><td>If I were you...</td></tr>
+                    <tr><td>与过去相反</td><td>过去完成时</td><td>If I had known...</td></tr>
+                    <tr><td>Wish 愿望</td><td>过去/过去完成</td><td>I wish I were...</td></tr>
+                    <tr><td>建议/命令</td><td>should + 原形</td><td>I suggest that he should go...</td></tr>
+                </table>
+            </section>
+            
+            <section data-background-gradient="linear-gradient(135deg, #b2dfdb, #80cbc4)">
+                <h1>Thank You! 🙏</h1>
+                <p>感谢学习！Keep practicing!</p>
+                <p><small>小英老师 📚</small></p>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.js"></script>
+    <script>Reveal.initialize({ hash: true, slideNumber: true, transition: 'slide' });</script>
+</body>
+</html>

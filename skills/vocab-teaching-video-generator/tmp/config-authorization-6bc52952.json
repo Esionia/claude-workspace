@@ -1,0 +1,261 @@
+{
+  "script": {
+    "id": "video_script_authorization_001",
+    "topic": "英语词汇教学:authorization",
+    "description": "通过词根词缀法讲解单词authorization,掌握其含义、构词规律及实际应用",
+    "targetAudience": "英语学习者",
+    "totalDuration": 100,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "authorization",
+          "subtitle": "授权；批准；授权书"
+        },
+        "narration": "今天我们要学习的单词是authorization",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_8dcc74.wav",
+        "audioDuration": 3.7
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "authorization",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "授权；批准",
+            "授权书；许可证",
+            "权力；权威"
+          ]
+        },
+        "narration": "authorization是一个名词,意思是授权、批准或授权书",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_b808d7.wav",
+        "audioDuration": 6.0
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "authorization = author(权威)+ -ize(动词后缀)+ -ation(名词后缀)",
+          "highlights": [
+            {
+              "text": "author",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ize",
+              "color": "#6BCB77",
+              "label": "后缀"
+            },
+            {
+              "text": "-ation",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "author",
+              "meaning": "权威；作者",
+              "label": "词根",
+              "narration": "词根author来源于拉丁语,表示\"权威\"或\"创始人\",后来也指\"作者\"",
+              "relatedWords": [
+                {
+                  "word": "authority",
+                  "meaning": "权威；权力",
+                  "highlight": "author",
+                  "narration": "authority,权威",
+                  "audioUrl": "/audio/tts/rw_authority_aa1c.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "author",
+                  "meaning": "作者；作家",
+                  "highlight": "author",
+                  "narration": "author,作者",
+                  "audioUrl": "/audio/tts/rw_author_6166.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_author_5c7e.wav",
+              "audioDuration": 6.4
+            },
+            {
+              "root": "-ize",
+              "meaning": "使...化；使成为",
+              "label": "后缀",
+              "narration": "后缀-ize是常见的动词后缀,表示\"使...化\"或\"使成为\"",
+              "relatedWords": [
+                {
+                  "word": "authorize",
+                  "meaning": "授权；批准",
+                  "highlight": "-ize",
+                  "narration": "authorize,授权",
+                  "audioUrl": "/audio/tts/rw_authorize_d73e.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "realize",
+                  "meaning": "实现；认识到",
+                  "highlight": "-ize",
+                  "narration": "realize,实现",
+                  "audioUrl": "/audio/tts/rw_realize_faf9.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ize_a96c.wav",
+              "audioDuration": 5.6
+            },
+            {
+              "root": "-ation",
+              "meaning": "行为；状态；结果",
+              "label": "后缀",
+              "narration": "后缀-ation是常见的名词后缀,表示\"行为\"、\"状态\"或\"结果\"",
+              "relatedWords": [
+                {
+                  "word": "information",
+                  "meaning": "信息",
+                  "highlight": "-ation",
+                  "narration": "information,信息",
+                  "audioUrl": "/audio/tts/rw_information_a690.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "-ation",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_49d3.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ation_7cba.wav",
+              "audioDuration": 6.1
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5668481/pexels-photo-5668481.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of a wooden judge's gavel on a black desk, symbolizing justice and law.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分析authorization的构词结构",
+        "narrationLang": "zh",
+        "durationSeconds": 39,
+        "audioUrl": "/audio/tts/narration_scene_003_9b02aa.wav",
+        "audioDuration": 3.6
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "You need special authorization to access this file.",
+          "chinese": "你需要获得特别授权才能访问这个文件.",
+          "highlights": [
+            {
+              "text": "authorization",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7402835/pexels-photo-7402835.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A cheerful young girl with Down Syndrome in a cheerleader outfit, posing outdoors in a park.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_93973d.wav",
+          "englishAudioDuration": 3.3
+        },
+        "narration": "You need special authorization to access this file. 意思是:你需要获得特别授权才能访问这个文件.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_f576cc.wav",
+        "audioDuration": 8.4
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The manager gave him authorization to sign the contract.",
+          "chinese": "经理授权他签署这份合同.",
+          "highlights": [
+            {
+              "text": "authorization",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/29517824/pexels-photo-29517824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of an 'Authorized personnel only' sign on a brown door, indicating restricted area.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_681006.wav",
+          "englishAudioDuration": 3.3
+        },
+        "narration": "The manager gave him authorization to sign the contract. 意思是:经理授权他签署这份合同.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_005_427e8c.wav",
+        "audioDuration": 7.8
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "authorization是名词,意为\"授权；批准；授权书\"",
+            "构词法:author(权威)+ -ize(使)+ -ation(名词后缀)= authorization",
+            "相关词汇:authorize(动词,授权)、authority(名词,权威)",
+            "常用搭配:special authorization(特别授权)、give authorization(授予授权)"
+          ]
+        },
+        "narration": "今天我们学习了authorization这个单词,它由词根author加上动词后缀-ize和名词后缀-ation构成,表示授权或批准的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_1c9bac.wav",
+        "audioDuration": 11.3
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_8dcc74.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_b808d7.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_9b02aa.wav",
+    "scene_003_root_author": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_author_5c7e.wav",
+    "scene_003_rw_authority": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_authority_aa1c.wav",
+    "scene_003_rw_author": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_author_6166.wav",
+    "scene_003_root_-ize": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ize_a96c.wav",
+    "scene_003_rw_authorize": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_authorize_d73e.wav",
+    "scene_003_rw_realize": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_realize_faf9.wav",
+    "scene_003_root_-ation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ation_7cba.wav",
+    "scene_003_rw_information": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_information_a690.wav",
+    "scene_003_rw_education": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_education_49d3.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_f576cc.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_93973d.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_427e8c.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_681006.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_1c9bac.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-authorization-6bc52952.mp4"
+}

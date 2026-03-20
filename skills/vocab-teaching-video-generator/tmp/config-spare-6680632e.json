@@ -1,0 +1,218 @@
+{
+  "script": {
+    "id": "video_script_spare_001",
+    "topic": "英语词汇教学:spare",
+    "description": "通过词根词缀法和例句讲解英语单词 spare 的用法,包括形容词和动词两种词性",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "spare",
+          "subtitle": "空闲的 / 备用的 / 多余的"
+        },
+        "narration": "今天我们要学习的单词是 spare,这个词在日常英语中非常常用,让我们一起来掌握它吧.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_001_9982c7.wav",
+        "audioDuration": 7.9
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "spare",
+          "partOfSpeech": "adj. / v.",
+          "definitions": [
+            "多余的；剩下的；备用的(available for use when needed)",
+            "空闲的；闲暇的(not being used for a primary purpose)",
+            "节约的；吝啬的(凡事节省的)",
+            "抽出(时间)；拨出(金钱)；出让(给别人)"
+          ]
+        },
+        "narration": "让我们先来看一下 spare 这个单词的基本信息.它既是形容词也是动词,有多个重要含义.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_002_3e9eb8.wav",
+        "audioDuration": 7.9
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "spare 源自古英语 sparian,意为\"节省、节约\"",
+          "highlights": [
+            {
+              "text": "spare",
+              "color": "#FFD93D",
+              "label": "词根"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:一个人正在节约使用资源的场景",
+              "alt": "节约使用资源的图示",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/5640639/pexels-photo-5640639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Monochrome photo of multiple tires arranged neatly on a shelf in a close-up shot.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "spare",
+              "meaning": "节省、节约",
+              "label": "词根",
+              "narration": "spare 这个词来自古英语 sparian,原意是\"节省、节约\".这个核心含义延伸出了我们今天要学的多个用法.",
+              "relatedWords": [
+                {
+                  "word": "sparing",
+                  "meaning": "节约的；吝啬的",
+                  "highlight": "spar-",
+                  "narration": "sparing,节约的",
+                  "audioUrl": "/audio/tts/rw_sparing_5bd6.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "spared",
+                  "meaning": "节省的；免除的",
+                  "highlight": "spar-",
+                  "narration": "spared,节省的",
+                  "audioUrl": "/audio/tts/rw_spared_d3cf.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "spare tire",
+                  "meaning": "备用轮胎",
+                  "highlight": "spare",
+                  "narration": "spare tire,备用轮胎",
+                  "audioUrl": "/audio/tts/rw_spare tire_4927.wav",
+                  "audioDuration": 2.5
+                },
+                {
+                  "word": "spare time",
+                  "meaning": "空闲时间",
+                  "highlight": "spare",
+                  "narration": "spare time,空闲时间",
+                  "audioUrl": "/audio/tts/rw_spare time_8114.wav",
+                  "audioDuration": 2.5
+                }
+              ],
+              "audioUrl": "/audio/tts/root_spare_9144.wav",
+              "audioDuration": 9.6
+            }
+          ]
+        },
+        "narration": "下面我们来深入了解 spare 的词源和构词特点.",
+        "narrationLang": "zh",
+        "durationSeconds": 35,
+        "audioUrl": "/audio/tts/narration_scene_003_27d3fe.wav",
+        "audioDuration": 4.3
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "I always keep a spare tire in my car for emergencies.",
+          "chinese": "我总是在车里备一个备用轮胎以防紧急情况.",
+          "highlights": [
+            {
+              "text": "spare",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5529767/pexels-photo-5529767.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A mother and daughter walking hand in hand outdoors, enjoying a sunny day in nature.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_ab4675.wav",
+          "englishAudioDuration": 3.7
+        },
+        "narration": "I always keep a spare tire in my car for emergencies. 意思是:我总是车里备一个备用轮胎以防紧急情况.spare 在这里表示备用的.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_004_177044.wav",
+        "audioDuration": 11.3
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Do you have any spare time to help me with this project?",
+          "chinese": "你有空闲时间帮我做这个项目吗？",
+          "highlights": [
+            {
+              "text": "spare",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/9220441/pexels-photo-9220441.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Scrabble tiles form the motivational phrase 'What You Do Matters' on a white background.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_35fa2c.wav",
+          "englishAudioDuration": 2.4
+        },
+        "narration": "Do you have any spare time to help me with this project? 意思是:你有空闲时间帮我做这个项目吗？spare 在这里表示空闲的.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_005_9b0281.wav",
+        "audioDuration": 10.6
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "spare 是多词性单词,既可作形容词也可作动词",
+            "作形容词时表示\"多余的、备用的、空闲的\",是日常口语和书面语的高频词汇",
+            "作动词时表示\"抽出、拨出、节约\",常见搭配有 spare time、spare money、spare no effort",
+            "词源来自古英语 sparian(节省),其同根词包括 sparing(节约的)、spared(节省的)等"
+          ]
+        },
+        "narration": "好了,今天关于 spare 的学习就到这里.总结一下:spare 是一个多义词性、多含义的实用单词,词源表示\"节省\",在生活中应用广泛.希望大家课后多加练习,熟练掌握这个词的用法.",
+        "narrationLang": "zh",
+        "durationSeconds": 19,
+        "audioUrl": "/audio/tts/narration_scene_006_81bd41.wav",
+        "audioDuration": 16.2
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_9982c7.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_3e9eb8.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_27d3fe.wav",
+    "scene_003_root_spare": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_spare_9144.wav",
+    "scene_003_rw_sparing": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_sparing_5bd6.wav",
+    "scene_003_rw_spared": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_spared_d3cf.wav",
+    "scene_003_rw_spare tire": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_spare tire_4927.wav",
+    "scene_003_rw_spare time": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_spare time_8114.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_177044.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_ab4675.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_9b0281.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_35fa2c.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_81bd41.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-spare-6680632e.mp4"
+}

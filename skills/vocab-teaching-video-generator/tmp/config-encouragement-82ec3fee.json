@@ -1,0 +1,294 @@
+{
+  "script": {
+    "id": "video_script_encouragement_001",
+    "topic": "英语词汇教学:encouragement",
+    "description": "通过词根词缀法讲解 encouragement 的构成、含义及用法,帮助学习者掌握这个重要的名词形式.",
+    "targetAudience": "英语学习者(初中级及以上)",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "encouragement",
+          "subtitle": "鼓励；激励"
+        },
+        "narration": "今天我们要学习的单词是 encouragement,这个词在日常生活中非常实用.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_001_a7e68a.wav",
+        "audioDuration": 6.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "encouragement",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "鼓励,激励",
+            "鼓励的话,鼓舞人心的事物",
+            "奖励,促进"
+          ]
+        },
+        "narration": "encouragement 是一个名词,意思是鼓励、激励,或者鼓励的话语和事物.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_002_f46fc1.wav",
+        "audioDuration": 6.9
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "encouragement = en- + courage + -ment",
+          "highlights": [
+            {
+              "text": "en-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "courage",
+              "color": "#6BCB77",
+              "label": "词根"
+            },
+            {
+              "text": "-ment",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:一个人对另一个人竖起大拇指,表示鼓励和支持",
+              "alt": "鼓励的视觉意象",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/5707491/pexels-photo-5707491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A motivational chalkboard message reading 'We'll get through it' on a black background.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "en-",
+              "meaning": "使...,使成为",
+              "label": "前缀",
+              "narration": "前缀 en- 来自希腊语,表示\"使...\"或\"使成为\",用来改变单词的词义.",
+              "relatedWords": [
+                {
+                  "word": "enable",
+                  "meaning": "使能够",
+                  "highlight": "en-",
+                  "narration": "enable,使能够",
+                  "audioUrl": "/audio/tts/rw_enable_bd49.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "enrich",
+                  "meaning": "使丰富",
+                  "highlight": "en-",
+                  "narration": "enrich,使丰富",
+                  "audioUrl": "/audio/tts/rw_enrich_2a50.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "enlarge",
+                  "meaning": "使扩大",
+                  "highlight": "en-",
+                  "narration": "enlarge,使扩大",
+                  "audioUrl": "/audio/tts/rw_enlarge_8aa3.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_en-_fa98.wav",
+              "audioDuration": 6.5
+            },
+            {
+              "root": "courage",
+              "meaning": "勇气,胆量",
+              "label": "词根",
+              "narration": "词根 courage 来自拉丁语 cor,意思是\"心\",引申为勇气、胆量的意思.",
+              "relatedWords": [
+                {
+                  "word": "courageous",
+                  "meaning": "勇敢的",
+                  "highlight": "courage",
+                  "narration": "courageous,勇敢的",
+                  "audioUrl": "/audio/tts/rw_courageous_079d.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "discourage",
+                  "meaning": "使气馁",
+                  "highlight": "dis-",
+                  "narration": "discourage,使气馁",
+                  "audioUrl": "/audio/tts/rw_discourage_5cf8.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "encourage",
+                  "meaning": "鼓励",
+                  "highlight": "en-",
+                  "narration": "encourage,鼓励",
+                  "audioUrl": "/audio/tts/rw_encourage_cefc.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_courage_fc21.wav",
+              "audioDuration": 6.9
+            },
+            {
+              "root": "-ment",
+              "meaning": "名词后缀,表示行为、状态或结果",
+              "label": "后缀",
+              "narration": "后缀 -ment 是常见的名词后缀,表示某种行为、状态或结果.",
+              "relatedWords": [
+                {
+                  "word": "development",
+                  "meaning": "发展",
+                  "highlight": "-ment",
+                  "narration": "development,发展",
+                  "audioUrl": "/audio/tts/rw_development_df50.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "improvement",
+                  "meaning": "改进",
+                  "highlight": "-ment",
+                  "narration": "improvement,改进",
+                  "audioUrl": "/audio/tts/rw_improvement_aa68.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "achievement",
+                  "meaning": "成就",
+                  "highlight": "-ment",
+                  "narration": "achievement,成就",
+                  "audioUrl": "/audio/tts/rw_achievement_416a.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ment_4123.wav",
+              "audioDuration": 6.2
+            }
+          ]
+        },
+        "narration": "让我们分析一下这个词的构成,encouragement 由三个部分组成.",
+        "narrationLang": "zh",
+        "durationSeconds": 49,
+        "audioUrl": "/audio/tts/narration_scene_003_051540.wav",
+        "audioDuration": 5.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Your words of encouragement gave me the confidence to try again.",
+          "chinese": "你鼓励的话给了我再次尝试的信心.",
+          "highlights": [
+            {
+              "text": "encouragement",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6700363/pexels-photo-6700363.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A motivational phrase assembled with Scrabble tiles on a white background.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_c357c0.wav",
+          "englishAudioDuration": 3.5
+        },
+        "narration": "Your words of encouragement gave me the confidence to try again. 意思是:你鼓励的话给了我再次尝试的信心.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_22fb6d.wav",
+        "audioDuration": 8.5
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The coach's encouragement motivated the team to win the championship.",
+          "chinese": "教练的鼓励激励球队赢得了冠军.",
+          "highlights": [
+            {
+              "text": "encouragement",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/29562922/pexels-photo-29562922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Wooden framed board with 'Start Now' message for motivation and inspiration.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_c47fce.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "The coach's encouragement motivated the team to win the championship. 意思是:教练的鼓励激励球队赢得了冠军.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_005_baaa52.wav",
+        "audioDuration": 9.1
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "encouragement 是名词,意为\"鼓励、激励\"",
+            "构词法:en-(使)+ courage(勇气)+ -ment(名词后缀)",
+            "词根 courage 源自拉丁语,意思是\"心、勇气\"",
+            "相关词汇:encourage(动)、courageous(形)、discourage(动)"
+          ]
+        },
+        "narration": "今天我们学习了 encouragement 这个单词,记住它的构词方法:en- + courage + -ment,表示\"使有勇气\",即鼓励.希望大家能够灵活运用这个词根词缀法来记忆更多单词.",
+        "narrationLang": "zh",
+        "durationSeconds": 17,
+        "audioUrl": "/audio/tts/narration_scene_006_7e6fcd.wav",
+        "audioDuration": 14.9
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_a7e68a.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_f46fc1.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_051540.wav",
+    "scene_003_root_en-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_en-_fa98.wav",
+    "scene_003_rw_enable": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_enable_bd49.wav",
+    "scene_003_rw_enrich": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_enrich_2a50.wav",
+    "scene_003_rw_enlarge": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_enlarge_8aa3.wav",
+    "scene_003_root_courage": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_courage_fc21.wav",
+    "scene_003_rw_courageous": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_courageous_079d.wav",
+    "scene_003_rw_discourage": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_discourage_5cf8.wav",
+    "scene_003_rw_encourage": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_encourage_cefc.wav",
+    "scene_003_root_-ment": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ment_4123.wav",
+    "scene_003_rw_development": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_development_df50.wav",
+    "scene_003_rw_improvement": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_improvement_aa68.wav",
+    "scene_003_rw_achievement": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_achievement_416a.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_22fb6d.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_c357c0.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_baaa52.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_c47fce.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_7e6fcd.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-encouragement-82ec3fee.mp4"
+}

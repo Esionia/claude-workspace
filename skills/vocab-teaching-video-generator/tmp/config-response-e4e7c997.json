@@ -1,0 +1,256 @@
+{
+  "script": {
+    "id": "video_script_response_001",
+    "topic": "英语词汇教学:response",
+    "description": "通过词根词缀法讲解名词response的构成、含义和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "response",
+          "subtitle": "响应；回复；反应"
+        },
+        "narration": "今天我们要学习一个重要词汇--response",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_af294f.wav",
+        "audioDuration": 3.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "response",
+          "partOfSpeech": "noun.",
+          "definitions": [
+            "回复,答复",
+            "反应,响应",
+            "(对刺激的)回应"
+          ]
+        },
+        "narration": "response是一个名词,表示回应、答复或反应",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_5ae2dd.wav",
+        "audioDuration": 5.1
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "response = re- + spond + -e",
+          "highlights": [
+            {
+              "text": "re-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "spond",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-e",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "response_etymology.png",
+              "alt": "response词根结构图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/5701835/pexels-photo-5701835.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A single artichoke elegantly displayed against a dark, minimalistic background, embodying simplicity.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "re-",
+              "meaning": "回,再",
+              "label": "前缀",
+              "narration": "前缀re-表示'回'或'再'的含义,表示动作的重复或返回.",
+              "relatedWords": [
+                {
+                  "word": "return",
+                  "meaning": "返回",
+                  "highlight": "re-",
+                  "narration": "return,返回",
+                  "audioUrl": "/audio/tts/rw_return_b160.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "repeat",
+                  "meaning": "重复",
+                  "highlight": "re-",
+                  "narration": "repeat,重复",
+                  "audioUrl": "/audio/tts/rw_repeat_119c.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "review",
+                  "meaning": "复习",
+                  "highlight": "re-",
+                  "narration": "review,复习",
+                  "audioUrl": "/audio/tts/rw_review_95ea.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_re-_fdd0.wav",
+              "audioDuration": 5.3
+            },
+            {
+              "root": "spond",
+              "meaning": "回答,承诺",
+              "label": "词根",
+              "narration": "词根spond来自拉丁语spondere,意思是'回答'或'承诺',是response的核心含义来源.",
+              "relatedWords": [
+                {
+                  "word": "respond",
+                  "meaning": "回应",
+                  "highlight": "spond",
+                  "narration": "respond,回应",
+                  "audioUrl": "/audio/tts/rw_respond_9d5a.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "responsible",
+                  "meaning": "负责任的",
+                  "highlight": "spond",
+                  "narration": "responsible,负责任的",
+                  "audioUrl": "/audio/tts/rw_responsible_d7a0.wav",
+                  "audioDuration": 2.5
+                },
+                {
+                  "word": "sponsor",
+                  "meaning": "赞助商",
+                  "highlight": "spon",
+                  "narration": "sponsor,赞助商",
+                  "audioUrl": "/audio/tts/rw_sponsor_e183.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_spond_f358.wav",
+              "audioDuration": 7.9
+            }
+          ]
+        },
+        "narration": "response由词根和前缀构成",
+        "narrationLang": "zh",
+        "durationSeconds": 35,
+        "audioUrl": "/audio/tts/narration_scene_003_bf82ad.wav",
+        "audioDuration": 3.2
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "I sent an email yesterday but haven't received a response yet.",
+          "chinese": "我昨天发了邮件,但还没有收到回复.",
+          "highlights": [
+            {
+              "text": "response",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5767028/pexels-photo-5767028.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Green letter tiles form the quote 'Oh I Belive in Yesterday' on a vibrant orange background.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_7c4572.wav",
+          "englishAudioDuration": 3.5
+        },
+        "narration": "I sent an email yesterday but haven't received a response yet. 意思是:我昨天发了邮件,但还没有收到回复.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_4b813f.wav",
+        "audioDuration": 9.0
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The company's quick response to the crisis was praised by customers.",
+          "chinese": "公司对危机的快速响应受到了客户的赞扬.",
+          "highlights": [
+            {
+              "text": "response",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6519865/pexels-photo-6519865.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A diverse group of EMT professionals posing confidently in front of an ambulance, ready for action.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_6c372a.wav",
+          "englishAudioDuration": 3.0
+        },
+        "narration": "The company's quick response to the crisis was praised by customers. 意思是:公司对危机的快速响应受到了客户的赞扬.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_005_5e2606.wav",
+        "audioDuration": 9.9
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "response是名词,表示'回复、反应、响应'",
+            "词根spond表示'回答',前缀re-表示'回',合起来就是'回应'的意思",
+            "相关词汇包括respond(动词回应)、responsible(负责任的)等",
+            "常用搭配:in response to(作为对...的回应)"
+          ]
+        },
+        "narration": "今天我们学习了response这个词汇,掌握了它的构成、含义和用法",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_8e08c6.wav",
+        "audioDuration": 6.2
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_af294f.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_5ae2dd.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_bf82ad.wav",
+    "scene_003_root_re-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_re-_fdd0.wav",
+    "scene_003_rw_return": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_return_b160.wav",
+    "scene_003_rw_repeat": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_repeat_119c.wav",
+    "scene_003_rw_review": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_review_95ea.wav",
+    "scene_003_root_spond": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_spond_f358.wav",
+    "scene_003_rw_respond": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_respond_9d5a.wav",
+    "scene_003_rw_responsible": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_responsible_d7a0.wav",
+    "scene_003_rw_sponsor": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_sponsor_e183.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_4b813f.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_7c4572.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_5e2606.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_6c372a.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_8e08c6.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-response-e4e7c997.mp4"
+}

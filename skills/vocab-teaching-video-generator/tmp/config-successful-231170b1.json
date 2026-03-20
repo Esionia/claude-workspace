@@ -1,0 +1,262 @@
+{
+  "script": {
+    "id": "video_script_successful_001",
+    "topic": "英语词汇教学:successful",
+    "description": "通过词根词缀法讲解形容词successful的含义、构词和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "successful",
+          "subtitle": "成功的"
+        },
+        "narration": "今天我们要学习一个非常重要的形容词:successful",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_a78930.wav",
+        "audioDuration": 4.7
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "successful",
+          "meaning": "成功的",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "获得成功的,有成就的",
+            "胜利的,圆满的",
+            "达到目的的"
+          ]
+        },
+        "narration": "successful是形容词,意思是成功的、胜利的、圆满的",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_e7935f.wav",
+        "audioDuration": 5.7
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "successful = suc- + cess + -ful",
+          "highlights": [
+            {
+              "text": "suc-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "cess",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ful",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "suc-",
+              "meaning": "向下、接近",
+              "label": "前缀",
+              "narration": "suc-是前缀sub-在c前的变体形式,表示向下或接近的意思",
+              "relatedWords": [
+                {
+                  "word": "succeed",
+                  "meaning": "成功",
+                  "highlight": "suc-",
+                  "narration": "succeed,成功",
+                  "audioUrl": "/audio/tts/rw_succeed_c0cf.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "success",
+                  "meaning": "成功",
+                  "highlight": "suc-",
+                  "narration": "success,成功",
+                  "audioUrl": "/audio/tts/rw_success_adf9.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_suc-_0919.wav",
+              "audioDuration": 6.4
+            },
+            {
+              "root": "cess",
+              "meaning": "走",
+              "label": "词根",
+              "narration": "cess是词根,来自拉丁语cedere,表示走或前进的含义",
+              "relatedWords": [
+                {
+                  "word": "process",
+                  "meaning": "过程",
+                  "highlight": "cess",
+                  "narration": "process,过程",
+                  "audioUrl": "/audio/tts/rw_process_e3b7.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "succession",
+                  "meaning": "继承",
+                  "highlight": "cess",
+                  "narration": "succession,继承",
+                  "audioUrl": "/audio/tts/rw_succession_f120.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_cess_6426.wav",
+              "audioDuration": 5.4
+            },
+            {
+              "root": "-ful",
+              "meaning": "充满...的",
+              "label": "后缀",
+              "narration": "-ful是常见的形容词后缀,表示充满某种性质的",
+              "relatedWords": [
+                {
+                  "word": "beautiful",
+                  "meaning": "美丽的",
+                  "highlight": "-ful",
+                  "narration": "beautiful,美丽的",
+                  "audioUrl": "/audio/tts/rw_beautiful_0043.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "wonderful",
+                  "meaning": "精彩的",
+                  "highlight": "-ful",
+                  "narration": "wonderful,精彩的",
+                  "audioUrl": "/audio/tts/rw_wonderful_a50f.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ful_ba48.wav",
+              "audioDuration": 4.8
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6250975/pexels-photo-6250975.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A hand holding a golden trophy against a vibrant pink background, symbolizing victory and success.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分析一下successful的构词方式",
+        "narrationLang": "zh",
+        "durationSeconds": 38,
+        "audioUrl": "/audio/tts/narration_scene_003_2e1421.wav",
+        "audioDuration": 3.8
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She is a very successful businesswoman.",
+          "chinese": "她是一位非常成功的女商人.",
+          "highlights": [
+            {
+              "text": "successful",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_1d24da.wav",
+          "englishAudioDuration": 3.0
+        },
+        "narration": "She is a very successful businesswoman. 意思是:她是一位非常成功的女商人.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_004_5a6c66.wav",
+        "audioDuration": 6.9
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The experiment was successful and we achieved our goal.",
+          "chinese": "实验成功了,我们达到了目标.",
+          "highlights": [
+            {
+              "text": "successful",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/2280551/pexels-photo-2280551.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Young scientist wearing protective gloves and examining a plant sample in a laboratory setting.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_10819e.wav",
+          "englishAudioDuration": 3.6
+        },
+        "narration": "The experiment was successful and we achieved our goal. 意思是:实验成功了,我们达到了目标.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_005_fd58bb.wav",
+        "audioDuration": 7.8
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "successful是形容词,意为成功的、胜利的",
+            "由前缀suc-(向下、接近)、词根cess(走)和后缀-ful(充满...的)组成",
+            "success是名词形式,succeed是动词形式",
+            "常用结构:be successful in doing something"
+          ]
+        },
+        "narration": "今天我们学习了successful这个词,它由suc-、cess和-ful三部分组成,表示充满成功走到的状态,也就是成功的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_2a7591.wav",
+        "audioDuration": 10.9
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_a78930.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_e7935f.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_2e1421.wav",
+    "scene_003_root_suc-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_suc-_0919.wav",
+    "scene_003_rw_succeed": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_succeed_c0cf.wav",
+    "scene_003_rw_success": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_success_adf9.wav",
+    "scene_003_root_cess": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_cess_6426.wav",
+    "scene_003_rw_process": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_process_e3b7.wav",
+    "scene_003_rw_succession": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_succession_f120.wav",
+    "scene_003_root_-ful": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ful_ba48.wav",
+    "scene_003_rw_beautiful": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_beautiful_0043.wav",
+    "scene_003_rw_wonderful": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_wonderful_a50f.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_5a6c66.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_1d24da.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_fd58bb.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_10819e.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_2a7591.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-successful-231170b1.mp4"
+}

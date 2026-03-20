@@ -1,0 +1,246 @@
+{
+  "script": {
+    "id": "video_script_realistic_001",
+    "topic": "英语词汇教学:realistic",
+    "description": "通过词根词缀法讲解单词realistic,帮助学习者掌握其含义、构成和相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 100,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "realistic",
+          "subtitle": "现实的；现实主义的；逼真的"
+        },
+        "narration": "今天我们要学习的单词是realistic,一个非常实用的形容词.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_33f3b1.wav",
+        "audioDuration": 5.7
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "realistic",
+          "phonetic": "/ˌriːəˈlɪstɪk/",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "现实的；实际可行的",
+            "现实主义的",
+            "逼真的；生动的"
+          ]
+        },
+        "narration": "realistic是形容词,意思是现实的、现实主义的或逼真的.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_5532af.wav",
+        "audioDuration": 6.1
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "realistic = real + istic",
+          "highlights": [
+            {
+              "text": "real",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-istic",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "real",
+              "meaning": "真实的",
+              "label": "词根",
+              "narration": "real来源于拉丁语,表示'真实的、真正的',是英语中表示'真实'的核心词根.",
+              "relatedWords": [
+                {
+                  "word": "real",
+                  "meaning": "真实的",
+                  "highlight": "real",
+                  "narration": "real,真实的",
+                  "audioUrl": "/audio/tts/rw_real_5ea4.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "reality",
+                  "meaning": "现实",
+                  "highlight": "real",
+                  "narration": "reality,现实",
+                  "audioUrl": "/audio/tts/rw_reality_ab1d.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "really",
+                  "meaning": "真正地",
+                  "highlight": "real",
+                  "narration": "really,真正地",
+                  "audioUrl": "/audio/tts/rw_really_84e8.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_real_c174.wav",
+              "audioDuration": 7.0
+            },
+            {
+              "root": "-istic",
+              "meaning": "...主义的；具有...特性的",
+              "label": "后缀",
+              "narration": "-istic是形容词后缀,表示'具有某种特性或属于某种主义',常见于学术和艺术术语中.",
+              "relatedWords": [
+                {
+                  "word": "artistic",
+                  "meaning": "艺术的",
+                  "highlight": "-istic",
+                  "narration": "artistic,艺术的",
+                  "audioUrl": "/audio/tts/rw_artistic_0925.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "optimistic",
+                  "meaning": "乐观的",
+                  "highlight": "-istic",
+                  "narration": "optimistic,乐观的",
+                  "audioUrl": "/audio/tts/rw_optimistic_7179.wav",
+                  "audioDuration": 2.5
+                },
+                {
+                  "word": "pessimistic",
+                  "meaning": "悲观的",
+                  "highlight": "-istic",
+                  "narration": "pessimistic,悲观的",
+                  "audioUrl": "/audio/tts/rw_pessimistic_f9b1.wav",
+                  "audioDuration": 2.6
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-istic_4de9.wav",
+              "audioDuration": 8.5
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/1138531/pexels-photo-1138531.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed close-up of a woman's facial skin showing natural texture and complexion.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分析一下realistic的构词结构.",
+        "narrationLang": "zh",
+        "durationSeconds": 37,
+        "audioUrl": "/audio/tts/narration_scene_003_ea8194.wav",
+        "audioDuration": 3.9
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "We need to set realistic goals for the project.",
+          "chinese": "我们需要为这个项目设定切实可行的目标.",
+          "highlights": [
+            {
+              "text": "realistic",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/8553061/pexels-photo-8553061.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Three diverse protesters with signs expressing political dissatisfaction in a studio environment.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_4bf408.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "We need to set realistic goals for the project. 意思是:我们需要为这个项目设定切实可行的目标.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_aa94e1.wav",
+        "audioDuration": 8.5
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The movie features realistic special effects.",
+          "chinese": "这部电影有逼真的特效.",
+          "highlights": [
+            {
+              "text": "realistic",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7991472/pexels-photo-7991472.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A group of adults in a cinema wearing 3D glasses watching a movie and eating popcorn.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_07b59e.wav",
+          "englishAudioDuration": 3.1
+        },
+        "narration": "The movie features realistic special effects. 意思是:这部电影有逼真的特效.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_005_1ac2b3.wav",
+        "audioDuration": 6.9
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "realistic源自词根real(真实的),加上形容词后缀-istic构成",
+            "主要含义包括:现实的、现实主义的、逼真的",
+            "常见搭配:realistic goals(现实目标)、realistic expectations(现实期望)、realistic portrayal(逼真的描绘)",
+            "同根词包括:reality(现实)、really(真正地)、unreal(不真实的)"
+          ]
+        },
+        "narration": "今天我们学习了realistic这个单词,它由词根real和后缀-istic组成,意思是现实的、逼真的.希望大家能够掌握并灵活运用！",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_c4cbeb.wav",
+        "audioDuration": 12.0
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_33f3b1.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_5532af.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_ea8194.wav",
+    "scene_003_root_real": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_real_c174.wav",
+    "scene_003_rw_real": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_real_5ea4.wav",
+    "scene_003_rw_reality": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_reality_ab1d.wav",
+    "scene_003_rw_really": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_really_84e8.wav",
+    "scene_003_root_-istic": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-istic_4de9.wav",
+    "scene_003_rw_artistic": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_artistic_0925.wav",
+    "scene_003_rw_optimistic": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_optimistic_7179.wav",
+    "scene_003_rw_pessimistic": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_pessimistic_f9b1.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_aa94e1.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_4bf408.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_1ac2b3.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_07b59e.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_c4cbeb.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-realistic-e4c5ba16.mp4"
+}

@@ -1,0 +1,116 @@
+{
+  "script": {
+    "id": "vocab_hello_001",
+    "topic": "英语词汇 hello 教学",
+    "description": "本视频将教授英语中最常用的问候语 \"hello\"，包括其含义、用法、例句以及文化背景。",
+    "targetAudience": "英语初学者",
+    "totalDuration": 60,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "Hello",
+          "subtitle": "英语中最常用的问候语"
+        },
+        "narration": "Welcome back to our English learning channel! Today, we are going to learn one of the most common and important English words - 'hello'. This is the first word that most people learn when they start learning English. Let's discover its meaning, usage, and examples together!",
+        "narrationLang": "en",
+        "durationSeconds": 19,
+        "audioUrl": "/audio/tts/narration_scene_001_c82f94.wav",
+        "audioDuration": 18.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "hello",
+          "meaning": "你好；喂",
+          "partOfSpeech": "感叹词 / 动词 / 名词",
+          "definitions": [
+            "用于问候或打招呼",
+            "用于引起对方注意",
+            "打电话时呼叫对方"
+          ]
+        },
+        "narration": "Now let's look at the word 'hello'. As an interjection, 'hello' is primarily used as a greeting. It can also be used as a verb meaning to say hello to someone, or as a noun referring to the act of saying hello. The most common meaning is simply 'hi' or 'hey' - a friendly way to greet someone.",
+        "narrationLang": "en",
+        "durationSeconds": 20,
+        "audioUrl": "/audio/tts/narration_scene_002_020e5a.wav",
+        "audioDuration": 20.1
+      },
+      {
+        "id": "scene_003",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Hello, how are you today?",
+          "chinese": "你好，你今天怎么样？",
+          "highlights": [
+            "hello"
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/903907/pexels-photo-903907.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Open journal featuring 'Hello March' and an inspirational quote.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_003_db384e.wav",
+          "englishAudioDuration": 1.7
+        },
+        "narration": "Here's our first example: 'Hello, how are you today?' This is one of the most common greeting sentences in English. You can use this phrase when you meet someone to show that you care about them and want to start a conversation. In this sentence, 'hello' is used as a greeting at the beginning.",
+        "narrationLang": "en",
+        "durationSeconds": 2
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Hello? Is anyone there?",
+          "chinese": "喂？有人吗？",
+          "highlights": [
+            "hello"
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7186155/pexels-photo-7186155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Minimalistic image featuring the word 'Hello' on a brown surface.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_37ea1d.wav",
+          "englishAudioDuration": 2.4
+        },
+        "narration": "Second example: 'Hello? Is anyone there?' In this case, 'hello' is used to get someone's attention, especially when making a phone call or when you're trying to get a response from someone who might not hear you. The rising intonation at the end shows that you're asking a question or seeking a response.",
+        "narrationLang": "en",
+        "durationSeconds": 3
+      },
+      {
+        "id": "scene_005",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "'hello' 是英语中最常用的问候语，意思是\"你好\"",
+            "可以用作感叹词（打招呼）、动词（向某人问好）、名词（打招呼的行为）",
+            "日常对话中，'hello' 通常用于见面时的第一句话，或打电话时呼叫对方",
+            "注意：在非正式场合，'hi' 和 'hey' 更加口语化；'hello' 则稍微正式一些"
+          ]
+        },
+        "narration": "Great job! Let's review what we've learned today. First, 'hello' is the most common greeting word in English, meaning 'hi' or 'hey'. Second, it can be used as an interjection, verb, or noun. Third, in daily conversations, we use 'hello' when meeting someone or making a phone call. Finally, remember that 'hi' and 'hey' are more informal, while 'hello' is slightly more formal. That's all for today. See you next time!",
+        "narrationLang": "en",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_005_bf18c9.wav",
+        "audioDuration": 30.2
+      }
+    ],
+    "createdAt": "2025-01-15"
+  },
+  "audioUrls": {},
+  "outputPath": "public\\videos\\teaching-hello-2b78c24c.mp4"
+}

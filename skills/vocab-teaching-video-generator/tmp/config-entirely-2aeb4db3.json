@@ -1,0 +1,294 @@
+{
+  "script": {
+    "id": "video_script_entirely_001",
+    "topic": "英语词汇教学:entirely",
+    "description": "通过词根词缀法讲解副词 entirely,掌握其拼写、含义及用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "entirely",
+          "subtitle": "完全地,全部地"
+        },
+        "narration": "今天我们要学习的单词是 entirely,表示完全地、全部地的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_873f85.wav",
+        "audioDuration": 6.0
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "entirely",
+          "partOfSpeech": "adv.",
+          "definitions": [
+            "完全地,全部地",
+            "彻底地,完整地",
+            "全然地,统统"
+          ]
+        },
+        "narration": "首先让我们看一下这个单词的基本信息.entirely 是一个副词,它有三个主要含义:完全地、彻底地和全然地.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_002_2cb36e.wav",
+        "audioDuration": 10.2
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "entirely = en- + tire + ly",
+          "highlights": [
+            {
+              "text": "en-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "tire",
+              "color": "#FF6B6B",
+              "label": "词根"
+            },
+            {
+              "text": "ly",
+              "color": "#4ECDC4",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "一个完整的圆被完全填满的示意图",
+              "alt": "完整的圆表示完全、全部",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/7135057/pexels-photo-7135057.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A vibrant abstract gradient featuring warm orange and cool purple tones, perfect for creative backgrounds.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "en-",
+              "meaning": "使...成为",
+              "label": "前缀",
+              "narration": "前缀 en- 表示使动含义,加在名词或形容词前构成动词.",
+              "relatedWords": [
+                {
+                  "word": "enable",
+                  "meaning": "使能够",
+                  "highlight": "en-",
+                  "narration": "enable,使能够",
+                  "audioUrl": "/audio/tts/rw_enable_a4bb.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "enrich",
+                  "meaning": "使丰富",
+                  "highlight": "en-",
+                  "narration": "enrich,使丰富",
+                  "audioUrl": "/audio/tts/rw_enrich_be7f.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "ensure",
+                  "meaning": "确保",
+                  "highlight": "en-",
+                  "narration": "ensure,确保",
+                  "audioUrl": "/audio/tts/rw_ensure_664e.wav",
+                  "audioDuration": 1.9
+                }
+              ],
+              "audioUrl": "/audio/tts/root_en-_8ab7.wav",
+              "audioDuration": 6.0
+            },
+            {
+              "root": "tire",
+              "meaning": "拉,拽(来自拉丁语 trahere)",
+              "label": "词根",
+              "narration": "词根 tire 来自拉丁语 trahere,表示拉、拽的含义.这个词根引申为完整、全部的意思,因为把东西完全拉到一起就是完整的.",
+              "relatedWords": [
+                {
+                  "word": "entire",
+                  "meaning": "完整的,全部的",
+                  "highlight": "tire",
+                  "narration": "entire,完整的",
+                  "audioUrl": "/audio/tts/rw_entire_c268.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "attract",
+                  "meaning": "吸引",
+                  "highlight": "tract",
+                  "narration": "attract,吸引",
+                  "audioUrl": "/audio/tts/rw_attract_8dcd.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "contract",
+                  "meaning": "收缩,契约",
+                  "highlight": "tract",
+                  "narration": "contract,收缩",
+                  "audioUrl": "/audio/tts/rw_contract_14bc.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_tire_8c7f.wav",
+              "audioDuration": 11.6
+            },
+            {
+              "root": "ly",
+              "meaning": "...地(副词后缀)",
+              "label": "后缀",
+              "narration": "后缀 ly 是常见的副词后缀,加在形容词后面表示方式、状态或程度.",
+              "relatedWords": [
+                {
+                  "word": "completely",
+                  "meaning": "完全地",
+                  "highlight": "ly",
+                  "narration": "completely,完全地",
+                  "audioUrl": "/audio/tts/rw_completely_710b.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "absolutely",
+                  "meaning": "绝对地",
+                  "highlight": "ly",
+                  "narration": "absolutely,绝对地",
+                  "audioUrl": "/audio/tts/rw_absolutely_9b1a.wav",
+                  "audioDuration": 2.5
+                },
+                {
+                  "word": "truly",
+                  "meaning": "真正地",
+                  "highlight": "ly",
+                  "narration": "truly,真正地",
+                  "audioUrl": "/audio/tts/rw_truly_f2e2.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_ly_2aea.wav",
+              "audioDuration": 7.0
+            }
+          ]
+        },
+        "narration": "接下来让我们通过词根词缀来深入理解这个单词的构成.",
+        "narrationLang": "zh",
+        "durationSeconds": 54,
+        "audioUrl": "/audio/tts/narration_scene_003_6df3d7.wav",
+        "audioDuration": 5.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "I entirely agree with your proposal.",
+          "chinese": "我完全同意你的提议.",
+          "highlights": [
+            {
+              "text": "entirely",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/9648756/pexels-photo-9648756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Artistic close-up of a vintage-themed matchbox with matchsticks on a wooden surface.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_ff0595.wav",
+          "englishAudioDuration": 2.5
+        },
+        "narration": "I entirely agree with your proposal. 意思是:我完全同意你的提议.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_004_f038c6.wav",
+        "audioDuration": 6.1
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The project is entirely different from what we expected.",
+          "chinese": "这个项目与我们预期的完全不同.",
+          "highlights": [
+            {
+              "text": "entirely",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/1181311/pexels-photo-1181311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A person creates a flowchart diagram with red pen on a whiteboard, detailing plans and budgeting.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_353724.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "The project is entirely different from what we expected. 意思是:这个项目与我们预期的完全不同.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_005_e2fe58.wav",
+        "audioDuration": 8.3
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "entirely 是副词,意为完全地、全部地、彻底地",
+            "词根 tire 来自拉丁语 trahere(拉),引申为完整的含义",
+            "后缀 ly 是常见的副词后缀,表示方式或程度",
+            "同根词包括 entire(完整的)、integrate(整合)、integral(整体的)等"
+          ]
+        },
+        "narration": "今天我们学习了副词 entirely,它的意思是完全地、全部地、彻底地.这个单词由词根 tire(表示拉、完整)和副词后缀 ly 组成.同根词还有 entire、integrate 等,它们都含有完整或全部的意味.希望大家能够掌握这个词根记忆法,并灵活运用这个词.",
+        "narrationLang": "zh",
+        "durationSeconds": 24,
+        "audioUrl": "/audio/tts/narration_scene_006_dac27f.wav",
+        "audioDuration": 21.9
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_873f85.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_2cb36e.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_6df3d7.wav",
+    "scene_003_root_en-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_en-_8ab7.wav",
+    "scene_003_rw_enable": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_enable_a4bb.wav",
+    "scene_003_rw_enrich": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_enrich_be7f.wav",
+    "scene_003_rw_ensure": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_ensure_664e.wav",
+    "scene_003_root_tire": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_tire_8c7f.wav",
+    "scene_003_rw_entire": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_entire_c268.wav",
+    "scene_003_rw_attract": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_attract_8dcd.wav",
+    "scene_003_rw_contract": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_contract_14bc.wav",
+    "scene_003_root_ly": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_ly_2aea.wav",
+    "scene_003_rw_completely": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_completely_710b.wav",
+    "scene_003_rw_absolutely": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_absolutely_9b1a.wav",
+    "scene_003_rw_truly": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_truly_f2e2.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_f038c6.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_ff0595.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_e2fe58.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_353724.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_dac27f.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-entirely-2aeb4db3.mp4"
+}

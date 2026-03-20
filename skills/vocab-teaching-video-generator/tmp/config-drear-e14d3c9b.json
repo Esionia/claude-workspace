@@ -1,0 +1,209 @@
+{
+  "script": {
+    "id": "video_script_drear_001",
+    "topic": "英语词汇教学:drear",
+    "description": "通过词根词缀法讲解单词 drear 的含义、用法及记忆方法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 96,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "drear",
+          "subtitle": "阴郁的,凄凉的"
+        },
+        "narration": "今天我们要学习一个富有诗意的英语单词--drear",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_1107ea.wav",
+        "audioDuration": 4.2
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "drear",
+          "meaning": "阴郁的,凄凉的",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "阴郁的,沮丧的",
+            "凄凉的,冷清的",
+            "令人忧郁的"
+          ]
+        },
+        "narration": "drear 是一个形容词,表示阴郁的、凄凉的意思",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_0bc4a0.wav",
+        "audioDuration": 4.6
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "drear 来自古英语 dreorig,意为阴郁的",
+          "highlights": [
+            {
+              "text": "drear",
+              "color": "#FFD93D",
+              "label": "词根"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:一个阴雨绵绵的荒凉场景",
+              "alt": "阴郁的风景图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/10571242/pexels-photo-10571242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Golden deer figurine with candle and dried orange slices on a cozy winter setup.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "drear",
+              "meaning": "阴郁的,凄凉的",
+              "label": "词根",
+              "narration": "drear 源自古英语 'dreorig',原意为 'gloomy'(阴郁的),与 'dreary'(沉闷的)是同源词.这个词根在英语中保留了阴郁、凄凉的含义,常用于诗歌和文学描写中营造忧伤的氛围.",
+              "relatedWords": [
+                {
+                  "word": "dreary",
+                  "meaning": "阴沉的,沉闷的",
+                  "highlight": "drear",
+                  "narration": "dreary,阴沉的",
+                  "audioUrl": "/audio/tts/rw_dreary_f720.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "dread",
+                  "meaning": "恐惧,担心",
+                  "highlight": "dre",
+                  "narration": "dread,恐惧",
+                  "audioUrl": "/audio/tts/rw_dread_d791.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "dream",
+                  "meaning": "梦,梦想",
+                  "highlight": "dre",
+                  "narration": "dream,梦",
+                  "audioUrl": "/audio/tts/rw_dream_f30a.wav",
+                  "audioDuration": 1.6
+                }
+              ],
+              "audioUrl": "/audio/tts/root_drear_eae7.wav",
+              "audioDuration": 15.7
+            }
+          ]
+        },
+        "narration": "让我们来解析这个单词的词根来源",
+        "narrationLang": "zh",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_003_cc4e92.wav",
+        "audioDuration": 3.6
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The drear winter landscape stretched endlessly before them.",
+          "chinese": "阴郁冬日景色无边无际地展现在他们面前.",
+          "highlights": [
+            {
+              "text": "drear",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7406837/pexels-photo-7406837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Person stretching in a snowy winter landscape, wearing bright winter clothing. Ideal for fitness themes.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_1aa1a8.wav",
+          "englishAudioDuration": 3.4
+        },
+        "narration": "The drear winter landscape stretched endlessly before them. 意思是:阴郁冬日景色无边无际地展现在他们面前.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_fbb508.wav",
+        "audioDuration": 8.9
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She walked through the drear streets of the old town, feeling utterly alone.",
+          "chinese": "她走过古镇阴郁的街道,感到无比孤独.",
+          "highlights": [
+            {
+              "text": "drear",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_caf5bc.wav",
+          "englishAudioDuration": 4.5
+        },
+        "narration": "She walked through the drear streets of the old town, feeling utterly alone. 意思是:她走过古镇阴郁的街道,感到无比孤独.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_005_231598.wav",
+        "audioDuration": 9.5
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "drear 是形容词,意为阴郁的、凄凉的",
+            "源自古英语 dreorig,与 dreary 是同源词",
+            "常用于诗歌和文学作品中描写忧郁的氛围",
+            "常用搭配:drear winter(阴郁的冬天)、drear street(凄凉的街道)"
+          ]
+        },
+        "narration": "让我们总结一下今天学习的内容",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_cdd0ea.wav",
+        "audioDuration": 3.4
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_1107ea.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_0bc4a0.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_cc4e92.wav",
+    "scene_003_root_drear": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_drear_eae7.wav",
+    "scene_003_rw_dreary": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_dreary_f720.wav",
+    "scene_003_rw_dread": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_dread_d791.wav",
+    "scene_003_rw_dream": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_dream_f30a.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_fbb508.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_1aa1a8.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_231598.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_caf5bc.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_cdd0ea.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-drear-e14d3c9b.mp4"
+}

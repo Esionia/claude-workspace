@@ -1,0 +1,294 @@
+{
+  "script": {
+    "id": "video_script_significant_001",
+    "topic": "英语词汇教学:significant",
+    "description": "通过词根词缀法讲解形容词significant,帮助学习者掌握其词义、用法及相关词汇.",
+    "targetAudience": "英语学习者(初中级及以上)",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "significant",
+          "subtitle": "重要的,显著的"
+        },
+        "narration": "今天我们一起来学习一个在阅读和写作中非常常见的重要词汇--significant.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_001_6b8ce6.wav",
+        "audioDuration": 7.2
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "significant",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "重要的,重大的",
+            "显著的,明显的",
+            "有意义的"
+          ]
+        },
+        "narration": "让我们先来看一下significant的基本信息,它是一个形容词,有三个主要含义:重要的、显著的、有意义的.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_002_cb2dac.wav",
+        "audioDuration": 9.6
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "significant = sign + i + fic + ant",
+          "highlights": [
+            {
+              "text": "sign",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "fic",
+              "color": "#6BCB77",
+              "label": "词根"
+            },
+            {
+              "text": "ant",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://example.com/images/significant-analysis.png",
+              "alt": "significant词根词缀拆解示意图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/7384333/pexels-photo-7384333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A vibrant Turkish flag waving against a mountainous backdrop, symbolizing patriotism.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "sign",
+              "meaning": "标记、符号、征兆",
+              "label": "词根",
+              "narration": "词根sign来自拉丁语,表示'标记'或'符号',引申为'征兆、迹象'的意思.这个词根构成了我们日常生活中很多常见词汇的基础.",
+              "relatedWords": [
+                {
+                  "word": "sign",
+                  "meaning": "迹象,征兆；标记,符号",
+                  "highlight": "sign",
+                  "narration": "sign,迹象、符号",
+                  "audioUrl": "/audio/tts/rw_sign_4c96.wav",
+                  "audioDuration": 2.6
+                },
+                {
+                  "word": "signal",
+                  "meaning": "信号,暗号",
+                  "highlight": "sign",
+                  "narration": "signal,信号",
+                  "audioUrl": "/audio/tts/rw_signal_eff6.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "signature",
+                  "meaning": "签名,署名",
+                  "highlight": "sign",
+                  "narration": "signature,签名",
+                  "audioUrl": "/audio/tts/rw_signature_a22b.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_sign_b202.wav",
+              "audioDuration": 11.4
+            },
+            {
+              "root": "fic",
+              "meaning": "做,使,成为",
+              "label": "词根",
+              "narration": "词根fic来自拉丁语facere,意为'做'或'使成为'.这是一个非常活跃的词根,在英语中构成许多表示'使...化'或'使...成为'的词汇.",
+              "relatedWords": [
+                {
+                  "word": "office",
+                  "meaning": "办公室,办公楼",
+                  "highlight": "fic",
+                  "narration": "office,办公室",
+                  "audioUrl": "/audio/tts/rw_office_1d66.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "scientific",
+                  "meaning": "科学的",
+                  "highlight": "fic",
+                  "narration": "scientific,科学的",
+                  "audioUrl": "/audio/tts/rw_scientific_66b4.wav",
+                  "audioDuration": 2.5
+                },
+                {
+                  "word": "efficient",
+                  "meaning": "效率高的",
+                  "highlight": "fic",
+                  "narration": "efficient,效率高的",
+                  "audioUrl": "/audio/tts/rw_efficient_1347.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_fic_d3b4.wav",
+              "audioDuration": 12.2
+            },
+            {
+              "root": "ant",
+              "meaning": "具有...性质的",
+              "label": "后缀",
+              "narration": "后缀ant是常见的形容词后缀,表示'具有某种性质或特征的'.当它加在名词或词根后面时,整个单词就变成了形容词.",
+              "relatedWords": [
+                {
+                  "word": "important",
+                  "meaning": "重要的",
+                  "highlight": "ant",
+                  "narration": "important,重要的",
+                  "audioUrl": "/audio/tts/rw_important_1330.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "brilliant",
+                  "meaning": "聪明的,灿烂的",
+                  "highlight": "ant",
+                  "narration": "brilliant,聪明的",
+                  "audioUrl": "/audio/tts/rw_brilliant_016c.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "different",
+                  "meaning": "不同的",
+                  "highlight": "ant",
+                  "narration": "different,不同的",
+                  "audioUrl": "/audio/tts/rw_different_83dc.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_ant_aa58.wav",
+              "audioDuration": 11.2
+            }
+          ]
+        },
+        "narration": "下面让我们通过词根词缀来深入理解这个单词的构成.",
+        "narrationLang": "zh",
+        "durationSeconds": 65,
+        "audioUrl": "/audio/tts/narration_scene_003_4dd14a.wav",
+        "audioDuration": 5.3
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The discovery of penicillin was a significant breakthrough in medicine.",
+          "chinese": "青霉素的发现是医学领域的一项重大突破.",
+          "highlights": [
+            {
+              "text": "significant",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/35553256/pexels-photo-35553256.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed close-up showing blue mold growth on cheese surface, showcasing unique texture.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_811d1f.wav",
+          "englishAudioDuration": 4.4
+        },
+        "narration": "青霉素的发现是医学领域的一项重大突破.significant breakthrough表示重大的突破.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_4f385b.wav",
+        "audioDuration": 7.5
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "There has been a significant improvement in her health since she started the new treatment.",
+          "chinese": "自从开始新疗法以来,她的健康状况有了显著改善.",
+          "highlights": [
+            {
+              "text": "significant",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16426067/pexels-photo-16426067.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Traditional Rajasthani musician playing an instrument outdoors at a cultural event.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_e09d31.wav",
+          "englishAudioDuration": 4.6
+        },
+        "narration": "自从开始新疗法以来,她的健康状况有了显著改善.这里的significant improvement表示显著的改善.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_005_feefb1.wav",
+        "audioDuration": 8.9
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "significant是形容词,意为'重要的、显著的、有意义的'",
+            "词根sign表示'标记、征兆',fic表示'做、使',后缀ant表示'具有...性质的'",
+            "名词形式是significance(重要性,意义),副词形式是significantly(显著地,重要地)",
+            "常见搭配有significant progress(显著进步)、significant difference(显著差异)、significant event(重大事件)等"
+          ]
+        },
+        "narration": "好,让我们来总结一下今天学到的内容.掌握词根词缀法是扩大词汇量的高效方法,希望significant这个单词的拆解能给大家带来启发.我们下期再见！",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_006_0a8a54.wav",
+        "audioDuration": 13.4
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_6b8ce6.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_cb2dac.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_4dd14a.wav",
+    "scene_003_root_sign": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_sign_b202.wav",
+    "scene_003_rw_sign": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_sign_4c96.wav",
+    "scene_003_rw_signal": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_signal_eff6.wav",
+    "scene_003_rw_signature": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_signature_a22b.wav",
+    "scene_003_root_fic": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_fic_d3b4.wav",
+    "scene_003_rw_office": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_office_1d66.wav",
+    "scene_003_rw_scientific": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_scientific_66b4.wav",
+    "scene_003_rw_efficient": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_efficient_1347.wav",
+    "scene_003_root_ant": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_ant_aa58.wav",
+    "scene_003_rw_important": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_important_1330.wav",
+    "scene_003_rw_brilliant": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_brilliant_016c.wav",
+    "scene_003_rw_different": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_different_83dc.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_4f385b.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_811d1f.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_feefb1.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_e09d31.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_0a8a54.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-significant-887d9022.mp4"
+}

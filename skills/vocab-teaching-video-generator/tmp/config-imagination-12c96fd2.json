@@ -1,0 +1,252 @@
+{
+  "script": {
+    "id": "video_script_imagination_001",
+    "topic": "英语词汇教学:imagination",
+    "description": "通过词根词缀法讲解imagination,掌握其构词规律及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "imagination",
+          "subtitle": "想象力；想象；空想"
+        },
+        "narration": "欢迎来到今天的词汇课堂！今天我们要学习的单词是imagination,这个词在英语中非常常用,表示想象力或想象的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_001_2adb96.wav",
+        "audioDuration": 11.3
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "imagination",
+          "pronunciation": "/ɪˌmædʒɪˈneɪʃən/",
+          "partOfSpeech": "noun.",
+          "definitions": [
+            "想象力；创想能力",
+            "想象；念头",
+            "空想；幻想"
+          ]
+        },
+        "narration": "让我们来看看imagination这个单词的详细信息.它的发音是imagination,属于名词,表示三种主要含义:想象力、想象以及空想或幻想.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_002_25a0e2.wav",
+        "audioDuration": 12.9
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "imagination = image(形象) + -ation(名词后缀)",
+          "highlights": [
+            {
+              "text": "image",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ation",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "brain_with_lightbulb",
+              "alt": "大脑中有一个发光的灯泡,代表想象力",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A silhouette hand holds a mason jar capturing a stunning galaxy under a starry night sky.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "image",
+              "meaning": "形象、图像",
+              "label": "词根",
+              "narration": "词根image来自拉丁语imago,本义是'图像、形象'.这个词根非常重要,由它衍生出许多相关词汇.人的大脑中有了形象、有了画面,就产生了想象,所以image是imagination的词根基础.",
+              "relatedWords": [
+                {
+                  "word": "imagine",
+                  "meaning": "想象；设想",
+                  "highlight": "imagine",
+                  "narration": "imagine,想象",
+                  "audioUrl": "/audio/tts/rw_imagine_03c6.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "imaginative",
+                  "meaning": "富有想象力的",
+                  "highlight": "imagin-",
+                  "narration": "imaginative,富有想象力的",
+                  "audioUrl": "/audio/tts/rw_imaginative_7c85.wav",
+                  "audioDuration": 2.9
+                },
+                {
+                  "word": "image",
+                  "meaning": "图像；形象",
+                  "highlight": "image",
+                  "narration": "image,图像",
+                  "audioUrl": "/audio/tts/rw_image_6241.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_image_b2e4.wav",
+              "audioDuration": 17.0
+            },
+            {
+              "root": "-ation",
+              "meaning": "名词后缀,表示行为、状态或结果",
+              "label": "后缀",
+              "narration": "后缀-ation是常见的名词后缀,表示行为、状态或结果.加在动词或词根后面,将词语变为名词形式.比如create变成creation,imagine变成imagination.",
+              "relatedWords": [
+                {
+                  "word": "creation",
+                  "meaning": "创造；创作",
+                  "highlight": "-ation",
+                  "narration": "creation,创造",
+                  "audioUrl": "/audio/tts/rw_creation_f71c.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "-ation",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_dd5c.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "information",
+                  "meaning": "信息",
+                  "highlight": "-ation",
+                  "narration": "information,信息",
+                  "audioUrl": "/audio/tts/rw_information_8ce3.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ation_221e.wav",
+              "audioDuration": 15.2
+            }
+          ]
+        },
+        "narration": "接下来让我们深入了解imagination的词根词缀结构.",
+        "narrationLang": "zh",
+        "durationSeconds": 54,
+        "audioUrl": "/audio/tts/narration_scene_003_35c19c.wav",
+        "audioDuration": 4.9
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "A child's imagination can create wonderful worlds from ordinary objects.",
+          "chinese": "孩子的想象力能够用普通的物品创造出奇妙的世界.",
+          "highlights": [
+            {
+              "text": "imagination",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7951244/pexels-photo-7951244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "From above side view of crop faceless female artist with braided hair painting graffiti on wall while standing on street",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_d9a66f.wav",
+          "englishAudioDuration": 4.8
+        },
+        "narration": "第一个例句:A child's imagination can create wonderful worlds from ordinary objects. 意思是:孩子的想象力能够用普通的物品创造出奇妙的世界.这个例句展示了imagination作为'想象力'的用法,强调了儿童丰富的创造力和想象力.",
+        "narrationLang": "zh",
+        "durationSeconds": 25,
+        "audioUrl": "/audio/tts/narration_scene_004_599224.wav",
+        "audioDuration": 20.0
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Don't let your imagination run wild; we need practical solutions.",
+          "chinese": "别让你的想象天马行空,我们需要实际的解决方案.",
+          "highlights": [
+            {
+              "text": "imagination",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3831843/pexels-photo-3831843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of sticky notes on a computer screen with motivational messages.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_290df3.wav",
+          "englishAudioDuration": 4.8
+        },
+        "narration": "第二个例句:Don't let your imagination run wild; we need practical solutions. 意思是:别让你的想象天马行空,我们需要实际的解决方案.这里imagination表示'空想、幻想'的意思,常用短语let imagination run wild表示让想象力不受约束、自由驰骋.",
+        "narrationLang": "zh",
+        "durationSeconds": 27,
+        "audioUrl": "/audio/tts/narration_scene_005_b3399e.wav",
+        "audioDuration": 21.6
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "imagination是名词,意为'想象力、想象、空想',发音为/imagination/",
+            "词根image源自拉丁语'形象、图像',是单词的核心意义所在",
+            "后缀-ation是名词后缀,表示行为或状态的结果",
+            "相关词汇包括:imagine(想象)、imaginative(富有想象力的)、imaginary(想象中的)"
+          ]
+        },
+        "narration": "好的,今天的课程到这里就结束了.让我们总结一下今天学到的内容:imagination是一个由词根image和后缀-ation组成的名词,意思是想象力或想象.记住词根image和相关词汇,多多练习运用.下节课再见！",
+        "narrationLang": "zh",
+        "durationSeconds": 22,
+        "audioUrl": "/audio/tts/narration_scene_006_e4827e.wav",
+        "audioDuration": 19.2
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_2adb96.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_25a0e2.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_35c19c.wav",
+    "scene_003_root_image": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_image_b2e4.wav",
+    "scene_003_rw_imagine": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_imagine_03c6.wav",
+    "scene_003_rw_imaginative": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_imaginative_7c85.wav",
+    "scene_003_rw_image": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_image_6241.wav",
+    "scene_003_root_-ation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ation_221e.wav",
+    "scene_003_rw_creation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_creation_f71c.wav",
+    "scene_003_rw_education": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_education_dd5c.wav",
+    "scene_003_rw_information": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_information_8ce3.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_599224.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_d9a66f.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_b3399e.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_290df3.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_e4827e.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-imagination-12c96fd2.mp4"
+}

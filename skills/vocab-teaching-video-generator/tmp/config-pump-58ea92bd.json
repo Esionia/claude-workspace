@@ -1,0 +1,199 @@
+{
+  "script": {
+    "id": "video_script_pump_001",
+    "topic": "英语词汇教学:pump",
+    "description": "通过词源法和场景应用讲解英语单词 pump 的多种用法和含义",
+    "targetAudience": "英语学习者(初中级及以上)",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "pump",
+          "subtitle": "泵送力量 · 词汇精讲"
+        },
+        "narration": "欢迎来到今天的词汇课堂！今天我们要学习的单词是 pump,这个看似简单的小词其实蕴含着丰富的用法和含义.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_001_ea1124.wav",
+        "audioDuration": 10.3
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "pump",
+          "partOfSpeech": "n. / v.",
+          "definitions": [
+            "名词:泵,抽水机,打气筒",
+            "动词:泵送,抽吸,用泵抽出",
+            "动词:(非正式)拼命追问,套话"
+          ]
+        },
+        "narration": "首先让我们来看一下 pump 的基本信息.它既可以作为名词使用,表示泵或抽水机；也可以作为动词使用,表示泵送或抽吸的动作.此外,它在口语中还有追问、套话的用法.",
+        "narrationLang": "zh",
+        "durationSeconds": 17,
+        "audioUrl": "/audio/tts/narration_scene_002_2e261b.wav",
+        "audioDuration": 15.8
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "pump - 泵,抽水机(拟声词)",
+          "highlights": [
+            {
+              "text": "pump",
+              "color": "#FFD93D",
+              "label": "词源"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://example.com/images/pump.jpg",
+              "alt": "一个老式抽水泵的图片",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/14041885/pexels-photo-14041885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "An outdoor gas station pump with a vintage look alongside an office chair, in a rustic setting.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "pump",
+              "meaning": "拟声词,模仿水泵工作时发出的噗嗤噗嗤声",
+              "label": "词源",
+              "narration": "关于 pump 的词源,它来源于低地德语和荷兰语中的 'pumpe',是一个典型的拟声词.这个单词模仿的是老式水泵工作时发出的声音,那种噗嗤噗嗤抽水的声响.语言的创造者们用声音来命名实物,这在我们英语词汇中是很常见的命名方式.",
+              "relatedWords": [
+                {
+                  "word": "pumpkin",
+                  "meaning": "南瓜",
+                  "highlight": "pump",
+                  "narration": "pumpkin,南瓜,这个词也源自 pump,因为南瓜的形状像Pump(泵)",
+                  "audioUrl": "/audio/tts/rw_pumpkin_5f25.wav",
+                  "audioDuration": 6.4
+                },
+                {
+                  "word": "pumpernickel",
+                  "meaning": "黑麦粗面包",
+                  "highlight": "pump",
+                  "narration": "pumpernickel,黑麦面包,德语词源中也有 pump 的声音元素",
+                  "audioUrl": "/audio/tts/rw_pumpernickel_f7d5.wav",
+                  "audioDuration": 5.5
+                }
+              ],
+              "audioUrl": "/audio/tts/root_pump_c0b9.wav",
+              "audioDuration": 20.9
+            }
+          ]
+        },
+        "narration": "现在让我们深入了解这个单词的词源秘密.",
+        "narrationLang": "zh",
+        "durationSeconds": 40,
+        "audioUrl": "/audio/tts/narration_scene_003_f384fc.wav",
+        "audioDuration": 4.1
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The firemen used a powerful pump to send water to the upper floors of the burning building.",
+          "chinese": "消防员使用一台大功率水泵将水送到着火建筑物的上层.",
+          "highlights": [
+            {
+              "text": "pump",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/11490332/pexels-photo-11490332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Silhouettes of protesters and smoke against fiery night backdrop in Lviv.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_fd869b.wav",
+          "englishAudioDuration": 5.5
+        },
+        "narration": "The firemen used a powerful pump to send water to the upper floors of the burning building. 消防员使用一台大功率水泵将水送到着火建筑物的上层.这个例句展示了 pump 作为名词的典型用法,表示抽水或送水的设备.",
+        "narrationLang": "zh",
+        "durationSeconds": 23,
+        "audioUrl": "/audio/tts/narration_scene_004_93b548.wav",
+        "audioDuration": 16.8
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "My heart started to pump faster when I saw the exciting news on my phone.",
+          "chinese": "当我在手机上看到那条令人兴奋的消息时,我的心跳开始加速.",
+          "highlights": [
+            {
+              "text": "pump",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6657646/pexels-photo-6657646.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Heartfelt Valentine's Day cards and a heart-shaped chocolate box on a wooden surface, perfect for a romantic gift.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_56068e.wav",
+          "englishAudioDuration": 4.0
+        },
+        "narration": "My heart started to pump faster when I saw the exciting news on my phone. 当我在手机上看到那条令人兴奋的消息时,我的心跳开始加速.这个例句很好地展示了 pump 作为动词的用法,比喻心脏像泵一样有节奏地跳动.",
+        "narrationLang": "zh",
+        "durationSeconds": 22,
+        "audioUrl": "/audio/tts/narration_scene_005_a70c17.wav",
+        "audioDuration": 17.9
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "pump 是多词性单词,可作名词(泵)和动词(泵送)使用",
+            "它是一个拟声词,来源于水泵工作时发出的噗嗤声",
+            "常见搭配:water pump(水泵)、fuel pump(油泵)、heart pump(心脏跳动)",
+            "记忆技巧:联想水泵抽水时的声音来记住这个词"
+          ]
+        },
+        "narration": "好了,今天关于 pump 的学习就到这里.让我们来回顾一下今天学到的要点:第一,pump 既是名词泵,也是动词泵送；第二,它是一个拟声词,模仿水泵的声音；第三,我们学习了水泵、心脏跳动等常见搭配；最后,用声音来联想记忆是个好方法.希望大家课后多多练习使用这个单词！",
+        "narrationLang": "zh",
+        "durationSeconds": 28,
+        "audioUrl": "/audio/tts/narration_scene_006_3be46a.wav",
+        "audioDuration": 25.6
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_ea1124.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_2e261b.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_f384fc.wav",
+    "scene_003_root_pump": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_pump_c0b9.wav",
+    "scene_003_rw_pumpkin": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_pumpkin_5f25.wav",
+    "scene_003_rw_pumpernickel": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_pumpernickel_f7d5.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_93b548.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_fd869b.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_a70c17.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_56068e.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_3be46a.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-pump-58ea92bd.mp4"
+}

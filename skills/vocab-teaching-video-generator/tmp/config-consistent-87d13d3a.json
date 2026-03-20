@@ -1,0 +1,289 @@
+{
+  "script": {
+    "id": "video_script_consistent_001",
+    "topic": "英语词汇教学:consistent",
+    "description": "通过词根词缀法讲解形容词consistent的含义、用法及相关词汇,帮助学习者掌握这个重要词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "consistent",
+          "subtitle": "一致的；始终如一的"
+        },
+        "narration": "今天我们要学习一个非常重要的形容词:consistent",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_ec1a97.wav",
+        "audioDuration": 4.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "consistent",
+          "meaning": "一致的；始终如一的；持续的",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "一致的；相符的",
+            "始终如一的；坚持的",
+            "持续发生的；连续不断的"
+          ]
+        },
+        "narration": "consistent是一个形容词,它有三个主要含义:一致的、始终如一的和持续的",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_002_33ab8c.wav",
+        "audioDuration": 7.5
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "consistent = con(共同)+ sist(站立)+ ent(形容词后缀)",
+          "highlights": [
+            {
+              "text": "con-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "sist",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ent",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "con-",
+              "meaning": "共同",
+              "label": "前缀",
+              "narration": "前缀con表示'共同'的意思,来自拉丁语cum,象征着聚合与统一",
+              "relatedWords": [
+                {
+                  "word": "connect",
+                  "meaning": "连接",
+                  "highlight": "con-",
+                  "narration": "connect,连接",
+                  "audioUrl": "/audio/tts/rw_connect_8243.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "combine",
+                  "meaning": "结合",
+                  "highlight": "con-",
+                  "narration": "combine,结合",
+                  "audioUrl": "/audio/tts/rw_combine_494e.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "convene",
+                  "meaning": "召集",
+                  "highlight": "con-",
+                  "narration": "convene,召集",
+                  "audioUrl": "/audio/tts/rw_convene_3cb3.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_con-_0b94.wav",
+              "audioDuration": 6.2
+            },
+            {
+              "root": "sist",
+              "meaning": "站立",
+              "label": "词根",
+              "narration": "词根sist来自拉丁语sistere,表示'站立'或'使竖立',引申为坚持和持续",
+              "relatedWords": [
+                {
+                  "word": "exist",
+                  "meaning": "存在",
+                  "highlight": "-sist",
+                  "narration": "exist,存在",
+                  "audioUrl": "/audio/tts/rw_exist_ab4c.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "persist",
+                  "meaning": "坚持",
+                  "highlight": "sist",
+                  "narration": "persist,坚持",
+                  "audioUrl": "/audio/tts/rw_persist_10d4.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "resist",
+                  "meaning": "抵抗",
+                  "highlight": "sist",
+                  "narration": "resist,抵抗",
+                  "audioUrl": "/audio/tts/rw_resist_fe2b.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_sist_c7c3.wav",
+              "audioDuration": 7.6
+            },
+            {
+              "root": "-ent",
+              "meaning": "形容词后缀",
+              "label": "后缀",
+              "narration": "后缀-ent是常见的形容词后缀,表示'具有...性质的'",
+              "relatedWords": [
+                {
+                  "word": "different",
+                  "meaning": "不同的",
+                  "highlight": "-ent",
+                  "narration": "different,不同的",
+                  "audioUrl": "/audio/tts/rw_different_e13a.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "dependent",
+                  "meaning": "依赖的",
+                  "highlight": "-ent",
+                  "narration": "dependent,依赖的",
+                  "audioUrl": "/audio/tts/rw_dependent_c893.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "incident",
+                  "meaning": "事件",
+                  "highlight": "-ent",
+                  "narration": "incident,事件",
+                  "audioUrl": "/audio/tts/rw_incident_af10.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ent_05da.wav",
+              "audioDuration": 5.0
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/17485710/pexels-photo-17485710.png?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Dynamic abstract art with blue and purple brush strokes on a light background.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来拆解这个单词的结构",
+        "narrationLang": "zh",
+        "durationSeconds": 45,
+        "audioUrl": "/audio/tts/narration_scene_003_4a3957.wav",
+        "audioDuration": 3.1
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The results of the experiment were consistent with our hypothesis.",
+          "chinese": "实验结果与我们的假设是一致的.",
+          "highlights": [
+            {
+              "text": "consistent",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/8442278/pexels-photo-8442278.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of gloved hands reviewing printed lab test results on a white surface.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_7a922e.wav",
+          "englishAudioDuration": 4.6
+        },
+        "narration": "The results of the experiment were consistent with our hypothesis. 意思是:实验结果与我们的假设是一致的.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_004_d8d0a9.wav",
+        "audioDuration": 9.0
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She has been consistent in her efforts to improve the team.",
+          "chinese": "她一直在坚持不懈地努力改进团队.",
+          "highlights": [
+            {
+              "text": "consistent",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_f08c70.wav",
+          "englishAudioDuration": 3.5
+        },
+        "narration": "She has been consistent in her efforts to improve the team. 意思是:她一直在坚持不懈地努力改进团队.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_005_71b826.wav",
+        "audioDuration": 8.7
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "consistent来自拉丁语,由前缀con-(共同)、词根sist(站立)和后缀-ent组成,字面意思是'站在一起的'",
+            "主要含义包括:一致的、始终如一的、持续的",
+            "相关词汇都含有词根sist,表示站立或坚持的含义,如exist(存在)、persist(坚持)、resist(抵抗)",
+            "在日常生活中,consistent常用于描述人或事物的稳定性和可靠性"
+          ]
+        },
+        "narration": "今天我们学习了形容词consistent,它表示一致的、始终如一的意思.通过词根词缀法,我们可以更好地理解并记忆这个单词及其相关词汇",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_723ba9.wav",
+        "audioDuration": 12.5
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_ec1a97.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_33ab8c.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_4a3957.wav",
+    "scene_003_root_con-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_con-_0b94.wav",
+    "scene_003_rw_connect": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_connect_8243.wav",
+    "scene_003_rw_combine": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_combine_494e.wav",
+    "scene_003_rw_convene": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_convene_3cb3.wav",
+    "scene_003_root_sist": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_sist_c7c3.wav",
+    "scene_003_rw_exist": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_exist_ab4c.wav",
+    "scene_003_rw_persist": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_persist_10d4.wav",
+    "scene_003_rw_resist": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_resist_fe2b.wav",
+    "scene_003_root_-ent": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ent_05da.wav",
+    "scene_003_rw_different": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_different_e13a.wav",
+    "scene_003_rw_dependent": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_dependent_c893.wav",
+    "scene_003_rw_incident": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_incident_af10.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_d8d0a9.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_7a922e.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_71b826.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_f08c70.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_723ba9.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-consistent-87d13d3a.mp4"
+}

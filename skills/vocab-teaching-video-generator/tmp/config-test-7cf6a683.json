@@ -1,0 +1,192 @@
+{
+  "script": {
+    "id": "video_script_test_001",
+    "topic": "英语词汇教学：test",
+    "description": "通过词根词缀法讲解单词test的来源、含义和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 96,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "test",
+          "subtitle": "测试"
+        },
+        "narration": "今天我们要学习的单词是test",
+        "narrationLang": "zh",
+        "durationSeconds": 4,
+        "audioUrl": "/audio/tts/narration_scene_001_789e8e.wav",
+        "audioDuration": 3.3
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "test",
+          "meaning": "测试",
+          "partOfSpeech": "n./v.",
+          "definitions": [
+            "测试",
+            "测验",
+            "考验",
+            "检验",
+            "考试"
+          ]
+        },
+        "narration": "test是一个常用的英语单词，既可以作名词也可以作动词",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_5f47bf.wav",
+        "audioDuration": 5.8
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "test 来自拉丁语 testis，意为\"见证人\"",
+          "highlights": [
+            {
+              "text": "test",
+              "color": "#FFD93D",
+              "label": "词根"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "test",
+              "meaning": "见证，检验",
+              "label": "词根",
+              "narration": "test来源于拉丁语testis，原意是\"见证人\"，引申为通过检验来证实某事的真实性",
+              "relatedWords": [
+                {
+                  "word": "testify",
+                  "meaning": "作证，证明",
+                  "highlight": "test",
+                  "narration": "testify，作证",
+                  "audioUrl": "/audio/tts/rw_testify_57f0.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "testimony",
+                  "meaning": "证词，证据",
+                  "highlight": "test",
+                  "narration": "testimony，证词",
+                  "audioUrl": "/audio/tts/rw_testimony_348a.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "contest",
+                  "meaning": "竞赛，争夺",
+                  "highlight": "test",
+                  "narration": "contest，竞争",
+                  "audioUrl": "/audio/tts/rw_contest_25f3.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_test_2208.wav",
+              "audioDuration": 8.4
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5712680/pexels-photo-5712680.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A person in white T-shirt using an oral swab test kit indoors with a blue background.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来看看test的词根来源",
+        "narrationLang": "zh",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_003_b52e36.wav",
+        "audioDuration": 3.2
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "We need to test the new software before launching it.",
+          "chinese": "我们在发布新软件之前需要对其进行测试。",
+          "highlights": [
+            {
+              "text": "test",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/8553061/pexels-photo-8553061.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Three diverse protesters with signs expressing political dissatisfaction in a studio environment.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_2e5a6c.wav",
+          "englishAudioDuration": 3.6
+        },
+        "narration": "We need to test the new software before launching it. 意思是：我们在发布新软件之前需要对其进行测试。",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_dd4279.wav",
+        "audioDuration": 8.7
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The final test will cover all the material we have learned this semester.",
+          "chinese": "期末考试将涵盖我们本学期学习的所有内容。",
+          "highlights": [
+            {
+              "text": "test",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6683935/pexels-photo-6683935.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "An adult student yawns while taking a test in a classroom setting, appearing tired.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_cfc214.wav",
+          "englishAudioDuration": 4.9
+        },
+        "narration": "The final test will cover all the material we have learned this semester. 意思是：期末考试将涵盖我们本学期学习的所有内容。",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_005_d005b9.wav",
+        "audioDuration": 10.2
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "test来自拉丁语testis，意为\"见证人\"，引申为检验和证实",
+            "test既可以作名词，表示\"测试、测验、考试\"，也可以作动词，表示\"测试、检验\"",
+            "以test为词根的常见单词包括：testify（作证）、testimony（证词）、contest（竞赛）",
+            "test是英语中非常常用的基础词汇，在学习和工作中都会频繁使用"
+          ]
+        },
+        "narration": "今天我们学习了test这个词及其相关词汇，希望对大家的英语学习有所帮助",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_f958bc.wav",
+        "audioDuration": 7.6
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {},
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-test-7cf6a683.mp4"
+}

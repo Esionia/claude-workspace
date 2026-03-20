@@ -1,0 +1,286 @@
+{
+  "script": {
+    "id": "video_script_response_001",
+    "topic": "英语词汇教学:response",
+    "description": "通过词根词缀法讲解名词response的构成、含义和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 100,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "response",
+          "subtitle": "回应；响应；回复"
+        },
+        "narration": "今天我们要学习一个重要名词",
+        "narrationLang": "zh",
+        "durationSeconds": 4,
+        "audioUrl": "/audio/tts/narration_scene_001_5f2387.wav",
+        "audioDuration": 3.2
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "response",
+          "meaning": "回应；响应；回复",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "对问题、请求等的回答",
+            "对某种刺激的反应",
+            "正式的回复或响应"
+          ]
+        },
+        "narration": "这个单词是名词,表示回应或响应",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_002_547c99.wav",
+        "audioDuration": 3.7
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "response = re- + spond + -e",
+          "highlights": [
+            {
+              "text": "re-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "spond",
+              "color": "#6BCB77",
+              "label": "词根"
+            },
+            {
+              "text": "-e",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=400",
+              "alt": "词根spond意为保证、约定",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/5701835/pexels-photo-5701835.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A single artichoke elegantly displayed against a dark, minimalistic background, embodying simplicity.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "re-",
+              "meaning": "回、再",
+              "label": "前缀",
+              "narration": "这个前缀表示回转、再次的含义",
+              "relatedWords": [
+                {
+                  "word": "return",
+                  "meaning": "返回",
+                  "highlight": "re-",
+                  "narration": "return,返回",
+                  "audioUrl": "/audio/tts/rw_return_e455.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "review",
+                  "meaning": "复习",
+                  "highlight": "re-",
+                  "narration": "review,复习",
+                  "audioUrl": "/audio/tts/rw_review_d5dc.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "replay",
+                  "meaning": "重播",
+                  "highlight": "re-",
+                  "narration": "replay,重播",
+                  "audioUrl": "/audio/tts/rw_replay_887e.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_re-_b0cb.wav",
+              "audioDuration": 3.7
+            },
+            {
+              "root": "spond",
+              "meaning": "回答、约定",
+              "label": "词根",
+              "narration": "这个词根来自拉丁语spondere,意思是承诺、保证、回答",
+              "relatedWords": [
+                {
+                  "word": "respond",
+                  "meaning": "回应",
+                  "highlight": "spond",
+                  "narration": "respond,回应",
+                  "audioUrl": "/audio/tts/rw_respond_0c84.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "responsible",
+                  "meaning": "负责的",
+                  "highlight": "spond",
+                  "narration": "responsible,负责的",
+                  "audioUrl": "/audio/tts/rw_responsible_a83d.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "correspond",
+                  "meaning": "通信、符合",
+                  "highlight": "spond",
+                  "narration": "correspond,通信",
+                  "audioUrl": "/audio/tts/rw_correspond_ed60.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_spond_da9b.wav",
+              "audioDuration": 6.0
+            },
+            {
+              "root": "-e",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "这个后缀将动词转化为名词",
+              "relatedWords": [
+                {
+                  "word": "difference",
+                  "meaning": "差异",
+                  "highlight": "-e",
+                  "narration": "difference,差异",
+                  "audioUrl": "/audio/tts/rw_difference_b0d8.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "presence",
+                  "meaning": "存在",
+                  "highlight": "-e",
+                  "narration": "presence,存在",
+                  "audioUrl": "/audio/tts/rw_presence_3487.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-e_0284.wav",
+              "audioDuration": 3.4
+            }
+          ]
+        },
+        "narration": "用词根词缀来拆解这个单词",
+        "narrationLang": "zh",
+        "durationSeconds": 37,
+        "audioUrl": "/audio/tts/narration_scene_003_39ab2c.wav",
+        "audioDuration": 3.3
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "I sent an email but received no response.",
+          "chinese": "我发送了一封邮件,但没有收到任何回复.",
+          "highlights": [
+            {
+              "text": "response",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of the word 'email' formed with letter tiles on a gray surface.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_a7ddb1.wav",
+          "englishAudioDuration": 3.4
+        },
+        "narration": "I sent an email but received no response. 意思是:我发送了一封邮件,但没有收到任何回复.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_00c319.wav",
+        "audioDuration": 8.0
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The quick response of the firemen saved many lives.",
+          "chinese": "消防员的快速反应拯救了许多生命.",
+          "highlights": [
+            {
+              "text": "response",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6519865/pexels-photo-6519865.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A diverse group of EMT professionals posing confidently in front of an ambulance, ready for action.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_e975a7.wav",
+          "englishAudioDuration": 3.3
+        },
+        "narration": "The quick response of the firemen saved many lives. 意思是:消防员的快速反应拯救了许多生命.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_005_b92741.wav",
+        "audioDuration": 8.2
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "response是名词,表示回应、响应或回复",
+            "词根spond表示回答、约定的含义",
+            "前缀re-表示回、再的含义",
+            "相关词汇包括respond、responsible、correspond等"
+          ]
+        },
+        "narration": "现在让我们回顾一下今天学到的内容",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_2f8a36.wav",
+        "audioDuration": 3.6
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_5f2387.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_547c99.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_39ab2c.wav",
+    "scene_003_root_re-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_re-_b0cb.wav",
+    "scene_003_rw_return": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_return_e455.wav",
+    "scene_003_rw_review": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_review_d5dc.wav",
+    "scene_003_rw_replay": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_replay_887e.wav",
+    "scene_003_root_spond": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_spond_da9b.wav",
+    "scene_003_rw_respond": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_respond_0c84.wav",
+    "scene_003_rw_responsible": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_responsible_a83d.wav",
+    "scene_003_rw_correspond": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_correspond_ed60.wav",
+    "scene_003_root_-e": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-e_0284.wav",
+    "scene_003_rw_difference": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_difference_b0d8.wav",
+    "scene_003_rw_presence": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_presence_3487.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_00c319.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_a7ddb1.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_b92741.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_e975a7.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_2f8a36.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-response-80c43f99.mp4"
+}

@@ -1,0 +1,262 @@
+{
+  "script": {
+    "id": "video_script_possibility_001",
+    "topic": "英语词汇教学:possibility",
+    "description": "通过词根词缀法讲解单词possibility,掌握其构成方式及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "possibility",
+          "subtitle": "可能性"
+        },
+        "narration": "今天我们要学习一个非常重要的名词--possibility,表示可能性",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_2e5551.wav",
+        "audioDuration": 5.9
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "possibility",
+          "pronunciation": "ˌpɒsəˈbɪləti",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "可能性",
+            "可能的事",
+            "可能发生的事"
+          ]
+        },
+        "narration": "possibility是一个名词,表示可能性或者可能发生的事情,它在日常英语中使用频率很高",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_002_7ddb32.wav",
+        "audioDuration": 8.4
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "possibility = poss(能够)+ ible(能够...的)+ ity(名词后缀)",
+          "highlights": [
+            {
+              "text": "poss",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "ible",
+              "color": "#6BCB77",
+              "label": "后缀"
+            },
+            {
+              "text": "ity",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/17485710/pexels-photo-17485710.png?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Dynamic abstract art with blue and purple brush strokes on a light background.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "poss-",
+              "meaning": "能够,有能力",
+              "label": "词根",
+              "narration": "词根poss-来源于拉丁语pot-,表示有能力、能够的意思",
+              "relatedWords": [
+                {
+                  "word": "possible",
+                  "meaning": "可能的",
+                  "highlight": "poss",
+                  "narration": "possible,可能的",
+                  "audioUrl": "/audio/tts/rw_possible_f63f.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "potential",
+                  "meaning": "潜在的",
+                  "highlight": "pot",
+                  "narration": "potential,潜在的",
+                  "audioUrl": "/audio/tts/rw_potential_d1a2.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_poss-_0b53.wav",
+              "audioDuration": 5.4
+            },
+            {
+              "root": "-ible",
+              "meaning": "能够...的",
+              "label": "后缀",
+              "narration": "后缀-ible是形容词后缀,表示能够...的、可...的",
+              "relatedWords": [
+                {
+                  "word": "impossible",
+                  "meaning": "不可能的",
+                  "highlight": "-ible",
+                  "narration": "impossible,不可能的",
+                  "audioUrl": "/audio/tts/rw_impossible_c203.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "terrible",
+                  "meaning": "糟糕的",
+                  "highlight": "-ible",
+                  "narration": "terrible,糟糕的",
+                  "audioUrl": "/audio/tts/rw_terrible_6427.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ible_07d0.wav",
+              "audioDuration": 5.1
+            },
+            {
+              "root": "-ity",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "后缀-ity是典型的名词后缀,表示...性、...状态",
+              "relatedWords": [
+                {
+                  "word": "ability",
+                  "meaning": "能力",
+                  "highlight": "-ity",
+                  "narration": "ability,能力",
+                  "audioUrl": "/audio/tts/rw_ability_8c84.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "reality",
+                  "meaning": "现实",
+                  "highlight": "-ity",
+                  "narration": "reality,现实",
+                  "audioUrl": "/audio/tts/rw_reality_1814.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ity_5e7b.wav",
+              "audioDuration": 5.3
+            }
+          ]
+        },
+        "narration": "让我们来拆解这个词的结构",
+        "narrationLang": "zh",
+        "durationSeconds": 36,
+        "audioUrl": "/audio/tts/narration_scene_003_7025c6.wav",
+        "audioDuration": 2.9
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "There is a possibility that it will rain tomorrow.",
+          "chinese": "明天有可能下雨.",
+          "highlights": [
+            {
+              "text": "possibility",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6120395/pexels-photo-6120395.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of a gold medal with the word 'POSSIBLE' on blocks, symbolizing achievement.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_ca8ca2.wav",
+          "englishAudioDuration": 3.5
+        },
+        "narration": "There is a possibility that it will rain tomorrow. 意思是:明天有可能下雨.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_004_168f92.wav",
+        "audioDuration": 6.6
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "We should explore every possibility before making a decision.",
+          "chinese": "在做决定之前,我们应该探索所有的可能性.",
+          "highlights": [
+            {
+              "text": "possibility",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6392630/pexels-photo-6392630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Woman standing on a block holding a feminist sign, advocating equality.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_7ff68c.wav",
+          "englishAudioDuration": 3.8
+        },
+        "narration": "We should explore every possibility before making a decision. 意思是:在做决定之前,我们应该探索所有的可能性.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_005_5273e5.wav",
+        "audioDuration": 9.5
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "possibility来自词根poss-(能够)+后缀-ible(能...的)+后缀-ity(名词),整体表示'可能性'",
+            "相关词汇包括:possible(可能的)、impossible(不可能的)、possibly(可能地)",
+            "常用短语:a possibility of something(某事的可能性)、there's a possibility that(有可能...)",
+            "记忆技巧:记住词根'poss'表示'能够',加上-ible变形容词,-ity变名词"
+          ]
+        },
+        "narration": "今天我们学习了possibility这个词,通过词根词缀法可以更好地理解和记忆它",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_e61642.wav",
+        "audioDuration": 7.2
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_2e5551.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_7ddb32.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_7025c6.wav",
+    "scene_003_root_poss-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_poss-_0b53.wav",
+    "scene_003_rw_possible": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_possible_f63f.wav",
+    "scene_003_rw_potential": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_potential_d1a2.wav",
+    "scene_003_root_-ible": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ible_07d0.wav",
+    "scene_003_rw_impossible": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_impossible_c203.wav",
+    "scene_003_rw_terrible": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_terrible_6427.wav",
+    "scene_003_root_-ity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ity_5e7b.wav",
+    "scene_003_rw_ability": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_ability_8c84.wav",
+    "scene_003_rw_reality": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_reality_1814.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_168f92.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_ca8ca2.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_5273e5.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_7ff68c.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_e61642.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-possibility-b42b64c0.mp4"
+}

@@ -1,0 +1,296 @@
+{
+  "script": {
+    "id": "video_script_essay-writing-tips_001",
+    "topic": "英语词汇教学:essay-writing-tips",
+    "description": "通过词根词缀法和构词法讲解 essay-writing-tips 这个复合名词短语,帮助学习者掌握写作技巧相关词汇.",
+    "targetAudience": "英语学习者,尤其是需要提升学术写作能力的学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "essay-writing-tips",
+          "subtitle": "论文写作技巧"
+        },
+        "narration": "欢迎来到今天的词汇课堂,我们要学习的是关于论文写作技巧的表达.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_3a5fb1.wav",
+        "audioDuration": 6.3
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "essay-writing-tips",
+          "meaning": "论文写作技巧",
+          "partOfSpeech": "n. (复合名词)",
+          "definitions": [
+            "关于如何撰写论文或文章的实用建议和方法",
+            "写作指南、写作窍门",
+            "提升文章质量的技巧总结"
+          ]
+        },
+        "narration": "首先让我们来看一下这个短语的基本信息,它是一个复合名词,由三个部分组成.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_002_f927b2.wav",
+        "audioDuration": 7.4
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "essay-writing-tips 由三个单词组成:essay(论文)、writing(写作)、tips(技巧)",
+          "highlights": [
+            {
+              "text": "essay",
+              "color": "#FFD93D",
+              "label": "名词"
+            },
+            {
+              "text": "writing",
+              "color": "#6BCB77",
+              "label": "动名词"
+            },
+            {
+              "text": "tips",
+              "color": "#4D96FF",
+              "label": "名词"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述三个单词组合成短语的示意图",
+              "alt": "essay-writing-tips 构词结构图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/6860850/pexels-photo-6860850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A person writing in a notebook with a red pencil, focusing on the hand's detail.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "essay",
+              "meaning": "论文、散文、随笔",
+              "label": "名词",
+              "narration": "essay 这个词来源于古法语 'essai',最初含义是'尝试、试验',后来演变为'尝试写成文字的文章',即论文或散文.相关词汇包括:assay(分析、化验),含有相同的词根表示'尝试'的含义；assay 用作动词时表示对物质进行检验分析,含义与试验相关.",
+              "relatedWords": [
+                {
+                  "word": "essay",
+                  "meaning": "论文、散文",
+                  "highlight": "essay",
+                  "narration": "essay,论文散文",
+                  "audioUrl": "/audio/tts/rw_essay_6338.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "assay",
+                  "meaning": "化验、分析",
+                  "highlight": "-assay",
+                  "narration": "assay,化验分析",
+                  "audioUrl": "/audio/tts/rw_assay_6384.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "essai",
+                  "meaning": "尝试(古法语)",
+                  "highlight": "essai",
+                  "narration": "essai,古法语尝试",
+                  "audioUrl": "/audio/tts/rw_essai_cbe0.wav",
+                  "audioDuration": 2.5
+                }
+              ],
+              "audioUrl": "/audio/tts/root_essay_787a.wav",
+              "audioDuration": 22.8
+            },
+            {
+              "root": "writing",
+              "meaning": "写作、书写",
+              "label": "动名词",
+              "narration": "writing 是由动词 write 加-ing 后缀构成的动名词形式,来源于古英语 'writan',本意是'刻、写'.相关词汇包括:rewrite(重写),前缀 re-表示'重新'；handwriting(手写),由 hand 和 writing 组合表示手写字体.",
+              "relatedWords": [
+                {
+                  "word": "write",
+                  "meaning": "写、写作",
+                  "highlight": "writ-",
+                  "narration": "write,书写",
+                  "audioUrl": "/audio/tts/rw_write_ae56.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "rewrite",
+                  "meaning": "重写",
+                  "highlight": "re-",
+                  "narration": "rewrite,重写",
+                  "audioUrl": "/audio/tts/rw_rewrite_cf97.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "handwriting",
+                  "meaning": "手写",
+                  "highlight": "-writing",
+                  "narration": "handwriting,手写",
+                  "audioUrl": "/audio/tts/rw_handwriting_889c.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_writing_274d.wav",
+              "audioDuration": 18.9
+            },
+            {
+              "root": "tips",
+              "meaning": "技巧、窍门、建议",
+              "label": "名词",
+              "narration": "tips 来自古诺尔斯语 'tilruna',原意是'轻推、尝试',后来引申为'小建议、实用窍门'.相关词汇包括:tiptoe(踮脚尖),脚尖轻触地面的动作；tipper(小费,付给服务者的额外报酬).",
+              "relatedWords": [
+                {
+                  "word": "tips",
+                  "meaning": "技巧、小贴士",
+                  "highlight": "tips",
+                  "narration": "tips,技巧",
+                  "audioUrl": "/audio/tts/rw_tips_2dd7.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "tiptoe",
+                  "meaning": "踮脚尖",
+                  "highlight": "tip-",
+                  "narration": "tiptoe,踮脚尖",
+                  "audioUrl": "/audio/tts/rw_tiptoe_248c.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "tipper",
+                  "meaning": "付小费的人",
+                  "highlight": "tip-",
+                  "narration": "tipper,付小费者",
+                  "audioUrl": "/audio/tts/rw_tipper_f1b1.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_tips_9b5b.wav",
+              "audioDuration": 16.7
+            }
+          ]
+        },
+        "narration": "接下来我们详细拆解这个短语的各个组成部分.",
+        "narrationLang": "zh",
+        "durationSeconds": 87,
+        "audioUrl": "/audio/tts/narration_scene_003_893bf6.wav",
+        "audioDuration": 4.3
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Following these essay-writing-tips can significantly improve your academic performance.",
+          "chinese": "遵循这些论文写作技巧可以显著提高你的学术成绩.",
+          "highlights": [
+            {
+              "text": "essay-writing-tips",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6860850/pexels-photo-6860850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A person writing in a notebook with a red pencil, focusing on the hand's detail.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_e217c8.wav",
+          "englishAudioDuration": 5.8
+        },
+        "narration": "Following these essay-writing-tips can significantly improve your academic performance. 意思是:遵循这些论文写作技巧可以显著提高你的学术成绩.",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_004_62a07f.wav",
+        "audioDuration": 12.0
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Many websites offer free essay-writing-tips for college students.",
+          "chinese": "许多网站为大学生提供免费的论文写作技巧.",
+          "highlights": [
+            {
+              "text": "essay-writing-tips",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/4160143/pexels-photo-4160143.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A close-up of a vintage typewriter with 'Write something' typed on paper.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_ad5a26.wav",
+          "englishAudioDuration": 4.9
+        },
+        "narration": "Many websites offer free essay-writing-tips for college students. 意思是:许多网站为大学生提供免费的论文写作技巧.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_005_713890.wav",
+        "audioDuration": 10.3
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "essay-writing-tips 是一个由三个单词组成的复合名词短语,意思是'论文写作技巧'",
+            "essay 来源于古法语 'essai',最初含义是'尝试',后演变为'论文、散文'",
+            "writing 是由 write 加-ing 后缀构成的动名词,表示写作的行为",
+            "tips 来自古诺尔斯语,引申为'实用窍门、小建议'",
+            "掌握这类复合词的构词规律有助于扩大词汇量"
+          ]
+        },
+        "narration": "好了,今天的词汇课就到这里,让我们回顾一下今天学到的内容.",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_006_a6c692.wav",
+        "audioDuration": 5.9
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_3a5fb1.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_f927b2.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_893bf6.wav",
+    "scene_003_root_essay": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_essay_787a.wav",
+    "scene_003_rw_essay": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_essay_6338.wav",
+    "scene_003_rw_assay": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_assay_6384.wav",
+    "scene_003_rw_essai": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_essai_cbe0.wav",
+    "scene_003_root_writing": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_writing_274d.wav",
+    "scene_003_rw_write": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_write_ae56.wav",
+    "scene_003_rw_rewrite": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_rewrite_cf97.wav",
+    "scene_003_rw_handwriting": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_handwriting_889c.wav",
+    "scene_003_root_tips": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_tips_9b5b.wav",
+    "scene_003_rw_tips": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_tips_2dd7.wav",
+    "scene_003_rw_tiptoe": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_tiptoe_248c.wav",
+    "scene_003_rw_tipper": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_tipper_f1b1.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_62a07f.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_e217c8.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_713890.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_ad5a26.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_a6c692.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-essay-writing-tips-b89e7f0f.mp4"
+}

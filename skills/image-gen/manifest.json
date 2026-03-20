@@ -1,0 +1,30 @@
+{
+  "name": "@openclaw/image-gen",
+  "version": "1.0.0",
+  "description": "AI 图片生成，支持 Volcengine 和 Cloudflare API",
+  "category": "media",
+  "author": "baoyu",
+  "compatibility": {
+    "openclaw": ">=0.5.0"
+  },
+  "files": {
+    "skill": "SKILL.md"
+  },
+  "triggers": [
+    "生成图片",
+    "画一张图",
+    "生成图像",
+    "生成一张",
+    "帮我画",
+    "画个图",
+    "generate image",
+    "create image",
+    "draw image",
+    "generate picture",
+    "create picture",
+    "text to image",
+    "文生图",
+    "text2image",
+    "生图"
+  ]
+}

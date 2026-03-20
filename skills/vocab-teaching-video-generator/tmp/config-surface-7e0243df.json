@@ -1,0 +1,252 @@
+{
+  "script": {
+    "id": "video_script_surface_001",
+    "topic": "英语词汇教学:surface",
+    "description": "通过词根词缀法讲解surface,掌握其构词原理和实际应用",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "surface",
+          "subtitle": "表面；外表"
+        },
+        "narration": "同学们好,今天我们来学习一个在日常生活中非常常见的单词--surface.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_001_ad6fa5.wav",
+        "audioDuration": 6.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "surface",
+          "partOfSpeech": "n./v.",
+          "definitions": [
+            "表面；面",
+            "外表；外观",
+            "浮现；显露",
+            "浮出水面"
+          ]
+        },
+        "narration": "首先让我们来看一下surface的基本信息.这个单词既可以作名词,也可以作动词.作为名词,它的意思是表面和外表；作为动词,它表示浮现或浮出水面的动作.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_002_822a95.wav",
+        "audioDuration": 15.3
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "surface = sur- (在上方) + face (面)",
+          "highlights": [
+            {
+              "text": "sur-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "face",
+              "color": "#6BCB77",
+              "label": "词根"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述一个地球表面的示意图,表面层在face上方标注sur-",
+              "alt": "surface词根词缀示意图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/27999577/pexels-photo-27999577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Vibrant turquoise water surface with shimmering daylight ripples creating a serene texture.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "sur-",
+              "meaning": "在上方；超过",
+              "label": "前缀",
+              "narration": "前缀sur-来源于拉丁语super,意思是'在...之上'或'超过'.它在单词中表示位置在上或程度超出的含义.",
+              "relatedWords": [
+                {
+                  "word": "surpass",
+                  "meaning": "超过；超越",
+                  "highlight": "sur-",
+                  "narration": "surpass,超过",
+                  "audioUrl": "/audio/tts/rw_surpass_1a97.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "surname",
+                  "meaning": "姓氏",
+                  "highlight": "sur-",
+                  "narration": "surname,姓氏",
+                  "audioUrl": "/audio/tts/rw_surname_b958.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "survive",
+                  "meaning": "幸存；存活",
+                  "highlight": "sur-",
+                  "narration": "survive,幸存",
+                  "audioUrl": "/audio/tts/rw_survive_bf3c.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_sur-_e424.wav",
+              "audioDuration": 9.8
+            },
+            {
+              "root": "face",
+              "meaning": "脸；面",
+              "label": "词根",
+              "narration": "词根face来自拉丁语facies,意思是'脸'或'表面'.这个词根在英语中直接保留了'面'的含义.",
+              "relatedWords": [
+                {
+                  "word": "face",
+                  "meaning": "脸；面对",
+                  "highlight": "face",
+                  "narration": "face,脸",
+                  "audioUrl": "/audio/tts/rw_face_6b29.wav",
+                  "audioDuration": 1.8
+                },
+                {
+                  "word": "preface",
+                  "meaning": "前言；序言",
+                  "highlight": "face",
+                  "narration": "preface,前言",
+                  "audioUrl": "/audio/tts/rw_preface_eead.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "deface",
+                  "meaning": "损毁外观",
+                  "highlight": "face",
+                  "narration": "deface,损毁外观",
+                  "audioUrl": "/audio/tts/rw_deface_b882.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_face_fc76.wav",
+              "audioDuration": 8.8
+            }
+          ]
+        },
+        "narration": "让我们来分析一下这个单词的构成.",
+        "narrationLang": "zh",
+        "durationSeconds": 38,
+        "audioUrl": "/audio/tts/narration_scene_003_d41972.wav",
+        "audioDuration": 3.3
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The surface of the lake was perfectly calm and reflected the mountains.",
+          "chinese": "湖面非常平静,倒映着群山.",
+          "highlights": [
+            {
+              "text": "surface",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/29502428/pexels-photo-29502428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Peaceful ocean view with sparkling sunlight reflecting on calm waters under clear sky.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_fee974.wav",
+          "englishAudioDuration": 4.8
+        },
+        "narration": "The surface of the lake was perfectly calm and reflected the mountains. 意思是:湖面非常平静,倒映着群山.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_004_c4d06e.wav",
+        "audioDuration": 8.9
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Don't judge a book by its cover; you should look beyond the surface.",
+          "chinese": "不要以貌取人,你应该看到表面之下的本质.",
+          "highlights": [
+            {
+              "text": "surface",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6077355/pexels-photo-6077355.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Black female judge reading papers at desk in office with bookshelves.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_eb54d9.wav",
+          "englishAudioDuration": 3.8
+        },
+        "narration": "Don't judge a book by its cover; you should look beyond the surface. 意思是:不要以貌取人,你应该看到表面之下的本质.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_005_83315b.wav",
+        "audioDuration": 9.6
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "surface由前缀sur-(在上方)和词根face(面)组成,意为'表面'",
+            "sur-表示'在...之上'或'超过',常见于surpass、survive等词",
+            "face作为词根意为'脸'或'面',可构成preface、deface等词",
+            "surface既可作名词'表面、外表',也可作动词'浮现'"
+          ]
+        },
+        "narration": "通过今天的学习,我们了解了surface的词根词缀构成.sur-表示在上方,face表示面,合起来就是表面的意思.掌握词根词缀法可以帮我们高效记忆更多相关词汇.我们下节课再见！",
+        "narrationLang": "zh",
+        "durationSeconds": 19,
+        "audioUrl": "/audio/tts/narration_scene_006_a24b77.wav",
+        "audioDuration": 16.0
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_ad6fa5.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_822a95.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_d41972.wav",
+    "scene_003_root_sur-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_sur-_e424.wav",
+    "scene_003_rw_surpass": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_surpass_1a97.wav",
+    "scene_003_rw_surname": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_surname_b958.wav",
+    "scene_003_rw_survive": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_survive_bf3c.wav",
+    "scene_003_root_face": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_face_fc76.wav",
+    "scene_003_rw_face": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_face_6b29.wav",
+    "scene_003_rw_preface": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_preface_eead.wav",
+    "scene_003_rw_deface": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_deface_b882.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_c4d06e.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_fee974.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_83315b.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_eb54d9.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_a24b77.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-surface-7e0243df.mp4"
+}

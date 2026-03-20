@@ -1,0 +1,285 @@
+{
+  "script": {
+    "id": "video_script_inspiration_001",
+    "topic": "英语词汇教学:inspiration",
+    "description": "通过词根词缀法讲解inspiration,帮助学习者掌握'灵感、鼓舞'等核心含义及相关派生词汇.",
+    "targetAudience": "英语学习者(初中级以上)",
+    "totalDuration": 130,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "inspiration",
+          "subtitle": "灵感 · 鼓舞 · 吸气"
+        },
+        "narration": "今天我们要学习一个非常实用的单词--inspiration,这个词在日常英语中经常出现.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_001_3ea39f.wav",
+        "audioDuration": 7.6
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "inspiration",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "灵感；启示",
+            "鼓舞；激励",
+            "吸气；吸入"
+          ]
+        },
+        "narration": "inspiration是一个名词,它有多个重要含义.第一是灵感,比如艺术家寻找创作灵感；第二是鼓舞、激励,比如某人的故事给了我鼓舞；第三是吸气这个动作本身.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_002_ca6baa.wav",
+        "audioDuration": 14.4
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "inspiration = in(进入)+ spir(呼吸)+ ation(名词后缀)",
+          "highlights": [
+            {
+              "text": "in-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "spir",
+              "color": "#6BCB77",
+              "label": "词根"
+            },
+            {
+              "text": "-ation",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://example.com/images/inspiration_roots.png",
+              "alt": "inspiration词根词缀分解图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/5707491/pexels-photo-5707491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A motivational chalkboard message reading 'We'll get through it' on a black background.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "in-",
+              "meaning": "进入",
+              "label": "前缀",
+              "narration": "前缀in-表示进入、向内的意思,比如income收入、input输入都含有这个前缀.",
+              "relatedWords": [
+                {
+                  "word": "income",
+                  "meaning": "收入",
+                  "highlight": "in-",
+                  "narration": "income,收入",
+                  "audioUrl": "/audio/tts/rw_income_4f65.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "input",
+                  "meaning": "输入",
+                  "highlight": "in-",
+                  "narration": "input,输入",
+                  "audioUrl": "/audio/tts/rw_input_5839.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_in-_25f0.wav",
+              "audioDuration": 7.8
+            },
+            {
+              "root": "spir",
+              "meaning": "呼吸",
+              "label": "词根",
+              "narration": "词根spir来自拉丁语spirare,意思是呼吸、呼吸相关的精神活动.这个词根是理解多个相关单词的关键.",
+              "relatedWords": [
+                {
+                  "word": "spirit",
+                  "meaning": "精神；心灵",
+                  "highlight": "spir",
+                  "narration": "spirit,精神",
+                  "audioUrl": "/audio/tts/rw_spirit_8ff9.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "respire",
+                  "meaning": "呼吸",
+                  "highlight": "spir",
+                  "narration": "respire,呼吸",
+                  "audioUrl": "/audio/tts/rw_respire_37ce.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "expire",
+                  "meaning": "期满；呼气",
+                  "highlight": "spir",
+                  "narration": "expire,期满",
+                  "audioUrl": "/audio/tts/rw_expire_dc71.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "conspire",
+                  "meaning": "共谋；阴谋",
+                  "highlight": "spir",
+                  "narration": "conspire,共谋",
+                  "audioUrl": "/audio/tts/rw_conspire_a13f.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_spir_e453.wav",
+              "audioDuration": 9.9
+            },
+            {
+              "root": "-ation",
+              "meaning": "行为、状态、结果",
+              "label": "后缀",
+              "narration": "后缀-ation是常见的名词后缀,表示某种行为、状态或结果,比如education教育、conversation对话.",
+              "relatedWords": [
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "-ation",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_dfbc.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "information",
+                  "meaning": "信息",
+                  "highlight": "-ation",
+                  "narration": "information,信息",
+                  "audioUrl": "/audio/tts/rw_information_f8bc.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ation_f02e.wav",
+              "audioDuration": 9.8
+            }
+          ]
+        },
+        "narration": "让我们来拆解这个词的构成,inspiration可以分成三个部分.",
+        "narrationLang": "zh",
+        "durationSeconds": 54,
+        "audioUrl": "/audio/tts/narration_scene_003_53a0a8.wav",
+        "audioDuration": 5.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The artist found her inspiration in the beauty of nature.",
+          "chinese": "这位艺术家从大自然的美丽中找到了灵感.",
+          "highlights": [
+            {
+              "text": "inspiration",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/29753430/pexels-photo-29753430.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A female artist immerses in her craft, drawing inspiration from a faith-based setting.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_ed8727.wav",
+          "englishAudioDuration": 2.9
+        },
+        "narration": "The artist found her inspiration in the beauty of nature. 意思是这位艺术家从大自然的美丽中找到了灵感.这里inspiration表示创作灵感.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_004_0a91b4.wav",
+        "audioDuration": 11.8
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Her speech was a great inspiration to all of us.",
+          "chinese": "她的演讲对我们所有人都是极大的鼓舞.",
+          "highlights": [
+            {
+              "text": "inspiration",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/11816718/pexels-photo-11816718.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Black and white image of a protest with a 'Say Her Name' sign raised in a crowd.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_b32697.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "Her speech was a great inspiration to all of us. 意思是她的演讲对我们所有人都是极大的鼓舞.这里inspiration表示激励、鼓舞的作用.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_005_396c38.wav",
+        "audioDuration": 12.0
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "inspiration来源于拉丁语,核心词根spir表示呼吸、精神",
+            "in-前缀表示进入,-ation是名词后缀",
+            "主要含义有三种:灵感、鼓舞、吸气",
+            "相关词汇包括spirit精神、respire呼吸、conspire共谋等"
+          ]
+        },
+        "narration": "今天我们学习了inspiration这个词,它的核心是表示呼吸、精神的词根spir.掌握词根记忆法可以让我们轻松记住一系列相关单词.希望大家课后多加练习,我们下节课再见！",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_006_74cee9.wav",
+        "audioDuration": 15.4
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_3ea39f.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_ca6baa.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_53a0a8.wav",
+    "scene_003_root_in-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_in-_25f0.wav",
+    "scene_003_rw_income": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_income_4f65.wav",
+    "scene_003_rw_input": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_input_5839.wav",
+    "scene_003_root_spir": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_spir_e453.wav",
+    "scene_003_rw_spirit": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_spirit_8ff9.wav",
+    "scene_003_rw_respire": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_respire_37ce.wav",
+    "scene_003_rw_expire": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_expire_dc71.wav",
+    "scene_003_rw_conspire": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_conspire_a13f.wav",
+    "scene_003_root_-ation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ation_f02e.wav",
+    "scene_003_rw_education": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_education_dfbc.wav",
+    "scene_003_rw_information": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_information_f8bc.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_0a91b4.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_ed8727.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_396c38.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_b32697.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_74cee9.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-inspiration-73c3b136.mp4"
+}

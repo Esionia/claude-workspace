@@ -1,0 +1,246 @@
+{
+  "script": {
+    "id": "video_script_humidity_001",
+    "topic": "英语词汇教学:humidity",
+    "description": "通过词根词缀法讲解单词humidity,掌握其含义、发音及实际应用",
+    "targetAudience": "英语学习者",
+    "totalDuration": 100,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "humidity",
+          "subtitle": "湿度"
+        },
+        "narration": "今天我们要学习一个关于天气的常用单词",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_f1b189.wav",
+        "audioDuration": 4.3
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "humidity",
+          "meaning": "湿度；潮湿",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "空气中的潮湿程度",
+            "湿度(气象学)",
+            "潮湿的状态"
+          ]
+        },
+        "narration": "humidity是一个名词,表示空气中的湿度或潮湿的状态",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_d54de5.wav",
+        "audioDuration": 5.7
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "humidity = humid + ity",
+          "highlights": [
+            {
+              "text": "humid",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ity",
+              "color": "#6BCB77",
+              "label": "名词后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "humid",
+              "meaning": "潮湿的",
+              "label": "词根",
+              "narration": "humid来自拉丁语humidus,表示潮湿的、湿润的.这个词根在英语中独立存在,作为形容词使用.",
+              "relatedWords": [
+                {
+                  "word": "humid",
+                  "meaning": "潮湿的",
+                  "highlight": "humid",
+                  "narration": "humid,潮湿的",
+                  "audioUrl": "/audio/tts/rw_humid_8cdb.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "humidifier",
+                  "meaning": "加湿器",
+                  "highlight": "humid",
+                  "narration": "humidifier,加湿器",
+                  "audioUrl": "/audio/tts/rw_humidifier_d593.wav",
+                  "audioDuration": 2.5
+                },
+                {
+                  "word": "humidify",
+                  "meaning": "使潮湿",
+                  "highlight": "humid",
+                  "narration": "humidify,使潮湿",
+                  "audioUrl": "/audio/tts/rw_humidify_0c5d.wav",
+                  "audioDuration": 2.5
+                }
+              ],
+              "audioUrl": "/audio/tts/root_humid_0ffc.wav",
+              "audioDuration": 9.5
+            },
+            {
+              "root": "-ity",
+              "meaning": "表示状态或性质",
+              "label": "名词后缀",
+              "narration": "-ity是常见的名词后缀,加在形容词后面,将形容词转化为表示状态或性质的名词.",
+              "relatedWords": [
+                {
+                  "word": "equality",
+                  "meaning": "平等",
+                  "highlight": "-ity",
+                  "narration": "equality,平等",
+                  "audioUrl": "/audio/tts/rw_equality_9441.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "reality",
+                  "meaning": "现实",
+                  "highlight": "-ity",
+                  "narration": "reality,现实",
+                  "audioUrl": "/audio/tts/rw_reality_1bc7.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "activity",
+                  "meaning": "活动",
+                  "highlight": "-ity",
+                  "narration": "activity,活动",
+                  "audioUrl": "/audio/tts/rw_activity_07db.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ity_e76d.wav",
+              "audioDuration": 8.6
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/2770933/pexels-photo-2770933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Drone shot capturing a winding road surrounded by lush green trees from above.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来看看这个单词的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 39,
+        "audioUrl": "/audio/tts/narration_scene_003_039708.wav",
+        "audioDuration": 3.2
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The humidity in this city is very high during summer.",
+          "chinese": "这座城市夏天湿度非常高.",
+          "highlights": [
+            {
+              "text": "humidity",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/33820677/pexels-photo-33820677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Upward view of modern skyscrapers with blue sky and clouds, creating a dramatic cityscape.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_6c2b7e.wav",
+          "englishAudioDuration": 3.5
+        },
+        "narration": "The humidity in this city is very high during summer. 意思是:这座城市夏天湿度非常高.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_ac4039.wav",
+        "audioDuration": 7.9
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "High humidity makes the weather feel even hotter.",
+          "chinese": "高湿度让天气感觉更热.",
+          "highlights": [
+            {
+              "text": "humidity",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/29879169/pexels-photo-29879169.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Black and white image of a vintage hygrometer with German text, displaying relative humidity.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_dae234.wav",
+          "englishAudioDuration": 3.0
+        },
+        "narration": "High humidity makes the weather feel even hotter. 意思是:高湿度让天气感觉更热.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_005_63a67f.wav",
+        "audioDuration": 7.0
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "humidity来自拉丁语,表示空气中的湿度或潮湿状态",
+            "词根humid表示潮湿的,-ity是名词后缀,表示状态或性质",
+            "相关词汇包括humid(潮湿的)、humidifier(加湿器)等",
+            "常用于描述天气状况,尤其在谈论炎热潮湿的天气时使用"
+          ]
+        },
+        "narration": "今天我们学习了humidity这个词,它来自拉丁语,由词根humid加名词后缀-ity构成,表示湿度或潮湿的状态.这个词在描述天气时非常常用,特别是炎热的夏天.",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_006_755855.wav",
+        "audioDuration": 15.4
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_f1b189.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_d54de5.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_039708.wav",
+    "scene_003_root_humid": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_humid_0ffc.wav",
+    "scene_003_rw_humid": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_humid_8cdb.wav",
+    "scene_003_rw_humidifier": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_humidifier_d593.wav",
+    "scene_003_rw_humidify": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_humidify_0c5d.wav",
+    "scene_003_root_-ity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ity_e76d.wav",
+    "scene_003_rw_equality": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_equality_9441.wav",
+    "scene_003_rw_reality": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_reality_1bc7.wav",
+    "scene_003_rw_activity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_activity_07db.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_ac4039.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_6c2b7e.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_63a67f.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_dae234.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_755855.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-humidity-bbbc022c.mp4"
+}

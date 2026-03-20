@@ -1,0 +1,247 @@
+{
+  "script": {
+    "id": "video_script_frozen_001",
+    "topic": "英语词汇教学:frozen",
+    "description": "通过词根词缀法讲解单词frozen的含义、用法及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "frozen",
+          "subtitle": "冰冻的；冻结的"
+        },
+        "narration": "今天我们要学习的单词是frozen",
+        "narrationLang": "zh",
+        "durationSeconds": 4,
+        "audioUrl": "/audio/tts/narration_scene_001_561466.wav",
+        "audioDuration": 3.4
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "frozen",
+          "meaning": "冰冻的；冻结的",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "冰冻的,冻结的",
+            "冷冻的",
+            "僵硬的",
+            "冷酷的"
+          ]
+        },
+        "narration": "frozen是一个形容词,表示冰冻的、冻结的意思",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_5cdd68.wav",
+        "audioDuration": 4.9
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "frozen = freeze + -en",
+          "highlights": [
+            {
+              "text": "freeze",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-en",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "freeze",
+              "meaning": "冻结",
+              "label": "词根",
+              "narration": "freeze来自古英语frēosan,本意是结冰、凝固",
+              "relatedWords": [
+                {
+                  "word": "freeze",
+                  "meaning": "结冰；冷冻",
+                  "highlight": "freeze",
+                  "narration": "freeze,结冰",
+                  "audioUrl": "/audio/tts/rw_freeze_bbaf.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "freezer",
+                  "meaning": "冰柜；冷冻室",
+                  "highlight": "freeze",
+                  "narration": "freezer,冰柜",
+                  "audioUrl": "/audio/tts/rw_freezer_13ac.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "freezing",
+                  "meaning": "极冷的；冰冻的",
+                  "highlight": "freeze",
+                  "narration": "freezing,极冷的",
+                  "audioUrl": "/audio/tts/rw_freezing_0d11.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_freeze_689e.wav",
+              "audioDuration": 4.8
+            },
+            {
+              "root": "-en",
+              "meaning": "表示被动或完成",
+              "label": "后缀",
+              "narration": "-en是常见的动词过去分词后缀,表示被...的或已...的",
+              "relatedWords": [
+                {
+                  "word": "broken",
+                  "meaning": "破碎的",
+                  "highlight": "-en",
+                  "narration": "broken,破碎的",
+                  "audioUrl": "/audio/tts/rw_broken_16c5.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "written",
+                  "meaning": "书写的",
+                  "highlight": "-en",
+                  "narration": "written,书写的",
+                  "audioUrl": "/audio/tts/rw_written_104f.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "spoken",
+                  "meaning": "口头的",
+                  "highlight": "-en",
+                  "narration": "spoken,口头的",
+                  "audioUrl": "/audio/tts/rw_spoken_bed5.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-en_9b6e.wav",
+              "audioDuration": 5.1
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/2675943/pexels-photo-2675943.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A close-up view of icy texture with bubbles, capturing the wintry feel of frozen surfaces.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来拆解frozen的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_003_6fcb66.wav",
+        "audioDuration": 3.0
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The lake was frozen solid.",
+          "chinese": "湖面完全冻结了",
+          "highlights": [
+            {
+              "text": "frozen",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/31115512/pexels-photo-31115512.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Stunning aerial view of intricate cracks on a frozen lake with vivid blue ice.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_56b1c0.wav",
+          "englishAudioDuration": 2.5
+        },
+        "narration": "The lake was frozen solid. 意思是:湖面完全冻结了",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_004_369422.wav",
+        "audioDuration": 5.2
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She stood frozen in horror.",
+          "chinese": "她吓得呆住了",
+          "highlights": [
+            {
+              "text": "frozen",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_b69bf4.wav",
+          "englishAudioDuration": 2.0
+        },
+        "narration": "She stood frozen in horror. 意思是:她吓得呆住了",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_005_4568ae.wav",
+        "audioDuration": 5.0
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "frozen来源于动词freeze,词根意为冻结",
+            "-en是动词过去分词后缀,表示被动或完成状态",
+            "frozen可形容水、食物等被冻结的状态",
+            "frozen也可形容人因恐惧或惊讶而呆住"
+          ]
+        },
+        "narration": "今天我们学习了frozen这个词,它是freeze的过去分词形式,表示冰冻的、冻结的",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_ed32ba.wav",
+        "audioDuration": 7.6
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_561466.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_5cdd68.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_6fcb66.wav",
+    "scene_003_root_freeze": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_freeze_689e.wav",
+    "scene_003_rw_freeze": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_freeze_bbaf.wav",
+    "scene_003_rw_freezer": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_freezer_13ac.wav",
+    "scene_003_rw_freezing": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_freezing_0d11.wav",
+    "scene_003_root_-en": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-en_9b6e.wav",
+    "scene_003_rw_broken": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_broken_16c5.wav",
+    "scene_003_rw_written": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_written_104f.wav",
+    "scene_003_rw_spoken": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_spoken_bed5.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_369422.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_56b1c0.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_4568ae.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_b69bf4.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_ed32ba.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-frozen-ee354efe.mp4"
+}

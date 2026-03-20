@@ -1,0 +1,288 @@
+{
+  "script": {
+    "id": "video_script_cooperation_001",
+    "topic": "英语词汇教学:cooperation",
+    "description": "通过词根词缀法讲解单词cooperation的含义、用法及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "cooperation",
+          "subtitle": "合作"
+        },
+        "narration": "今天我们要学习的单词是cooperation,表示合作的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_348515.wav",
+        "audioDuration": 5.3
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "cooperation",
+          "meaning": "合作",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "合作,协作",
+            "配合"
+          ]
+        },
+        "narration": "cooperation是一个名词,意思是合作或协作,也可以表示配合的行为.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_002_f7628e.wav",
+        "audioDuration": 6.8
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "cooperation = co- + oper + -ation",
+          "highlights": [
+            {
+              "text": "co-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "oper",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ation",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "co-",
+              "meaning": "共同",
+              "label": "前缀",
+              "narration": "co-是一个表示'共同、一起'的前缀,来自拉丁语'cum'.",
+              "relatedWords": [
+                {
+                  "word": "coauthor",
+                  "meaning": "合著者",
+                  "highlight": "co-",
+                  "narration": "coauthor,合著者",
+                  "audioUrl": "/audio/tts/rw_coauthor_80a7.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "coexist",
+                  "meaning": "共存",
+                  "highlight": "co-",
+                  "narration": "coexist,共存",
+                  "audioUrl": "/audio/tts/rw_coexist_a75b.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "coordinate",
+                  "meaning": "协调",
+                  "highlight": "co-",
+                  "narration": "coordinate,协调",
+                  "audioUrl": "/audio/tts/rw_coordinate_f325.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_co-_5c38.wav",
+              "audioDuration": 5.2
+            },
+            {
+              "root": "oper",
+              "meaning": "工作",
+              "label": "词根",
+              "narration": "oper来自拉丁语'operari',意思是'工作、操作'.",
+              "relatedWords": [
+                {
+                  "word": "operate",
+                  "meaning": "操作",
+                  "highlight": "oper",
+                  "narration": "operate,操作",
+                  "audioUrl": "/audio/tts/rw_operate_ac48.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "operator",
+                  "meaning": "操作员",
+                  "highlight": "oper",
+                  "narration": "operator,操作员",
+                  "audioUrl": "/audio/tts/rw_operator_6600.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "cooperate",
+                  "meaning": "合作",
+                  "highlight": "oper",
+                  "narration": "cooperate,合作",
+                  "audioUrl": "/audio/tts/rw_cooperate_caac.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_oper_8716.wav",
+              "audioDuration": 5.1
+            },
+            {
+              "root": "-ation",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "-ation是常见的名词后缀,表示'行为、状态'.",
+              "relatedWords": [
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "-ation",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_67bb.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "information",
+                  "meaning": "信息",
+                  "highlight": "-ation",
+                  "narration": "information,信息",
+                  "audioUrl": "/audio/tts/rw_information_bfaf.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "invitation",
+                  "meaning": "邀请",
+                  "highlight": "-ation",
+                  "narration": "invitation,邀请",
+                  "audioUrl": "/audio/tts/rw_invitation_ddc2.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ation_3cf4.wav",
+              "audioDuration": 4.7
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3830752/pexels-photo-3830752.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Top view of faceless friends in different clothes stacking hands together while standing on wooden floor indoor on sunny day",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分析一下cooperation的词根词缀构成.",
+        "narrationLang": "zh",
+        "durationSeconds": 44,
+        "audioUrl": "/audio/tts/narration_scene_003_a75e05.wav",
+        "audioDuration": 4.3
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "International cooperation is essential to solve global climate change.",
+          "chinese": "国际合作对于解决全球气候变化至关重要.",
+          "highlights": [
+            {
+              "text": "cooperation",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/4468974/pexels-photo-4468974.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "From below of various flags on flagpoles located in green park in front of entrance to the UN headquarters in Geneva",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_d13876.wav",
+          "englishAudioDuration": 5.3
+        },
+        "narration": "International cooperation is essential to solve global climate change. 意思是:国际合作对于解决全球气候变化至关重要.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_004_8cc5f1.wav",
+        "audioDuration": 10.3
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The success of the project depends on the cooperation of all team members.",
+          "chinese": "这个项目的成功取决于所有团队成员的合作.",
+          "highlights": [
+            {
+              "text": "cooperation",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/9304682/pexels-photo-9304682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A confident businesswoman presenting a growth chart in a professional setting.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_c3c0e5.wav",
+          "englishAudioDuration": 4.1
+        },
+        "narration": "The success of the project depends on the cooperation of all team members. 意思是:这个项目的成功取决于所有团队成员的合作.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_005_fe7227.wav",
+        "audioDuration": 10.7
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "cooperation是一个名词,意为'合作、协作'",
+            "词根构成为:co-(共同)+ oper(工作)+ -ation(名词后缀)= 共同工作",
+            "相关词汇包括:cooperate(合作)、operate(操作)、coordinate(协调)",
+            "常用搭配:international cooperation(国际合作)、team cooperation(团队合作)"
+          ]
+        },
+        "narration": "今天我们学习了cooperation这个单词,它由前缀co-、词根oper和后缀-ation组成,表示'共同工作',也就是'合作'的意思.希望大家能够掌握这个词根词缀的分析方法,帮助记忆更多相关词汇.",
+        "narrationLang": "zh",
+        "durationSeconds": 20,
+        "audioUrl": "/audio/tts/narration_scene_006_89500b.wav",
+        "audioDuration": 17.3
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_348515.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_f7628e.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_a75e05.wav",
+    "scene_003_root_co-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_co-_5c38.wav",
+    "scene_003_rw_coauthor": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_coauthor_80a7.wav",
+    "scene_003_rw_coexist": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_coexist_a75b.wav",
+    "scene_003_rw_coordinate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_coordinate_f325.wav",
+    "scene_003_root_oper": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_oper_8716.wav",
+    "scene_003_rw_operate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_operate_ac48.wav",
+    "scene_003_rw_operator": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_operator_6600.wav",
+    "scene_003_rw_cooperate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_cooperate_caac.wav",
+    "scene_003_root_-ation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ation_3cf4.wav",
+    "scene_003_rw_education": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_education_67bb.wav",
+    "scene_003_rw_information": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_information_bfaf.wav",
+    "scene_003_rw_invitation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_invitation_ddc2.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_8cc5f1.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_d13876.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_fe7227.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_c3c0e5.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_89500b.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-cooperation-cb23769d.mp4"
+}

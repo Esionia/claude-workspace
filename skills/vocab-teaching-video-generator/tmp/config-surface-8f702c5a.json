@@ -1,0 +1,261 @@
+{
+  "script": {
+    "id": "video_script_surface_001",
+    "topic": "英语词汇教学:surface",
+    "description": "通过词根词缀法讲解surface,掌握其拼写、发音、含义及用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "surface",
+          "subtitle": "表面"
+        },
+        "narration": "欢迎来到英语词汇课堂,今天我们要学习的单词是surface,表示表面的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_001_c436dd.wav",
+        "audioDuration": 7.1
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "surface",
+          "phonetic": "/ˈsɜːfɪs/",
+          "partOfSpeech": "n. / v. / adj.",
+          "definitions": [
+            "表面,外表",
+            "水面",
+            "外观,肤浅的表面现象"
+          ]
+        },
+        "narration": "好的,现在让我们来看看surface这个单词的基本信息.它是一个多词性的单词,可以作名词、动词和形容词使用.作为名词时,主要意思是表面、外表或水面.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_002_c1a826.wav",
+        "audioDuration": 15.1
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "surface = sur- + face + -e",
+          "highlights": [
+            {
+              "text": "sur-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "face",
+              "color": "#6BCB77",
+              "label": "词根"
+            },
+            {
+              "text": "-e",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "一个球体的示意图,标注出表面(surface)部分",
+              "alt": "球体表面示意图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/27999577/pexels-photo-27999577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Vibrant turquoise water surface with shimmering daylight ripples creating a serene texture.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "sur-",
+              "meaning": "在上面,在表面",
+              "label": "前缀",
+              "narration": "前缀sur-源自拉丁语,意思是'在上面、在表面',表示超出或超越的意思.",
+              "relatedWords": [
+                {
+                  "word": "surpass",
+                  "meaning": "超过,超越",
+                  "highlight": "sur-",
+                  "narration": "surpass,超过",
+                  "audioUrl": "/audio/tts/rw_surpass_adc2.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "surround",
+                  "meaning": "围绕,环绕",
+                  "highlight": "sur-",
+                  "narration": "surround,围绕",
+                  "audioUrl": "/audio/tts/rw_surround_46f1.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "survive",
+                  "meaning": "幸存,活下来",
+                  "highlight": "sur-",
+                  "narration": "survive,幸存",
+                  "audioUrl": "/audio/tts/rw_survive_a4d3.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_sur-_7f13.wav",
+              "audioDuration": 7.0
+            },
+            {
+              "root": "face",
+              "meaning": "脸,面",
+              "label": "词根",
+              "narration": "词根face来自拉丁语facies,意思是'脸、面容、外表',引申为事物的正面或表面部分.",
+              "relatedWords": [
+                {
+                  "word": "face",
+                  "meaning": "脸,面容",
+                  "highlight": "face",
+                  "narration": "face,脸",
+                  "audioUrl": "/audio/tts/rw_face_61a5.wav",
+                  "audioDuration": 1.8
+                },
+                {
+                  "word": "interface",
+                  "meaning": "界面,接口",
+                  "highlight": "face",
+                  "narration": "interface,界面",
+                  "audioUrl": "/audio/tts/rw_interface_3c18.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "deface",
+                  "meaning": "损坏...的外观",
+                  "highlight": "face",
+                  "narration": "deface,损毁外观",
+                  "audioUrl": "/audio/tts/rw_deface_6968.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_face_aa3f.wav",
+              "audioDuration": 8.6
+            }
+          ]
+        },
+        "narration": "下面让我们来分析surface的构词方法,这个单词由三个部分组成.",
+        "narrationLang": "zh",
+        "durationSeconds": 38,
+        "audioUrl": "/audio/tts/narration_scene_003_7d38c7.wav",
+        "audioDuration": 6.4
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The surface of the sphere is perfectly smooth.",
+          "chinese": "球体的表面是完全光滑的.",
+          "highlights": [
+            {
+              "text": "surface",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/29502428/pexels-photo-29502428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Peaceful ocean view with sparkling sunlight reflecting on calm waters under clear sky.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_24b684.wav",
+          "englishAudioDuration": 3.5
+        },
+        "narration": "第一个例句:The surface of the sphere is perfectly smooth. 意思是:球体的表面是完全光滑的.这里surface作为名词,表示物理表面.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_004_0610cf.wav",
+        "audioDuration": 11.7
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "On the surface, the plan seemed feasible, but it had many hidden problems.",
+          "chinese": "表面上这个计划看起来可行,但实际上存在很多隐藏的问题.",
+          "highlights": [
+            {
+              "text": "surface",
+              "color": "#FFD93D"
+            },
+            {
+              "text": "surface",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/29502428/pexels-photo-29502428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Peaceful ocean view with sparkling sunlight reflecting on calm waters under clear sky.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_eac8be.wav",
+          "englishAudioDuration": 5.1
+        },
+        "narration": "第二个例句:On the surface, the plan seemed feasible, but it had many hidden problems. 意思是:表面上这个计划看起来可行,但实际上存在很多隐藏的问题.这里on the surface是固定搭配,表示从表面上看.",
+        "narrationLang": "zh",
+        "durationSeconds": 23,
+        "audioUrl": "/audio/tts/narration_scene_005_e7b863.wav",
+        "audioDuration": 17.6
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "surface源自sur-(表面)+ face(面),本义是事物的最外层",
+            "作为名词表示表面、外表、水面；作为动词表示显露、揭露",
+            "常用搭配:on the surface(表面上)、surface area(表面积)",
+            "相关词汇:superficial(表面的、肤浅的)、interface(界面)"
+          ]
+        },
+        "narration": "今天我们学习了surface这个单词.总结一下要点:surface由前缀sur-和词根face组成,本义是事物的最外层；它可以作为名词和动词使用,表示表面或显露的意思；常用搭配有on the surface和surface area等；相关的词汇包括superficial和interface等.掌握词根词缀法,可以帮助我们更高效地记忆英语单词.",
+        "narrationLang": "zh",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_006_236aae.wav",
+        "audioDuration": 27.4
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_c436dd.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_c1a826.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_7d38c7.wav",
+    "scene_003_root_sur-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_sur-_7f13.wav",
+    "scene_003_rw_surpass": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_surpass_adc2.wav",
+    "scene_003_rw_surround": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_surround_46f1.wav",
+    "scene_003_rw_survive": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_survive_a4d3.wav",
+    "scene_003_root_face": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_face_aa3f.wav",
+    "scene_003_rw_face": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_face_61a5.wav",
+    "scene_003_rw_interface": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_interface_3c18.wav",
+    "scene_003_rw_deface": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_deface_6968.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_0610cf.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_24b684.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_e7b863.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_eac8be.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_236aae.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-surface-8f702c5a.mp4"
+}

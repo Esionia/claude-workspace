@@ -1,0 +1,246 @@
+{
+  "script": {
+    "id": "video_script_argumentative_001",
+    "topic": "英语词汇教学:argumentative",
+    "description": "通过词根词缀法讲解形容词 argumentative,助你掌握单词构成规律",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "argumentative",
+          "subtitle": "爱争辩的"
+        },
+        "narration": "今天我们要学习的单词是 argumentative",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_69d78c.wav",
+        "audioDuration": 3.9
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "argumentative",
+          "meaning": "爱争辩的",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "好争论的,爱争辩的",
+            "涉及辩论的",
+            "论点鲜明的"
+          ]
+        },
+        "narration": "argumentative 是一个形容词,意思是爱争辩的",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_9fc9f0.wav",
+        "audioDuration": 4.7
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "argumentative = argument + -ative",
+          "highlights": [
+            {
+              "text": "argument",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ative",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "argument",
+              "meaning": "争论、论证",
+              "label": "词根",
+              "narration": "argument 来自拉丁语,意思是争论或论证,它源自 arguere,表示证明、表明的意思.在日常英语中,argument 通常指争论或辩论,也可以指论据、理由.",
+              "relatedWords": [
+                {
+                  "word": "argue",
+                  "meaning": "争论、辩论",
+                  "highlight": "argu",
+                  "narration": "argue,争论",
+                  "audioUrl": "/audio/tts/rw_argue_f226.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "argument",
+                  "meaning": "争论、论据",
+                  "highlight": "argument",
+                  "narration": "argument,争论",
+                  "audioUrl": "/audio/tts/rw_argument_048a.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "dispute",
+                  "meaning": "争论、质疑",
+                  "highlight": "put",
+                  "narration": "dispute,争论",
+                  "audioUrl": "/audio/tts/rw_dispute_ea29.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_argument_f74a.wav",
+              "audioDuration": 14.3
+            },
+            {
+              "root": "-ative",
+              "meaning": "形容词后缀",
+              "label": "后缀",
+              "narration": "-ative 是一个常见的形容词后缀,表示具有某种性质或倾向的.带有 -ative 的单词通常描述一种持续的行为或状态.",
+              "relatedWords": [
+                {
+                  "word": "talkative",
+                  "meaning": "健谈的",
+                  "highlight": "-ative",
+                  "narration": "talkative,健谈的",
+                  "audioUrl": "/audio/tts/rw_talkative_ad35.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "creative",
+                  "meaning": "有创造性的",
+                  "highlight": "-ative",
+                  "narration": "creative,有创造性的",
+                  "audioUrl": "/audio/tts/rw_creative_17bd.wav",
+                  "audioDuration": 2.6
+                },
+                {
+                  "word": "imaginative",
+                  "meaning": "富有想象力的",
+                  "highlight": "-ative",
+                  "narration": "imaginative,富有想象力的",
+                  "audioUrl": "/audio/tts/rw_imaginative_88ee.wav",
+                  "audioDuration": 2.9
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ative_ffd3.wav",
+              "audioDuration": 10.4
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5616265/pexels-photo-5616265.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A tense moment between a couple in a modern apartment setting, highlighting relationship struggles.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "来看词根词缀的分解",
+        "narrationLang": "zh",
+        "durationSeconds": 45,
+        "audioUrl": "/audio/tts/narration_scene_003_92f858.wav",
+        "audioDuration": 2.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "My brother is very argumentative and always tries to prove he's right.",
+          "chinese": "我的兄弟非常爱争辩,总是试图证明自己是对的.",
+          "highlights": [
+            {
+              "text": "argumentative",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/1759350/pexels-photo-1759350.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up view of a stack of vintage vinyl records showcasing album spines.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_fbb9c0.wav",
+          "englishAudioDuration": 4.6
+        },
+        "narration": "My brother is very argumentative and always tries to prove he's right. 意思是:我的兄弟非常爱争辩,总是试图证明自己是对的.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_004_63fccc.wav",
+        "audioDuration": 10.8
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She wrote an argumentative essay about the need for environmental protection.",
+          "chinese": "她写了一篇论点鲜明的文章,关于环境保护的必要性.",
+          "highlights": [
+            {
+              "text": "argumentative",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_1c9675.wav",
+          "englishAudioDuration": 4.5
+        },
+        "narration": "She wrote an argumentative essay about the need for environmental protection. 意思是:她写了一篇论点鲜明的文章,关于环境保护的必要性.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_005_e852b7.wav",
+        "audioDuration": 11.1
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "argumentative 由词根 argument(争论)+ 后缀 -ative(形容词后缀)构成",
+            "-ative 表示具有某种性质或倾向的,常用来构成形容词",
+            "argumentative 的意思是爱争辩的、论点鲜明的",
+            "同词根的单词还有 argue、argument；同后缀的单词还有 talkative、creative"
+          ]
+        },
+        "narration": "今天我们学习了 argumentative 这个单词,它由 argument 和 -ative 构成,意思是爱争辩的.掌握词根词缀,记忆单词更轻松！",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_a33f5d.wav",
+        "audioDuration": 11.3
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_69d78c.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_9fc9f0.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_92f858.wav",
+    "scene_003_root_argument": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_argument_f74a.wav",
+    "scene_003_rw_argue": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_argue_f226.wav",
+    "scene_003_rw_argument": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_argument_048a.wav",
+    "scene_003_rw_dispute": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_dispute_ea29.wav",
+    "scene_003_root_-ative": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ative_ffd3.wav",
+    "scene_003_rw_talkative": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_talkative_ad35.wav",
+    "scene_003_rw_creative": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_creative_17bd.wav",
+    "scene_003_rw_imaginative": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_imaginative_88ee.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_63fccc.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_fbb9c0.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_e852b7.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_1c9675.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_a33f5d.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-argumentative-a7dda7cb.mp4"
+}

@@ -1,0 +1,289 @@
+{
+  "script": {
+    "id": "video_script_connected_001",
+    "topic": "英语词汇教学:connected",
+    "description": "通过词根词缀法讲解单词connected的构成、含义和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "connected",
+          "subtitle": "连接的；有关联的"
+        },
+        "narration": "今天我们要学习的单词是connected",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_e080c3.wav",
+        "audioDuration": 3.6
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "connected",
+          "meaning": "连接的；有关联的",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "连接的,联结的",
+            "有关系的,有联系的",
+            "(计算机)联网的"
+          ]
+        },
+        "narration": "connected是一个形容词,表示连接的、有联系的意思",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_e4cfc3.wav",
+        "audioDuration": 5.2
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "connected = con- + nect + -ed",
+          "highlights": [
+            {
+              "text": "con-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "nect",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ed",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "con-",
+              "meaning": "共同、一起",
+              "label": "前缀",
+              "narration": "con-是一个常见前缀,来自拉丁语,表示'共同、一起'的含义",
+              "relatedWords": [
+                {
+                  "word": "combine",
+                  "meaning": "结合、合并",
+                  "highlight": "con-",
+                  "narration": "combine,结合",
+                  "audioUrl": "/audio/tts/rw_combine_a437.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "contribute",
+                  "meaning": "贡献、捐助",
+                  "highlight": "con-",
+                  "narration": "contribute,贡献",
+                  "audioUrl": "/audio/tts/rw_contribute_984a.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "construct",
+                  "meaning": "建造、构造",
+                  "highlight": "con-",
+                  "narration": "construct,建造",
+                  "audioUrl": "/audio/tts/rw_construct_dfb1.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_con-_188b.wav",
+              "audioDuration": 6.0
+            },
+            {
+              "root": "nect",
+              "meaning": "连接",
+              "label": "词根",
+              "narration": "nect来自拉丁语'nectere',意思是'连接、系住'",
+              "relatedWords": [
+                {
+                  "word": "connection",
+                  "meaning": "连接、联系",
+                  "highlight": "nect",
+                  "narration": "connection,连接",
+                  "audioUrl": "/audio/tts/rw_connection_528e.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "disconnect",
+                  "meaning": "断开、切断",
+                  "highlight": "nect",
+                  "narration": "disconnect,断开",
+                  "audioUrl": "/audio/tts/rw_disconnect_2f70.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "nexus",
+                  "meaning": "连接、联系",
+                  "highlight": "nex",
+                  "narration": "nexus,联系",
+                  "audioUrl": "/audio/tts/rw_nexus_bb29.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_nect_c457.wav",
+              "audioDuration": 4.8
+            },
+            {
+              "root": "-ed",
+              "meaning": "形容词后缀",
+              "label": "后缀",
+              "narration": "-ed是常见的形容词后缀,表示'具有...特性的'意思",
+              "relatedWords": [
+                {
+                  "word": "excited",
+                  "meaning": "兴奋的",
+                  "highlight": "-ed",
+                  "narration": "excited,兴奋的",
+                  "audioUrl": "/audio/tts/rw_excited_d603.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "educated",
+                  "meaning": "受过教育的",
+                  "highlight": "-ed",
+                  "narration": "educated,受过教育的",
+                  "audioUrl": "/audio/tts/rw_educated_af39.wav",
+                  "audioDuration": 2.7
+                },
+                {
+                  "word": "advanced",
+                  "meaning": "先进的",
+                  "highlight": "-ed",
+                  "narration": "advanced,先进的",
+                  "audioUrl": "/audio/tts/rw_advanced_bf6a.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ed_8dd0.wav",
+              "audioDuration": 4.8
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/1624895/pexels-photo-1624895.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of fiber optic cables and ports in a server room, showcasing connectivity.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分析一下这个单词的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 44,
+        "audioUrl": "/audio/tts/narration_scene_003_a48990.wav",
+        "audioDuration": 3.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "All the computers in the office are connected to the same network.",
+          "chinese": "办公室里所有的电脑都连接到同一个网络.",
+          "highlights": [
+            {
+              "text": "connected",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/33402762/pexels-photo-33402762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "High-performance CPU cooler with a triple fan radiator on yellow background, ideal for PC upgrades.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_d909c6.wav",
+          "englishAudioDuration": 3.5
+        },
+        "narration": "All the computers in the office are connected to the same network. 意思是:办公室里所有的电脑都连接到同一个网络.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_e6de01.wav",
+        "audioDuration": 9.3
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The two events are closely connected.",
+          "chinese": "这两个事件密切相关.",
+          "highlights": [
+            {
+              "text": "connected",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/9060511/pexels-photo-9060511.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A child in a white lace dress holds a decorative number two, symbolizing birthdays or milestones.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_f75189.wav",
+          "englishAudioDuration": 2.3
+        },
+        "narration": "The two events are closely connected. 意思是:这两个事件密切相关.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_005_6b6f8a.wav",
+        "audioDuration": 6.2
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "connected由前缀con-(共同)、词根nect(连接)和后缀-ed(形容词)组成",
+            "核心含义是'连接的、有联系的'",
+            "常见用法:be connected to/with表示'与...连接/有关'",
+            "相关词汇包括connection(连接)、disconnect(断开)等"
+          ]
+        },
+        "narration": "今天我们学习了connected这个单词,它由con-(共同)、nect(连接)和-ed(形容词后缀)组成,表示'连接的、有联系的'.记住这个构词法,对学习其他相关词汇也很有帮助.",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_006_cfd28a.wav",
+        "audioDuration": 15.3
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_e080c3.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_e4cfc3.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_a48990.wav",
+    "scene_003_root_con-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_con-_188b.wav",
+    "scene_003_rw_combine": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_combine_a437.wav",
+    "scene_003_rw_contribute": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_contribute_984a.wav",
+    "scene_003_rw_construct": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_construct_dfb1.wav",
+    "scene_003_root_nect": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_nect_c457.wav",
+    "scene_003_rw_connection": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_connection_528e.wav",
+    "scene_003_rw_disconnect": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_disconnect_2f70.wav",
+    "scene_003_rw_nexus": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_nexus_bb29.wav",
+    "scene_003_root_-ed": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ed_8dd0.wav",
+    "scene_003_rw_excited": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_excited_d603.wav",
+    "scene_003_rw_educated": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_educated_af39.wav",
+    "scene_003_rw_advanced": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_advanced_bf6a.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_e6de01.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_d909c6.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_6b6f8a.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_f75189.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_cfd28a.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-connected-b1bd2dbf.mp4"
+}

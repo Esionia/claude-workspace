@@ -1,0 +1,235 @@
+{
+  "script": {
+    "id": "video_script_research_001",
+    "topic": "英语词汇教学:research",
+    "description": "通过词根词缀法讲解单词research的构成、含义和使用方法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "research",
+          "subtitle": "研究；调查"
+        },
+        "narration": "今天我们要学习的单词是research,中文意思是研究或调查.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_d32f0e.wav",
+        "audioDuration": 5.7
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "research",
+          "partOfSpeech": "n. / v.",
+          "definitions": [
+            "研究；调查；研究工作",
+            "探索；搜集"
+          ]
+        },
+        "narration": "research可以作为名词或动词使用,意思是研究、调查或探索.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_e922b4.wav",
+        "audioDuration": 6.4
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "research = re- + search",
+          "highlights": [
+            {
+              "text": "re-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "search",
+              "color": "#FFD93D",
+              "label": "词根"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "re-",
+              "meaning": "再,重新,反复",
+              "label": "前缀",
+              "narration": "前缀re-表示再、重新或反复的意思,比如rebuild重建、review复习都含有这个前缀.",
+              "relatedWords": [
+                {
+                  "word": "review",
+                  "meaning": "复习；回顾",
+                  "highlight": "re-",
+                  "narration": "review,复习",
+                  "audioUrl": "/audio/tts/rw_review_13b1.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "return",
+                  "meaning": "返回；归还",
+                  "highlight": "re-",
+                  "narration": "return,返回",
+                  "audioUrl": "/audio/tts/rw_return_50c9.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "repeat",
+                  "meaning": "重复",
+                  "highlight": "re-",
+                  "narration": "repeat,重复",
+                  "audioUrl": "/audio/tts/rw_repeat_6e09.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_re-_a7d7.wav",
+              "audioDuration": 8.3
+            },
+            {
+              "root": "search",
+              "meaning": "搜索；搜寻",
+              "label": "词根",
+              "narration": "词根search来自拉丁语,意思是仔细搜寻、查找信息.",
+              "relatedWords": [
+                {
+                  "word": "search",
+                  "meaning": "搜索；搜寻",
+                  "highlight": "search",
+                  "narration": "search,搜索",
+                  "audioUrl": "/audio/tts/rw_search_8a4b.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "researcher",
+                  "meaning": "研究员",
+                  "highlight": "search",
+                  "narration": "researcher,研究员",
+                  "audioUrl": "/audio/tts/rw_researcher_361d.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_search_1d23.wav",
+              "audioDuration": 5.8
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Scientist in a lab coat using a microscope to conduct research, focusing on healthcare improvements.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分析一下research的构成.",
+        "narrationLang": "zh",
+        "durationSeconds": 31,
+        "audioUrl": "/audio/tts/narration_scene_003_35d75e.wav",
+        "audioDuration": 3.2
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "We are conducting research on climate change.",
+          "chinese": "我们正在进行关于气候变化的研究.",
+          "highlights": [
+            {
+              "text": "research",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/9243745/pexels-photo-9243745.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Two scientists in protective gear working with microscope and test tubes in a lab.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_cd6b97.wav",
+          "englishAudioDuration": 3.1
+        },
+        "narration": "We are conducting research on climate change. 意思是:我们正在进行关于气候变化的研究.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_1e6077.wav",
+        "audioDuration": 8.0
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The company did market research before launching the product.",
+          "chinese": "这家公司在推出产品之前做了市场调查.",
+          "highlights": [
+            {
+              "text": "research",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7947712/pexels-photo-7947712.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of pie chart and notes with colorful pencils on wood desk, ideal for business presentations.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_2fd2ee.wav",
+          "englishAudioDuration": 3.5
+        },
+        "narration": "The company did market research before launching the product. 意思是:这家公司在推出产品之前做了市场调查.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_005_a79176.wav",
+        "audioDuration": 9.3
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "research由前缀re-(再、反复)和词根search(搜寻)组成,意为反复搜寻信息,即研究或调查",
+            "research可作名词或动词使用,表示学术研究或市场调查",
+            "常见搭配有:conduct research(进行研究)、market research(市场调查)、scientific research(科学研究)",
+            "相关词汇包括researcher(研究员)和researcher(研究人员)"
+          ]
+        },
+        "narration": "今天我们学习了research这个单词,它由表示再次的前缀re-和表示搜寻的词根search组成,意思是反复搜寻信息也就是研究.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_376bdd.wav",
+        "audioDuration": 11.4
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_d32f0e.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_e922b4.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_35d75e.wav",
+    "scene_003_root_re-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_re-_a7d7.wav",
+    "scene_003_rw_review": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_review_13b1.wav",
+    "scene_003_rw_return": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_return_50c9.wav",
+    "scene_003_rw_repeat": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_repeat_6e09.wav",
+    "scene_003_root_search": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_search_1d23.wav",
+    "scene_003_rw_search": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_search_8a4b.wav",
+    "scene_003_rw_researcher": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_researcher_361d.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_1e6077.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_cd6b97.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_a79176.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_2fd2ee.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_376bdd.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-research-42dc4028.mp4"
+}

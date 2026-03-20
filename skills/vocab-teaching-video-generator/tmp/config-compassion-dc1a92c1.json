@@ -1,0 +1,286 @@
+{
+  "script": {
+    "id": "video_script_compassion_001",
+    "topic": "英语词汇教学:compassion",
+    "description": "通过词根词缀法讲解名词 compassion(同情、怜悯)的含义、用法及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "compassion",
+          "subtitle": "同情,怜悯"
+        },
+        "narration": "今天我们要学习一个充满温度的单词",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_94603e.wav",
+        "audioDuration": 3.7
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "compassion",
+          "meaning": "同情,怜悯",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "对他人痛苦的同情和怜悯",
+            "慈悲心",
+            "同情的情感"
+          ]
+        },
+        "narration": "compassion 是一个名词,表示对他人痛苦的深切同情",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_272feb.wav",
+        "audioDuration": 5.0
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "compassion = com-(共同)+ passi-(感受)+ -on(名词后缀)",
+          "highlights": [
+            {
+              "text": "com-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "passi-",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-on",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "compassion-breakdown",
+              "alt": "词根词缀拆解示意图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/841286/pexels-photo-841286.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A close-up shot of a hand holding a vintage compass against a natural background.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "com-",
+              "meaning": "共同、一起",
+              "label": "前缀",
+              "narration": "前缀 com- 表示'共同'或'一起',来源于拉丁语 cum,意为'和'、'与'",
+              "relatedWords": [
+                {
+                  "word": "combine",
+                  "meaning": "结合",
+                  "highlight": "com-",
+                  "narration": "combine,结合",
+                  "audioUrl": "/audio/tts/rw_combine_64de.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "connect",
+                  "meaning": "连接",
+                  "highlight": "con-",
+                  "narration": "connect,连接",
+                  "audioUrl": "/audio/tts/rw_connect_5fd0.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "comfort",
+                  "meaning": "安慰",
+                  "highlight": "com-",
+                  "narration": "comfort,安慰",
+                  "audioUrl": "/audio/tts/rw_comfort_33cb.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_com-_281b.wav",
+              "audioDuration": 6.5
+            },
+            {
+              "root": "passi-",
+              "meaning": "感受、情感",
+              "label": "词根",
+              "narration": "词根 passi- 来自拉丁语 passio,意为'感受'或'情感',它强调内心的感受和体验",
+              "relatedWords": [
+                {
+                  "word": "passion",
+                  "meaning": "激情",
+                  "highlight": "passi-",
+                  "narration": "passion,激情",
+                  "audioUrl": "/audio/tts/rw_passion_4c0d.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "patient",
+                  "meaning": "耐心的",
+                  "highlight": "pati-",
+                  "narration": "patient,耐心的",
+                  "audioUrl": "/audio/tts/rw_patient_1d38.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "compatible",
+                  "meaning": "兼容的",
+                  "highlight": "compat-",
+                  "narration": "compatible,兼容的",
+                  "audioUrl": "/audio/tts/rw_compatible_25f2.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_passi-_1aa7.wav",
+              "audioDuration": 7.6
+            },
+            {
+              "root": "-on",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "后缀 -on 是常见的名词后缀,表示事物或状态",
+              "relatedWords": [
+                {
+                  "word": "action",
+                  "meaning": "行动",
+                  "highlight": "-ion",
+                  "narration": "action,行动",
+                  "audioUrl": "/audio/tts/rw_action_37ba.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "question",
+                  "meaning": "问题",
+                  "highlight": "-tion",
+                  "narration": "question,问题",
+                  "audioUrl": "/audio/tts/rw_question_469c.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-on_c0ca.wav",
+              "audioDuration": 4.9
+            }
+          ]
+        },
+        "narration": "让我们来拆解这个单词的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 43,
+        "audioUrl": "/audio/tts/narration_scene_003_db1765.wav",
+        "audioDuration": 3.1
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She showed great compassion for the homeless people on the street.",
+          "chinese": "她对街上的无家可归者表现出极大的同情.",
+          "highlights": [
+            {
+              "text": "compassion",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_1cc4f6.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "She showed great compassion for the homeless people on the street. 意思是:她对街上的无家可归者表现出极大的同情.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_0929ad.wav",
+        "audioDuration": 9.5
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The doctor treated his patients with compassion and care.",
+          "chinese": "医生以同情和关怀的态度对待他的病人.",
+          "highlights": [
+            {
+              "text": "compassion",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6129040/pexels-photo-6129040.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A doctor consults with a patient in a medical facility room, surrounded by healthcare equipment.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_40f404.wav",
+          "englishAudioDuration": 3.4
+        },
+        "narration": "The doctor treated his patients with compassion and care. 意思是:医生以同情和关怀的态度对待他的病人.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_005_36ca18.wav",
+        "audioDuration": 8.9
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "compassion 是名词,表示'同情、怜悯'",
+            "词根组合:com-(共同)+ passi-(感受)+ -on(名词后缀)= 共同感受他人的痛苦",
+            "相关词汇包括:passion(激情)、patient(耐心的)、compatible(兼容的)",
+            "常用搭配:show compassion(表现出同情)、with compassion(带着同情)"
+          ]
+        },
+        "narration": "今天我们学习了 compassion 这个充满温暖的单词,它教会我们学会换位思考,感受他人的痛苦并给予关怀",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_443f68.wav",
+        "audioDuration": 9.7
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_94603e.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_272feb.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_db1765.wav",
+    "scene_003_root_com-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_com-_281b.wav",
+    "scene_003_rw_combine": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_combine_64de.wav",
+    "scene_003_rw_connect": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_connect_5fd0.wav",
+    "scene_003_rw_comfort": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_comfort_33cb.wav",
+    "scene_003_root_passi-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_passi-_1aa7.wav",
+    "scene_003_rw_passion": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_passion_4c0d.wav",
+    "scene_003_rw_patient": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_patient_1d38.wav",
+    "scene_003_rw_compatible": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_compatible_25f2.wav",
+    "scene_003_root_-on": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-on_c0ca.wav",
+    "scene_003_rw_action": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_action_37ba.wav",
+    "scene_003_rw_question": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_question_469c.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_0929ad.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_1cc4f6.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_36ca18.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_40f404.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_443f68.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-compassion-dc1a92c1.mp4"
+}

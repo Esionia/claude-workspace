@@ -1,0 +1,246 @@
+{
+  "script": {
+    "id": "video_script_high-pressure_001",
+    "topic": "英语词汇教学:high-pressure",
+    "description": "通过分析复合词结构讲解high-pressure的用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "high-pressure",
+          "subtitle": "高气压的；高压的；压力大的"
+        },
+        "narration": "今天我们要学习的单词是high-pressure",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_a0ac87.wav",
+        "audioDuration": 3.6
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "high-pressure",
+          "meaning": "高气压的；高压的；压力大的",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "高气压的",
+            "高压的",
+            "压力大的,紧张繁忙的"
+          ]
+        },
+        "narration": "high-pressure是一个形容词,表示高气压的、高压的或压力大的含义",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_343d97.wav",
+        "audioDuration": 6.3
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "high-pressure = high(高的)+ pressure(压力)",
+          "highlights": [
+            {
+              "text": "high",
+              "color": "#FFD93D",
+              "label": "词素1"
+            },
+            {
+              "text": "pressure",
+              "color": "#FFD93D",
+              "label": "词素2"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "high",
+              "meaning": "高的",
+              "label": "词素",
+              "narration": "high表示高的程度,与pressure结合表示高压状态",
+              "relatedWords": [
+                {
+                  "word": "high-speed",
+                  "meaning": "高速的",
+                  "highlight": "high",
+                  "narration": "high-speed,高速的",
+                  "audioUrl": "/audio/tts/rw_high-speed_e8f8.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "high-tech",
+                  "meaning": "高科技的",
+                  "highlight": "high",
+                  "narration": "high-tech,高科技的",
+                  "audioUrl": "/audio/tts/rw_high-tech_371d.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "highland",
+                  "meaning": "高地",
+                  "highlight": "high",
+                  "narration": "highland,高地",
+                  "audioUrl": "/audio/tts/rw_highland_a641.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_high_a4b8.wav",
+              "audioDuration": 4.8
+            },
+            {
+              "root": "pressure",
+              "meaning": "压力",
+              "label": "词素",
+              "narration": "pressure来自拉丁语pressura,表示挤压、压力,与high结合形容压力很大的状态",
+              "relatedWords": [
+                {
+                  "word": "press",
+                  "meaning": "按压",
+                  "highlight": "press",
+                  "narration": "press,按压",
+                  "audioUrl": "/audio/tts/rw_press_7242.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "compress",
+                  "meaning": "压缩",
+                  "highlight": "press",
+                  "narration": "compress,压缩",
+                  "audioUrl": "/audio/tts/rw_compress_75d9.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "impress",
+                  "meaning": "使印象深刻",
+                  "highlight": "press",
+                  "narration": "impress,使印象深刻",
+                  "audioUrl": "/audio/tts/rw_impress_ec7a.wav",
+                  "audioDuration": 2.7
+                }
+              ],
+              "audioUrl": "/audio/tts/root_pressure_4220.wav",
+              "audioDuration": 7.5
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6873132/pexels-photo-6873132.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A worker using a pressure washer to clean a black car in an indoor garage setting.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "来看这个复合词的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 32,
+        "audioUrl": "/audio/tts/narration_scene_003_57a7d2.wav",
+        "audioDuration": 2.6
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "He works in a high-pressure environment.",
+          "chinese": "他在高压环境下工作.",
+          "highlights": [
+            {
+              "text": "high-pressure",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6873132/pexels-photo-6873132.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A worker using a pressure washer to clean a black car in an indoor garage setting.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_8021c7.wav",
+          "englishAudioDuration": 2.3
+        },
+        "narration": "He works in a high-pressure environment. 意思是:他在高压环境下工作.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_004_1ab72c.wav",
+        "audioDuration": 6.5
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The high-pressure system will bring hot weather tomorrow.",
+          "chinese": "高气压系统明天会带来炎热的天气.",
+          "highlights": [
+            {
+              "text": "high-pressure",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/32417922/pexels-photo-32417922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of a digital blood pressure monitor with ECG printout, pills, and medical tools.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_1b2355.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "The high-pressure system will bring hot weather tomorrow. 意思是:高气压系统明天会带来炎热的天气.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_005_6cd4c6.wav",
+        "audioDuration": 8.4
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "high-pressure是一个形容词,由high和pressure两个词素组成",
+            "它可以表示物理上的高气压,如高气压系统",
+            "也可以形容工作或生活环境压力大、紧张繁忙",
+            "常见的搭配有high-pressure job高压工作、high-pressure situation高压情况"
+          ]
+        },
+        "narration": "现在让我们总结一下今天学习的内容",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_764e73.wav",
+        "audioDuration": 3.7
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_a0ac87.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_343d97.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_57a7d2.wav",
+    "scene_003_root_high": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_high_a4b8.wav",
+    "scene_003_rw_high-speed": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_high-speed_e8f8.wav",
+    "scene_003_rw_high-tech": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_high-tech_371d.wav",
+    "scene_003_rw_highland": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_highland_a641.wav",
+    "scene_003_root_pressure": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_pressure_4220.wav",
+    "scene_003_rw_press": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_press_7242.wav",
+    "scene_003_rw_compress": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_compress_75d9.wav",
+    "scene_003_rw_impress": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_impress_ec7a.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_1ab72c.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_8021c7.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_6cd4c6.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_1b2355.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_764e73.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-high-pressure-7d8b50df.mp4"
+}

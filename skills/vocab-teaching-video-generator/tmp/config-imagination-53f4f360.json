@@ -1,0 +1,261 @@
+{
+  "script": {
+    "id": "video_script_imagination_001",
+    "topic": "英语词汇教学:imagination",
+    "description": "通过词根词缀法讲解imagination,帮助学习者掌握这个词的构成、含义及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 100,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "imagination",
+          "subtitle": "想象力 · 创造力"
+        },
+        "narration": "欢迎来到今天的词汇学习,今天我们要学习的单词是imagination.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_cea28a.wav",
+        "audioDuration": 6.1
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "imagination",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "想象力；想象的能力",
+            "创造力；创新思维",
+            "幻想；空想",
+            "想象中的事物；幻觉"
+          ]
+        },
+        "narration": "现在让我们来看一下这个词的详细信息.imagination是一个名词,发音为美式英语/ɪˌmædʒɪˈneɪʃən/,它有多个含义,包括想象力、创造力、幻想以及想象中的事物.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_002_7dbdad.wav",
+        "audioDuration": 14.3
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "imagination(想象力)= imag-(形象)+ -ation(名词后缀)",
+          "highlights": [
+            {
+              "text": "imag-",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ation",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:一个灯泡和大脑的创意结合图,象征想象力",
+              "alt": "想象力创意图示",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A silhouette hand holds a mason jar capturing a stunning galaxy under a starry night sky.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "imag-",
+              "meaning": "形象,图像,映象",
+              "label": "词根",
+              "narration": "词根imag-来源于拉丁语imago,表示'形象'或'图像'的意思,这是想象的基础--大脑中形成的画面和影像.",
+              "relatedWords": [
+                {
+                  "word": "imagine",
+                  "meaning": "想象,猜想",
+                  "highlight": "imag-",
+                  "narration": "imagine,想象",
+                  "audioUrl": "/audio/tts/rw_imagine_a073.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "image",
+                  "meaning": "形象,图像",
+                  "highlight": "imag-",
+                  "narration": "image,图像",
+                  "audioUrl": "/audio/tts/rw_image_48d5.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "imaginary",
+                  "meaning": "想象中的,虚构的",
+                  "highlight": "imagin-",
+                  "narration": "imaginary,虚构的",
+                  "audioUrl": "/audio/tts/rw_imaginary_399b.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "imaginative",
+                  "meaning": "有想象力的,创新的",
+                  "highlight": "imagin-",
+                  "narration": "imaginative,有想象力的",
+                  "audioUrl": "/audio/tts/rw_imaginative_46e9.wav",
+                  "audioDuration": 2.8
+                }
+              ],
+              "audioUrl": "/audio/tts/root_imag-_a965.wav",
+              "audioDuration": 9.6
+            },
+            {
+              "root": "-ation",
+              "meaning": "行为,状态,结果",
+              "label": "后缀",
+              "narration": "后缀-ation是常见的名词后缀,表示某种行为、状态或结果.这里表示'想象'这一行为或能力的结果.",
+              "relatedWords": [
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "-ation",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_180a.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "information",
+                  "meaning": "信息",
+                  "highlight": "-ation",
+                  "narration": "information,信息",
+                  "audioUrl": "/audio/tts/rw_information_9c2b.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "creation",
+                  "meaning": "创造",
+                  "highlight": "-tion",
+                  "narration": "creation,创造",
+                  "audioUrl": "/audio/tts/rw_creation_7e51.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ation_b20d.wav",
+              "audioDuration": 9.7
+            }
+          ]
+        },
+        "narration": "接下来让我们分析这个词的构成,看看它是如何由词根和词缀组成的.",
+        "narrationLang": "zh",
+        "durationSeconds": 45,
+        "audioUrl": "/audio/tts/narration_scene_003_e49536.wav",
+        "audioDuration": 6.4
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Children have very vivid imaginations.",
+          "chinese": "孩子们的想象力非常丰富.",
+          "highlights": [
+            {
+              "text": "imaginations",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3965546/pexels-photo-3965546.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Cute siblings playing with DIY props in a cozy room, sharing laughter and joy.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_b4ea4a.wav",
+          "englishAudioDuration": 3.1
+        },
+        "narration": "Children have very vivid imaginations. 意思是:孩子们的想象力非常丰富.这句话告诉我们,imagination通常用作不可数名词,但复数形式可以表示多个人的不同想象力.",
+        "narrationLang": "zh",
+        "durationSeconds": 19,
+        "audioUrl": "/audio/tts/narration_scene_004_a384ec.wav",
+        "audioDuration": 15.1
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Science fiction writers need a powerful imagination.",
+          "chinese": "科幻小说作家需要强大的想象力.",
+          "highlights": [
+            {
+              "text": "imagination",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/9482203/pexels-photo-9482203.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A sci-fi character in armor riding an armored vehicle outdoors.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_b0a1be.wav",
+          "englishAudioDuration": 3.1
+        },
+        "narration": "Science fiction writers need a powerful imagination. 意思是:科幻小说作家需要强大的想象力.这个例句展示了imagination在创意工作中的重要性.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_005_4f2e62.wav",
+        "audioDuration": 12.6
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "imagination是名词,意为'想象力、创造力',来源于拉丁语'形象'一词",
+            "词根imag-表示'形象、图像',后缀-ation表示名词'行为、状态'",
+            "相关词汇包括:imagine(想象,v.)、imaginative(有想象力的,adj.)、imaginary(虚构的,adj.)",
+            "imagination常用于描述人的思维能力和创意能力"
+          ]
+        },
+        "narration": "好的,今天的课程到这里就结束了.让我们回顾一下今天学到的内容:imagination是一个由词根imag-和后缀-ation组成的名词,意思是想象力.记住它和imagine、imaginative、imaginary这些相关词汇的关联,可以帮助我们更好地掌握和使用它们.希望今天的内容对你有帮助,我们下期再见！",
+        "narrationLang": "zh",
+        "durationSeconds": 28,
+        "audioUrl": "/audio/tts/narration_scene_006_16b080.wav",
+        "audioDuration": 25.6
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_cea28a.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_7dbdad.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_e49536.wav",
+    "scene_003_root_imag-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_imag-_a965.wav",
+    "scene_003_rw_imagine": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_imagine_a073.wav",
+    "scene_003_rw_image": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_image_48d5.wav",
+    "scene_003_rw_imaginary": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_imaginary_399b.wav",
+    "scene_003_rw_imaginative": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_imaginative_46e9.wav",
+    "scene_003_root_-ation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ation_b20d.wav",
+    "scene_003_rw_education": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_education_180a.wav",
+    "scene_003_rw_information": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_information_9c2b.wav",
+    "scene_003_rw_creation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_creation_7e51.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_a384ec.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_b4ea4a.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_4f2e62.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_b0a1be.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_16b080.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-imagination-53f4f360.mp4"
+}

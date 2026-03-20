@@ -1,0 +1,219 @@
+{
+  "script": {
+    "id": "video_script_swept_001",
+    "topic": "英语词汇教学:swept",
+    "description": "通过词源解析和记忆方法讲解动词swept的用法及过去式变化规律",
+    "targetAudience": "英语学习者",
+    "totalDuration": 90,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "swept",
+          "subtitle": "扫；打扫；席卷"
+        },
+        "narration": "今天我们要学习的单词是swept,它是动词sweep的过去式和过去分词形式,表示扫、扫地、席卷等含义.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_001_15d5ed.wav",
+        "audioDuration": 10.0
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "swept",
+          "partOfSpeech": "verb",
+          "definitions": [
+            "sweep的过去式和过去分词",
+            "扫；打扫；清扫",
+            "(风、浪潮等)掠过；席卷",
+            "(目光)扫过；巡视"
+          ]
+        },
+        "narration": "现在让我们来看看swept这个单词的详细信息.它是一个动词,是sweep的过去式和过去分词形式,主要有几个含义:扫、打扫、清扫,以及风或浪潮等掠过,还有目光扫过、巡视的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_002_bb99fb.wav",
+        "audioDuration": 17.1
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "swept 是 sweep 的不规则过去式/过去分词",
+          "highlights": [
+            {
+              "text": "sweep",
+              "color": "#FFD93D",
+              "label": "原形"
+            },
+            {
+              "text": "→",
+              "color": "#6BCB77",
+              "label": "变化"
+            },
+            {
+              "text": "swept",
+              "color": "#4D96FF",
+              "label": "过去式/过去分词"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:扫帚 sweeping 动作的简笔画图示",
+              "alt": "扫帚扫地动作图示",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/774535/pexels-photo-774535.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Peaceful grassland scene with gentle breeze under a partly cloudy sky. Perfect for nature lovers.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "sweep",
+              "meaning": "扫；清扫",
+              "label": "动词原形",
+              "narration": "sweep来源于古英语sweopan,意思是扫、清除.这个词在历史演变中,其过去式和过去分词形式变成了不规则的swept,而不是规则的swepted形式.",
+              "relatedWords": [
+                {
+                  "word": "sweep",
+                  "meaning": "v. 扫；清扫",
+                  "highlight": "sweep",
+                  "narration": "sweep,扫；清扫",
+                  "audioUrl": "/audio/tts/rw_sweep_d644.wav",
+                  "audioDuration": 2.5
+                },
+                {
+                  "word": "sweeper",
+                  "meaning": "n. 清扫工；清洁工",
+                  "highlight": "sweep",
+                  "narration": "sweeper,清扫工",
+                  "audioUrl": "/audio/tts/rw_sweeper_d074.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "sweeping",
+                  "meaning": "adj. 范围广的；彻底的",
+                  "highlight": "sweep",
+                  "narration": "sweeping,彻底的",
+                  "audioUrl": "/audio/tts/rw_sweeping_7ff7.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_sweep_0f22.wav",
+              "audioDuration": 13.7
+            }
+          ]
+        },
+        "narration": "接下来让我们学习swept的构词规律和记忆方法.",
+        "narrationLang": "zh",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_003_1cf932.wav",
+        "audioDuration": 4.8
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She swept the floor clean before the guests arrived.",
+          "chinese": "在客人到来之前,她把地板打扫干净了.",
+          "highlights": [
+            {
+              "text": "swept",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/4108714/pexels-photo-4108714.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed image of a broom and dustpan used for cleaning wooden floors at home.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_70bd43.wav",
+          "englishAudioDuration": 3.4
+        },
+        "narration": "She swept the floor clean before the guests arrived. 意思是:在客人到来之前,她把地板打扫干净了.句中的swept表示打扫的动作.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_004_398257.wav",
+        "audioDuration": 11.1
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "A cold wind swept through the empty streets.",
+          "chinese": "一阵冷风掠过空旷的街道.",
+          "highlights": [
+            {
+              "text": "swept",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/774535/pexels-photo-774535.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Peaceful grassland scene with gentle breeze under a partly cloudy sky. Perfect for nature lovers.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_a244a0.wav",
+          "englishAudioDuration": 2.8
+        },
+        "narration": "A cold wind swept through the empty streets. 意思是:一阵冷风掠过空旷的街道.这里swept表示风快速掠过的动态.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_005_3af78c.wav",
+        "audioDuration": 10.1
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "swept是动词sweep的过去式和过去分词,属于不规则动词变化",
+            "基本含义是扫、打扫、清扫,也可用于风、浪潮等自然现象的掠过",
+            "记忆技巧:记住sweep → swept 的变化,直接加p而非加ed",
+            "常见搭配:sweep the floor(扫地)、sweep away(清除)、sweep through(掠过)"
+          ]
+        },
+        "narration": "好的,今天我们学习了swept这个单词.请大家记住:swept是sweep的不规则过去式和过去分词,意思是扫或掠过.掌握它的变化规律和常见搭配,对英语学习很有帮助.多做练习,加深记忆！",
+        "narrationLang": "zh",
+        "durationSeconds": 21,
+        "audioUrl": "/audio/tts/narration_scene_006_0d1ce5.wav",
+        "audioDuration": 18.1
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_15d5ed.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_bb99fb.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_1cf932.wav",
+    "scene_003_root_sweep": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_sweep_0f22.wav",
+    "scene_003_rw_sweep": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_sweep_d644.wav",
+    "scene_003_rw_sweeper": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_sweeper_d074.wav",
+    "scene_003_rw_sweeping": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_sweeping_7ff7.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_398257.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_70bd43.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_3af78c.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_a244a0.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_0d1ce5.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-swept-cf7a539a.mp4"
+}

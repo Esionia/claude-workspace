@@ -1,0 +1,252 @@
+{
+  "script": {
+    "id": "video_script_temperature_001",
+    "topic": "英语词汇教学:temperature",
+    "description": "通过词根词缀法讲解 temperature 的构成、含义和使用方法,帮助学习者掌握这个常用的英语词汇.",
+    "targetAudience": "英语学习者",
+    "totalDuration": 90,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "temperature",
+          "subtitle": "温度"
+        },
+        "narration": "欢迎来到英语词汇课堂！今天我们要学习的单词是 temperature,表示温度、气温或体温的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_001_99c50f.wav",
+        "audioDuration": 9.2
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "temperature",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "温度",
+            "气温",
+            "体温",
+            "气温变化"
+          ]
+        },
+        "narration": "让我们来看一下 temperature 的基本信息.这是一个名词,常见的中文释义有温度、气温、体温以及气温变化等多个含义.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_002_1a7c42.wav",
+        "audioDuration": 10.7
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "temperature = tempera(调节、混合)+ -ture(名词后缀)",
+          "highlights": [
+            {
+              "text": "tempera",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ture",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:温度计上显示的不同刻度,冷热交替的视觉形象",
+              "alt": "温度计示意图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/9182633/pexels-photo-9182633.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of a metallic oven thermometer showing temperature in Celsius and Fahrenheit.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "tempera",
+              "meaning": "调节、混合",
+              "label": "词根",
+              "narration": "词根 tempera 来自拉丁语 temperare,本意是'调节、混合'.古人认为温度是冷热两种元素混合的结果,所以用这个词根来表示.",
+              "relatedWords": [
+                {
+                  "word": "temper",
+                  "meaning": "调节、缓和",
+                  "highlight": "temper",
+                  "narration": "temper,调节、缓和情绪",
+                  "audioUrl": "/audio/tts/rw_temper_41cd.wav",
+                  "audioDuration": 3.1
+                },
+                {
+                  "word": "tempered",
+                  "meaning": "调节过的",
+                  "highlight": "tempered",
+                  "narration": "tempered,回火处理过的",
+                  "audioUrl": "/audio/tts/rw_tempered_f034.wav",
+                  "audioDuration": 2.6
+                },
+                {
+                  "word": "tempera",
+                  "meaning": "蛋彩画法",
+                  "highlight": "tempera",
+                  "narration": "tempera,用水调和颜料的方法",
+                  "audioUrl": "/audio/tts/rw_tempera_90e0.wav",
+                  "audioDuration": 3.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_tempera_10d5.wav",
+              "audioDuration": 11.5
+            },
+            {
+              "root": "-ture",
+              "meaning": "名词后缀,表示行为、状态或结果",
+              "label": "后缀",
+              "narration": "后缀 -ture 是常见的名词后缀,表示某种行为、状态或结果.很多英语单词都以 -ture 结尾,比如 nature 自然、culture 文化.",
+              "relatedWords": [
+                {
+                  "word": "nature",
+                  "meaning": "自然",
+                  "highlight": "-ture",
+                  "narration": "nature,自然、本质",
+                  "audioUrl": "/audio/tts/rw_nature_4eaf.wav",
+                  "audioDuration": 2.7
+                },
+                {
+                  "word": "culture",
+                  "meaning": "文化",
+                  "highlight": "-ture",
+                  "narration": "culture,文化、修养",
+                  "audioUrl": "/audio/tts/rw_culture_4812.wav",
+                  "audioDuration": 2.7
+                },
+                {
+                  "word": "mixture",
+                  "meaning": "混合物",
+                  "highlight": "-ture",
+                  "narration": "mixture,混合体",
+                  "audioUrl": "/audio/tts/rw_mixture_22ce.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ture_720e.wav",
+              "audioDuration": 11.6
+            }
+          ]
+        },
+        "narration": "现在让我们深入了解这个单词的构成.",
+        "narrationLang": "zh",
+        "durationSeconds": 47,
+        "audioUrl": "/audio/tts/narration_scene_003_a2cb72.wav",
+        "audioDuration": 3.7
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The temperature today is 25 degrees Celsius.",
+          "chinese": "今天的温度是25摄氏度.",
+          "highlights": [
+            {
+              "text": "temperature",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6374566/pexels-photo-6374566.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Frozen drain spout with icicle against a snowy backdrop. Captured in Estonia.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_3d0dad.wav",
+          "englishAudioDuration": 3.6
+        },
+        "narration": "The temperature today is 25 degrees Celsius. 意思是:今天的温度是25摄氏度.这个例句展示了 temperature 表示天气温度的常见用法.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_004_968130.wav",
+        "audioDuration": 12.3
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "If you have a high temperature, you should see a doctor.",
+          "chinese": "如果你发高烧,应该去看医生.",
+          "highlights": [
+            {
+              "text": "temperature",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5871642/pexels-photo-5871642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Colorful handmade poster with inspiring message 'You Always Have a Choice' and red lightning bolt.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_b9c713.wav",
+          "englishAudioDuration": 2.8
+        },
+        "narration": "If you have a high temperature, you should see a doctor. 意思是:如果你发高烧,应该去看医生.这里 temperature 表示体温,high temperature 就是发烧的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_005_6f0563.wav",
+        "audioDuration": 12.6
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "temperature 是名词,意为'温度、气温、体温',是日常英语中的高频词汇",
+            "词根 tempera 来自拉丁语 'temperare',本意是'调节、混合',体现了温度的本质概念",
+            "后缀 -ture 是常见的名词后缀,表示行为、状态或结果,可帮助记忆同类型词汇",
+            "常用搭配:high temperature(高烧)、room temperature(室温)、temperature drop(温度下降)"
+          ]
+        },
+        "narration": "好的,今天的词汇课就到这里.让我们回顾一下今天学到的内容:temperature 是一个由拉丁语词根构成的名词,表示温度、气温或体温的意思.记住它的词根和后缀,可以帮助我们更好地理解和记忆这个单词,也能联想到更多相关词汇.感谢大家的观看！",
+        "narrationLang": "zh",
+        "durationSeconds": 25,
+        "audioUrl": "/audio/tts/narration_scene_006_a15b34.wav",
+        "audioDuration": 22.1
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_99c50f.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_1a7c42.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_a2cb72.wav",
+    "scene_003_root_tempera": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_tempera_10d5.wav",
+    "scene_003_rw_temper": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_temper_41cd.wav",
+    "scene_003_rw_tempered": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_tempered_f034.wav",
+    "scene_003_rw_tempera": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_tempera_90e0.wav",
+    "scene_003_root_-ture": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ture_720e.wav",
+    "scene_003_rw_nature": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_nature_4eaf.wav",
+    "scene_003_rw_culture": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_culture_4812.wav",
+    "scene_003_rw_mixture": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_mixture_22ce.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_968130.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_3d0dad.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_6f0563.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_b9c713.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_a15b34.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-temperature-cc632770.mp4"
+}

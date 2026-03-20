@@ -1,0 +1,252 @@
+{
+  "script": {
+    "id": "video_script_development_001",
+    "topic": "英语词汇教学:development",
+    "description": "通过词根词缀法讲解名词development的含义、构成和应用",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "development",
+          "subtitle": "发展；发育；开发"
+        },
+        "narration": "今天我们要学习的单词是 development",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_995dfc.wav",
+        "audioDuration": 3.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "development",
+          "meaning": "发展；发育；开发",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "发展",
+            "发育",
+            "开发",
+            "成长"
+          ]
+        },
+        "narration": "development 是一个名词,表示发展、发育或开发的意思",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_f6a58d.wav",
+        "audioDuration": 5.6
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "development = de- + velop + -ment",
+          "highlights": [
+            {
+              "text": "de-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "velop",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ment",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "velop",
+              "meaning": "包裹",
+              "label": "词根",
+              "narration": "velop 来自古法语 veloper,意思是包裹、隐藏.develop 原意是把包裹的东西打开,引申为发展、显现.",
+              "relatedWords": [
+                {
+                  "word": "develop",
+                  "meaning": "发展；开发",
+                  "highlight": "velop",
+                  "narration": "develop,发展",
+                  "audioUrl": "/audio/tts/rw_develop_4e0e.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "envelop",
+                  "meaning": "包裹；包围",
+                  "highlight": "velop",
+                  "narration": "envelop,包裹",
+                  "audioUrl": "/audio/tts/rw_envelop_5915.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "envelope",
+                  "meaning": "信封",
+                  "highlight": "velop",
+                  "narration": "envelope,信封",
+                  "audioUrl": "/audio/tts/rw_envelope_2af0.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_velop_7c55.wav",
+              "audioDuration": 10.5
+            },
+            {
+              "root": "-ment",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "-ment 是常见的名词后缀,表示行为、过程或结果.",
+              "relatedWords": [
+                {
+                  "word": "movement",
+                  "meaning": "运动",
+                  "highlight": "-ment",
+                  "narration": "movement,运动",
+                  "audioUrl": "/audio/tts/rw_movement_7cde.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "improvement",
+                  "meaning": "改善",
+                  "highlight": "-ment",
+                  "narration": "improvement,改善",
+                  "audioUrl": "/audio/tts/rw_improvement_3a8f.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "government",
+                  "meaning": "政府",
+                  "highlight": "-ment",
+                  "narration": "government,政府",
+                  "audioUrl": "/audio/tts/rw_government_42c0.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ment_3adc.wav",
+              "audioDuration": 5.2
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/270373/pexels-photo-270373.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up view of colorful code on a laptop screen, showcasing programming concepts.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分析一下 development 的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 36,
+        "audioUrl": "/audio/tts/narration_scene_003_cf349b.wav",
+        "audioDuration": 3.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The development of new technology takes a long time.",
+          "chinese": "新技术的开发需要很长时间.",
+          "highlights": [
+            {
+              "text": "development",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3862630/pexels-photo-3862630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Woman conducting engineering research in a sound system workshop using a laptop.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_1cc4d1.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "The development of new technology takes a long time. 意思是:新技术的开发需要很长时间.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_ee299e.wav",
+        "audioDuration": 7.8
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Children's physical development is very important.",
+          "chinese": "儿童的身体发育非常重要.",
+          "highlights": [
+            {
+              "text": "development",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/8504443/pexels-photo-8504443.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Two kids enjoy balancing on wooden boards indoors, enhancing focus and coordination.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_3c50c5.wav",
+          "englishAudioDuration": 3.0
+        },
+        "narration": "Children's physical development is very important. 意思是:儿童的的身体发育非常重要.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_005_fa584f.wav",
+        "audioDuration": 7.9
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "development 是名词,意思是发展、发育或开发",
+            "词根 velop 源自包裹的含义,引申为显现和发展",
+            "后缀 -ment 是名词标志,表示行为过程或结果",
+            "相关词汇包括 develop、envelop、movement 等"
+          ]
+        },
+        "narration": "今天我们学习了 development 的构成和用法,希望对你记忆单词有所帮助",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_84eec1.wav",
+        "audioDuration": 6.6
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_995dfc.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_f6a58d.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_cf349b.wav",
+    "scene_003_root_velop": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_velop_7c55.wav",
+    "scene_003_rw_develop": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_develop_4e0e.wav",
+    "scene_003_rw_envelop": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_envelop_5915.wav",
+    "scene_003_rw_envelope": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_envelope_2af0.wav",
+    "scene_003_root_-ment": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ment_3adc.wav",
+    "scene_003_rw_movement": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_movement_7cde.wav",
+    "scene_003_rw_improvement": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_improvement_3a8f.wav",
+    "scene_003_rw_government": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_government_42c0.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_ee299e.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_1cc4d1.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_fa584f.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_3c50c5.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_84eec1.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-development-5587a967.mp4"
+}

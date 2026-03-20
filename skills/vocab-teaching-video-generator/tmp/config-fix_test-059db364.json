@@ -1,0 +1,220 @@
+{
+  "script": {
+    "id": "video_script_fix_001",
+    "topic": "英语词汇教学:fix",
+    "description": "通过词根词缀法讲解动词fix的用法,包括固定、安装、确定、修理等核心含义",
+    "targetAudience": "英语学习者",
+    "totalDuration": 108,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "fix",
+          "subtitle": "固定；安装；确定；修理"
+        },
+        "narration": "同学们好,今天我们要学习的单词是fix,这个词在英语中使用频率非常高.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_001_8bb806.wav",
+        "audioDuration": 7.2
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "fix",
+          "meaning": "固定；安装；确定；修理；准备",
+          "partOfSpeech": "verb",
+          "definitions": [
+            "固定；使固定",
+            "安装；装配",
+            "确定；决定",
+            "修理；整理",
+            "准备(食物、饮料等)"
+          ]
+        },
+        "narration": "fix是一个多功能的动词,它的基本含义是固定,还可以表示安装、确定、修理以及准备食物或饮料等.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_002_b87a0f.wav",
+        "audioDuration": 9.7
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "fix来自拉丁语figere,意为固定",
+          "highlights": [
+            {
+              "text": "fix",
+              "color": "#FFD93D",
+              "label": "词根"
+            }
+          ],
+          "images": [
+            {
+              "url": "description: 一颗螺丝固定在木板上的图示",
+              "alt": "fix示意图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/4913801/pexels-photo-4913801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of a textured stucco wall with a rough plaster finish, ideal for backgrounds.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "fix",
+              "meaning": "固定",
+              "label": "词根",
+              "narration": "fix源自拉丁语figere的过去分词fixus,本意就是固定、牢固地系住.这个词根在英语中产生了许多相关词汇.",
+              "relatedWords": [
+                {
+                  "word": "fixation",
+                  "meaning": "固定；依恋",
+                  "highlight": "fix",
+                  "narration": "fixation,固定",
+                  "audioUrl": "/audio/tts/rw_fixation_39c2.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "fixture",
+                  "meaning": "固定装置；固定物",
+                  "highlight": "fix",
+                  "narration": "fixture,固定装置",
+                  "audioUrl": "/audio/tts/rw_fixture_6ead.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "fixed",
+                  "meaning": "固定的；不变的",
+                  "highlight": "fix",
+                  "narration": "fixed,固定的",
+                  "audioUrl": "/audio/tts/rw_fixed_ca88.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "unfix",
+                  "meaning": "解开；松开",
+                  "highlight": "un-",
+                  "narration": "unfix,解开",
+                  "audioUrl": "/audio/tts/rw_unfix_366d.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_fix_1d96.wav",
+              "audioDuration": 10.6
+            }
+          ]
+        },
+        "narration": "让我们来探究fix的词根来源和相关词汇.",
+        "narrationLang": "zh",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_003_b4c7e8.wav",
+        "audioDuration": 4.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Please fix the picture on the wall.",
+          "chinese": "请把画固定在墙上.",
+          "highlights": [
+            {
+              "text": "fix",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/8342309/pexels-photo-8342309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A hand holds a picture frame with 'Dad Joke Loading' text in a natural setting.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_738bca.wav",
+          "englishAudioDuration": 2.1
+        },
+        "narration": "Please fix the picture on the wall. 意思是:请把画固定在墙上.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_004_95ea2f.wav",
+        "audioDuration": 5.7
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "We need to fix a date for the meeting.",
+          "chinese": "我们需要确定会议的日期.",
+          "highlights": [
+            {
+              "text": "fix",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/8553061/pexels-photo-8553061.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Three diverse protesters with signs expressing political dissatisfaction in a studio environment.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_ae9d8f.wav",
+          "englishAudioDuration": 2.2
+        },
+        "narration": "We need to fix a date for the meeting. 意思是:我们需要确定会议的日期.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_005_8067ea.wav",
+        "audioDuration": 6.2
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "fix来自拉丁语figere,意为固定",
+            "fix作为动词有多种含义:固定、安装、确定、修理、准备",
+            "常见相关词:fixation(固定)、fixture(固定装置)、fixed(固定的)",
+            "fix a date是固定日期、引申为确定日期的常用表达"
+          ]
+        },
+        "narration": "今天我们学习了fix这个词,它源自拉丁语表示固定,可以应用于多种生活场景.同学们要掌握这个词的基本含义和常见搭配哦！",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_879f14.wav",
+        "audioDuration": 11.5
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_8bb806.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_b87a0f.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_b4c7e8.wav",
+    "scene_003_root_fix": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_fix_1d96.wav",
+    "scene_003_rw_fixation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_fixation_39c2.wav",
+    "scene_003_rw_fixture": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_fixture_6ead.wav",
+    "scene_003_rw_fixed": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_fixed_ca88.wav",
+    "scene_003_rw_unfix": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_unfix_366d.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_95ea2f.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_738bca.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_8067ea.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_ae9d8f.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_879f14.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-fix_test-059db364.mp4"
+}

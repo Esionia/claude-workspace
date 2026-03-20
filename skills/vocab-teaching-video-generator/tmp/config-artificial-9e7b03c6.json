@@ -1,0 +1,257 @@
+{
+  "script": {
+    "id": "video_script_artificial_001",
+    "topic": "英语词汇教学:artificial",
+    "description": "通过词根词缀法讲解单词 artificial(人工的、人造的),帮助学习者掌握词根 art- 和后缀 -ial 的用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 106,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "artificial",
+          "subtitle": "人工的,人造的"
+        },
+        "narration": "欢迎来到今天的词汇课堂,我们要学习的单词是 artificial",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_c9ff7d.wav",
+        "audioDuration": 5.6
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "artificial",
+          "meaning": "人工的,人造的,虚伪的,不自然的",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "人工的,人造的",
+            "虚伪的,不自然的",
+            "人为的"
+          ]
+        },
+        "narration": "现在让我们来看一下这个单词的具体含义和用法",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_002_2746de.wav",
+        "audioDuration": 4.5
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "artificial = art(技艺)+ i(连接元音)+ ficial(做)",
+          "highlights": [
+            {
+              "text": "art",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-i-",
+              "color": "#6BCB77",
+              "label": "连接元音"
+            },
+            {
+              "text": "-ficial",
+              "color": "#4D96FF",
+              "label": "复合后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "artificial flower",
+              "alt": "人造花朵示例图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/5746105/pexels-photo-5746105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Vibrant arrangement of artificial flowers on a black background for decorative design.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "art-",
+              "meaning": "技艺,技能",
+              "label": "词根",
+              "narration": "词根 art 来自拉丁语ars,表示技艺和技能的意思,这与人工制造需要有技艺的含义相关",
+              "relatedWords": [
+                {
+                  "word": "artist",
+                  "meaning": "艺术家",
+                  "highlight": "art",
+                  "narration": "artist,艺术家",
+                  "audioUrl": "/audio/tts/rw_artist_cef1.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "artisan",
+                  "meaning": "工匠,手艺人",
+                  "highlight": "art",
+                  "narration": "artisan,工匠",
+                  "audioUrl": "/audio/tts/rw_artisan_9218.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "artistic",
+                  "meaning": "艺术的",
+                  "highlight": "art",
+                  "narration": "artistic,艺术的",
+                  "audioUrl": "/audio/tts/rw_artistic_c158.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_art-_f4bb.wav",
+              "audioDuration": 8.4
+            },
+            {
+              "root": "-ial",
+              "meaning": "形容词后缀",
+              "label": "后缀",
+              "narration": "后缀 -ial 是常见的形容词后缀,表示具有某种性质的",
+              "relatedWords": [
+                {
+                  "word": "natural",
+                  "meaning": "自然的",
+                  "highlight": "-al",
+                  "narration": "natural,自然的",
+                  "audioUrl": "/audio/tts/rw_natural_9afb.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "personal",
+                  "meaning": "个人的",
+                  "highlight": "-al",
+                  "narration": "personal,个人的",
+                  "audioUrl": "/audio/tts/rw_personal_2b50.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "commercial",
+                  "meaning": "商业的",
+                  "highlight": "-ial",
+                  "narration": "commercial,商业的",
+                  "audioUrl": "/audio/tts/rw_commercial_704f.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ial_670f.wav",
+              "audioDuration": 5.4
+            }
+          ]
+        },
+        "narration": "接下来让我们通过词根词缀来深入理解这个单词的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 36,
+        "audioUrl": "/audio/tts/narration_scene_003_5b4007.wav",
+        "audioDuration": 5.6
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "These artificial flowers look very realistic.",
+          "chinese": "这些人造花看起来非常逼真.",
+          "highlights": [
+            {
+              "text": "artificial",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/11727213/pexels-photo-11727213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A woman poses among cherry blossom branches, capturing spring's essence.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_7bc5e6.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "These artificial flowers look very realistic. 意思是:这些人造花看起来非常逼真.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_004_843ef6.wav",
+        "audioDuration": 7.6
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Her smile seemed artificial and forced.",
+          "chinese": "她的微笑看起来很虚伪,很不自然.",
+          "highlights": [
+            {
+              "text": "artificial",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6708758/pexels-photo-6708758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Black woman smiling while holding a heart-shaped pillow, ideal for Valentine's Day themes.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_1bc684.wav",
+          "englishAudioDuration": 3.0
+        },
+        "narration": "Her smile seemed artificial and forced. 意思是:她的微笑看起来很虚伪,很不自然.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_005_bfcdff.wav",
+        "audioDuration": 7.5
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "artificial 是形容词,表示人工的、人造的或虚伪的、不自然的",
+            "词根 art- 来自拉丁语,表示技艺和技能,是单词的核心含义",
+            "后缀 -ial 是常见的形容词后缀,表示具有某种性质的",
+            "相关词汇包括:artist(艺术家)、artisan(工匠)、natural(自然的)、commercial(商业的)"
+          ]
+        },
+        "narration": "今天我们学习了 artificial 这个单词,它表示人工的或虚伪的含义,通过词根 art- 我们可以记住一系列相关词汇,感谢观看！",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_eda141.wav",
+        "audioDuration": 10.9
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_c9ff7d.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_2746de.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_5b4007.wav",
+    "scene_003_root_art-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_art-_f4bb.wav",
+    "scene_003_rw_artist": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_artist_cef1.wav",
+    "scene_003_rw_artisan": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_artisan_9218.wav",
+    "scene_003_rw_artistic": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_artistic_c158.wav",
+    "scene_003_root_-ial": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ial_670f.wav",
+    "scene_003_rw_natural": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_natural_9afb.wav",
+    "scene_003_rw_personal": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_personal_2b50.wav",
+    "scene_003_rw_commercial": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_commercial_704f.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_843ef6.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_7bc5e6.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_bfcdff.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_1bc684.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_eda141.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-artificial-9e7b03c6.mp4"
+}

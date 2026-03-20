@@ -1,0 +1,295 @@
+{
+  "script": {
+    "id": "video_script_compressions_001",
+    "topic": "英语词汇教学:compressions",
+    "description": "通过词根词缀法讲解单词compressions的含义、构成和相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "compressions",
+          "subtitle": "压缩；压力"
+        },
+        "narration": "今天我们要学习的单词是compressions",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_3ba07d.wav",
+        "audioDuration": 3.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "compressions",
+          "meaning": "压缩；压力；压榨",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "压缩",
+            "压榨",
+            "压力",
+            "压缩物"
+          ]
+        },
+        "narration": "compressions是一个名词,意思是压缩、压力或压榨",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_0a6785.wav",
+        "audioDuration": 5.5
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "compressions = com- + press + -ion + -s",
+          "highlights": [
+            {
+              "text": "com-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "press",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ion",
+              "color": "#FFD93D",
+              "label": "后缀"
+            },
+            {
+              "text": "-s",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "com-",
+              "meaning": "共同、一起",
+              "label": "前缀",
+              "narration": "前缀com-表示共同、一起、加强语气的作用",
+              "relatedWords": [
+                {
+                  "word": "combine",
+                  "meaning": "结合、联合",
+                  "highlight": "com-",
+                  "narration": "combine,结合",
+                  "audioUrl": "/audio/tts/rw_combine_c0fa.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "comfort",
+                  "meaning": "安慰、舒适",
+                  "highlight": "com-",
+                  "narration": "comfort,安慰",
+                  "audioUrl": "/audio/tts/rw_comfort_4392.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "communicate",
+                  "meaning": "交流、沟通",
+                  "highlight": "com-",
+                  "narration": "communicate,交流",
+                  "audioUrl": "/audio/tts/rw_communicate_abec.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_com-_377a.wav",
+              "audioDuration": 4.8
+            },
+            {
+              "root": "press",
+              "meaning": "压",
+              "label": "词根",
+              "narration": "词根press来自拉丁语,表示压、按的含义",
+              "relatedWords": [
+                {
+                  "word": "pressure",
+                  "meaning": "压力",
+                  "highlight": "press",
+                  "narration": "pressure,压力",
+                  "audioUrl": "/audio/tts/rw_pressure_ffc9.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "express",
+                  "meaning": "表达",
+                  "highlight": "press",
+                  "narration": "express,表达",
+                  "audioUrl": "/audio/tts/rw_express_9316.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "depress",
+                  "meaning": "使沮丧、使萧条",
+                  "highlight": "press",
+                  "narration": "depress,使沮丧",
+                  "audioUrl": "/audio/tts/rw_depress_e741.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_press_5e34.wav",
+              "audioDuration": 4.6
+            },
+            {
+              "root": "-ion",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "后缀-ion表示行为、状态或结果",
+              "relatedWords": [
+                {
+                  "word": "action",
+                  "meaning": "行动",
+                  "highlight": "-ion",
+                  "narration": "action,行动",
+                  "audioUrl": "/audio/tts/rw_action_e401.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "-ion",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_e073.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "decision",
+                  "meaning": "决定",
+                  "highlight": "-ion",
+                  "narration": "decision,决定",
+                  "audioUrl": "/audio/tts/rw_decision_6fda.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ion_0db5.wav",
+              "audioDuration": 4.1
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/28495267/pexels-photo-28495267.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed image of two yellow industrial oxygen tanks secured with straps and metal supports.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "下面我们来分析compressions的构词方式",
+        "narrationLang": "zh",
+        "durationSeconds": 41,
+        "audioUrl": "/audio/tts/narration_scene_003_e6b8e3.wav",
+        "audioDuration": 3.9
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The compressions of the heart pump blood throughout the body.",
+          "chinese": "心脏的收缩将血液泵送到全身.",
+          "highlights": [
+            {
+              "text": "compressions",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/15722329/pexels-photo-15722329.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A stunning view of a golden pyramid-shaped mountain during summer, under a clear blue sky.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_add7c8.wav",
+          "englishAudioDuration": 3.3
+        },
+        "narration": "The compressions of the heart pump blood throughout the body. 意思是:心脏的收缩将血液泵送到全身.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_6fdf9f.wav",
+        "audioDuration": 8.1
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The software uses advanced data compressions to save storage space.",
+          "chinese": "该软件使用先进的数据压缩技术来节省存储空间.",
+          "highlights": [
+            {
+              "text": "compressions",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3862638/pexels-photo-3862638.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Female engineer focused on equipment in a modern lab, showcasing technology and expertise.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_fc0e17.wav",
+          "englishAudioDuration": 3.6
+        },
+        "narration": "The software uses advanced data compressions to save storage space. 意思是:该软件使用先进的数据压缩技术来节省存储空间.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_005_6625b5.wav",
+        "audioDuration": 10.9
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "compressions是compress的名词复数形式,意思是压缩、压力或压榨",
+            "词根press表示压,前缀com-表示共同、一起",
+            "后缀-ion表示行为或状态的结果",
+            "记住词根press相关词汇:pressure压力、express表达、depress抑郁"
+          ]
+        },
+        "narration": "今天我们学习了compressions这个单词,它由前缀com-、词根press和后缀-ion、-s组成,意思是压缩或压力.希望大家能够掌握这个词根词缀的记忆方法,并运用到更多英语词汇学习中.",
+        "narrationLang": "zh",
+        "durationSeconds": 19,
+        "audioUrl": "/audio/tts/narration_scene_006_da5aea.wav",
+        "audioDuration": 16.6
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_3ba07d.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_0a6785.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_e6b8e3.wav",
+    "scene_003_root_com-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_com-_377a.wav",
+    "scene_003_rw_combine": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_combine_c0fa.wav",
+    "scene_003_rw_comfort": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_comfort_4392.wav",
+    "scene_003_rw_communicate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_communicate_abec.wav",
+    "scene_003_root_press": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_press_5e34.wav",
+    "scene_003_rw_pressure": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_pressure_ffc9.wav",
+    "scene_003_rw_express": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_express_9316.wav",
+    "scene_003_rw_depress": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_depress_e741.wav",
+    "scene_003_root_-ion": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ion_0db5.wav",
+    "scene_003_rw_action": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_action_e401.wav",
+    "scene_003_rw_education": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_education_e073.wav",
+    "scene_003_rw_decision": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_decision_6fda.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_6fdf9f.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_add7c8.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_6625b5.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_fc0e17.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_da5aea.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-compressions-2286813e.mp4"
+}

@@ -1,0 +1,262 @@
+{
+  "script": {
+    "id": "video_script_creativity_001",
+    "topic": "英语词汇教学：creativity",
+    "description": "通过词根词缀法讲解单词creativity，掌握其含义、构成和相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "creativity",
+          "subtitle": "创造力"
+        },
+        "narration": "今天我们要学习一个非常重要的单词——creativity",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_031498.wav",
+        "audioDuration": 4.7
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "creativity",
+          "meaning": "创造力",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "创造力",
+            "创造性",
+            "独创性",
+            "创意"
+          ]
+        },
+        "narration": "creativity是一个名词，表示创造力、创造性或独创的能力",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_2d024b.wav",
+        "audioDuration": 6.1
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "creativity = create + -ive + -ity",
+          "highlights": [
+            {
+              "text": "cre",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ative",
+              "color": "#6BCB77",
+              "label": "形容词后缀"
+            },
+            {
+              "text": "-ity",
+              "color": "#4D96FF",
+              "label": "名词后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "cre",
+              "meaning": "创造",
+              "label": "词根",
+              "narration": "词根cre来源于拉丁语creare，意为创造、创作。这是单词的核心部分，承载了最根本的含义。",
+              "relatedWords": [
+                {
+                  "word": "create",
+                  "meaning": "创造",
+                  "highlight": "cre",
+                  "narration": "create，创造",
+                  "audioUrl": "/audio/tts/rw_create_eb87.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "creator",
+                  "meaning": "创造者",
+                  "highlight": "cre",
+                  "narration": "creator，创造者",
+                  "audioUrl": "/audio/tts/rw_creator_b1e3.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "creative",
+                  "meaning": "有创造性的",
+                  "highlight": "cre",
+                  "narration": "creative，有创造性的",
+                  "audioUrl": "/audio/tts/rw_creative_9f19.wav",
+                  "audioDuration": 2.6
+                }
+              ],
+              "audioUrl": "/audio/tts/root_cre_27d7.wav",
+              "audioDuration": 9.3
+            },
+            {
+              "root": "-ative",
+              "meaning": "形容词后缀",
+              "label": "后缀",
+              "narration": "-ative是形容词后缀，加在动词后面表示具有某种性质或倾向。create加上-ative变成creative，表示具有创造性的。",
+              "relatedWords": [
+                {
+                  "word": "active",
+                  "meaning": "积极的",
+                  "highlight": "-ative",
+                  "narration": "active，积极的",
+                  "audioUrl": "/audio/tts/rw_active_c08a.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "imaginative",
+                  "meaning": "富有想象力的",
+                  "highlight": "-ative",
+                  "narration": "imaginative，富有想象力的",
+                  "audioUrl": "/audio/tts/rw_imaginative_e921.wav",
+                  "audioDuration": 2.9
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ative_7864.wav",
+              "audioDuration": 11.6
+            },
+            {
+              "root": "-ity",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "-ity是名词后缀，表示性质或状态。creative加上-ity变成creativity，表示创造的性质或状态，即创造力。",
+              "relatedWords": [
+                {
+                  "word": "activity",
+                  "meaning": "活动",
+                  "highlight": "-ity",
+                  "narration": "activity，活动",
+                  "audioUrl": "/audio/tts/rw_activity_55de.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "reality",
+                  "meaning": "现实",
+                  "highlight": "-ity",
+                  "narration": "reality，现实",
+                  "audioUrl": "/audio/tts/rw_reality_8a38.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "originality",
+                  "meaning": "独创性",
+                  "highlight": "-ity",
+                  "narration": "originality，独创性",
+                  "audioUrl": "/audio/tts/rw_originality_2a7f.wav",
+                  "audioDuration": 2.6
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ity_e3d4.wav",
+              "audioDuration": 11.3
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3826653/pexels-photo-3826653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Hands creating elegant calligraphy with ink and watercolor tools on a desk, enhancing artistic creativity.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "接下来我们分析creativity的词根词缀构成",
+        "narrationLang": "zh",
+        "durationSeconds": 60,
+        "audioUrl": "/audio/tts/narration_scene_003_b489b9.wav",
+        "audioDuration": 4.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Creativity is essential for solving complex problems.",
+          "chinese": "创造力对于解决复杂问题是必不可少的。",
+          "highlights": [
+            {
+              "text": "creativity",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5063376/pexels-photo-5063376.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Crop faceless child in casual clothes holding metal wire brain teaser while playing at home",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_4583b3.wav",
+          "englishAudioDuration": 3.7
+        },
+        "narration": "Creativity is essential for solving complex problems. 意思是：创造力对于解决复杂问题是必不可少的。",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_0699e0.wav",
+        "audioDuration": 9.2
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The artist is known for her boundless creativity.",
+          "chinese": "这位艺术家以其无限的创造力而闻名。",
+          "highlights": [
+            {
+              "text": "creativity",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/9415473/pexels-photo-9415473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A stunning aerial view of Istanbul with the iconic Galata Tower framed by a cloudy sky.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_66a944.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "The artist is known for her boundless creativity. 意思是：这位艺术家以其无限的创造力而闻名。",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_005_c7f62f.wav",
+        "audioDuration": 8.4
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "creativity是名词，意为创造力、创造性",
+            "词根cre来自拉丁语，意为创造",
+            "-ative是形容词后缀，表示具有某种性质",
+            "-ity是名词后缀，表示性质或状态",
+            "同根词包括create创造、creative创造性的、creator创造者等"
+          ]
+        },
+        "narration": "今天我们学习了creativity这个单词，它由词根cre加上后缀构成，表示创造的能力。希望大家能够掌握这个词根词缀的记忆方法，并运用到更多英语词汇的学习中。",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_006_bc59cf.wav",
+        "audioDuration": 15.5
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {},
+  "outputPath": "public\\videos\\teaching-creativity-4447efa1.mp4"
+}

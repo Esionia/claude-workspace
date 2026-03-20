@@ -1,0 +1,237 @@
+{
+  "script": {
+    "id": "video_script_educator_001",
+    "topic": "英语词汇教学:educator",
+    "description": "通过词根词缀法讲解educator,帮助学习者掌握词根educ-(教育、引领)的含义及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "educator",
+          "subtitle": "教育工作者"
+        },
+        "narration": "今天我们要学习的单词是educator,表示教育工作者或教师的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_91236d.wav",
+        "audioDuration": 6.4
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "educator",
+          "meaning": "教育工作者",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "教育工作者",
+            "教师",
+            "教育家"
+          ]
+        },
+        "narration": "educator是一个名词,发音为/'edʒʊkeɪtər/,主要表示教育工作者、教师或教育家的含义.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_002_dc4bc8.wav",
+        "audioDuration": 8.7
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "educator = educ(教育、引领)+ -or(表示人的后缀)",
+          "highlights": [
+            {
+              "text": "educ-",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-or",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "educ-",
+              "meaning": "教育、引领、培养",
+              "label": "词根",
+              "narration": "词根educ-来源于拉丁语educare,意为\"培养、教导、引领出来\".这个根的核心含义是通过教导来培养人才,把人的潜能引导出来.",
+              "relatedWords": [
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "educ-",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_d6f8.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "educate",
+                  "meaning": "教育、教导",
+                  "highlight": "educ-",
+                  "narration": "educate,教育",
+                  "audioUrl": "/audio/tts/rw_educate_ddca.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "educational",
+                  "meaning": "教育的、有教育意义的",
+                  "highlight": "educ-",
+                  "narration": "educational,教育的",
+                  "audioUrl": "/audio/tts/rw_educational_2259.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_educ-_a20f.wav",
+              "audioDuration": 12.0
+            },
+            {
+              "root": "-or",
+              "meaning": "表示人",
+              "label": "后缀",
+              "narration": "后缀-or是常见的名词后缀,表示\"做某事的人\",例如actor(演员)、doctor(医生)、professor(教授)都使用了这个后缀.",
+              "relatedWords": [
+                {
+                  "word": "teacher",
+                  "meaning": "教师",
+                  "highlight": "-er",
+                  "narration": "teacher,教师",
+                  "audioUrl": "/audio/tts/rw_teacher_6cd2.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "author",
+                  "meaning": "作者",
+                  "highlight": "-or",
+                  "narration": "author,作者",
+                  "audioUrl": "/audio/tts/rw_author_0189.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-or_ee67.wav",
+              "audioDuration": 10.9
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5905758/pexels-photo-5905758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Positive smart African American female tutoring online with netbook in classroom with whiteboard",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来拆解这个单词的构成.",
+        "narrationLang": "zh",
+        "durationSeconds": 40,
+        "audioUrl": "/audio/tts/narration_scene_003_6bc7fa.wav",
+        "audioDuration": 3.0
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She is a renowned educator in the field of linguistics.",
+          "chinese": "她是语言学领域一位著名的教育家.",
+          "highlights": [
+            {
+              "text": "educator",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_009bd6.wav",
+          "englishAudioDuration": 3.4
+        },
+        "narration": "She is a renowned educator in the field of linguistics. 意思是:她是语言学领域一位著名的教育家.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_f0d5ac.wav",
+        "audioDuration": 8.5
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Good educators inspire their students to think critically.",
+          "chinese": "优秀的教育工作者会启发学生进行批判性思考.",
+          "highlights": [
+            {
+              "text": "educators",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/31258388/pexels-photo-31258388.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A teacher handing out gifts to students in a Vietnamese classroom.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_c31acd.wav",
+          "englishAudioDuration": 4.4
+        },
+        "narration": "Good educators inspire their students to think critically. 意思是:优秀的教育工作者会启发学生进行批判性思考.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_005_3d764f.wav",
+        "audioDuration": 10.1
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "educator表示\"教育工作者、教师、教育家\",是一个名词",
+            "词根educ-表示\"教育、引领、培养\",来源于拉丁语",
+            "后缀-or表示\"人\",所以educator就是\"从事教育的人\"",
+            "相关词汇包括:education(教育)、educate(教育)、educational(教育的)"
+          ]
+        },
+        "narration": "今天我们学习了educator这个单词,它由词根educ-和后缀-or组成,表示教育工作者.希望大家能够掌握这个词根,在遇到education、educate等单词时也能快速理解它们的含义.",
+        "narrationLang": "zh",
+        "durationSeconds": 19,
+        "audioUrl": "/audio/tts/narration_scene_006_0e0a34.wav",
+        "audioDuration": 16.3
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_91236d.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_dc4bc8.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_6bc7fa.wav",
+    "scene_003_root_educ-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_educ-_a20f.wav",
+    "scene_003_rw_education": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_education_d6f8.wav",
+    "scene_003_rw_educate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_educate_ddca.wav",
+    "scene_003_rw_educational": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_educational_2259.wav",
+    "scene_003_root_-or": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-or_ee67.wav",
+    "scene_003_rw_teacher": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_teacher_6cd2.wav",
+    "scene_003_rw_author": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_author_0189.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_f0d5ac.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_009bd6.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_3d764f.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_c31acd.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_0e0a34.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-educator-4212eb47.mp4"
+}

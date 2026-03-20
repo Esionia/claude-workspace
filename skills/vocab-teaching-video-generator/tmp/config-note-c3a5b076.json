@@ -1,0 +1,243 @@
+{
+  "script": {
+    "id": "video_script_note_001",
+    "topic": "英语词汇教学:note",
+    "description": "通过词根词缀法讲解英语单词note,掌握其名词和动词用法及相关词族",
+    "targetAudience": "英语学习者",
+    "totalDuration": 96,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "note",
+          "subtitle": "笔记 · 注意 · 记录"
+        },
+        "narration": "今天我们要学习一个非常常见且实用的英语单词--note",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_b1316f.wav",
+        "audioDuration": 4.9
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "note",
+          "meaning": "笔记、注意、记录",
+          "partOfSpeech": "n./v.",
+          "definitions": [
+            "n. 笔记、便条",
+            "n. 注释、批注",
+            "n. 注意、关注",
+            "v. 记录、记下",
+            "v. 注意、注意到"
+          ]
+        },
+        "narration": "单词note既是名词也是动词,名词意思有笔记、便条、注释和注意,动词意思是记录或注意到",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_002_ca4f18.wav",
+        "audioDuration": 9.6
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "note [nəut] n./v. 笔记、记录、注意",
+          "highlights": [
+            {
+              "text": "not-",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-e",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "placeholder_note_root",
+              "alt": "词根not-表示标记、符号",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/110473/pexels-photo-110473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A detailed image of handwriting in a notebook with a fountain pen and glasses, ideal for office themes.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "not-",
+              "meaning": "标记、符号、记录",
+              "label": "词根",
+              "narration": "词根not-来自拉丁语nota,本意是符号、标记,引申为用符号做记录或引起注意.",
+              "relatedWords": [
+                {
+                  "word": "notebook",
+                  "meaning": "笔记本",
+                  "highlight": "not-",
+                  "narration": "notebook,笔记本",
+                  "audioUrl": "/audio/tts/rw_notebook_9b1f.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "notation",
+                  "meaning": "标记法、记号",
+                  "highlight": "not-",
+                  "narration": "notation,标记法",
+                  "audioUrl": "/audio/tts/rw_notation_c67a.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "notice",
+                  "meaning": "注意、通知",
+                  "highlight": "not-",
+                  "narration": "notice,注意",
+                  "audioUrl": "/audio/tts/rw_notice_a342.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "notify",
+                  "meaning": "通知、通告",
+                  "highlight": "not-",
+                  "narration": "notify,通知",
+                  "audioUrl": "/audio/tts/rw_notify_fa51.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "notable",
+                  "meaning": "值得注意的、显著的",
+                  "highlight": "not-",
+                  "narration": "notable,显著的",
+                  "audioUrl": "/audio/tts/rw_notable_a8b3.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "notion",
+                  "meaning": "概念、观念",
+                  "highlight": "not-",
+                  "narration": "notion,概念",
+                  "audioUrl": "/audio/tts/rw_notion_4ef1.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_not-_d8c3.wav",
+              "audioDuration": 8.0
+            }
+          ]
+        },
+        "narration": "接下来我们分析note的词根词缀结构",
+        "narrationLang": "zh",
+        "durationSeconds": 35,
+        "audioUrl": "/audio/tts/narration_scene_003_3e89bd.wav",
+        "audioDuration": 3.8
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Please take note of the important dates in your calendar.",
+          "chinese": "请注意你日历上的重要日期.",
+          "highlights": [
+            {
+              "text": "note",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3201468/pexels-photo-3201468.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A close-up of a hand holding a pen and writing in a spiral notebook.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_a7de29.wav",
+          "englishAudioDuration": 3.3
+        },
+        "narration": "Please take note of the important dates in your calendar. 意思是:请注意你日历上的重要日期.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_004_729f63.wav",
+        "audioDuration": 7.6
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She noted down the main points of the meeting.",
+          "chinese": "她记下了会议的主要要点.",
+          "highlights": [
+            {
+              "text": "noted",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_5ff239.wav",
+          "englishAudioDuration": 2.4
+        },
+        "narration": "She noted down the main points of the meeting. 意思是:她记下了会议的主要要点.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_005_a4f948.wav",
+        "audioDuration": 6.7
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "note既是名词也是动词,名词表示笔记、便条、注意,动词表示记录或注意到",
+            "词根not-来自拉丁语nota,意为标记、符号,是构建多个相关单词的基础",
+            "常见相关词包括notebook笔记本、notice注意、notify通知、notable显著的等",
+            "掌握词根记忆法,可以帮助我们快速理解和记忆大量英语单词"
+          ]
+        },
+        "narration": "今天我们学习了单词note,它来自词根not-表示标记、记录的意思.掌握这个词根可以帮助我们记忆更多相关单词.希望大家多多练习,我们下节课再见！",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_006_9d4c77.wav",
+        "audioDuration": 13.7
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_b1316f.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_ca4f18.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_3e89bd.wav",
+    "scene_003_root_not-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_not-_d8c3.wav",
+    "scene_003_rw_notebook": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_notebook_9b1f.wav",
+    "scene_003_rw_notation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_notation_c67a.wav",
+    "scene_003_rw_notice": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_notice_a342.wav",
+    "scene_003_rw_notify": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_notify_fa51.wav",
+    "scene_003_rw_notable": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_notable_a8b3.wav",
+    "scene_003_rw_notion": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_notion_4ef1.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_729f63.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_a7de29.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_a4f948.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_5ff239.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_9d4c77.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-note-c3a5b076.mp4"
+}

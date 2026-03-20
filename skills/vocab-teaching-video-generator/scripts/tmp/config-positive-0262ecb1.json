@@ -1,0 +1,243 @@
+{
+  "script": {
+    "id": "video_script_positive_001",
+    "topic": "英语词汇教学:单词 positive",
+    "description": "通过词根词缀法讲解 positive,掌握其词源、构词法及实际应用",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "positive",
+          "subtitle": "积极的；肯定的；明确的"
+        },
+        "narration": "今天我们要学习一个非常重要的词汇,它在日常英语中使用频率极高.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_aee746.wav",
+        "audioDuration": 6.5
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "positive",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "积极的；乐观的",
+            "肯定的；明确的",
+            "确信的；有把握的",
+            "阳性的；正极的"
+          ]
+        },
+        "narration": "positive 是一个形容词,它有多个常见含义.首先,它表示积极的、乐观的,比如积极的态度.其次,它还可以表示肯定的、明确的,比如明确的答案.此外,它还有确信的含义,比如我确信他会来.最后,在医学或电学领域,它表示阳性的或正极的.",
+        "narrationLang": "zh",
+        "durationSeconds": 23,
+        "audioUrl": "/audio/tts/narration_scene_002_b34226.wav",
+        "audioDuration": 22.5
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "positive = pos + itive | 积极的,肯定的",
+          "highlights": [
+            {
+              "text": "pos",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "itive",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:一个人在阳光下做胜利手势,象征积极向上",
+              "alt": "积极乐观的形象",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/13771142/pexels-photo-13771142.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of a woman embracing body positivity by showcasing natural curves and self-confidence.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "pos",
+              "meaning": "放置",
+              "label": "词根",
+              "narration": "词根 pos 来自拉丁语 ponere,意思是 to put 或 to place,表示放置.这个词根在英语中非常活跃,构成了大量重要词汇.想象一下,把东西稳固地放置在某处,就引申出了确定、肯定的意思.",
+              "relatedWords": [
+                {
+                  "word": "compose",
+                  "meaning": "组成,创作",
+                  "highlight": "pos",
+                  "narration": "compose,组成,创作",
+                  "audioUrl": "/audio/tts/rw_compose_1530.wav",
+                  "audioDuration": 2.7
+                },
+                {
+                  "word": "oppose",
+                  "meaning": "反对",
+                  "highlight": "pos",
+                  "narration": "oppose,反对",
+                  "audioUrl": "/audio/tts/rw_oppose_67b9.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "propose",
+                  "meaning": "提议",
+                  "highlight": "pos",
+                  "narration": "propose,提议",
+                  "audioUrl": "/audio/tts/rw_propose_0ba0.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_pos_4b14.wav",
+              "audioDuration": 17.7
+            },
+            {
+              "root": "-itive",
+              "meaning": "形容词后缀",
+              "label": "后缀",
+              "narration": "后缀 -itive 是常见的形容词后缀,表示倾向于...的、具有...性质的.它通常附加在动词或名词词根后面,构成形容词.词根 pos 表示放置,加上 -itive 后,就表示倾向于被放置好的,也就是确定的、积极的.",
+              "relatedWords": [
+                {
+                  "word": "active",
+                  "meaning": "积极的,活跃的",
+                  "highlight": "itive",
+                  "narration": "active,积极的",
+                  "audioUrl": "/audio/tts/rw_active_7e8a.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "sensitive",
+                  "meaning": "敏感的",
+                  "highlight": "itive",
+                  "narration": "sensitive,敏感的",
+                  "audioUrl": "/audio/tts/rw_sensitive_926e.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-itive_d4b9.wav",
+              "audioDuration": 19.3
+            }
+          ]
+        },
+        "narration": "让我们来分析一下 positive 的构词结构.",
+        "narrationLang": "zh",
+        "durationSeconds": 55,
+        "audioUrl": "/audio/tts/narration_scene_003_c87949.wav",
+        "audioDuration": 3.6
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She has a very positive attitude towards her career development.",
+          "chinese": "她对自己的职业发展有着非常积极的态度.",
+          "highlights": [
+            {
+              "text": "positive",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/35869230/pexels-photo-35869230.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Portrait of a smiling young woman in casual attire with lush greenery background.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_149825.wav",
+          "englishAudioDuration": 3.6
+        },
+        "narration": "She has a very positive attitude towards her career development. 意思是:她对自己的职业发展有着非常积极的态度.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_004_79e4b7.wav",
+        "audioDuration": 9.8
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "I'm positive that I left my keys on the table.",
+          "chinese": "我确信我把钥匙放在桌子上了.",
+          "highlights": [
+            {
+              "text": "positive",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5662855/pexels-photo-5662855.png?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Inspirational message 'I Can and I Will' spelled with tile letters on a green background.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_dd0c38.wav",
+          "englishAudioDuration": 3.7
+        },
+        "narration": "I'm positive that I left my keys on the table. 意思是:我确信我把钥匙放在桌子上了.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_005_bef6db.wav",
+        "audioDuration": 7.5
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "positive 是形容词,意为\"积极的、肯定的\",在口语和书面语中都十分常用",
+            "词根 pos = put/place(放置),来自拉丁语 ponere,构成多个重要词汇如 compose、oppose、propose",
+            "后缀 -itive 是形容词后缀,表示\"倾向于...的\",如 active、sensitive",
+            "掌握词根词缀法可以高效记忆大量相关词汇,大幅提升词汇量"
+          ]
+        },
+        "narration": "今天我们学习了 positive,这个词表示积极的、肯定的.记住词根 pos 表示放置,后缀 -itive 是形容词后缀.掌握词根词缀法能让我们的词汇学习事半功倍！",
+        "narrationLang": "zh",
+        "durationSeconds": 17,
+        "audioUrl": "/audio/tts/narration_scene_006_998816.wav",
+        "audioDuration": 14.9
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "public\\audio\\tts\\narration_scene_001_aee746.wav",
+    "scene_002_narration": "public\\audio\\tts\\narration_scene_002_b34226.wav",
+    "scene_003_narration": "public\\audio\\tts\\narration_scene_003_c87949.wav",
+    "scene_003_root_pos": "public\\audio\\tts\\root_pos_4b14.wav",
+    "scene_003_rw_compose": "public\\audio\\tts\\rw_compose_1530.wav",
+    "scene_003_rw_oppose": "public\\audio\\tts\\rw_oppose_67b9.wav",
+    "scene_003_rw_propose": "public\\audio\\tts\\rw_propose_0ba0.wav",
+    "scene_003_root_-itive": "public\\audio\\tts\\root_-itive_d4b9.wav",
+    "scene_003_rw_active": "public\\audio\\tts\\rw_active_7e8a.wav",
+    "scene_003_rw_sensitive": "public\\audio\\tts\\rw_sensitive_926e.wav",
+    "scene_004_narration": "public\\audio\\tts\\narration_scene_004_79e4b7.wav",
+    "scene_004_english": "public\\audio\\tts\\example_en_scene_004_149825.wav",
+    "scene_005_narration": "public\\audio\\tts\\narration_scene_005_bef6db.wav",
+    "scene_005_english": "public\\audio\\tts\\example_en_scene_005_dd0c38.wav",
+    "scene_006_narration": "public\\audio\\tts\\narration_scene_006_998816.wav"
+  },
+  "outputPath": "public\\videos\\teaching-positive-0262ecb1.mp4"
+}

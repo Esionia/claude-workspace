@@ -1,0 +1,194 @@
+{
+  "script": {
+    "id": "video_script_talent_001",
+    "topic": "英语词汇教学:talent",
+    "description": "通过词源故事和派生词讲解talent的用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 100,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "Talent",
+          "subtitle": "才能、天赋"
+        },
+        "narration": "今天我们要学习一个表示才能的单词",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_22dcef.wav",
+        "audioDuration": 3.6
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "talent",
+          "meaning": "才能、天赋",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "才能、天赋",
+            "天才、有才能的人",
+            "才能出众的人们"
+          ]
+        },
+        "narration": "talent是一个名词,表示才能或天赋",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_002_7c1cd4.wav",
+        "audioDuration": 4.1
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "talent来源于拉丁语talentum",
+          "highlights": [
+            {
+              "text": "talent",
+              "color": "#FFD93D",
+              "label": "单词"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "talentum",
+              "meaning": "古罗马重量单位/银币",
+              "label": "词源",
+              "narration": "talentum是古罗马的一种重量单位,相当于约26公斤的银币,在当时是一笔巨款",
+              "relatedWords": [
+                {
+                  "word": "talented",
+                  "meaning": "有才能的",
+                  "highlight": "-ed",
+                  "narration": "talented,有才能的",
+                  "audioUrl": "/audio/tts/rw_talented_7a6b.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "talentless",
+                  "meaning": "无才能的",
+                  "highlight": "-less",
+                  "narration": "talentless,无才能的",
+                  "audioUrl": "/audio/tts/rw_talentless_a917.wav",
+                  "audioDuration": 2.5
+                }
+              ],
+              "audioUrl": "/audio/tts/root_talentum_99a4.wav",
+              "audioDuration": 7.8
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/2258795/pexels-photo-2258795.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "An artist's hand painting a vibrant abstract artwork on a canvas with a brush.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来探索talent的词源故事",
+        "narrationLang": "zh",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_003_9b6bea.wav",
+        "audioDuration": 3.3
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She has a remarkable talent for music.",
+          "chinese": "她有非凡的音乐天赋.",
+          "highlights": [
+            {
+              "text": "talent",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_0ccfda.wav",
+          "englishAudioDuration": 2.5
+        },
+        "narration": "She has a remarkable talent for music. 意思是:她有非凡的音乐天赋.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_004_93e591.wav",
+        "audioDuration": 6.5
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The company is always looking for new talent.",
+          "chinese": "这家公司一直在寻找新的人才.",
+          "highlights": [
+            {
+              "text": "talent",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7363099/pexels-photo-7363099.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of delivery van with slogan 'Always On Time' emphasizing timely service.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_842c1a.wav",
+          "englishAudioDuration": 2.5
+        },
+        "narration": "The company is always looking for new talent. 意思是:这家公司一直在寻找新的人才.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_005_fd6552.wav",
+        "audioDuration": 7.4
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "Talent是名词,表示才能、天赋",
+            "来源于拉丁语talentum,本意是古罗马的银币",
+            "衍生词talented表示有才能的,talentless表示无才能的",
+            "常用短语:have a talent for... 表示在某方面有天赋"
+          ]
+        },
+        "narration": "今天我们学习了talent的用法和词源,现在来总结一下要点",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_a67a56.wav",
+        "audioDuration": 5.6
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_22dcef.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_7c1cd4.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_9b6bea.wav",
+    "scene_003_root_talentum": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_talentum_99a4.wav",
+    "scene_003_rw_talented": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_talented_7a6b.wav",
+    "scene_003_rw_talentless": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_talentless_a917.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_93e591.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_0ccfda.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_fd6552.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_842c1a.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_a67a56.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-talent-5abfacdb.mp4"
+}

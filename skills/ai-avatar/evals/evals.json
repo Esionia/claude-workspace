@@ -1,0 +1,23 @@
+{
+  "skill_name": "ai-avatar",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "用Anna的声音生成一个数字人视频，文本是：你好，我是一个AI数字人",
+      "expected_output": "生成一个MP4视频文件，包含数字人口播内容",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "克隆一段语音：今天天气真好，适合出去散步",
+      "expected_output": "生成一个WAV音频文件",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "查看有哪些可用的数字人模板",
+      "expected_output": "显示数字人模板列表，包含名称和URL",
+      "files": []
+    }
+  ]
+}

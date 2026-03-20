@@ -1,0 +1,253 @@
+{
+  "script": {
+    "id": "video_script_operate_001",
+    "topic": "英语词汇教学:operate",
+    "description": "通过词根词缀法讲解operate,掌握其词根oper及动词后缀-ate的用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "operate",
+          "subtitle": "操作、运转、动手术"
+        },
+        "narration": "今天我们要学习的单词是operate,这是一个使用频率非常高的动词.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_01c981.wav",
+        "audioDuration": 6.3
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "operate",
+          "meaning": "操作",
+          "partOfSpeech": "v.",
+          "definitions": [
+            "操作,操纵(机器、设备等)",
+            "运转,运行",
+            "动手术,开刀",
+            "控制,影响"
+          ]
+        },
+        "narration": "operate是一个动词,主要有四个核心释义.让我们一起来看看它的词根词缀分析.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_002_fc6c91.wav",
+        "audioDuration": 7.6
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "operate = oper(工作)+ -ate(动词后缀)",
+          "highlights": [
+            {
+              "text": "oper",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ate",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "description: 一个人正在操作机器设备的画面",
+              "alt": "操作机器",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/2324837/pexels-photo-2324837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Surgeons wearing masks and scrubs conduct an operation in a hospital setting.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "oper",
+              "meaning": "工作、操作",
+              "label": "词根",
+              "narration": "词根oper来源于拉丁语opus,意为工作、操作.引申为使某物运转或执行某项操作.这是最核心的部分,决定了单词的基本含义.",
+              "relatedWords": [
+                {
+                  "word": "operation",
+                  "meaning": "手术,操作",
+                  "highlight": "oper",
+                  "narration": "operation,手术",
+                  "audioUrl": "/audio/tts/rw_operation_226c.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "operator",
+                  "meaning": "操作员",
+                  "highlight": "oper",
+                  "narration": "operator,操作员",
+                  "audioUrl": "/audio/tts/rw_operator_5603.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "cooperate",
+                  "meaning": "合作",
+                  "highlight": "cooper",
+                  "narration": "cooperate,合作",
+                  "audioUrl": "/audio/tts/rw_cooperate_3443.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_oper_8ad9.wav",
+              "audioDuration": 12.3
+            },
+            {
+              "root": "-ate",
+              "meaning": "动词后缀",
+              "label": "后缀",
+              "narration": "后缀-ate是常见的动词后缀,表示使成为、做某事.加上这个后缀,将名词或形容词转化为动词,表示进行某种操作或行为.",
+              "relatedWords": [
+                {
+                  "word": "create",
+                  "meaning": "创造",
+                  "highlight": "-ate",
+                  "narration": "create,创造",
+                  "audioUrl": "/audio/tts/rw_create_b817.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "educate",
+                  "meaning": "教育",
+                  "highlight": "-ate",
+                  "narration": "educate,教育",
+                  "audioUrl": "/audio/tts/rw_educate_ed1a.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "calculate",
+                  "meaning": "计算",
+                  "highlight": "-ate",
+                  "narration": "calculate,计算",
+                  "audioUrl": "/audio/tts/rw_calculate_fe3b.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ate_8349.wav",
+              "audioDuration": 12.4
+            }
+          ]
+        },
+        "narration": "让我们来分析operate的构词方法.",
+        "narrationLang": "zh",
+        "durationSeconds": 45,
+        "audioUrl": "/audio/tts/narration_scene_003_fc8bd1.wav",
+        "audioDuration": 3.4
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Can you operate this new machine?",
+          "chinese": "你会操作这台新机器吗？",
+          "highlights": [
+            {
+              "text": "operate",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16241255/pexels-photo-16241255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Motivational quote on a textured wall in a modern urban interior setting.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_7ccf19.wav",
+          "englishAudioDuration": 2.0
+        },
+        "narration": "Can you operate this new machine? 意思是:你会操作这台新机器吗？",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_004_1b6551.wav",
+        "audioDuration": 5.8
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The doctor will operate on the patient tomorrow morning.",
+          "chinese": "医生明天早上将为病人动手术.",
+          "highlights": [
+            {
+              "text": "operate",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/263337/pexels-photo-263337.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Team of surgeons in a hospital operating room conducting a surgery.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_56fcca.wav",
+          "englishAudioDuration": 2.7
+        },
+        "narration": "The doctor will operate on the patient tomorrow morning. 意思是:医生明天早上将为病人动手术.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_005_cc67bc.wav",
+        "audioDuration": 8.1
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "operate的核心词根是oper,来源于拉丁语opus,意为工作、操作",
+            "后缀-ate是常见的动词后缀,表示使某物进行某种动作或行为",
+            "operate的三大用法:操作机器设备、事物运转、以及医疗手术",
+            "相关词汇包括operation(手术)、operator(操作员)、cooperate(合作)等"
+          ]
+        },
+        "narration": "今天我们学习了operate这个单词,通过词根oper和后缀-ate的组合,我们可以轻松记住它的含义并拓展更多相关词汇.希望大家多多练习,熟练掌握！",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_006_57fc5a.wav",
+        "audioDuration": 13.8
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_01c981.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_fc6c91.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_fc8bd1.wav",
+    "scene_003_root_oper": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_oper_8ad9.wav",
+    "scene_003_rw_operation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_operation_226c.wav",
+    "scene_003_rw_operator": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_operator_5603.wav",
+    "scene_003_rw_cooperate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_cooperate_3443.wav",
+    "scene_003_root_-ate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ate_8349.wav",
+    "scene_003_rw_create": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_create_b817.wav",
+    "scene_003_rw_educate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_educate_ed1a.wav",
+    "scene_003_rw_calculate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_calculate_fe3b.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_1b6551.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_7ccf19.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_cc67bc.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_56fcca.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_57fc5a.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-operate-a3982cf6.mp4"
+}

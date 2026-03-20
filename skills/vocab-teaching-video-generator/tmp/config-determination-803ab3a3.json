@@ -1,0 +1,303 @@
+{
+  "script": {
+    "id": "video_script_determination_001",
+    "topic": "英语词汇教学:determination",
+    "description": "通过词根词缀法讲解determination,帮助学习者掌握'决心、坚定'等核心含义及其相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "determination",
+          "subtitle": "决心；坚定；决断力"
+        },
+        "narration": "今天我们要学习一个非常重要的词汇,它代表着成功人士必备的品质--determination",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_001_47a014.wav",
+        "audioDuration": 7.4
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "determination",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "决心；决意",
+            "坚定；坚决",
+            "决断力；果断",
+            "确定；测定"
+          ]
+        },
+        "narration": "determination是一个名词,主要表示决心和坚定的品质,也就是我们常说的不达目的不罢休的精神",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_002_5cfebb.wav",
+        "audioDuration": 9.0
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "determination = de + termin + ation",
+          "highlights": [
+            {
+              "text": "de-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "termin",
+              "color": "#6BCB77",
+              "label": "词根"
+            },
+            {
+              "text": "-ation",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述一个人坚定望向目标的图片",
+              "alt": "决心与目标",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/4719935/pexels-photo-4719935.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Focused mature man running to stay fit and maintain a healthy lifestyle outdoors.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "de-",
+              "meaning": "完全、彻底",
+              "label": "前缀",
+              "narration": "前缀de-表示'完全、彻底'的意思,加强语气的作用",
+              "relatedWords": [
+                {
+                  "word": "declare",
+                  "meaning": "宣布、声明",
+                  "highlight": "de-",
+                  "narration": "declare,宣布",
+                  "audioUrl": "/audio/tts/rw_declare_f5ec.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "declare",
+                  "meaning": "彻底澄清",
+                  "highlight": "de-",
+                  "narration": "declare,彻底澄清",
+                  "audioUrl": "/audio/tts/rw_declare_028d.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "describe",
+                  "meaning": "描述",
+                  "highlight": "de-",
+                  "narration": "describe,描述",
+                  "audioUrl": "/audio/tts/rw_describe_f4cd.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_de-_f24a.wav",
+              "audioDuration": 5.2
+            },
+            {
+              "root": "termin",
+              "meaning": "界限、限定",
+              "label": "词根",
+              "narration": "词根termin来自拉丁语terminus,意思是'界限、终点、限定',引申为目标和方向",
+              "relatedWords": [
+                {
+                  "word": "term",
+                  "meaning": "术语、期限",
+                  "highlight": "term",
+                  "narration": "term,术语",
+                  "audioUrl": "/audio/tts/rw_term_7402.wav",
+                  "audioDuration": 1.8
+                },
+                {
+                  "word": "terminal",
+                  "meaning": "终点站、终端",
+                  "highlight": "termin",
+                  "narration": "terminal,终点站",
+                  "audioUrl": "/audio/tts/rw_terminal_2c5e.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "terminate",
+                  "meaning": "终止、结束",
+                  "highlight": "termin",
+                  "narration": "terminate,结束",
+                  "audioUrl": "/audio/tts/rw_terminate_cd3e.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "exterminate",
+                  "meaning": "消灭、根除",
+                  "highlight": "termin",
+                  "narration": "exterminate,消灭",
+                  "audioUrl": "/audio/tts/rw_exterminate_53d5.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_termin_53e6.wav",
+              "audioDuration": 8.0
+            },
+            {
+              "root": "-ation",
+              "meaning": "行为、状态、结果",
+              "label": "后缀",
+              "narration": "后缀-ation是常见的名词后缀,表示某种行为或状态的结果",
+              "relatedWords": [
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "-ation",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_1e81.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "information",
+                  "meaning": "信息",
+                  "highlight": "-ation",
+                  "narration": "information,信息",
+                  "audioUrl": "/audio/tts/rw_information_ff0e.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "imagination",
+                  "meaning": "想象力",
+                  "highlight": "-ation",
+                  "narration": "imagination,想象力",
+                  "audioUrl": "/audio/tts/rw_imagination_1e3c.wav",
+                  "audioDuration": 2.6
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ation_c433.wav",
+              "audioDuration": 6.2
+            }
+          ]
+        },
+        "narration": "让我们深入分析这个词的构词奥秘",
+        "narrationLang": "zh",
+        "durationSeconds": 49,
+        "audioUrl": "/audio/tts/narration_scene_003_7d38f1.wav",
+        "audioDuration": 3.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Her determination to succeed helped her overcome every obstacle.",
+          "chinese": "她对成功的决心帮助她克服了每一个障碍.",
+          "highlights": [
+            {
+              "text": "determination",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6456291/pexels-photo-6456291.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A close-up of a supportive handshake between two women in a gym setting, promoting wellness.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_dd63d7.wav",
+          "englishAudioDuration": 4.0
+        },
+        "narration": "Her determination to succeed helped her overcome every obstacle. 意思是:她对成功的决心帮助她克服了每一个障碍.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_004_4f7e92.wav",
+        "audioDuration": 9.6
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "With great determination, the athlete completed the marathon despite his injury.",
+          "chinese": "凭借坚定的决心,这位运动员尽管受伤仍完成了马拉松.",
+          "highlights": [
+            {
+              "text": "determination",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/33703/relay-race-competition-stadium-sport.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Female athletes in a high-stakes track race showcasing physical prowess and competition.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_53ad69.wav",
+          "englishAudioDuration": 5.2
+        },
+        "narration": "With great determination, the athlete completed the marathon despite his injury. 意思是:凭借坚定的决心,这位运动员尽管受伤仍完成了马拉松.",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_005_c26541.wav",
+        "audioDuration": 12.2
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "determination是名词,表示'决心、坚定、决断力'",
+            "词根termin来自拉丁语,意为'界限、限定',引申为目标和方向",
+            "前缀de-表示'完全',合起来表示'完全限定方向',即坚定的决心",
+            "相关词汇包括:term(期限)、terminal(终点站)、terminate(终止)等"
+          ]
+        },
+        "narration": "今天我们学习了determination,这个词由前缀de-完全、词根termin界限和后缀-ation构成,表示'完全限定方向',即坚定的决心.希望大家记住词根termin,它还能帮助记忆很多相关词汇.",
+        "narrationLang": "zh",
+        "durationSeconds": 19,
+        "audioUrl": "/audio/tts/narration_scene_006_0ba344.wav",
+        "audioDuration": 16.8
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_47a014.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_5cfebb.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_7d38f1.wav",
+    "scene_003_root_de-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_de-_f24a.wav",
+    "scene_003_rw_declare": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_declare_028d.wav",
+    "scene_003_rw_describe": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_describe_f4cd.wav",
+    "scene_003_root_termin": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_termin_53e6.wav",
+    "scene_003_rw_term": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_term_7402.wav",
+    "scene_003_rw_terminal": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_terminal_2c5e.wav",
+    "scene_003_rw_terminate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_terminate_cd3e.wav",
+    "scene_003_rw_exterminate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_exterminate_53d5.wav",
+    "scene_003_root_-ation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ation_c433.wav",
+    "scene_003_rw_education": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_education_1e81.wav",
+    "scene_003_rw_information": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_information_ff0e.wav",
+    "scene_003_rw_imagination": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_imagination_1e3c.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_4f7e92.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_dd63d7.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_c26541.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_53ad69.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_0ba344.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-determination-803ab3a3.mp4"
+}

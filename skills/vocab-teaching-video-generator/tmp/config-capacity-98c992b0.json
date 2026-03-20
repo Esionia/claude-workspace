@@ -1,0 +1,252 @@
+{
+  "script": {
+    "id": "video_script_capacity_001",
+    "topic": "英语词汇教学:capacity",
+    "description": "通过词根词缀法讲解名词capacity的词义、构词法和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 106,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "capacity",
+          "subtitle": "容量；能力；才能"
+        },
+        "narration": "今天我们要学习的单词是capacity",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_460a44.wav",
+        "audioDuration": 3.7
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "capacity",
+          "meaning": "容量；能力；才能；职位",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "容器能够容纳的量",
+            "做某事的能力或才能",
+            "在组织中的职位或角色"
+          ]
+        },
+        "narration": "让我们来看一下这个单词的详细解释",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_002_9c8c0a.wav",
+        "audioDuration": 3.7
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "capacity = cap(拿取) + acity(名词后缀,表示性质状态)",
+          "highlights": [
+            {
+              "text": "cap",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "acity",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:一个容器正在被填充",
+              "alt": "容器容量示意图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/132197/pexels-photo-132197.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Vibrant orange textured surface, perfect for design backdrops and creative projects.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "cap",
+              "meaning": "拿取",
+              "label": "词根",
+              "narration": "词根cap来自拉丁语capere,意思是'拿取'或'握住',表示能够抓住或容纳事物的能力.",
+              "relatedWords": [
+                {
+                  "word": "capture",
+                  "meaning": "捕获",
+                  "highlight": "cap",
+                  "narration": "capture,捕获",
+                  "audioUrl": "/audio/tts/rw_capture_d2a1.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "capsule",
+                  "meaning": "胶囊",
+                  "highlight": "caps",
+                  "narration": "capsule,胶囊",
+                  "audioUrl": "/audio/tts/rw_capsule_cbf3.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "capable",
+                  "meaning": "有能力的",
+                  "highlight": "cap",
+                  "narration": "capable,有能力的",
+                  "audioUrl": "/audio/tts/rw_capable_e2e4.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_cap_9d99.wav",
+              "audioDuration": 8.2
+            },
+            {
+              "root": "-acity",
+              "meaning": "性质、状态",
+              "label": "后缀",
+              "narration": "后缀-acity来自拉丁语-acitas,是名词后缀,表示某种性质或状态,与形容词后缀-acious相对应.",
+              "relatedWords": [
+                {
+                  "word": "capacity",
+                  "meaning": "容量",
+                  "highlight": "acity",
+                  "narration": "capacity,容量",
+                  "audioUrl": "/audio/tts/rw_capacity_2cfe.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "audacity",
+                  "meaning": "大胆",
+                  "highlight": "acity",
+                  "narration": "audacity,大胆",
+                  "audioUrl": "/audio/tts/rw_audacity_463a.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "veracity",
+                  "meaning": "真实性",
+                  "highlight": "acity",
+                  "narration": "veracity,真实性",
+                  "audioUrl": "/audio/tts/rw_veracity_f588.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-acity_2f42.wav",
+              "audioDuration": 9.9
+            }
+          ]
+        },
+        "narration": "接下来学习词根词缀",
+        "narrationLang": "zh",
+        "durationSeconds": 37,
+        "audioUrl": "/audio/tts/narration_scene_003_b39a71.wav",
+        "audioDuration": 2.6
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The stadium has a seating capacity of 50,000 people.",
+          "chinese": "这个体育场可容纳5万人.",
+          "highlights": [
+            {
+              "text": "capacity",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/32255456/pexels-photo-32255456.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Empty stadium seats arranged in blue and yellow patterns forming text.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_7aad17.wav",
+          "englishAudioDuration": 3.6
+        },
+        "narration": "The stadium has a seating capacity of 50,000 people. 意思是:这个体育场可容纳5万人.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_2fc33a.wav",
+        "audioDuration": 8.1
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She has the capacity to learn languages very quickly.",
+          "chinese": "她具有快速学习语言的能力.",
+          "highlights": [
+            {
+              "text": "capacity",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_c14740.wav",
+          "englishAudioDuration": 3.1
+        },
+        "narration": "She has the capacity to learn languages very quickly. 意思是:她具有快速学习语言的能力.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_005_b811fe.wav",
+        "audioDuration": 7.6
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "capacity是名词,意为容量、能力或才能",
+            "词根cap表示'拿取',后缀-acity表示'性质状态'",
+            "可形容容器能容纳的量,也可指人的能力或职位",
+            "相关词汇包括capable、capture、audacity等"
+          ]
+        },
+        "narration": "现在让我们回顾一下今天学到的内容",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_469169.wav",
+        "audioDuration": 3.6
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_460a44.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_9c8c0a.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_b39a71.wav",
+    "scene_003_root_cap": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_cap_9d99.wav",
+    "scene_003_rw_capture": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_capture_d2a1.wav",
+    "scene_003_rw_capsule": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_capsule_cbf3.wav",
+    "scene_003_rw_capable": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_capable_e2e4.wav",
+    "scene_003_root_-acity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-acity_2f42.wav",
+    "scene_003_rw_capacity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_capacity_2cfe.wav",
+    "scene_003_rw_audacity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_audacity_463a.wav",
+    "scene_003_rw_veracity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_veracity_f588.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_2fc33a.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_7aad17.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_b811fe.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_c14740.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_469169.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-capacity-98c992b0.mp4"
+}

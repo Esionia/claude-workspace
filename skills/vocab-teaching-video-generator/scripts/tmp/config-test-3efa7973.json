@@ -1,0 +1,190 @@
+{
+  "script": {
+    "id": "video_script_test_001",
+    "topic": "英语词汇教学：test",
+    "description": "通过词根词缀拆解和实际例句，帮助学习者掌握test的用法和相关词汇",
+    "targetAudience": "英语学习者（初中级）",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "英语词汇精讲",
+          "subtitle": "test - 测试 · 检验 · 考试"
+        },
+        "narration": "欢迎来到英语词汇精讲节目。今天我们要学习的词汇是test。",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_666168.wav",
+        "audioDuration": 6.2
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "test",
+          "meaning": "测试；检验；考试",
+          "partOfSpeech": "名词/动词",
+          "definitions": [
+            "测试；考试",
+            "检验；化验",
+            "试验；测验"
+          ]
+        },
+        "narration": "今天我们要学习的词汇是test。test是一个使用频率非常高的英语单词，它可以用作名词和动词。作为名词，它的意思是测试、考试、检验；作为动词，它的意思是测试、检验、测验。",
+        "narrationLang": "zh",
+        "durationSeconds": 19,
+        "audioUrl": "/audio/tts/narration_scene_002_a491a3.wav",
+        "audioDuration": 18.9
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "test",
+          "highlights": [
+            "test"
+          ],
+          "rootAffix": [
+            {
+              "root": "test",
+              "meaning": "见证；证明",
+              "label": "词根",
+              "narration": "test这个词来源于拉丁语testis，意思是'见证人'。在古代法律程序中，需要有人作为见证人来验证事实的真相。因此，test逐渐演变成'通过某种方式来验证或证明'的含义，也就是我们今天所说的'测试'或'检验'。",
+              "relatedWords": [
+                {
+                  "word": "testify",
+                  "meaning": "作证；证明",
+                  "highlight": "testify"
+                },
+                {
+                  "word": "testimony",
+                  "meaning": "证词；证言",
+                  "highlight": "testimony"
+                },
+                {
+                  "word": "contest",
+                  "meaning": "竞赛；争论",
+                  "highlight": "contest"
+                }
+              ],
+              "audioUrl": "/audio/tts/root_test_8327.wav",
+              "audioDuration": 20.9
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5712680/pexels-photo-5712680.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A person in white T-shirt using an oral swab test kit indoors with a blue background.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "接下来让我们深入了解test的词根含义。test来源于拉丁语testis，原意是'见证人'。在古代罗马的法律程序中，需要有见证人来到现场，见证并证明某些事实的真实性。随着时间的推移，这个词的含义逐渐扩展，从'见证'发展到'通过某种方式来验证或证明'，也就是我们现在所说的'测试'或'检验'。这个含义的演变非常有意思，它帮助我们理解了为什么test这个词汇在现代英语中如此重要。",
+        "narrationLang": "zh",
+        "durationSeconds": 35
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The teacher will test our English vocabulary tomorrow.",
+          "chinese": "老师明天将测试我们的英语词汇。",
+          "highlights": [
+            "test"
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6684373/pexels-photo-6684373.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of a teacher marking a test paper with a red marker on a desk.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_8c9cb3.wav",
+          "englishAudioDuration": 3.1
+        },
+        "narration": "让我们来看第一个例句：The teacher will test our English vocabulary tomorrow. 老师明天将测试我们的英语词汇。在这个句子中，test用作动词，表示'测试'或'考查'的意思。",
+        "narrationLang": "zh",
+        "durationSeconds": 4
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "We need to run a blood test to check your health.",
+          "chinese": "我们需要做血液检查来评估你的健康状况。",
+          "highlights": [
+            "test"
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/8553061/pexels-photo-8553061.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Three diverse protesters with signs expressing political dissatisfaction in a studio environment.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_877eae.wav",
+          "englishAudioDuration": 3.0
+        },
+        "narration": "第二个例句是：We need to run a blood test to check your health. 我们需要做血液检查来评估你的健康状况。在这个句子中，test用作名词，表示'化验'或'检验'的意思。blood test是一个固定搭配，意思是'血液检查'。",
+        "narrationLang": "zh",
+        "durationSeconds": 4
+      },
+      {
+        "id": "scene_006",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "This new product passed all the quality tests.",
+          "chinese": "这款新产品通过了所有的质量检验。",
+          "highlights": [
+            "test"
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/8830670/pexels-photo-8830670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Flat lay of travel items including passport and digital COVID-19 certificate.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_006_61e094.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "第三个例句：This new product passed all the quality tests. 这款新产品通过了所有的质量检验。这里test用作名词，表示'测试'或'检验'。quality test就是'质量检验'的意思。passed表示'通过'，failed表示'未通过'。",
+        "narrationLang": "zh",
+        "durationSeconds": 4
+      },
+      {
+        "id": "scene_007",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "test来源于拉丁语testis，意为'见证人'，象征着通过验证来确认真相",
+            "test可用作名词(测试、考试、检验)和动词(测试、检验、测验)",
+            "常见搭配包括：blood test(血液检查)、quality test(质量检验)、test paper(试卷)",
+            "相关词汇有：testify(作证)、testimony(证词)、contest(竞赛)、detest(厌恶)"
+          ]
+        },
+        "narration": "今天我们学习了词汇test。让我们来总结一下今天的学习要点：第一，test来源于拉丁语testis，意思是'见证人'，象征着通过验证来确认真相；第二，test可以用作名词和动词，表示'测试'、'检验'或'考试'的意思；第三，test有很多常见的固定搭配，比如blood test血液检查、quality test质量检验等；第四，我们还学习了一些相关词汇，比如testify作证、testimony证词、contest竞赛等。希望大家能够掌握这些内容，我们下期再见！",
+        "narrationLang": "zh",
+        "durationSeconds": 41,
+        "audioUrl": "/audio/tts/narration_scene_007_71636a.wav",
+        "audioDuration": 41.0
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {},
+  "outputPath": "public\\videos\\teaching-test-3efa7973.mp4"
+}

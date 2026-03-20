@@ -1,0 +1,295 @@
+{
+  "script": {
+    "id": "video_script_decision_001",
+    "topic": "英语词汇教学:decision",
+    "description": "通过词根词缀法讲解名词decision(决定、决心)的构成、含义和用法,帮助学习者科学记忆单词.",
+    "targetAudience": "英语学习者(初中级及以上)",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "decision",
+          "subtitle": "n. 决定；决心；决议"
+        },
+        "narration": "今天我们要学习一个非常重要的单词--decision,它的意思是决定、决心.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_001_34ab26.wav",
+        "audioDuration": 6.7
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "decision",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "决定；抉择",
+            "决心；坚决",
+            "决议；裁决",
+            "果断；坚定"
+          ]
+        },
+        "narration": "decision是一个名词,发音为[dɪˈsɪʒən].它有几个常见的含义:第一个是决定或抉择,这是最常用的意思；第二个是决心,表示做某事的坚定意志；第三个是决议,通常指正式的决定；第四个是果断,表示一个人做决定时的坚决态度.",
+        "narrationLang": "zh",
+        "durationSeconds": 22,
+        "audioUrl": "/audio/tts/narration_scene_002_682f0c.wav",
+        "audioDuration": 20.8
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "decision = de-(加强语气)+ cis(切)+ -ion(名词后缀)",
+          "highlights": [
+            {
+              "text": "de-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "cis",
+              "color": "#FF6B6B",
+              "label": "词根"
+            },
+            {
+              "text": "-ion",
+              "color": "#4ECDC4",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://example.com/images/decision-breakdown.png",
+              "alt": "decision单词结构拆解图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/4623204/pexels-photo-4623204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A diverse team discusses color swatches in an office setting for a project.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "de-",
+              "meaning": "加强语气",
+              "label": "前缀",
+              "narration": "前缀de-在拉丁语中表示加强语气的作用,它来自拉丁语介词de,意为\"从...下来\",在这里主要起加强词义的作用.",
+              "relatedWords": [
+                {
+                  "word": "declare",
+                  "meaning": "宣布",
+                  "highlight": "de-",
+                  "narration": "declare,宣布",
+                  "audioUrl": "/audio/tts/rw_declare_f199.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "describe",
+                  "meaning": "描述",
+                  "highlight": "de-",
+                  "narration": "describe,描述",
+                  "audioUrl": "/audio/tts/rw_describe_022c.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "decide",
+                  "meaning": "决定",
+                  "highlight": "de-",
+                  "narration": "decide,决定",
+                  "audioUrl": "/audio/tts/rw_decide_af80.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_de-_a885.wav",
+              "audioDuration": 10.6
+            },
+            {
+              "root": "cis",
+              "meaning": "切；割",
+              "label": "词根",
+              "narration": "词根cis来自拉丁语caedere,意思是\"切、割\".这个根很形象地表达了\"做出决定就像切开、分割问题\"的原始含义.在decision中,cis是关键的词根部分.",
+              "relatedWords": [
+                {
+                  "word": "precise",
+                  "meaning": "精确的",
+                  "highlight": "cis",
+                  "narration": "precise,精确的",
+                  "audioUrl": "/audio/tts/rw_precise_6e6b.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "suicide",
+                  "meaning": "自杀",
+                  "highlight": "cid",
+                  "narration": "suicide,自杀",
+                  "audioUrl": "/audio/tts/rw_suicide_4e2e.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "incise",
+                  "meaning": "切割",
+                  "highlight": "cis",
+                  "narration": "incise,切割",
+                  "audioUrl": "/audio/tts/rw_incise_a9d4.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_cis_505d.wav",
+              "audioDuration": 14.0
+            },
+            {
+              "root": "-ion",
+              "meaning": "名词后缀,表示行为或状态",
+              "label": "后缀",
+              "narration": "后缀-ion是常见的名词后缀,表示某种行为、状态或结果.在decision中,它将动词decide转化为名词形式,表示\"决定\"这个行为或结果.",
+              "relatedWords": [
+                {
+                  "word": "information",
+                  "meaning": "信息",
+                  "highlight": "-ion",
+                  "narration": "information,信息",
+                  "audioUrl": "/audio/tts/rw_information_da33.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "-ion",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_2db6.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "action",
+                  "meaning": "行动",
+                  "highlight": "-ion",
+                  "narration": "action,行动",
+                  "audioUrl": "/audio/tts/rw_action_b476.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ion_98cc.wav",
+              "audioDuration": 13.4
+            }
+          ]
+        },
+        "narration": "让我们来深入分析decision的构成.这个单词由三个部分组成:前缀de-、词根cis和后缀-ion.",
+        "narrationLang": "zh",
+        "durationSeconds": 71,
+        "audioUrl": "/audio/tts/narration_scene_003_7f5ab6.wav",
+        "audioDuration": 9.1
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "I made a difficult decision to leave my job and start my own business.",
+          "chinese": "我做出了一个艰难的决定,辞去工作去创业.",
+          "highlights": [
+            {
+              "text": "decision",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3825312/pexels-photo-3825312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Hand writing on chalkboard with 'Yes' crossed out and 'No' written underneath, illustrating decision-making.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_91eb2c.wav",
+          "englishAudioDuration": 4.2
+        },
+        "narration": "I made a difficult decision to leave my job and start my own business. 意思是:我做出了一个艰难的决定,辞去工作去创业.这个例句展示了decision最常用的含义--做决定.",
+        "narrationLang": "zh",
+        "durationSeconds": 19,
+        "audioUrl": "/audio/tts/narration_scene_004_ab0a9b.wav",
+        "audioDuration": 13.9
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The committee reached a final decision after three hours of discussion.",
+          "chinese": "委员会经过三个小时的讨论后做出了最终决议.",
+          "highlights": [
+            {
+              "text": "decision",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/4317513/pexels-photo-4317513.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of 'END' written on asphalt with yellow chalk.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_9c4142.wav",
+          "englishAudioDuration": 4.1
+        },
+        "narration": "The committee reached a final decision after three hours of discussion. 意思是:委员会经过三个小时的讨论后做出了最终决议.这里decision表示正式的决议或裁决.",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_005_c4b10c.wav",
+        "audioDuration": 13.5
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "decision是名词,意为\"决定、抉择、决心、决议\",发音为[dɪˈsɪʒən]",
+            "词根cis来自拉丁语caedere,意为\"切、割\",暗示做决定就像切开问题",
+            "相关词汇包括decide(决定)、precise(精确的)、suicide(自杀)等都含有相同词根",
+            "常用搭配:make a decision(做决定)、reach a decision(达成决议)、final decision(最终决定)"
+          ]
+        },
+        "narration": "今天我们学习了decision这个单词.总结一下:decision是名词,表示决定、决议；它的词根cis来自拉丁语,意思是切；相关词汇包括decide、precise等；常用搭配有make a decision、reach a decision等.记住词根词缀法可以帮助我们更高效地记忆单词！",
+        "narrationLang": "zh",
+        "durationSeconds": 25,
+        "audioUrl": "/audio/tts/narration_scene_006_126259.wav",
+        "audioDuration": 22.5
+      }
+    ],
+    "createdAt": "2025-01-18"
+  },
+  "audioUrls": {
+    "scene_001_narration": "public\\audio\\tts\\narration_scene_001_34ab26.wav",
+    "scene_002_narration": "public\\audio\\tts\\narration_scene_002_682f0c.wav",
+    "scene_003_narration": "public\\audio\\tts\\narration_scene_003_7f5ab6.wav",
+    "scene_003_root_de-": "public\\audio\\tts\\root_de-_a885.wav",
+    "scene_003_rw_declare": "public\\audio\\tts\\rw_declare_f199.wav",
+    "scene_003_rw_describe": "public\\audio\\tts\\rw_describe_022c.wav",
+    "scene_003_rw_decide": "public\\audio\\tts\\rw_decide_af80.wav",
+    "scene_003_root_cis": "public\\audio\\tts\\root_cis_505d.wav",
+    "scene_003_rw_precise": "public\\audio\\tts\\rw_precise_6e6b.wav",
+    "scene_003_rw_suicide": "public\\audio\\tts\\rw_suicide_4e2e.wav",
+    "scene_003_rw_incise": "public\\audio\\tts\\rw_incise_a9d4.wav",
+    "scene_003_root_-ion": "public\\audio\\tts\\root_-ion_98cc.wav",
+    "scene_003_rw_information": "public\\audio\\tts\\rw_information_da33.wav",
+    "scene_003_rw_education": "public\\audio\\tts\\rw_education_2db6.wav",
+    "scene_003_rw_action": "public\\audio\\tts\\rw_action_b476.wav",
+    "scene_004_narration": "public\\audio\\tts\\narration_scene_004_ab0a9b.wav",
+    "scene_004_english": "public\\audio\\tts\\example_en_scene_004_91eb2c.wav",
+    "scene_005_narration": "public\\audio\\tts\\narration_scene_005_c4b10c.wav",
+    "scene_005_english": "public\\audio\\tts\\example_en_scene_005_9c4142.wav",
+    "scene_006_narration": "public\\audio\\tts\\narration_scene_006_126259.wav"
+  },
+  "outputPath": "public\\videos\\teaching-decision-aef13afd.mp4"
+}

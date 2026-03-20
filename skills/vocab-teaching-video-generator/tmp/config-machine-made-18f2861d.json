@@ -1,0 +1,252 @@
+{
+  "script": {
+    "id": "video_script_machine-made_001",
+    "topic": "英语词汇教学:machine-made",
+    "description": "通过词根词缀法讲解形容词 machine-made(机器制造的)的构成、含义和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 100,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "machine-made",
+          "subtitle": "机器制造的"
+        },
+        "narration": "今天我们要学习一个实用的形容词:machine-made",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_df03ba.wav",
+        "audioDuration": 4.3
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "machine-made",
+          "meaning": "机器制造的,机制的",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "机器制造的",
+            "机制的",
+            "用机器生产的"
+          ]
+        },
+        "narration": "machine-made 是一个形容词,意思是机器制造的、机制的",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_ca096e.wav",
+        "audioDuration": 5.5
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "machine-made = machine(机器)+ made(制造)",
+          "highlights": [
+            {
+              "text": "machine",
+              "color": "#FFD93D",
+              "label": "名词"
+            },
+            {
+              "text": "made",
+              "color": "#6BCB77",
+              "label": "过去分词"
+            }
+          ],
+          "images": [
+            {
+              "url": "machine_factory",
+              "alt": "工厂机器生产图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/15986236/pexels-photo-15986236.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A vintage sewing machine stitching a Turkish flag in a moody indoor setting.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "machine",
+              "meaning": "机器",
+              "label": "名词",
+              "narration": "machine 来自拉丁语 machina,表示机器、机械装置.它是英语中表示机器的核心词汇,如 machine gun 机枪、washing machine 洗衣机等.",
+              "relatedWords": [
+                {
+                  "word": "machine",
+                  "meaning": "机器",
+                  "highlight": "machine",
+                  "narration": "machine,机器",
+                  "audioUrl": "/audio/tts/rw_machine_6e64.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "machinery",
+                  "meaning": "机械的总称",
+                  "highlight": "machine",
+                  "narration": "machinery,机械装置",
+                  "audioUrl": "/audio/tts/rw_machinery_06ac.wav",
+                  "audioDuration": 2.6
+                },
+                {
+                  "word": "mechanic",
+                  "meaning": "机械师",
+                  "highlight": "mechan",
+                  "narration": "mechanic,机械师",
+                  "audioUrl": "/audio/tts/rw_mechanic_8b84.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_machine_3780.wav",
+              "audioDuration": 11.7
+            },
+            {
+              "root": "made",
+              "meaning": "制造",
+              "label": "过去分词",
+              "narration": "made 是动词 make 的过去分词形式,表示制造、生产.常见的合成词有 handmade(手工制作的)、home-made(家制的)、snow-made(堆雪人而成的)等.",
+              "relatedWords": [
+                {
+                  "word": "handmade",
+                  "meaning": "手工制作的",
+                  "highlight": "made",
+                  "narration": "handmade,手工制作的",
+                  "audioUrl": "/audio/tts/rw_handmade_0eb9.wav",
+                  "audioDuration": 2.6
+                },
+                {
+                  "word": "home-made",
+                  "meaning": "家制的",
+                  "highlight": "made",
+                  "narration": "home-made,家制的",
+                  "audioUrl": "/audio/tts/rw_home-made_f9bc.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "custom-made",
+                  "meaning": "定制的",
+                  "highlight": "made",
+                  "narration": "custom-made,定制的",
+                  "audioUrl": "/audio/tts/rw_custom-made_055b.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_made_f66d.wav",
+              "audioDuration": 12.6
+            }
+          ]
+        },
+        "narration": "machine-made 是由两个词组合而成的复合词",
+        "narrationLang": "zh",
+        "durationSeconds": 46,
+        "audioUrl": "/audio/tts/narration_scene_003_c0624e.wav",
+        "audioDuration": 4.0
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "This is a machine-made product, not handcrafted.",
+          "chinese": "这是一个机器制造的产品,不是手工制作的.",
+          "highlights": [
+            {
+              "text": "machine-made",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/12956428/pexels-photo-12956428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Fresh pasta being produced by an industrial machine, highlighting the food production process.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_2d7c81.wav",
+          "englishAudioDuration": 3.7
+        },
+        "narration": "This is a machine-made product, not handcrafted. 意思是:这是一个机器制造的产品,不是手工制作的.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_b5ca3a.wav",
+        "audioDuration": 8.9
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Machine-made clothes are usually cheaper than handmade ones.",
+          "chinese": "机器制造的衣服通常比手工制作的便宜.",
+          "highlights": [
+            {
+              "text": "Machine-made",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/35508865/pexels-photo-35508865.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of an antique sewing machine in Oghuz, Azerbaijan, showcasing detailed craftsmanship.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_4e89fa.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "Machine-made clothes are usually cheaper than handmade ones. 意思是:机器制造的衣服通常比手工制作的便宜.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_005_8cebec.wav",
+        "audioDuration": 9.1
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "machine-made 是形容词,表示机器制造的、机制的",
+            "它由名词 machine(机器)+ 过去分词 made(制造)组成",
+            "类似的构词还有 handmade(手工的)、home-made(家制的)等",
+            "machine 来自拉丁语 machina,是英语中表示机器的核心词汇"
+          ]
+        },
+        "narration": "今天我们学习了 machine-made(机器制造的)这个词汇,它是由 machine(机器)和 made(制造)组成的复合词.这类构词方式在英语中非常常见,希望同学们能够举一反三.",
+        "narrationLang": "zh",
+        "durationSeconds": 17,
+        "audioUrl": "/audio/tts/narration_scene_006_748f64.wav",
+        "audioDuration": 14.9
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_df03ba.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_ca096e.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_c0624e.wav",
+    "scene_003_root_machine": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_machine_3780.wav",
+    "scene_003_rw_machine": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_machine_6e64.wav",
+    "scene_003_rw_machinery": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_machinery_06ac.wav",
+    "scene_003_rw_mechanic": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_mechanic_8b84.wav",
+    "scene_003_root_made": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_made_f66d.wav",
+    "scene_003_rw_handmade": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_handmade_0eb9.wav",
+    "scene_003_rw_home-made": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_home-made_f9bc.wav",
+    "scene_003_rw_custom-made": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_custom-made_055b.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_b5ca3a.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_2d7c81.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_8cebec.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_4e89fa.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_748f64.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-machine-made-18f2861d.mp4"
+}

@@ -1,0 +1,237 @@
+{
+  "script": {
+    "id": "video_script_temperature_001",
+    "topic": "英语词汇教学:temperature",
+    "description": "通过词根词缀法讲解单词temperature的含义、用法及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "temperature",
+          "subtitle": "温度"
+        },
+        "narration": "今天我们要学习一个非常实用的英语单词:temperature",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_c168ad.wav",
+        "audioDuration": 5.0
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "temperature",
+          "meaning": "温度",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "温度",
+            "气温",
+            "体温"
+          ]
+        },
+        "narration": "temperature是一个名词,它有多个含义,包括温度、气温和体温",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_e9a2cb.wav",
+        "audioDuration": 6.1
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "temperature = temper(调节、混合)+ ature(名词后缀)",
+          "highlights": [
+            {
+              "text": "temper",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "ature",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "temper-",
+              "meaning": "调节、混合、适中",
+              "label": "词根",
+              "narration": "词根temper-来源于拉丁语,表示'调节、混合'的意思,引申为'适中的状态'",
+              "relatedWords": [
+                {
+                  "word": "temper",
+                  "meaning": "调节；使缓和",
+                  "highlight": "temper",
+                  "narration": "temper,调节",
+                  "audioUrl": "/audio/tts/rw_temper_3d44.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "temperate",
+                  "meaning": "温和的；适度的",
+                  "highlight": "temper",
+                  "narration": "temperate,温和的",
+                  "audioUrl": "/audio/tts/rw_temperate_5533.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "temperance",
+                  "meaning": "节制；戒酒",
+                  "highlight": "temper",
+                  "narration": "temperance,节制",
+                  "audioUrl": "/audio/tts/rw_temperance_5f46.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_temper-_8122.wav",
+              "audioDuration": 7.0
+            },
+            {
+              "root": "-ature",
+              "meaning": "状态；结果",
+              "label": "后缀",
+              "narration": "后缀-ature是名词后缀,表示某种状态或结果",
+              "relatedWords": [
+                {
+                  "word": "nature",
+                  "meaning": "自然；本性",
+                  "highlight": "nature",
+                  "narration": "nature,自然",
+                  "audioUrl": "/audio/tts/rw_nature_9cc6.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "picture",
+                  "meaning": "图画；照片",
+                  "highlight": "picture",
+                  "narration": "picture,图画",
+                  "audioUrl": "/audio/tts/rw_picture_23c9.wav",
+                  "audioDuration": 1.9
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ature_e2a7.wav",
+              "audioDuration": 5.0
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/9182633/pexels-photo-9182633.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of a metallic oven thermometer showing temperature in Celsius and Fahrenheit.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "现在让我们来分析temperature的词根词缀构成",
+        "narrationLang": "zh",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_003_915713.wav",
+        "audioDuration": 4.3
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The temperature today is very comfortable, around 22 degrees Celsius.",
+          "chinese": "今天的气温非常舒适,大约22摄氏度.",
+          "highlights": [
+            {
+              "text": "temperature",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7016255/pexels-photo-7016255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Happy man dressed as a leprechaun holding a themed sign and drink.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_0517b3.wav",
+          "englishAudioDuration": 4.6
+        },
+        "narration": "The temperature today is very comfortable, around 22 degrees Celsius. 意思是:今天的气温非常舒适,大约22摄氏度.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_004_c5bc76.wav",
+        "audioDuration": 10.5
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The doctor measured the patient's temperature and found it was slightly high.",
+          "chinese": "医生测量了病人的体温,发现有些偏高.",
+          "highlights": [
+            {
+              "text": "temperature",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7108344/pexels-photo-7108344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A doctor measures a patient's blood pressure with a sphygmomanometer during a consultation.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_ccd1f4.wav",
+          "englishAudioDuration": 4.4
+        },
+        "narration": "The doctor measured the patient's temperature and found it was slightly high. 意思是:医生测量了病人的体温,发现有些偏高.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_005_0aa145.wav",
+        "audioDuration": 9.6
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "temperature是名词,表示温度、气温或体温",
+            "词根temper-表示'调节、混合'的意思,与调节温度有关",
+            "后缀-ature是名词后缀,表示状态或结果",
+            "相关词汇包括:temper(调节)、temperate(温和的)、temperance(节制)"
+          ]
+        },
+        "narration": "让我们总结一下今天学习的内容:temperature是一个表示温度的常用单词,通过词根词缀法我们可以更好地理解和记忆它",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_b20ac1.wav",
+        "audioDuration": 10.5
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_c168ad.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_e9a2cb.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_915713.wav",
+    "scene_003_root_temper-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_temper-_8122.wav",
+    "scene_003_rw_temper": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_temper_3d44.wav",
+    "scene_003_rw_temperate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_temperate_5533.wav",
+    "scene_003_rw_temperance": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_temperance_5f46.wav",
+    "scene_003_root_-ature": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ature_e2a7.wav",
+    "scene_003_rw_nature": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_nature_9cc6.wav",
+    "scene_003_rw_picture": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_picture_23c9.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_c5bc76.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_0517b3.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_0aa145.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_ccd1f4.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_b20ac1.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-temperature-ae08e4cc.mp4"
+}

@@ -1,0 +1,234 @@
+{
+  "script": {
+    "id": "video_script_ephemeral_001",
+    "topic": "英语词汇教学：ephemeral",
+    "description": "通过词根词缀法讲解单词 ephemeral（短暂的、转瞬即逝的）的含义、构成和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 106,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "ephemeral",
+          "subtitle": "短暂的；转瞬即逝的"
+        },
+        "narration": "今天我们要学习的单词是 ephemeral，表示短暂的、转瞬即逝的意思。",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_ce56cf.wav",
+        "audioDuration": 6.4
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "ephemeral",
+          "meaning": "短暂的；转瞬即逝的；瞬息的",
+          "partOfSpeech": "adj.",
+          "definitions": [
+            "持续时间很短的",
+            "瞬息的",
+            "朝生暮死的"
+          ]
+        },
+        "narration": "ephemeral 是一个形容词，中文意思是短暂的、转瞬即逝的。它用来形容那些持续时间非常短的事物。",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_002_9746f8.wav",
+        "audioDuration": 9.4
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "ephemeral 来自希腊语，由 epi-（在...之上/属于）+ hemera（一天）+ -al（形容词后缀）构成，字面意思是\"属于一天的\"，即\"短暂的\"。",
+          "highlights": [
+            {
+              "text": "ephemeral",
+              "color": "#FFD93D",
+              "label": "单词"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "epi-",
+              "meaning": "在...之上、属于",
+              "label": "前缀",
+              "narration": "这个前缀来自希腊语，表示\"在...之上\"或\"属于\"的含义。",
+              "relatedWords": [
+                {
+                  "word": "epidemic",
+                  "meaning": "流行病",
+                  "highlight": "epi-",
+                  "narration": "epidemic，流行病",
+                  "audioUrl": "/audio/tts/rw_epidemic_6034.wav",
+                  "audioDuration": 2.5
+                },
+                {
+                  "word": "epitome",
+                  "meaning": "典型、缩影",
+                  "highlight": "epi-",
+                  "narration": "epitome，典型",
+                  "audioUrl": "/audio/tts/rw_epitome_1787.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_epi-_cb0c.wav",
+              "audioDuration": 5.3
+            },
+            {
+              "root": "hemera",
+              "meaning": "一天",
+              "label": "词根",
+              "narration": "这个词根来自希腊语 hemera，意思是\"一天\"。",
+              "relatedWords": [
+                {
+                  "word": "ephemera",
+                  "meaning": "蜉蝣；短暂存在的事物",
+                  "highlight": "hemer",
+                  "narration": "ephemera，蜉蝣",
+                  "audioUrl": "/audio/tts/rw_ephemera_778d.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "hemisphere",
+                  "meaning": "半球",
+                  "highlight": "hem",
+                  "narration": "hemisphere，半球",
+                  "audioUrl": "/audio/tts/rw_hemisphere_257a.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_hemera_ea95.wav",
+              "audioDuration": 4.3
+            },
+            {
+              "root": "-al",
+              "meaning": "形容词后缀",
+              "label": "后缀",
+              "narration": "这个后缀是常见的形容词后缀，表示\"具有...特性的\"。",
+              "relatedWords": [
+                {
+                  "word": "musical",
+                  "meaning": "音乐的",
+                  "highlight": "-al",
+                  "narration": "musical，音乐的",
+                  "audioUrl": "/audio/tts/rw_musical_35dc.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "natural",
+                  "meaning": "自然的",
+                  "highlight": "-al",
+                  "narration": "natural，自然的",
+                  "audioUrl": "/audio/tts/rw_natural_0fe1.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-al_2f43.wav",
+              "audioDuration": 4.9
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/10082774/pexels-photo-10082774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Spooky ghostly figure captured in a vibrant autumn forest Polaroid scene.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "下面让我们通过词根词缀来深入理解这个单词的构成。",
+        "narrationLang": "zh",
+        "durationSeconds": 37,
+        "audioUrl": "/audio/tts/narration_scene_003_a3c80d.wav",
+        "audioDuration": 5.4
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The ephemeral beauty of cherry blossoms makes them even more precious.",
+          "chinese": "樱花短暂的美使它们更加珍贵。",
+          "highlights": [
+            {
+              "text": "ephemeral",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/31873589/pexels-photo-31873589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A woman reaches for cherry blossoms in a foggy Berlin park, surrounded by vibrant pink blooms.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_d7a77e.wav",
+          "englishAudioDuration": 4.0
+        },
+        "narration": "The ephemeral beauty of cherry blossoms makes them even more precious. 意思是：樱花短暂的美使它们更加珍贵。",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_e9a458.wav",
+        "audioDuration": 8.6
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Fame in the entertainment industry is often ephemeral; it can vanish as quickly as it arrives.",
+          "chinese": "娱乐圈的名声往往是短暂的，可能来得快去得也快。",
+          "highlights": [
+            {
+              "text": "ephemeral",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/4700108/pexels-photo-4700108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "View of Hollywood Walk of Fame with stars on the sidewalk in Los Angeles, California.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_4ea4d6.wav",
+          "englishAudioDuration": 6.1
+        },
+        "narration": "Fame in the entertainment industry is often ephemeral; it can vanish as quickly as it arrives. 意思是：娱乐圈的名声往往是短暂的，可能来得快去得也快。",
+        "narrationLang": "zh",
+        "durationSeconds": 20,
+        "audioUrl": "/audio/tts/narration_scene_005_80f471.wav",
+        "audioDuration": 13.1
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "ephemeral 是形容词，表示\"短暂的、转瞬即逝的\"",
+            "词根构成为：epi-（属于）+ hemera（一天）+ -al（形容词后缀），字面意思是\"属于一天的\"",
+            "相关词汇包括：ephemera（蜉蝣）、ephemerality（短暂性）",
+            "常用于形容自然现象（如樱花）、时尚潮流、名声等持续时间短暂的事物"
+          ]
+        },
+        "narration": "让我们来总结一下今天学习的要点。",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_3889d6.wav",
+        "audioDuration": 3.6
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {},
+  "outputPath": "public\\videos\\teaching-ephemeral-3a5e1103.mp4"
+}

@@ -1,0 +1,285 @@
+{
+  "script": {
+    "id": "video_script_enthusiast_001",
+    "topic": "英语词汇教学:enthusiast",
+    "description": "通过词根词缀法讲解单词enthusiast的含义、来源及其相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "enthusiast",
+          "subtitle": "热衷者；爱好者"
+        },
+        "narration": "今天我们要学习的单词是enthusiast",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_542300.wav",
+        "audioDuration": 3.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "enthusiast",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "热衷于...的人",
+            "热心者",
+            "爱好者"
+          ]
+        },
+        "narration": "enthusiast是一个名词,表示对某事物充满热情的人",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_dd6038.wav",
+        "audioDuration": 5.3
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "enthusiast = en- + thusi + -ast",
+          "highlights": [
+            {
+              "text": "en-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "thusi",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ast",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "/images/enthusiast_etymology.png",
+              "alt": "enthusiast词根结构图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/165938/pexels-photo-165938.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Artistic close-up of a blue sports motorcycle indoors, dramatic lighting accentuates its sleek design.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "en-",
+              "meaning": "在...里面",
+              "label": "前缀",
+              "narration": "en-是一个常见前缀,表示\"在...里面\"或\"使...\"的含义",
+              "relatedWords": [
+                {
+                  "word": "enable",
+                  "meaning": "使能够",
+                  "highlight": "en-",
+                  "narration": "enable,使能够",
+                  "audioUrl": "/audio/tts/rw_enable_6ed6.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "encourage",
+                  "meaning": "鼓励",
+                  "highlight": "en-",
+                  "narration": "encourage,鼓励",
+                  "audioUrl": "/audio/tts/rw_encourage_10b6.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "enrich",
+                  "meaning": "使丰富",
+                  "highlight": "en-",
+                  "narration": "enrich,使丰富",
+                  "audioUrl": "/audio/tts/rw_enrich_aa96.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_en-_11f3.wav",
+              "audioDuration": 5.4
+            },
+            {
+              "root": "thusi",
+              "meaning": "神圣的,神",
+              "label": "词根",
+              "narration": "thusi来自希腊语theos,意为\"神\",表示与神圣相关的含义",
+              "relatedWords": [
+                {
+                  "word": "enthusiasm",
+                  "meaning": "热情",
+                  "highlight": "thusi",
+                  "narration": "enthusiasm,热情",
+                  "audioUrl": "/audio/tts/rw_enthusiasm_c44a.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "enthusiastic",
+                  "meaning": "热情的",
+                  "highlight": "thusi",
+                  "narration": "enthusiastic,热情的",
+                  "audioUrl": "/audio/tts/rw_enthusiastic_1040.wav",
+                  "audioDuration": 2.7
+                },
+                {
+                  "word": "theology",
+                  "meaning": "神学",
+                  "highlight": "theo",
+                  "narration": "theology,神学",
+                  "audioUrl": "/audio/tts/rw_theology_4a71.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_thusi_be6a.wav",
+              "audioDuration": 5.8
+            },
+            {
+              "root": "-ast",
+              "meaning": "人",
+              "label": "后缀",
+              "narration": "-ast是名词后缀,表示\"...的人\",常见于表示人的名词后",
+              "relatedWords": [
+                {
+                  "word": "gymnasium",
+                  "meaning": "体育馆",
+                  "highlight": "-um",
+                  "narration": "gymnasium,体育馆",
+                  "audioUrl": "/audio/tts/rw_gymnasium_f5ef.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "enthusiast",
+                  "meaning": "热衷者",
+                  "highlight": "-ast",
+                  "narration": "enthusiast,热衷者",
+                  "audioUrl": "/audio/tts/rw_enthusiast_146d.wav",
+                  "audioDuration": 2.6
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ast_b9d2.wav",
+              "audioDuration": 5.9
+            }
+          ]
+        },
+        "narration": "下面我们来分析enthusiast的词根结构",
+        "narrationLang": "zh",
+        "durationSeconds": 44,
+        "audioUrl": "/audio/tts/narration_scene_003_fc3bb4.wav",
+        "audioDuration": 4.0
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She is a music enthusiast who attends concerts every week.",
+          "chinese": "她是一个音乐爱好者,每周都去听音乐会.",
+          "highlights": [
+            {
+              "text": "enthusiast",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_9d53ea.wav",
+          "englishAudioDuration": 3.4
+        },
+        "narration": "She is a music enthusiast who attends concerts every week. 意思是:她是一个音乐爱好者,每周都去听音乐会.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_373bd4.wav",
+        "audioDuration": 9.3
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The football enthusiast collected jerseys from all over the world.",
+          "chinese": "这位足球迷收集了来自世界各地的球衣.",
+          "highlights": [
+            {
+              "text": "enthusiast",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/35162974/pexels-photo-35162974.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Vibrant display of legendary football jerseys from global icons, perfect for sports enthusiasts.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_470564.wav",
+          "englishAudioDuration": 3.5
+        },
+        "narration": "The football enthusiast collected jerseys from all over the world. 意思是:这位足球迷收集了来自世界各地的球衣.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_005_2b6e6b.wav",
+        "audioDuration": 9.5
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "enthusiast是一个名词,表示对某事物充满热情的人,即\"热衷者\"或\"爱好者\"",
+            "词根结构:en-(在...里面)+ thusi(神)+ -ast(人)= 被神附身的人→引申为热衷者",
+            "相关词汇包括enthusiasm(热情)、enthusiastic(热情的)、enable(使能够)等",
+            "常见搭配:music enthusiast(音乐爱好者)、sports enthusiast(体育爱好者)、football enthusiast(足球迷)等"
+          ]
+        },
+        "narration": "现在让我们总结一下今天学习的内容",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_c184a1.wav",
+        "audioDuration": 3.7
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_542300.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_dd6038.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_fc3bb4.wav",
+    "scene_003_root_en-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_en-_11f3.wav",
+    "scene_003_rw_enable": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_enable_6ed6.wav",
+    "scene_003_rw_encourage": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_encourage_10b6.wav",
+    "scene_003_rw_enrich": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_enrich_aa96.wav",
+    "scene_003_root_thusi": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_thusi_be6a.wav",
+    "scene_003_rw_enthusiasm": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_enthusiasm_c44a.wav",
+    "scene_003_rw_enthusiastic": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_enthusiastic_1040.wav",
+    "scene_003_rw_theology": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_theology_4a71.wav",
+    "scene_003_root_-ast": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ast_b9d2.wav",
+    "scene_003_rw_gymnasium": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_gymnasium_f5ef.wav",
+    "scene_003_rw_enthusiast": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_enthusiast_146d.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_373bd4.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_9d53ea.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_2b6e6b.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_470564.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_c184a1.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-enthusiast-254a86cd.mp4"
+}

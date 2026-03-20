@@ -1,0 +1,246 @@
+{
+  "script": {
+    "id": "video_script_organize_001",
+    "topic": "英语词汇教学:organize",
+    "description": "通过词根词缀法讲解动词organize的含义、用法及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "organize",
+          "subtitle": "组织,安排,整理"
+        },
+        "narration": "同学们好,今天我们要学习的单词是organize",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_bb0139.wav",
+        "audioDuration": 4.6
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "organize",
+          "meaning": "组织,安排,整理",
+          "partOfSpeech": "v.",
+          "definitions": [
+            "组织,安排",
+            "整理,使有条理",
+            "筹备,策划"
+          ]
+        },
+        "narration": "organize是一个动词,意思是组织、安排或整理",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_6649e4.wav",
+        "audioDuration": 5.3
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "organize = organ + ize",
+          "highlights": [
+            {
+              "text": "organ",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ize",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "organ",
+              "meaning": "器官,组织",
+              "label": "词根",
+              "narration": "organ作为词根来源于希腊语organon,表示'工具'或'器官',引申为'有组织的系统'.在organize中,organ表示'组织'的含义.",
+              "relatedWords": [
+                {
+                  "word": "organ",
+                  "meaning": "器官",
+                  "highlight": "organ",
+                  "narration": "organ,器官",
+                  "audioUrl": "/audio/tts/rw_organ_9335.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "organization",
+                  "meaning": "组织,机构",
+                  "highlight": "organ",
+                  "narration": "organization,组织",
+                  "audioUrl": "/audio/tts/rw_organization_1610.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "organic",
+                  "meaning": "有机的",
+                  "highlight": "organ",
+                  "narration": "organic,有机的",
+                  "audioUrl": "/audio/tts/rw_organic_b0c1.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_organ_5d72.wav",
+              "audioDuration": 10.9
+            },
+            {
+              "root": "-ize",
+              "meaning": "动词后缀,使...化",
+              "label": "后缀",
+              "narration": "-ize是一个常见的动词后缀,来自希腊语-izein,表示'使成为'、'使...化'或'进行...化'的动作.",
+              "relatedWords": [
+                {
+                  "word": "realize",
+                  "meaning": "意识到,实现",
+                  "highlight": "-ize",
+                  "narration": "realize,意识到",
+                  "audioUrl": "/audio/tts/rw_realize_8b26.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "modernize",
+                  "meaning": "现代化",
+                  "highlight": "-ize",
+                  "narration": "modernize,现代化",
+                  "audioUrl": "/audio/tts/rw_modernize_bfb3.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "specialize",
+                  "meaning": "专门化,专攻",
+                  "highlight": "-ize",
+                  "narration": "specialize,专攻",
+                  "audioUrl": "/audio/tts/rw_specialize_02cf.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ize_7240.wav",
+              "audioDuration": 8.8
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/26733192/pexels-photo-26733192.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Canvas organizer with wood tools combines functionality and style.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "接下来我们分析organize的构词方式",
+        "narrationLang": "zh",
+        "durationSeconds": 41,
+        "audioUrl": "/audio/tts/narration_scene_003_ef6f6c.wav",
+        "audioDuration": 3.9
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "I need to organize my schedule for next week.",
+          "chinese": "我需要安排下周的时间表.",
+          "highlights": [
+            {
+              "text": "organize",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/8473873/pexels-photo-8473873.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Flat lay of a modern work desk with coffee, laptop, smartphone, and earbuds.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_15e903.wav",
+          "englishAudioDuration": 2.6
+        },
+        "narration": "I need to organize my schedule for next week. 意思是:我需要安排下周的时间表.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_004_e2d66b.wav",
+        "audioDuration": 7.2
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She organized a meeting with all the team members.",
+          "chinese": "她组织了一次与所有团队成员的会议.",
+          "highlights": [
+            {
+              "text": "organized",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_b2934f.wav",
+          "englishAudioDuration": 2.8
+        },
+        "narration": "She organized a meeting with all the team members. 意思是:她组织了一次与所有团队成员的会议.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_005_34c4b3.wav",
+        "audioDuration": 8.3
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "organize是动词,意为组织、安排、筹备",
+            "词根organ表示'组织',后缀-ize表示'使...化'",
+            "Organize可以表示整理物理空间,也可以表示安排活动或时间",
+            "相关词汇包括:organ(器官)、organization(组织)、organized(有组织的)"
+          ]
+        },
+        "narration": "今天我们学习了organize这个词,它由词根organ和后缀-ize组成,表示使某物变得有组织.掌握词根词缀能帮助我们记忆更多相关词汇.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_d55739.wav",
+        "audioDuration": 12.5
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_bb0139.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_6649e4.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_ef6f6c.wav",
+    "scene_003_root_organ": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_organ_5d72.wav",
+    "scene_003_rw_organ": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_organ_9335.wav",
+    "scene_003_rw_organization": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_organization_1610.wav",
+    "scene_003_rw_organic": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_organic_b0c1.wav",
+    "scene_003_root_-ize": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ize_7240.wav",
+    "scene_003_rw_realize": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_realize_8b26.wav",
+    "scene_003_rw_modernize": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_modernize_bfb3.wav",
+    "scene_003_rw_specialize": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_specialize_02cf.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_e2d66b.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_15e903.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_34c4b3.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_b2934f.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_d55739.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-organize-1d4fe18d.mp4"
+}

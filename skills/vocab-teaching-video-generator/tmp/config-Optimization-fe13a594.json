@@ -1,0 +1,271 @@
+{
+  "script": {
+    "id": "video_script_Optimization_001",
+    "topic": "英语词汇教学:Optimization",
+    "description": "通过词根词缀法讲解单词Optimization,掌握其构词原理和实际应用",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "Optimization",
+          "subtitle": "优化"
+        },
+        "narration": "今天我们要学习的单词是Optimization",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_40a910.wav",
+        "audioDuration": 3.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "Optimization",
+          "meaning": "优化",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "最优化",
+            "优化过程",
+            "最佳化"
+          ]
+        },
+        "narration": "Optimization是一个名词,表示最优化或优化过程的意思",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_65b6c2.wav",
+        "audioDuration": 5.5
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "Optimization = optim + ize + ation",
+          "highlights": [
+            {
+              "text": "optim",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "ize",
+              "color": "#6BCB77",
+              "label": "后缀"
+            },
+            {
+              "text": "ation",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "optim-",
+              "meaning": "最好的",
+              "label": "词根",
+              "narration": "optim来自拉丁语optimus,意为最好的,最优的,这是单词的核心含义来源",
+              "relatedWords": [
+                {
+                  "word": "optimum",
+                  "meaning": "最优的",
+                  "highlight": "optim",
+                  "narration": "optimum,最优的",
+                  "audioUrl": "/audio/tts/rw_optimum_12c1.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "optimal",
+                  "meaning": "最佳的",
+                  "highlight": "optim",
+                  "narration": "optimal,最佳的",
+                  "audioUrl": "/audio/tts/rw_optimal_888b.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "optimist",
+                  "meaning": "乐观主义者",
+                  "highlight": "optim",
+                  "narration": "optimist,乐观主义者",
+                  "audioUrl": "/audio/tts/rw_optimist_423d.wav",
+                  "audioDuration": 2.7
+                }
+              ],
+              "audioUrl": "/audio/tts/root_optim-_640c.wav",
+              "audioDuration": 7.5
+            },
+            {
+              "root": "-ize",
+              "meaning": "使...化",
+              "label": "后缀",
+              "narration": "-ize是动词后缀,表示使...化,使成为...的意思",
+              "relatedWords": [
+                {
+                  "word": "modernize",
+                  "meaning": "现代化",
+                  "highlight": "ize",
+                  "narration": "modernize,现代化",
+                  "audioUrl": "/audio/tts/rw_modernize_7602.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "realize",
+                  "meaning": "实现",
+                  "highlight": "ize",
+                  "narration": "realize,实现",
+                  "audioUrl": "/audio/tts/rw_realize_785f.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ize_e91a.wav",
+              "audioDuration": 4.7
+            },
+            {
+              "root": "-ation",
+              "meaning": "行为/过程",
+              "label": "后缀",
+              "narration": "-ation是名词后缀,表示行为、过程或状态",
+              "relatedWords": [
+                {
+                  "word": "information",
+                  "meaning": "信息",
+                  "highlight": "ation",
+                  "narration": "information,信息",
+                  "audioUrl": "/audio/tts/rw_information_711e.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "ation",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_9069.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ation_56b3.wav",
+              "audioDuration": 4.8
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/267415/pexels-photo-267415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Scrabble tiles spelling SEO Audit on wooden surface, symbolizing digital marketing strategies.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分析Optimization的词根词缀构成",
+        "narrationLang": "zh",
+        "durationSeconds": 42,
+        "audioUrl": "/audio/tts/narration_scene_003_9370d9.wav",
+        "audioDuration": 4.1
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The company is focused on the optimization of its supply chain.",
+          "chinese": "这家公司专注于优化其供应链",
+          "highlights": [
+            {
+              "text": "optimization",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5439443/pexels-photo-5439443.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Businessman in a suit with clipboard and pen in an office environment.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_6728b6.wav",
+          "englishAudioDuration": 3.7
+        },
+        "narration": "The company is focused on the optimization of its supply chain. 意思是:这家公司专注于优化其供应链",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_004_459da1.wav",
+        "audioDuration": 9.0
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "This software helps with the optimization of computer performance.",
+          "chinese": "这款软件有助于优化电脑性能",
+          "highlights": [
+            {
+              "text": "optimization",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Two women working on a computer project together in an office setting.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_7b9b48.wav",
+          "englishAudioDuration": 4.5
+        },
+        "narration": "This software helps with the optimization of computer performance. 意思是:这款软件有助于优化电脑性能",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_005_3cddd5.wav",
+        "audioDuration": 9.1
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "Optimization来源于拉丁语optimus(最好的),加上-ize(使...化)和-ation(名词后缀)构成",
+            "作为名词,Optimization表示最优化、优化过程或最佳化的含义",
+            "在商业和技术领域,Optimization常用于描述流程、系统或性能的优化",
+            "相关词汇包括optimum(最优的)、optimal(最佳的)和optimize(优化动词形式)"
+          ]
+        },
+        "narration": "让我们总结一下今天学习的内容",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_e100a0.wav",
+        "audioDuration": 3.4
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_40a910.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_65b6c2.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_9370d9.wav",
+    "scene_003_root_optim-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_optim-_640c.wav",
+    "scene_003_rw_optimum": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_optimum_12c1.wav",
+    "scene_003_rw_optimal": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_optimal_888b.wav",
+    "scene_003_rw_optimist": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_optimist_423d.wav",
+    "scene_003_root_-ize": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ize_e91a.wav",
+    "scene_003_rw_modernize": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_modernize_7602.wav",
+    "scene_003_rw_realize": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_realize_785f.wav",
+    "scene_003_root_-ation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ation_56b3.wav",
+    "scene_003_rw_information": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_information_711e.wav",
+    "scene_003_rw_education": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_education_9069.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_459da1.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_6728b6.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_3cddd5.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_7b9b48.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_e100a0.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-Optimization-fe13a594.mp4"
+}

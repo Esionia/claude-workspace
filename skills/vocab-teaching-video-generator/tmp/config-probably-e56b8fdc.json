@@ -1,0 +1,240 @@
+{
+  "script": {
+    "id": "video_script_probably_001",
+    "topic": "英语词汇教学:probably",
+    "description": "通过词根词缀法讲解 probably 的构成、含义及用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "probably",
+          "subtitle": "可能,大概"
+        },
+        "narration": "今天我们要学习一个常用的频率副词 probably,表示可能性.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_059f1f.wav",
+        "audioDuration": 5.6
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "probably",
+          "meaning": "可能,大概,也许",
+          "partOfSpeech": "adv.",
+          "definitions": [
+            "很可能,多半",
+            "大概,也许",
+            "几乎肯定"
+          ]
+        },
+        "narration": "Probably 是一个副词,主要有三个含义:很可能、大概、以及几乎确定.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_002_1221a0.wav",
+        "audioDuration": 6.9
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "probably = prob(able) + ly",
+          "highlights": [
+            {
+              "text": "prob",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "ably",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "description: 词根 prob 追溯到拉丁语 probare,意为 test/prove",
+              "alt": "词根 prob 的拉丁语来源示意",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/30907907/pexels-photo-30907907.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Dynamic abstract art with vivid orange and blue hues on a textured background, creating a bold visual impact.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "prob",
+              "meaning": "测试、证明",
+              "label": "词根",
+              "narration": "prob 来自拉丁语 probare,原意是测试或证明,引申为经过验证后被认为是可信的,因此产生了可能性的含义.",
+              "relatedWords": [
+                {
+                  "word": "probe",
+                  "meaning": "探测,探查",
+                  "highlight": "prob",
+                  "narration": "probe,探测",
+                  "audioUrl": "/audio/tts/rw_probe_d587.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "probable",
+                  "meaning": "可能的",
+                  "highlight": "prob",
+                  "narration": "probable,可能的",
+                  "audioUrl": "/audio/tts/rw_probable_ea23.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "prove",
+                  "meaning": "证明",
+                  "highlight": "prov",
+                  "narration": "prove,证明",
+                  "audioUrl": "/audio/tts/rw_prove_9607.wav",
+                  "audioDuration": 1.8
+                }
+              ],
+              "audioUrl": "/audio/tts/root_prob_fdd6.wav",
+              "audioDuration": 10.5
+            },
+            {
+              "root": "ably",
+              "meaning": "能够...地",
+              "label": "后缀",
+              "narration": "-ly 是常见的副词后缀,加在形容词 probable 后面,将可能的意思转化为副词形式,表示以某种可能的方式.",
+              "relatedWords": [
+                {
+                  "word": "probably",
+                  "meaning": "可能地",
+                  "highlight": "ly",
+                  "narration": "probably,可能地",
+                  "audioUrl": "/audio/tts/rw_probably_f7bb.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "likely",
+                  "meaning": "可能的",
+                  "highlight": "ly",
+                  "narration": "likely,可能的",
+                  "audioUrl": "/audio/tts/rw_likely_e303.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "possibly",
+                  "meaning": "可能地",
+                  "highlight": "ly",
+                  "narration": "possibly,可能地",
+                  "audioUrl": "/audio/tts/rw_possibly_9eb0.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_ably_fd1f.wav",
+              "audioDuration": 10.0
+            }
+          ]
+        },
+        "narration": "让我们来拆解 probably 的构词方法.",
+        "narrationLang": "zh",
+        "durationSeconds": 40,
+        "audioUrl": "/audio/tts/narration_scene_003_71dff9.wav",
+        "audioDuration": 3.4
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "It will probably rain tomorrow.",
+          "chinese": "明天可能会下雨.",
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/10960693/pexels-photo-10960693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Stunning view of the Museum of Tomorrow in Rio de Janeiro, featuring its modern architecture.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_35c119.wav",
+          "englishAudioDuration": 2.0
+        },
+        "narration": "It will probably rain tomorrow. 意思是:明天可能会下雨.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_004_4dd4f7.wav",
+        "audioDuration": 5.4
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She is probably the best student in the class.",
+          "chinese": "她大概是班里最优秀的学生.",
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_cef17e.wav",
+          "englishAudioDuration": 2.5
+        },
+        "narration": "She is probably the best student in the class. 意思是:她大概是班里最优秀的学生.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_005_05dad7.wav",
+        "audioDuration": 7.2
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "Probably 是副词,表示\"很可能、大概、也许\"",
+            "词根 prob 来自拉丁语,意为测试、证明,引申为可能性",
+            "-ly 是副词后缀,将 probable 转化为 probably",
+            "相关词汇包括 probable(可能的)、probe(探测)、likely(可能的)"
+          ]
+        },
+        "narration": "今天我们学习了 probably 这个单词,它由词根 prob 和后缀 ly 组成,表示可能性的含义.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_7e68bc.wav",
+        "audioDuration": 7.8
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_059f1f.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_1221a0.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_71dff9.wav",
+    "scene_003_root_prob": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_prob_fdd6.wav",
+    "scene_003_rw_probe": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_probe_d587.wav",
+    "scene_003_rw_probable": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_probable_ea23.wav",
+    "scene_003_rw_prove": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_prove_9607.wav",
+    "scene_003_root_ably": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_ably_fd1f.wav",
+    "scene_003_rw_probably": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_probably_f7bb.wav",
+    "scene_003_rw_likely": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_likely_e303.wav",
+    "scene_003_rw_possibly": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_possibly_9eb0.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_4dd4f7.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_35c119.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_05dad7.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_cef17e.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_7e68bc.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-probably-e56b8fdc.mp4"
+}

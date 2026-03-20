@@ -1,0 +1,295 @@
+{
+  "script": {
+    "id": "video_script_decision_001",
+    "topic": "英语词汇教学:decision",
+    "description": "通过词根词缀法讲解decision,掌握其构词规律及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "decision",
+          "subtitle": "决定；决策"
+        },
+        "narration": "欢迎来到英语词汇教学,今天我们学习一个重要单词:decision",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_a2d599.wav",
+        "audioDuration": 6.0
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "decision",
+          "meaning": "决定；决策；果断",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "决定；抉择",
+            "决策；决议",
+            "果断；坚定"
+          ]
+        },
+        "narration": "让我们先看一下decision这个单词的基本信息,它是一个名词",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_cab3af.wav",
+        "audioDuration": 5.7
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "decision = de- + cis + -ion 决定；决策",
+          "highlights": [
+            {
+              "text": "de-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "cis",
+              "color": "#6BCB77",
+              "label": "词根"
+            },
+            {
+              "text": "-ion",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "decision_etymology.png",
+              "alt": "decision词根词缀拆解示意图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/4623204/pexels-photo-4623204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A diverse team discusses color swatches in an office setting for a project.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "de-",
+              "meaning": "离开；向下",
+              "label": "前缀",
+              "narration": "前缀de-来自拉丁语,表示离开或向下,在这里强调做出决定的动作方向",
+              "relatedWords": [
+                {
+                  "word": "depart",
+                  "meaning": "离开",
+                  "highlight": "de-",
+                  "narration": "depart,离开",
+                  "audioUrl": "/audio/tts/rw_depart_1db3.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "decline",
+                  "meaning": "下降",
+                  "highlight": "de-",
+                  "narration": "decline,下降",
+                  "audioUrl": "/audio/tts/rw_decline_cb5e.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "describe",
+                  "meaning": "描述",
+                  "highlight": "de-",
+                  "narration": "describe,描述",
+                  "audioUrl": "/audio/tts/rw_describe_e95a.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_de-_9782.wav",
+              "audioDuration": 7.2
+            },
+            {
+              "root": "cis",
+              "meaning": "切割；决定",
+              "label": "词根",
+              "narration": "词根cis来自拉丁语caedere,意思是切割,在decision中表示做出决断、做出选择的核心含义",
+              "relatedWords": [
+                {
+                  "word": "precise",
+                  "meaning": "精确的",
+                  "highlight": "cis",
+                  "narration": "precise,精确的",
+                  "audioUrl": "/audio/tts/rw_precise_2c99.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "incisive",
+                  "meaning": "锐利的",
+                  "highlight": "cis",
+                  "narration": "incisive,锐利的",
+                  "audioUrl": "/audio/tts/rw_incisive_f4f6.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "scissors",
+                  "meaning": "剪刀",
+                  "highlight": "cis",
+                  "narration": "scissors,剪刀",
+                  "audioUrl": "/audio/tts/rw_scissors_b4f0.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_cis_7af6.wav",
+              "audioDuration": 9.1
+            },
+            {
+              "root": "-ion",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "后缀-ion是常见的名词后缀,表示动作或状态的结果",
+              "relatedWords": [
+                {
+                  "word": "action",
+                  "meaning": "行动",
+                  "highlight": "-ion",
+                  "narration": "action,行动",
+                  "audioUrl": "/audio/tts/rw_action_de87.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "education",
+                  "meaning": "教育",
+                  "highlight": "-ion",
+                  "narration": "education,教育",
+                  "audioUrl": "/audio/tts/rw_education_9f72.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "attention",
+                  "meaning": "注意",
+                  "highlight": "-ion",
+                  "narration": "attention,注意",
+                  "audioUrl": "/audio/tts/rw_attention_a289.wav",
+                  "audioDuration": 2.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ion_5b8f.wav",
+              "audioDuration": 5.7
+            }
+          ]
+        },
+        "narration": "接下来让我们分析decision的词根词缀结构",
+        "narrationLang": "zh",
+        "durationSeconds": 49,
+        "audioUrl": "/audio/tts/narration_scene_003_8e29be.wav",
+        "audioDuration": 4.3
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She made an important decision to change her career.",
+          "chinese": "她做出了一个重要决定,决定更换职业.",
+          "highlights": [
+            {
+              "text": "decision",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3825312/pexels-photo-3825312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Hand writing on chalkboard with 'Yes' crossed out and 'No' written underneath, illustrating decision-making.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_6c0d4b.wav",
+          "englishAudioDuration": 3.0
+        },
+        "narration": "She made an important decision to change her career. 意思是:她做出了一个重要决定,决定更换职业.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_2d1c7d.wav",
+        "audioDuration": 8.4
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The committee will reach a decision by the end of this week.",
+          "chinese": "委员会将在本周末前做出决定.",
+          "highlights": [
+            {
+              "text": "decision",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3162828/pexels-photo-3162828.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A soft focus image highlighting a reaching hand, symbolizing connection or help.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_f2173d.wav",
+          "englishAudioDuration": 3.1
+        },
+        "narration": "The committee will reach a decision by the end of this week. 意思是:委员会将在本周末前做出决定.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_005_a0a882.wav",
+        "audioDuration": 8.3
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "decision是名词,意为\"决定；决策；果断\"",
+            "词根cis来自拉丁语,意为\"切割；决定\"",
+            "相关词汇包括:decide(动词,决定)、precise(精确的)、incisive(锐利的)",
+            "记住词根cis,就记住了整个词族的核心含义"
+          ]
+        },
+        "narration": "现在让我们回顾今天学到的要点,掌握decision及相关词汇的用法",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_f3c767.wav",
+        "audioDuration": 6.2
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "public\\audio\\tts\\narration_scene_001_a2d599.wav",
+    "scene_002_narration": "public\\audio\\tts\\narration_scene_002_cab3af.wav",
+    "scene_003_narration": "public\\audio\\tts\\narration_scene_003_8e29be.wav",
+    "scene_003_root_de-": "public\\audio\\tts\\root_de-_9782.wav",
+    "scene_003_rw_depart": "public\\audio\\tts\\rw_depart_1db3.wav",
+    "scene_003_rw_decline": "public\\audio\\tts\\rw_decline_cb5e.wav",
+    "scene_003_rw_describe": "public\\audio\\tts\\rw_describe_e95a.wav",
+    "scene_003_root_cis": "public\\audio\\tts\\root_cis_7af6.wav",
+    "scene_003_rw_precise": "public\\audio\\tts\\rw_precise_2c99.wav",
+    "scene_003_rw_incisive": "public\\audio\\tts\\rw_incisive_f4f6.wav",
+    "scene_003_rw_scissors": "public\\audio\\tts\\rw_scissors_b4f0.wav",
+    "scene_003_root_-ion": "public\\audio\\tts\\root_-ion_5b8f.wav",
+    "scene_003_rw_action": "public\\audio\\tts\\rw_action_de87.wav",
+    "scene_003_rw_education": "public\\audio\\tts\\rw_education_9f72.wav",
+    "scene_003_rw_attention": "public\\audio\\tts\\rw_attention_a289.wav",
+    "scene_004_narration": "public\\audio\\tts\\narration_scene_004_2d1c7d.wav",
+    "scene_004_english": "public\\audio\\tts\\example_en_scene_004_6c0d4b.wav",
+    "scene_005_narration": "public\\audio\\tts\\narration_scene_005_a0a882.wav",
+    "scene_005_english": "public\\audio\\tts\\example_en_scene_005_f2173d.wav",
+    "scene_006_narration": "public\\audio\\tts\\narration_scene_006_f3c767.wav"
+  },
+  "outputPath": "public\\videos\\teaching-decision-f385bdbd.mp4"
+}

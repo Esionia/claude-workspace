@@ -1,0 +1,277 @@
+{
+  "script": {
+    "id": "video_script_originality_001",
+    "topic": "英语词汇教学:originality",
+    "description": "通过词根词缀法讲解单词originality,掌握其含义、构词法和实际应用",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "originality",
+          "subtitle": "原创性"
+        },
+        "narration": "今天我们要学习的单词是originality",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_001_8a19a3.wav",
+        "audioDuration": 3.9
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "originality",
+          "meaning": "原创性",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "原创性、独创性",
+            "新颖、独特",
+            "创新精神"
+          ]
+        },
+        "narration": "originality是一个名词,表示原创性或独创性的意思",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_7ec59a.wav",
+        "audioDuration": 5.5
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "originality = origin + al + ity",
+          "highlights": [
+            {
+              "text": "origin",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "al",
+              "color": "#6BCB77",
+              "label": "后缀"
+            },
+            {
+              "text": "ity",
+              "color": "#4D96FF",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "word_formation_diagram",
+              "alt": "单词构成图示",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/6373787/pexels-photo-6373787.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A striking minimalist black square on a textured white wall offers creative copyspace.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "origin",
+              "meaning": "起源、来源",
+              "label": "词根",
+              "narration": "origin来自拉丁语originem,表示'起源、来源'的意思,是单词的核心部分",
+              "relatedWords": [
+                {
+                  "word": "origin",
+                  "meaning": "起源、来源",
+                  "highlight": "origin",
+                  "narration": "origin,起源",
+                  "audioUrl": "/audio/tts/rw_origin_c425.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "original",
+                  "meaning": "原始的、最初的",
+                  "highlight": "origin",
+                  "narration": "original,原始的",
+                  "audioUrl": "/audio/tts/rw_original_38f9.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "originate",
+                  "meaning": "起源于、产生",
+                  "highlight": "origin",
+                  "narration": "originate,起源",
+                  "audioUrl": "/audio/tts/rw_originate_b64c.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_origin_8c72.wav",
+              "audioDuration": 7.2
+            },
+            {
+              "root": "-al",
+              "meaning": "形容词后缀",
+              "label": "后缀",
+              "narration": "-al是常见的形容词后缀,表示'具有...特性的'",
+              "relatedWords": [
+                {
+                  "word": "national",
+                  "meaning": "国家的",
+                  "highlight": "al",
+                  "narration": "national,国家的",
+                  "audioUrl": "/audio/tts/rw_national_3e22.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "traditional",
+                  "meaning": "传统的",
+                  "highlight": "al",
+                  "narration": "traditional,传统的",
+                  "audioUrl": "/audio/tts/rw_traditional_e071.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-al_e38b.wav",
+              "audioDuration": 4.5
+            },
+            {
+              "root": "-ity",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "-ity是名词后缀,表示'性质、状态或结果'",
+              "relatedWords": [
+                {
+                  "word": "creativity",
+                  "meaning": "创造力",
+                  "highlight": "ity",
+                  "narration": "creativity,创造力",
+                  "audioUrl": "/audio/tts/rw_creativity_07f5.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "activity",
+                  "meaning": "活动",
+                  "highlight": "ity",
+                  "narration": "activity,活动",
+                  "audioUrl": "/audio/tts/rw_activity_a2c6.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ity_a33d.wav",
+              "audioDuration": 4.8
+            }
+          ]
+        },
+        "narration": "接下来我们拆解这个单词的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 40,
+        "audioUrl": "/audio/tts/narration_scene_003_4ae2e6.wav",
+        "audioDuration": 3.4
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The artist is known for her originality and unique style.",
+          "chinese": "这位艺术家因她的原创性和独特风格而闻名.",
+          "highlights": [
+            {
+              "text": "originality",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/9415473/pexels-photo-9415473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A stunning aerial view of Istanbul with the iconic Galata Tower framed by a cloudy sky.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_b6dc05.wav",
+          "englishAudioDuration": 4.2
+        },
+        "narration": "The artist is known for her originality and unique style. 意思是:这位艺术家因她的原创性和独特风格而闻名.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_004_5bc2a1.wav",
+        "audioDuration": 9.9
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "His work shows great originality and imagination.",
+          "chinese": "他的作品展现了极大的原创性和想象力.",
+          "highlights": [
+            {
+              "text": "originality",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/4830778/pexels-photo-4830778.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Artistic studio shot of feet with 'Hi' and 'Bye' messages in focus, conceptual photograph.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_8af68b.wav",
+          "englishAudioDuration": 3.7
+        },
+        "narration": "His work shows great originality and imagination. 意思是:他的作品展现了极大的原创性和想象力.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_005_3585b6.wav",
+        "audioDuration": 9.0
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "originality是名词,表示'原创性、独创性'",
+            "词根origin表示'起源、来源',来自拉丁语",
+            "-al是形容词后缀,-ity是名词后缀",
+            "相关词汇包括:original、originate、creativity等"
+          ]
+        },
+        "narration": "今天我们学习了originality这个单词,它表示原创性,由词根origin加上后缀构成,记得在生活中多使用这个单词哦！",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_b48aa6.wav",
+        "audioDuration": 10.8
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_8a19a3.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_7ec59a.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_4ae2e6.wav",
+    "scene_003_root_origin": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_origin_8c72.wav",
+    "scene_003_rw_origin": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_origin_c425.wav",
+    "scene_003_rw_original": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_original_38f9.wav",
+    "scene_003_rw_originate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_originate_b64c.wav",
+    "scene_003_root_-al": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-al_e38b.wav",
+    "scene_003_rw_national": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_national_3e22.wav",
+    "scene_003_rw_traditional": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_traditional_e071.wav",
+    "scene_003_root_-ity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ity_a33d.wav",
+    "scene_003_rw_creativity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_creativity_07f5.wav",
+    "scene_003_rw_activity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_activity_a2c6.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_5bc2a1.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_b6dc05.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_3585b6.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_8af68b.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_b48aa6.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-originality-f66846c5.mp4"
+}

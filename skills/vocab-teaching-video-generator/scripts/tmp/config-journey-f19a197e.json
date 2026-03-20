@@ -1,0 +1,252 @@
+{
+  "script": {
+    "id": "video_script_journey_001",
+    "topic": "英语词汇教学:journey",
+    "description": "通过词根词缀法讲解journey,掌握其词源、含义及用法,并学会相关词汇的拓展记忆.",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "journey",
+          "subtitle": "旅行,旅程"
+        },
+        "narration": "欢迎来到今天的词汇课堂,我们要学习的单词是 journey,意思是旅行或旅程.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_001_3183b6.wav",
+        "audioDuration": 7.2
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "journey",
+          "meaning": "旅行,旅程",
+          "partOfSpeech": "n./v.",
+          "definitions": [
+            "(名词)旅行,旅程,路程",
+            "(名词)行程,旅途经历",
+            "(动词)旅行,行进"
+          ]
+        },
+        "narration": "让我们来看一下 journey 这个单词的基本信息,它既可以作名词,也可以作动词,主要表示旅行或旅程的意思.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_002_e97973.wav",
+        "audioDuration": 9.4
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "journey /ˈdʒɜːni/ 旅行,旅程",
+          "highlights": [
+            {
+              "text": "jour",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "ney",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:一条蜿蜒的道路,代表旅程",
+              "alt": "一条蜿蜒的道路",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/6300651/pexels-photo-6300651.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Sandy beach with a series of footprints leading into the distance at twilight, invoking a sense of solitude.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "jour",
+              "meaning": "天,日(来源于拉丁语 dies,天)",
+              "label": "词根",
+              "narration": "jour 这个词根来源于拉丁语 dies,意思是天或日,它传达了最初 journey 这个概念是指一天的行程.",
+              "relatedWords": [
+                {
+                  "word": "journal",
+                  "meaning": "日志,期刊",
+                  "highlight": "journ",
+                  "narration": "journal,日志,记录每天的事情",
+                  "audioUrl": "/audio/tts/rw_journal_a2e8.wav",
+                  "audioDuration": 3.5
+                },
+                {
+                  "word": "journalist",
+                  "meaning": "记者",
+                  "highlight": "journ",
+                  "narration": "journalist,记者,写作者",
+                  "audioUrl": "/audio/tts/rw_journalist_24a4.wav",
+                  "audioDuration": 3.1
+                },
+                {
+                  "word": "diary",
+                  "meaning": "日记",
+                  "highlight": "di",
+                  "narration": "diary,日记,与day同源",
+                  "audioUrl": "/audio/tts/rw_diary_03e7.wav",
+                  "audioDuration": 3.0
+                }
+              ],
+              "audioUrl": "/audio/tts/root_jour_a631.wav",
+              "audioDuration": 8.8
+            },
+            {
+              "root": "ney",
+              "meaning": "名词后缀,表示行为或状态",
+              "label": "后缀",
+              "narration": "ney 是一个名词后缀,表示行为或状态,与 pathway、runway 中的 way 有着相似的构词功能.",
+              "relatedWords": [
+                {
+                  "word": "pathway",
+                  "meaning": "小路,通道",
+                  "highlight": "way",
+                  "narration": "pathway,小路",
+                  "audioUrl": "/audio/tts/rw_pathway_1834.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "runway",
+                  "meaning": "跑道",
+                  "highlight": "way",
+                  "narration": "runway,跑道",
+                  "audioUrl": "/audio/tts/rw_runway_b981.wav",
+                  "audioDuration": 1.9
+                },
+                {
+                  "word": "holiday",
+                  "meaning": "假期,假日",
+                  "highlight": "day",
+                  "narration": "holiday,假期,与holy day有关",
+                  "audioUrl": "/audio/tts/rw_holiday_5317.wav",
+                  "audioDuration": 3.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_ney_1d9d.wav",
+              "audioDuration": 8.2
+            }
+          ]
+        },
+        "narration": "让我们深入了解 journey 的构词奥秘,看看这个词是如何组成的.",
+        "narrationLang": "zh",
+        "durationSeconds": 43,
+        "audioUrl": "/audio/tts/narration_scene_003_e8182b.wav",
+        "audioDuration": 5.7
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Life is a journey, not a destination.",
+          "chinese": "人生是一段旅程,而不是一个目的地.",
+          "highlights": [
+            {
+              "text": "journey",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/36241694/pexels-photo-36241694.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A vintage car loaded with goods traveling on a dusty rural road, conveying a sense of adventure.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_e042ea.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "Life is a journey, not a destination. 意思是:人生是一段旅程,而不是一个目的地.这句话告诉我们,要享受过程,而不只是追求结果.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_004_765a31.wav",
+        "audioDuration": 12.2
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "We journeyed across the desert for three days.",
+          "chinese": "我们在沙漠中旅行了三天.",
+          "highlights": [
+            {
+              "text": "journeyed",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6307210/pexels-photo-6307210.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A person walking across sandy dunes in India with a flowing orange scarf, emphasizing freedom and adventure.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_f1895d.wav",
+          "englishAudioDuration": 2.8
+        },
+        "narration": "We journeyed across the desert for three days. 意思是:我们在沙漠中旅行了三天.这里 journey 用作动词,表示旅行或行进的动作.",
+        "narrationLang": "zh",
+        "durationSeconds": 14,
+        "audioUrl": "/audio/tts/narration_scene_005_1dbd56.wav",
+        "audioDuration": 11.1
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "journey 既可作名词表示旅行、旅程,也可作动词表示旅行、行进",
+            "词根 jour 来自拉丁语 dies,意为天,这与它最初表示一天行程的含义相关",
+            "后缀 ney 用于构成名词,表示行为或状态,与 pathway 同类的构词方式",
+            "相关词汇包括 journal 日志、journalist 记者、diary 日记等"
+          ]
+        },
+        "narration": "现在让我们回顾一下今天学习的主要内容,journey 这个单词的核心知识点.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_e5475e.wav",
+        "audioDuration": 6.6
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "public\\audio\\tts\\narration_scene_001_3183b6.wav",
+    "scene_002_narration": "public\\audio\\tts\\narration_scene_002_e97973.wav",
+    "scene_003_narration": "public\\audio\\tts\\narration_scene_003_e8182b.wav",
+    "scene_003_root_jour": "public\\audio\\tts\\root_jour_a631.wav",
+    "scene_003_rw_journal": "public\\audio\\tts\\rw_journal_a2e8.wav",
+    "scene_003_rw_journalist": "public\\audio\\tts\\rw_journalist_24a4.wav",
+    "scene_003_rw_diary": "public\\audio\\tts\\rw_diary_03e7.wav",
+    "scene_003_root_ney": "public\\audio\\tts\\root_ney_1d9d.wav",
+    "scene_003_rw_pathway": "public\\audio\\tts\\rw_pathway_1834.wav",
+    "scene_003_rw_runway": "public\\audio\\tts\\rw_runway_b981.wav",
+    "scene_003_rw_holiday": "public\\audio\\tts\\rw_holiday_5317.wav",
+    "scene_004_narration": "public\\audio\\tts\\narration_scene_004_765a31.wav",
+    "scene_004_english": "public\\audio\\tts\\example_en_scene_004_e042ea.wav",
+    "scene_005_narration": "public\\audio\\tts\\narration_scene_005_1dbd56.wav",
+    "scene_005_english": "public\\audio\\tts\\example_en_scene_005_f1895d.wav",
+    "scene_006_narration": "public\\audio\\tts\\narration_scene_006_e5475e.wav"
+  },
+  "outputPath": "public\\videos\\teaching-journey-f19a197e.mp4"
+}

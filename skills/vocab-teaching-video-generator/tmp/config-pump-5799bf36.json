@@ -1,0 +1,207 @@
+{
+  "script": {
+    "id": "video_script_pump_001",
+    "topic": "英语词汇教学:pump",
+    "description": "通过词根词缀法、记忆方法和多场景应用讲解单词 pump 的用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "pump",
+          "subtitle": "抽；泵送；追问；心脏"
+        },
+        "narration": "今天我们要学习的单词是 pump,它是一个既实用又常见的高频词汇,让我们一起来掌握它吧！",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_001_fd87fc.wav",
+        "audioDuration": 8.1
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "pump",
+          "partOfSpeech": "n. / v.",
+          "definitions": [
+            "[名词]泵,打气筒；心脏(口语)",
+            "[动词]用泵抽送；打气；追问,打听"
+          ]
+        },
+        "narration": "让我们先看一下单词的基本信息.pump 既可以作名词,表示泵或打气筒,也可以作动词,表示抽送或追问.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_002_b5bd33.wav",
+        "audioDuration": 9.6
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "pump 是一个拟声词,模拟水泵工作时发出的声音",
+          "highlights": [
+            {
+              "text": "pump",
+              "color": "#FFD93D",
+              "label": "拟声词"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:一个水泵正在工作的画面",
+              "alt": "水泵工作示意图",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/14041885/pexels-photo-14041885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "An outdoor gas station pump with a vintage look alongside an office chair, in a rustic setting.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "pump",
+              "meaning": "模拟泵工作时发出的声音",
+              "label": "拟声词",
+              "narration": "pump 这个词来源于荷兰语 pomp,最初是模拟水泵抽水时发出的噗噗声,属于拟声词.这种造词方式在英语中很常见,比如 splash(溅水声)、buzz(嗡嗡声)等.",
+              "relatedWords": [
+                {
+                  "word": "pumping",
+                  "meaning": "抽水；心跳",
+                  "highlight": "pump",
+                  "narration": "pumping,泵送或抽吸的动作,也可指心脏的跳动",
+                  "audioUrl": "/audio/tts/rw_pumping_6036.wav",
+                  "audioDuration": 4.8
+                },
+                {
+                  "word": "pumpkin",
+                  "meaning": "南瓜",
+                  "highlight": "pump",
+                  "narration": "pumpkin,南瓜,这个词里的 pump 是古法语 pompon 的变体",
+                  "audioUrl": "/audio/tts/rw_pumpkin_51ec.wav",
+                  "audioDuration": 5.4
+                },
+                {
+                  "word": "strawberry",
+                  "meaning": "草莓",
+                  "highlight": "straw",
+                  "narration": "strawberry,草莓 Straw 词根是稻草的意思",
+                  "audioUrl": "/audio/tts/rw_strawberry_bac0.wav",
+                  "audioDuration": 4.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_pump_5808.wav",
+              "audioDuration": 15.0
+            }
+          ]
+        },
+        "narration": "我们来了解一下 pump 的构词特点和记忆方法.",
+        "narrationLang": "zh",
+        "durationSeconds": 36,
+        "audioUrl": "/audio/tts/narration_scene_003_acc393.wav",
+        "audioDuration": 4.2
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "I need to pump up my bicycle tires before the ride.",
+          "chinese": "骑行前,我需要给自行车轮胎打气.",
+          "highlights": [
+            {
+              "text": "pump up",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/8473869/pexels-photo-8473869.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Minimalist smartphone image with a humorous vacation message on the screen.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_40b531.wav",
+          "englishAudioDuration": 3.4
+        },
+        "narration": "I need to pump up my bicycle tires before the ride. 意思是:骑行前,我需要给自行车轮胎打气.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_004_32e2d2.wav",
+        "audioDuration": 8.3
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The police tried to pump information out of the suspect.",
+          "chinese": "警察试图从嫌疑犯口中套出信息.",
+          "highlights": [
+            {
+              "text": "pump",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/4310979/pexels-photo-4310979.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Silhouetted tree branches against moody winter sky in Berlin, Germany, creating a dramatic and artistic atmosphere.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_f6ca99.wav",
+          "englishAudioDuration": 3.4
+        },
+        "narration": "The police tried to pump information out of the suspect. 意思是:警察试图从嫌疑犯口中套出信息.",
+        "narrationLang": "zh",
+        "durationSeconds": 13,
+        "audioUrl": "/audio/tts/narration_scene_005_8c614a.wav",
+        "audioDuration": 8.7
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "pump 是高频词汇,既可作名词(泵、打气筒),也可作动词(抽送、打气、追问)",
+            "pump 是拟声词,模拟水泵工作的声音,中文谐音记忆:像泵一样噗噗地抽",
+            "常见短语:pump up(打气；激励)、pump out(大量生产)、pump iron(举重训练)",
+            "pump 作为追问讲时,常用短语 pump someone for information,表示从某人处打听消息"
+          ]
+        },
+        "narration": "好了,今天的词汇教学就到这里.我们学习了 pump 的多种用法,包括作为名词的泵和作为动词的抽送、追问等含义.记住它是一个拟声词,模拟泵工作的声音.希望大家能够在实际生活中多多运用这个词！",
+        "narrationLang": "zh",
+        "durationSeconds": 20,
+        "audioUrl": "/audio/tts/narration_scene_006_6b2fac.wav",
+        "audioDuration": 17.8
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_fd87fc.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_b5bd33.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_acc393.wav",
+    "scene_003_root_pump": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_pump_5808.wav",
+    "scene_003_rw_pumping": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_pumping_6036.wav",
+    "scene_003_rw_pumpkin": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_pumpkin_51ec.wav",
+    "scene_003_rw_strawberry": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_strawberry_bac0.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_32e2d2.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_40b531.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_8c614a.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_f6ca99.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_6b2fac.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-pump-5799bf36.mp4"
+}

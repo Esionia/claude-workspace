@@ -1,0 +1,33 @@
+# Dependencies (in skills)
+skills/*/node_modules/
+skills/vocab-teaching-video-generator/scripts/node_modules/
+
+# API Keys & Secrets (do not commit real config)
+skills/*/config.env
+skills/*/.env
+skills/*/secrets/
+skills/openmaic/references/provider-keys.md
+
+# Cookies (contains session tokens - do not commit)
+*_cookies.json
+
+# Debug screenshots
+*.png
+
+# Test output files
+test_*.js
+test_*.mp3
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp files
+*.tmp
+*.temp

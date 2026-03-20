@@ -1,0 +1,260 @@
+{
+  "script": {
+    "id": "video_script_creativity_001",
+    "topic": "英语词汇教学:creativity",
+    "description": "通过词根词缀法讲解creativity(创造力)这个单词,帮助学习者理解其构词原理并掌握用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "creativity",
+          "subtitle": "创造力"
+        },
+        "narration": "今天我们要学习一个非常重要的单词--creativity",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_ad40f7.wav",
+        "audioDuration": 4.7
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "creativity",
+          "partOfSpeech": "noun.",
+          "definitions": [
+            "创造力",
+            "创造性",
+            "独创性",
+            "创意"
+          ]
+        },
+        "narration": "creativity是一个名词,表示创造力或创造性的能力",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_002_4e80a3.wav",
+        "audioDuration": 5.4
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "creativity = creat + ive + ity",
+          "highlights": [
+            {
+              "text": "creat",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "ive",
+              "color": "#FFD93D",
+              "label": "后缀"
+            },
+            {
+              "text": "ity",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "creat-",
+              "meaning": "创造",
+              "label": "词根",
+              "narration": "这个词根来自拉丁语creare,意思是\"创造\"或\"创造出来\"",
+              "relatedWords": [
+                {
+                  "word": "create",
+                  "meaning": "创造",
+                  "highlight": "creat",
+                  "narration": "create,创造",
+                  "audioUrl": "/audio/tts/rw_create_14d7.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "creative",
+                  "meaning": "有创造力的",
+                  "highlight": "creat",
+                  "narration": "creative,有创造力的",
+                  "audioUrl": "/audio/tts/rw_creative_52b2.wav",
+                  "audioDuration": 2.5
+                },
+                {
+                  "word": "creation",
+                  "meaning": "创造",
+                  "highlight": "creat",
+                  "narration": "creation,创造",
+                  "audioUrl": "/audio/tts/rw_creation_6117.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_creat-_e198.wav",
+              "audioDuration": 5.3
+            },
+            {
+              "root": "-ive",
+              "meaning": "形容词后缀",
+              "label": "后缀",
+              "narration": "这个后缀表示\"具有...性质的\",将动词转为形容词",
+              "relatedWords": [
+                {
+                  "word": "active",
+                  "meaning": "积极的",
+                  "highlight": "act",
+                  "narration": "active,积极的",
+                  "audioUrl": "/audio/tts/rw_active_a896.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "impressive",
+                  "meaning": "令人印象深刻的",
+                  "highlight": "press",
+                  "narration": "impressive,令人印象深刻的",
+                  "audioUrl": "/audio/tts/rw_impressive_25ed.wav",
+                  "audioDuration": 2.9
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ive_42b0.wav",
+              "audioDuration": 4.8
+            },
+            {
+              "root": "-ity",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "这个后缀表示\"性质\"或\"状态\",将形容词转为名词",
+              "relatedWords": [
+                {
+                  "word": "activity",
+                  "meaning": "活动",
+                  "highlight": "activ",
+                  "narration": "activity,活动",
+                  "audioUrl": "/audio/tts/rw_activity_c995.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "reality",
+                  "meaning": "现实",
+                  "highlight": "real",
+                  "narration": "reality,现实",
+                  "audioUrl": "/audio/tts/rw_reality_1a30.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "capacity",
+                  "meaning": "能力",
+                  "highlight": "capac",
+                  "narration": "capacity,能力",
+                  "audioUrl": "/audio/tts/rw_capacity_483e.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ity_6515.wav",
+              "audioDuration": 5.1
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3826653/pexels-photo-3826653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Hands creating elegant calligraphy with ink and watercolor tools on a desk, enhancing artistic creativity.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分析一下这个单词的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 41,
+        "audioUrl": "/audio/tts/narration_scene_003_9f0c95.wav",
+        "audioDuration": 3.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She has remarkable creativity and always comes up with innovative ideas.",
+          "chinese": "她拥有非凡的创造力,总能想出创新的点子.",
+          "highlights": [
+            {
+              "text": "creativity",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/16977738/pexels-photo-16977738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of a She-oak tree trunk and foliage in a forest, Portland Parish, Jamaica.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_bba3d1.wav",
+          "englishAudioDuration": 5.1
+        },
+        "narration": "She has remarkable creativity and always comes up with innovative ideas. 意思是:她拥有非凡的创造力,总能想出创新的点子.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_004_db5bd6.wav",
+        "audioDuration": 10.9
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The company encourages creativity among its employees through various workshops.",
+          "chinese": "公司通过各种研讨会来鼓励员工的创造力.",
+          "highlights": [
+            {
+              "text": "creativity",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7563656/pexels-photo-7563656.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of a hand holding a sign that reads 'Making your life easier.' Perfect for motivational content.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_09b38d.wav",
+          "englishAudioDuration": 4.4
+        },
+        "narration": "The company encourages creativity among its employees through various workshops. 意思是:公司通过各种研讨会来鼓励员工的创造力.",
+        "narrationLang": "zh",
+        "durationSeconds": 16,
+        "audioUrl": "/audio/tts/narration_scene_005_d0b1c4.wav",
+        "audioDuration": 11.0
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "creativity来自拉丁语creare(创造),是名词形式,表示创造力或创造性",
+            "构词法:creat(创造)+ ive(形容词后缀)+ ity(名词后缀)= creativity",
+            "相关词汇包括:create(创造)、creative(有创造力的)、creation(创造)",
+            "常用搭配:have creativity(拥有创造力)、encourage creativity(鼓励创造力)"
+          ]
+        },
+        "narration": "让我们总结一下今天学习的内容",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_bd9223.wav",
+        "audioDuration": 3.4
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {},
+  "outputPath": "public\\videos\\teaching-creativity-f35a71a9.mp4"
+}

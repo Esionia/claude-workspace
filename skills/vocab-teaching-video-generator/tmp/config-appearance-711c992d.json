@@ -1,0 +1,246 @@
+{
+  "script": {
+    "id": "video_script_appearance_001",
+    "topic": "英语词汇教学:appearance",
+    "description": "通过词根词缀法讲解单词appearance的构成、含义及用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "appearance",
+          "subtitle": "外表；出现"
+        },
+        "narration": "今天我们来学习一个重要词汇",
+        "narrationLang": "zh",
+        "durationSeconds": 4,
+        "audioUrl": "/audio/tts/narration_scene_001_d81cad.wav",
+        "audioDuration": 3.2
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "appearance",
+          "meaning": "外表；出现；露面；外观",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "外表；外貌",
+            "出现；露面",
+            "外观；外表样子"
+          ]
+        },
+        "narration": "首先,让我们了解这个单词的基本信息",
+        "narrationLang": "zh",
+        "durationSeconds": 5,
+        "audioUrl": "/audio/tts/narration_scene_002_5a837e.wav",
+        "audioDuration": 4.1
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "appearance = appear + -ance",
+          "highlights": [
+            {
+              "text": "appear",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ance",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "appear",
+              "meaning": "出现；显现",
+              "label": "词根",
+              "narration": "appear源自拉丁语parere,表示'出现、显现'的意思,是单词的核心部分",
+              "relatedWords": [
+                {
+                  "word": "appear",
+                  "meaning": "出现；显得",
+                  "highlight": "appear",
+                  "narration": "appear,出现",
+                  "audioUrl": "/audio/tts/rw_appear_ed93.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "disappear",
+                  "meaning": "消失；失踪",
+                  "highlight": "appear",
+                  "narration": "disappear,消失",
+                  "audioUrl": "/audio/tts/rw_disappear_a0da.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "reappear",
+                  "meaning": "再次出现",
+                  "highlight": "appear",
+                  "narration": "reappear,再次出现",
+                  "audioUrl": "/audio/tts/rw_reappear_4bc5.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_appear_58ad.wav",
+              "audioDuration": 6.8
+            },
+            {
+              "root": "-ance",
+              "meaning": "名词后缀,表示状态或行为",
+              "label": "后缀",
+              "narration": "-ance是常见的名词后缀,表示'状态、行为或结果',使动词变为名词",
+              "relatedWords": [
+                {
+                  "word": "importance",
+                  "meaning": "重要性",
+                  "highlight": "-ance",
+                  "narration": "importance,重要性",
+                  "audioUrl": "/audio/tts/rw_importance_76e0.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "guidance",
+                  "meaning": "指导；引导",
+                  "highlight": "-ance",
+                  "narration": "guidance,指导",
+                  "audioUrl": "/audio/tts/rw_guidance_5a3c.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "tolerance",
+                  "meaning": "容忍；宽容",
+                  "highlight": "-ance",
+                  "narration": "tolerance,容忍",
+                  "audioUrl": "/audio/tts/rw_tolerance_f5b8.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ance_8c8c.wav",
+              "audioDuration": 7.1
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/2088170/pexels-photo-2088170.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A soft pink pastel mountain landscape, perfect for aesthetic backgrounds or wallpapers.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "接下来,我们来分析它的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 34,
+        "audioUrl": "/audio/tts/narration_scene_003_b9087f.wav",
+        "audioDuration": 3.1
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Don't judge by appearance.",
+          "chinese": "不要以貌取人.",
+          "highlights": [
+            {
+              "text": "appearance",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/34817076/pexels-photo-34817076.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Female judge in a courtroom setting, focusing on legal documents with a gavel.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_f79bc2.wav",
+          "englishAudioDuration": 2.0
+        },
+        "narration": "Don't judge by appearance. 意思是:不要以貌取人.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_004_e27ebe.wav",
+        "audioDuration": 4.7
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Her sudden appearance surprised everyone.",
+          "chinese": "她的突然出现让 everyone都很惊讶.",
+          "highlights": [
+            {
+              "text": "appearance",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/31799261/pexels-photo-31799261.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A surprised man with wide eyes covering his mouth in shock against an orange background.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_123a7c.wav",
+          "englishAudioDuration": 2.4
+        },
+        "narration": "Her sudden appearance surprised everyone. 意思是:她的突然出现让大家都非常惊讶.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_005_40df83.wav",
+        "audioDuration": 7.5
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "appearance是名词,表示外表、外貌或出现的动作",
+            "词根appear来自拉丁语,意为'出现、显现'",
+            "后缀-ance是名词后缀,表示状态或行为",
+            "常与词根结合的词有:importance、guidance、tolerance等"
+          ]
+        },
+        "narration": "现在让我们回顾今天所学的内容",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_5764e8.wav",
+        "audioDuration": 3.3
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_d81cad.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_5a837e.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_b9087f.wav",
+    "scene_003_root_appear": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_appear_58ad.wav",
+    "scene_003_rw_appear": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_appear_ed93.wav",
+    "scene_003_rw_disappear": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_disappear_a0da.wav",
+    "scene_003_rw_reappear": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_reappear_4bc5.wav",
+    "scene_003_root_-ance": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ance_8c8c.wav",
+    "scene_003_rw_importance": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_importance_76e0.wav",
+    "scene_003_rw_guidance": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_guidance_5a3c.wav",
+    "scene_003_rw_tolerance": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_tolerance_f5b8.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_e27ebe.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_f79bc2.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_40df83.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_123a7c.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_5764e8.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-appearance-711c992d.mp4"
+}

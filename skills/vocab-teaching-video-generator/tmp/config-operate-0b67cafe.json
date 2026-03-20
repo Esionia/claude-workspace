@@ -1,0 +1,238 @@
+{
+  "script": {
+    "id": "video_script_operate_001",
+    "topic": "英语词汇教学:operate",
+    "description": "通过词根词缀法讲解动词operate的含义、用法及相关词汇",
+    "targetAudience": "英语学习者",
+    "totalDuration": 180,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "operate",
+          "subtitle": "操作；运转；动手术"
+        },
+        "narration": "今天我们要学习一个非常重要的英语单词operate",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_88229c.wav",
+        "audioDuration": 4.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "operate",
+          "meaning": "操作；运转；动手术；起作用",
+          "partOfSpeech": "v.",
+          "definitions": [
+            "操作,操纵(机器、设备等)",
+            "运转,运行",
+            "动手术,做手术",
+            "起作用,产生影响"
+          ]
+        },
+        "narration": "operate是一个动词,中文意思是操作、运转、动手术或起作用",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_002_a1e688.wav",
+        "audioDuration": 6.8
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "operate = oper(工作) + -ate(动词后缀)",
+          "highlights": [
+            {
+              "text": "oper",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ate",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "oper",
+              "meaning": "工作、操作",
+              "label": "词根",
+              "narration": "oper来自拉丁语operari,表示工作、运作的意思,这是单词的核心部分",
+              "relatedWords": [
+                {
+                  "word": "operation",
+                  "meaning": "操作；手术",
+                  "highlight": "oper",
+                  "narration": "operation,手术",
+                  "audioUrl": "/audio/tts/rw_operation_5409.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "operator",
+                  "meaning": "操作员",
+                  "highlight": "oper",
+                  "narration": "operator,操作员",
+                  "audioUrl": "/audio/tts/rw_operator_8a0b.wav",
+                  "audioDuration": 2.4
+                },
+                {
+                  "word": "cooperate",
+                  "meaning": "合作",
+                  "highlight": "oper",
+                  "narration": "cooperate,合作",
+                  "audioUrl": "/audio/tts/rw_cooperate_82a3.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_oper_75f7.wav",
+              "audioDuration": 7.3
+            },
+            {
+              "root": "-ate",
+              "meaning": "动词后缀",
+              "label": "后缀",
+              "narration": "-ate是常见的动词后缀,表示使...成为或做...的意思",
+              "relatedWords": [
+                {
+                  "word": "create",
+                  "meaning": "创造",
+                  "highlight": "-ate",
+                  "narration": "create,创造",
+                  "audioUrl": "/audio/tts/rw_create_1ce0.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "translate",
+                  "meaning": "翻译",
+                  "highlight": "-ate",
+                  "narration": "translate,翻译",
+                  "audioUrl": "/audio/tts/rw_translate_7bee.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ate_ad80.wav",
+              "audioDuration": 5.1
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/2324837/pexels-photo-2324837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Surgeons wearing masks and scrubs conduct an operation in a hospital setting.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来拆解这个单词的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 30,
+        "audioUrl": "/audio/tts/narration_scene_003_31415b.wav",
+        "audioDuration": 3.1
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The doctor will operate on the patient tomorrow.",
+          "chinese": "医生明天将为病人动手术.",
+          "highlights": [
+            {
+              "text": "operate",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/263337/pexels-photo-263337.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Team of surgeons in a hospital operating room conducting a surgery.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_a97bdb.wav",
+          "englishAudioDuration": 2.7
+        },
+        "narration": "The doctor will operate on the patient tomorrow. 意思是:医生明天将为病人动手术.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_004_a5d89e.wav",
+        "audioDuration": 7.2
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "This machine operates automatically.",
+          "chinese": "这台机器自动运转.",
+          "highlights": [
+            {
+              "text": "operates",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/4440227/pexels-photo-4440227.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of industrial machinery featuring stainless steel piping in a factory setting.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_c65896.wav",
+          "englishAudioDuration": 2.8
+        },
+        "narration": "This machine operates automatically. 意思是:这台机器自动运转.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_005_98f9d5.wav",
+        "audioDuration": 6.1
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "operate是动词,意为操作、运转、动手术或起作用",
+            "词根oper来自拉丁语,表示工作、操作的意思",
+            "后缀-ate是常见的动词后缀",
+            "相关词汇包括operation、operator和cooperate等"
+          ]
+        },
+        "narration": "今天我们学习了operate这个重要词汇,希望对大家的英语学习有所帮助",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_2efd07.wav",
+        "audioDuration": 6.9
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_88229c.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_a1e688.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_31415b.wav",
+    "scene_003_root_oper": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_oper_75f7.wav",
+    "scene_003_rw_operation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_operation_5409.wav",
+    "scene_003_rw_operator": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_operator_8a0b.wav",
+    "scene_003_rw_cooperate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_cooperate_82a3.wav",
+    "scene_003_root_-ate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ate_ad80.wav",
+    "scene_003_rw_create": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_create_1ce0.wav",
+    "scene_003_rw_translate": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_translate_7bee.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_a5d89e.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_a97bdb.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_98f9d5.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_c65896.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_2efd07.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-operate-0b67cafe.mp4"
+}

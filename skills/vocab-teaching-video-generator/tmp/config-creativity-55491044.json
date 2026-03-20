@@ -1,0 +1,288 @@
+{
+  "script": {
+    "id": "video_script_creativity_001",
+    "topic": "英语词汇教学:creativity",
+    "description": "通过词根词缀法讲解creativity的含义、构词规律及实际应用",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "creativity",
+          "subtitle": "创造力"
+        },
+        "narration": "今天我们要学习的单词是creativity,表示创造力或创新能力.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_001_04f467.wav",
+        "audioDuration": 6.1
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "creativity",
+          "partOfSpeech": "n.",
+          "definitions": [
+            "创造力",
+            "创新精神",
+            "创造性"
+          ]
+        },
+        "narration": "creativity是一个名词,意为创造力、创新能力或创造性.",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_841da5.wav",
+        "audioDuration": 5.9
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "creativity = create + -ive + -ity",
+          "highlights": [
+            {
+              "text": "create",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-ive",
+              "color": "#6BCB77",
+              "label": "形容词后缀"
+            },
+            {
+              "text": "-ity",
+              "color": "#4D96FF",
+              "label": "名词后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "create",
+              "meaning": "创造",
+              "label": "词根",
+              "narration": "create是词根,意为创造,是一切创造力的根源.",
+              "relatedWords": [
+                {
+                  "word": "create",
+                  "meaning": "创造",
+                  "highlight": "create",
+                  "narration": "create,创造",
+                  "audioUrl": "/audio/tts/rw_create_202d.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "creator",
+                  "meaning": "创造者",
+                  "highlight": "create",
+                  "narration": "creator,创造者",
+                  "audioUrl": "/audio/tts/rw_creator_916e.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "creation",
+                  "meaning": "创造物",
+                  "highlight": "create",
+                  "narration": "creation,创造物",
+                  "audioUrl": "/audio/tts/rw_creation_d83a.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_create_def5.wav",
+              "audioDuration": 4.8
+            },
+            {
+              "root": "-ive",
+              "meaning": "形容词后缀",
+              "label": "后缀",
+              "narration": "-ive是形容词后缀,表示具有某种性质或特性.",
+              "relatedWords": [
+                {
+                  "word": "creative",
+                  "meaning": "有创造力的",
+                  "highlight": "-ive",
+                  "narration": "creative,有创造力的",
+                  "audioUrl": "/audio/tts/rw_creative_965d.wav",
+                  "audioDuration": 2.5
+                },
+                {
+                  "word": "active",
+                  "meaning": "积极的",
+                  "highlight": "-ive",
+                  "narration": "active,积极的",
+                  "audioUrl": "/audio/tts/rw_active_ea34.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "impressive",
+                  "meaning": "令人印象深刻的",
+                  "highlight": "-ive",
+                  "narration": "impressive,令人印象深刻的",
+                  "audioUrl": "/audio/tts/rw_impressive_06eb.wav",
+                  "audioDuration": 2.9
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ive_d14b.wav",
+              "audioDuration": 4.8
+            },
+            {
+              "root": "-ity",
+              "meaning": "名词后缀",
+              "label": "后缀",
+              "narration": "-ity是名词后缀,表示抽象概念或性质状态.",
+              "relatedWords": [
+                {
+                  "word": "activity",
+                  "meaning": "活动",
+                  "highlight": "-ity",
+                  "narration": "activity,活动",
+                  "audioUrl": "/audio/tts/rw_activity_06c3.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "reality",
+                  "meaning": "现实",
+                  "highlight": "-ity",
+                  "narration": "reality,现实",
+                  "audioUrl": "/audio/tts/rw_reality_6930.wav",
+                  "audioDuration": 2.3
+                },
+                {
+                  "word": "possibility",
+                  "meaning": "可能性",
+                  "highlight": "-ity",
+                  "narration": "possibility,可能性",
+                  "audioUrl": "/audio/tts/rw_possibility_fe40.wav",
+                  "audioDuration": 2.4
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ity_398b.wav",
+              "audioDuration": 5.1
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/3826653/pexels-photo-3826653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Hands creating elegant calligraphy with ink and watercolor tools on a desk, enhancing artistic creativity.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来拆解这个单词的构词规律.",
+        "narrationLang": "zh",
+        "durationSeconds": 43,
+        "audioUrl": "/audio/tts/narration_scene_003_7e3363.wav",
+        "audioDuration": 3.5
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Art requires creativity and imagination.",
+          "chinese": "艺术需要创造力和想象力.",
+          "highlights": [
+            {
+              "text": "creativity",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/11624070/pexels-photo-11624070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Travel essentials during the pandemic: a COVID-19 PCR test and a passport.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_7aa525.wav",
+          "englishAudioDuration": 2.8
+        },
+        "narration": "Art requires creativity and imagination. 意思是:艺术需要创造力和想象力.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_004_d477d6.wav",
+        "audioDuration": 7.2
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The company encourages creativity among its employees.",
+          "chinese": "这家公司鼓励员工的创新精神.",
+          "highlights": [
+            {
+              "text": "creativity",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7563656/pexels-photo-7563656.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up of a hand holding a sign that reads 'Making your life easier.' Perfect for motivational content.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_b48fbf.wav",
+          "englishAudioDuration": 3.2
+        },
+        "narration": "The company encourages creativity among its employees. 意思是:这家公司鼓励员工的创新精神.",
+        "narrationLang": "zh",
+        "durationSeconds": 12,
+        "audioUrl": "/audio/tts/narration_scene_005_367fc7.wav",
+        "audioDuration": 8.4
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "creativity是名词,意为创造力或创新能力",
+            "构词规律:create(创造)+ -ive(形容词后缀)+ -ity(名词后缀)",
+            "相关词汇:creative(有创造力的)、create(创造)、creator(创造者)",
+            "常用搭配:artistic creativity(艺术创造力)、encourage creativity(鼓励创新)"
+          ]
+        },
+        "narration": "今天我们学习了creativity这个词,它由词根create加上形容词后缀-ive和名词后缀-ity构成,表示创造力的含义.",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_1cd60d.wav",
+        "audioDuration": 11.1
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_04f467.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_841da5.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_7e3363.wav",
+    "scene_003_root_create": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_create_def5.wav",
+    "scene_003_rw_create": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_create_202d.wav",
+    "scene_003_rw_creator": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_creator_916e.wav",
+    "scene_003_rw_creation": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_creation_d83a.wav",
+    "scene_003_root_-ive": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ive_d14b.wav",
+    "scene_003_rw_creative": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_creative_965d.wav",
+    "scene_003_rw_active": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_active_ea34.wav",
+    "scene_003_rw_impressive": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_impressive_06eb.wav",
+    "scene_003_root_-ity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ity_398b.wav",
+    "scene_003_rw_activity": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_activity_06c3.wav",
+    "scene_003_rw_reality": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_reality_6930.wav",
+    "scene_003_rw_possibility": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_possibility_fe40.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_d477d6.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_7aa525.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_367fc7.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_b48fbf.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_1cd60d.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-creativity-55491044.mp4"
+}

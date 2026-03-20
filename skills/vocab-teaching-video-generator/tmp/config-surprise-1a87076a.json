@@ -1,0 +1,256 @@
+{
+  "script": {
+    "id": "video_script_surprise_001",
+    "topic": "英语词汇教学:surprise",
+    "description": "通过词根词缀法讲解单词surprise,帮助学习者掌握其构成、含义和用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 91,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "surprise",
+          "subtitle": "惊喜；惊讶"
+        },
+        "narration": "今天我们要学习的单词是surprise,意思是惊喜或惊讶.",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_3e08e5.wav",
+        "audioDuration": 5.5
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "surprise",
+          "meaning": "惊喜；惊讶；意外",
+          "partOfSpeech": "n./v.",
+          "definitions": [
+            "名词:惊喜,惊讶,出人意料的事",
+            "动词:使惊奇,使感到意外"
+          ]
+        },
+        "narration": "surprise是一个名词和动词两用的单词,作为名词表示惊喜或意外的事,作为动词表示使某人感到惊讶.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_002_ea84ed.wav",
+        "audioDuration": 9.8
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "surprise = sur- (超出) + pris (抓住) + -e (动词后缀)",
+          "highlights": [
+            {
+              "text": "sur-",
+              "color": "#FFD93D",
+              "label": "前缀"
+            },
+            {
+              "text": "pris",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "-e",
+              "color": "#FFD93D",
+              "label": "后缀"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=400",
+              "alt": "惊喜的表情",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/3777931/pexels-photo-3777931.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Portrait of a shocked man in a red polo shirt with a white background, expressing surprise.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "sur-",
+              "meaning": "超出,在上面",
+              "label": "前缀",
+              "narration": "前缀sur-表示超出、在上面的含义,来自拉丁语super.",
+              "relatedWords": [
+                {
+                  "word": "surpass",
+                  "meaning": "超越",
+                  "highlight": "sur-",
+                  "narration": "surpass,超越",
+                  "audioUrl": "/audio/tts/rw_surpass_c1b6.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "surface",
+                  "meaning": "表面",
+                  "highlight": "sur-",
+                  "narration": "surface,表面",
+                  "audioUrl": "/audio/tts/rw_surface_0463.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "surname",
+                  "meaning": "姓氏",
+                  "highlight": "sur-",
+                  "narration": "surname,姓氏",
+                  "audioUrl": "/audio/tts/rw_surname_55c1.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_sur-_c11f.wav",
+              "audioDuration": 5.5
+            },
+            {
+              "root": "pris",
+              "meaning": "抓住",
+              "label": "词根",
+              "narration": "词根pris来自拉丁语prendere,意为抓住、捕获.",
+              "relatedWords": [
+                {
+                  "word": "prison",
+                  "meaning": "监狱",
+                  "highlight": "pris",
+                  "narration": "prison,监狱",
+                  "audioUrl": "/audio/tts/rw_prison_f490.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "comprise",
+                  "meaning": "包含",
+                  "highlight": "pris",
+                  "narration": "comprise,包含",
+                  "audioUrl": "/audio/tts/rw_comprise_1130.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "compromise",
+                  "meaning": "妥协",
+                  "highlight": "pris",
+                  "narration": "compromise,妥协",
+                  "audioUrl": "/audio/tts/rw_compromise_502d.wav",
+                  "audioDuration": 2.3
+                }
+              ],
+              "audioUrl": "/audio/tts/root_pris_6d72.wav",
+              "audioDuration": 4.9
+            }
+          ]
+        },
+        "narration": "接下来我们深入分析surprise的构词方式.",
+        "narrationLang": "zh",
+        "durationSeconds": 31,
+        "audioUrl": "/audio/tts/narration_scene_003_299ec7.wav",
+        "audioDuration": 4.2
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "We prepared a surprise party for her birthday.",
+          "chinese": "我们为她的生日准备了一个惊喜派对.",
+          "highlights": [
+            {
+              "text": "surprise",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/6578451/pexels-photo-6578451.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A cheerful young man inflating a red balloon indoors for a party.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_0e28e6.wav",
+          "englishAudioDuration": 2.8
+        },
+        "narration": "We prepared a surprise party for her birthday. 意思是:我们为她的生日准备了一个惊喜派对.",
+        "narrationLang": "zh",
+        "durationSeconds": 11,
+        "audioUrl": "/audio/tts/narration_scene_004_8a0a50.wav",
+        "audioDuration": 7.8
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The news surprised everyone in the room.",
+          "chinese": "这个消息让房间里的每个人都感到惊讶.",
+          "highlights": [
+            {
+              "text": "surprised",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/9215222/pexels-photo-9215222.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Two women joyfully celebrate with a gender reveal balloon indoors.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_78d8c9.wav",
+          "englishAudioDuration": 2.2
+        },
+        "narration": "The news surprised everyone in the room. 意思是:这个消息让房间里的每个人都感到惊讶.",
+        "narrationLang": "zh",
+        "durationSeconds": 10,
+        "audioUrl": "/audio/tts/narration_scene_005_2f5a72.wav",
+        "audioDuration": 7.7
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "surprise由前缀sur-(超出)、词根pris(抓住)和后缀-e组成,本义是超出预期地抓住",
+            "作为名词表示惊喜、惊讶或意外的事；作为动词表示使惊奇",
+            "同根词包括prison(监狱)、comprise(包含)、compromise(妥协)等",
+            "常见搭配有:surprise party(惊喜派对)、take by surprise(突袭)、to one's surprise(令某人惊讶的是)"
+          ]
+        },
+        "narration": "今天我们学习了surprise这个单词,它由表示超出含义的前缀sur-和表示抓住的词根pris组成,既可以作名词表示惊喜,也可以作动词表示使惊讶.希望大家能够掌握这个词的用法.",
+        "narrationLang": "zh",
+        "durationSeconds": 18,
+        "audioUrl": "/audio/tts/narration_scene_006_b4e788.wav",
+        "audioDuration": 15.9
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_3e08e5.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_ea84ed.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_299ec7.wav",
+    "scene_003_root_sur-": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_sur-_c11f.wav",
+    "scene_003_rw_surpass": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_surpass_c1b6.wav",
+    "scene_003_rw_surface": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_surface_0463.wav",
+    "scene_003_rw_surname": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_surname_55c1.wav",
+    "scene_003_root_pris": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_pris_6d72.wav",
+    "scene_003_rw_prison": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_prison_f490.wav",
+    "scene_003_rw_comprise": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_comprise_1130.wav",
+    "scene_003_rw_compromise": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_compromise_502d.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_8a0a50.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_0e28e6.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_2f5a72.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_78d8c9.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_b4e788.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-surprise-1a87076a.mp4"
+}

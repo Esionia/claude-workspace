@@ -1,0 +1,262 @@
+{
+  "script": {
+    "id": "video_script_lied_001",
+    "topic": "英语词汇教学:lied",
+    "description": "通过对比记忆法讲解 lied(说谎)和 lie(躺)的区别,帮助学习者掌握不规则动词的规则变化",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "lied",
+          "subtitle": "说谎(lie的过去式)"
+        },
+        "narration": "今天我们要学习的是 lied,它是动词 lie 说谎的过去式形式.在英语中,lie 是一个特殊的多义词,它既可以表示说谎,也可以表示躺卧,而且这两种用法有着完全不同的变化规则.让我们一起来掌握这个重要知识点.",
+        "narrationLang": "zh",
+        "durationSeconds": 19,
+        "audioUrl": "/audio/tts/narration_scene_001_fc3830.wav",
+        "audioDuration": 18.5
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "lied",
+          "meaning": "说谎",
+          "partOfSpeech": "v.",
+          "definitions": [
+            "说谎,撒谎(lie 说谎的过去式和过去分词)",
+            "欺骗某人相信某事不是真的"
+          ]
+        },
+        "narration": "lied 是动词 lie 表示说谎时的过去式和过去分词形式,属于规则变化动词.在使用时要注意,lie 说谎这个意思的变形是规则变化,而 lie 躺卧则是不规则变化,两者的过去式分别是 lied 和 lay,这一点很容易混淆,需要特别注意区分.",
+        "narrationLang": "zh",
+        "durationSeconds": 22,
+        "audioUrl": "/audio/tts/narration_scene_002_3e96cd.wav",
+        "audioDuration": 21.3
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "lied - 规则动词变化",
+          "highlights": [
+            {
+              "text": "lie(说谎)",
+              "color": "#FFD93D",
+              "label": "原形"
+            },
+            {
+              "text": "lied",
+              "color": "#6BCB77",
+              "label": "过去式/过去分词"
+            },
+            {
+              "text": "lay(躺)",
+              "color": "#4D96FF",
+              "label": "对比"
+            },
+            {
+              "text": "lain",
+              "color": "#FF6B6B",
+              "label": "过去分词"
+            }
+          ],
+          "images": [
+            {
+              "url": "描述:两个lie的对比表格图,左列是lie说谎的规则变化,右列是lie躺卧的不规则变化",
+              "alt": "lie动词两种用法的变化对比表",
+              "position": "right",
+              "size": "medium"
+            },
+            {
+              "url": "https://images.pexels.com/photos/24246269/pexels-photo-24246269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A breathtaking aerial shot of the Li River winding through lush green karst hills in China under a cloudy sky.",
+              "position": "right",
+              "size": "medium"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "lie(说谎)",
+              "meaning": "规则变化动词",
+              "label": "词义区分",
+              "narration": "lie 表示说谎时是规则变化动词,直接加 -d 构成过去式和过去分词,即 lied-lied.记忆技巧:说谎需要付出代价,所以变化很简单直接加 d.",
+              "relatedWords": [
+                {
+                  "word": "lie(说谎)",
+                  "meaning": "动词原形",
+                  "highlight": "lie",
+                  "narration": "lie,说谎",
+                  "audioUrl": "/audio/tts/rw_lie(说谎)_ddf6.wav",
+                  "audioDuration": 1.8
+                },
+                {
+                  "word": "lied",
+                  "meaning": "过去式/过去分词",
+                  "highlight": "lied",
+                  "narration": "lied,说谎了",
+                  "audioUrl": "/audio/tts/rw_lied_0557.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "lying",
+                  "meaning": "现在分词",
+                  "highlight": "ly",
+                  "narration": "lying,正在说谎",
+                  "audioUrl": "/audio/tts/rw_lying_fae0.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_lie(说谎)_1773.wav",
+              "audioDuration": 13.7
+            },
+            {
+              "root": "lie(躺)",
+              "meaning": "不规则变化动词",
+              "label": "词义区分",
+              "narration": "lie 表示躺卧时是不规则变化动词,过去式是 lay,过去分词是 lain.这个变化与规则变化完全不同,需要单独记忆.记忆技巧:躺下需要 laid(放置)自己,所以过去式是 lay.",
+              "relatedWords": [
+                {
+                  "word": "lie(躺)",
+                  "meaning": "动词原形",
+                  "highlight": "lie",
+                  "narration": "lie,躺",
+                  "audioUrl": "/audio/tts/rw_lie(躺)_64fe.wav",
+                  "audioDuration": 1.6
+                },
+                {
+                  "word": "lay",
+                  "meaning": "过去式",
+                  "highlight": "lay",
+                  "narration": "lay,躺过",
+                  "audioUrl": "/audio/tts/rw_lay_510a.wav",
+                  "audioDuration": 1.8
+                },
+                {
+                  "word": "lain",
+                  "meaning": "过去分词",
+                  "highlight": "lain",
+                  "narration": "lain,已经躺过",
+                  "audioUrl": "/audio/tts/rw_lain_5e08.wav",
+                  "audioDuration": 2.2
+                }
+              ],
+              "audioUrl": "/audio/tts/root_lie(躺)_d625.wav",
+              "audioDuration": 15.9
+            }
+          ]
+        },
+        "narration": "理解 lie 的两种用法和变化规则是本课的重点,请注意观察右侧的对比图表,左边是 lie 说谎的规则变化,右边是 lie 躺卧的不规则变化,两者的区别一目了然.",
+        "narrationLang": "zh",
+        "durationSeconds": 59,
+        "audioUrl": "/audio/tts/narration_scene_003_9e4a00.wav",
+        "audioDuration": 14.2
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "He lied to his parents about where he went last night.",
+          "chinese": "他向父母隐瞒了昨晚去哪里了.",
+          "highlights": [
+            {
+              "text": "lied",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/7363277/pexels-photo-7363277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A low-angle view of the Zheng He statue at Sam Poo Kong in Semarang, Indonesia, under a white sky.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_61f71a.wav",
+          "englishAudioDuration": 2.7
+        },
+        "narration": "He lied to his parents about where he went last night. 意思是:他向父母隐瞒了昨晚去哪里了.这句话中的 lied 是 lie 说谎的过去式,后面接介词 to 表示向某人撒谎,about 表示关于某事撒谎.",
+        "narrationLang": "zh",
+        "durationSeconds": 20,
+        "audioUrl": "/audio/tts/narration_scene_004_6664f5.wav",
+        "audioDuration": 16.6
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "Don't lie to me. I know the truth.",
+          "chinese": "别对我撒谎了,我知道真相.",
+          "highlights": [
+            {
+              "text": "lie",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/5885499/pexels-photo-5885499.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Back view of woman with feminist message painted on skin, promoting equality and empowerment.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_11ced8.wav",
+          "englishAudioDuration": 2.8
+        },
+        "narration": "Don't lie to me. I know the truth. 意思是:别对我撒谎了,我知道真相.这个例句使用 lie 的原形,出现在否定祈使句中.通过这个例句我们可以看到,当别人要求你不要说谎时,他们使用的是 lie 的原形形式.",
+        "narrationLang": "zh",
+        "durationSeconds": 22,
+        "audioUrl": "/audio/tts/narration_scene_005_3f26d5.wav",
+        "audioDuration": 18.3
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "lied 是动词 lie(说谎)的过去式和过去分词,属于规则变化",
+            "lie 有两个完全不同的含义:说谎(规则变化)和躺卧(不规则变化)",
+            "lie 说谎的变化:lie - lied - lied,直接加 -d",
+            "lie 躺卧的变化:lie - lay - lain,是不规则变化动词",
+            "使用时注意区分语境,避免混淆两种用法"
+          ]
+        },
+        "narration": "今天我们学习了 lied 这个词,重点是要区分 lie 的两种用法.说谎的 lie 是规则变化,直接加 d；而躺卧的 lie 是不规则变化,过去式是 lay,过去分词是 lain.希望大家在以后的使用中能够注意区分这两个词的用法,避免混淆.多做练习,熟能生巧！",
+        "narrationLang": "zh",
+        "durationSeconds": 24,
+        "audioUrl": "/audio/tts/narration_scene_006_b7e36b.wav",
+        "audioDuration": 21.7
+      }
+    ],
+    "createdAt": "2024-01-15"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_fc3830.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_3e96cd.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_9e4a00.wav",
+    "scene_003_root_lie(说谎)": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_lie(说谎)_1773.wav",
+    "scene_003_rw_lie(说谎)": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_lie(说谎)_ddf6.wav",
+    "scene_003_rw_lied": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_lied_0557.wav",
+    "scene_003_rw_lying": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_lying_fae0.wav",
+    "scene_003_root_lie(躺)": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_lie(躺)_d625.wav",
+    "scene_003_rw_lie(躺)": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_lie(躺)_64fe.wav",
+    "scene_003_rw_lay": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_lay_510a.wav",
+    "scene_003_rw_lain": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_lain_5e08.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_6664f5.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_61f71a.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_3f26d5.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_11ced8.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_b7e36b.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-lied-009245e6.mp4"
+}

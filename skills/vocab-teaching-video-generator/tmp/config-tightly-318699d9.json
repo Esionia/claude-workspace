@@ -1,0 +1,246 @@
+{
+  "script": {
+    "id": "video_script_tightly_001",
+    "topic": "英语词汇教学:tightly",
+    "description": "通过词根词缀法讲解副词tightly的构成、含义及用法",
+    "targetAudience": "英语学习者",
+    "totalDuration": 120,
+    "scenes": [
+      {
+        "id": "scene_001",
+        "type": "title",
+        "content": {
+          "type": "title",
+          "mainTitle": "tightly",
+          "subtitle": "紧密地；牢固地"
+        },
+        "narration": "同学们好,今天我们要学习一个重要的副词--tightly",
+        "narrationLang": "zh",
+        "durationSeconds": 6,
+        "audioUrl": "/audio/tts/narration_scene_001_fe2bd5.wav",
+        "audioDuration": 4.8
+      },
+      {
+        "id": "scene_002",
+        "type": "vocabulary-card",
+        "content": {
+          "type": "vocabulary-card",
+          "phrase": "tightly",
+          "meaning": "紧密地；牢固地；紧密地",
+          "partOfSpeech": "adv.",
+          "definitions": [
+            "紧密地,牢固地",
+            "紧贴地,紧挨地",
+            "严密地,严格地"
+          ]
+        },
+        "narration": "tightly是一个副词,表示紧密地、牢固地或严密地的方式",
+        "narrationLang": "zh",
+        "durationSeconds": 7,
+        "audioUrl": "/audio/tts/narration_scene_002_ce7a04.wav",
+        "audioDuration": 5.9
+      },
+      {
+        "id": "scene_003",
+        "type": "highlight",
+        "content": {
+          "type": "highlight",
+          "sentence": "tightly = tight + ly",
+          "highlights": [
+            {
+              "text": "tight",
+              "color": "#FFD93D",
+              "label": "词根"
+            },
+            {
+              "text": "ly",
+              "color": "#6BCB77",
+              "label": "后缀"
+            }
+          ],
+          "rootAffix": [
+            {
+              "root": "tight",
+              "meaning": "紧的",
+              "label": "词根",
+              "narration": "tight是形容词,表示紧的、牢固的,这是整个单词的核心部分",
+              "relatedWords": [
+                {
+                  "word": "tight",
+                  "meaning": "紧的",
+                  "highlight": "tight",
+                  "narration": "tight,紧的",
+                  "audioUrl": "/audio/tts/rw_tight_c8ee.wav",
+                  "audioDuration": 1.8
+                },
+                {
+                  "word": "tighten",
+                  "meaning": "收紧",
+                  "highlight": "tight",
+                  "narration": "tighten,收紧",
+                  "audioUrl": "/audio/tts/rw_tighten_9d88.wav",
+                  "audioDuration": 2.0
+                },
+                {
+                  "word": "tightness",
+                  "meaning": "紧张",
+                  "highlight": "tight",
+                  "narration": "tightness,紧张",
+                  "audioUrl": "/audio/tts/rw_tightness_2193.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_tight_c169.wav",
+              "audioDuration": 6.1
+            },
+            {
+              "root": "-ly",
+              "meaning": "副词后缀",
+              "label": "后缀",
+              "narration": "-ly是常见的副词后缀,加在形容词后面,表示以某种方式",
+              "relatedWords": [
+                {
+                  "word": "quickly",
+                  "meaning": "快速地",
+                  "highlight": "quick+ly",
+                  "narration": "quickly,快速地",
+                  "audioUrl": "/audio/tts/rw_quickly_a222.wav",
+                  "audioDuration": 2.1
+                },
+                {
+                  "word": "carefully",
+                  "meaning": "仔细地",
+                  "highlight": "care+ful+ly",
+                  "narration": "carefully,仔细地",
+                  "audioUrl": "/audio/tts/rw_carefully_a56d.wav",
+                  "audioDuration": 2.2
+                },
+                {
+                  "word": "clearly",
+                  "meaning": "清楚地",
+                  "highlight": "clear+ly",
+                  "narration": "clearly,清楚地",
+                  "audioUrl": "/audio/tts/rw_clearly_bdbc.wav",
+                  "audioDuration": 2.1
+                }
+              ],
+              "audioUrl": "/audio/tts/root_-ly_f240.wav",
+              "audioDuration": 5.9
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/15067861/pexels-photo-15067861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A seamless and smooth pastel pink wall texture perfect for backgrounds and design projects.",
+              "position": "right",
+              "size": "medium"
+            }
+          ]
+        },
+        "narration": "让我们来分析tightly的构成",
+        "narrationLang": "zh",
+        "durationSeconds": 31,
+        "audioUrl": "/audio/tts/narration_scene_003_734620.wav",
+        "audioDuration": 3.0
+      },
+      {
+        "id": "scene_004",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "She held the rope tightly in her hands.",
+          "chinese": "她紧紧地把绳子握在手里.",
+          "highlights": [
+            {
+              "text": "tightly",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/24205112/pexels-photo-24205112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Detailed view of intertwined ropes forming secure knots in a net, with soft blurred background.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_004_3d3f1c.wav",
+          "englishAudioDuration": 2.2
+        },
+        "narration": "She held the rope tightly in her hands. 意思是:她紧紧地把绳子握在手里.",
+        "narrationLang": "zh",
+        "durationSeconds": 9,
+        "audioUrl": "/audio/tts/narration_scene_004_0cc03a.wav",
+        "audioDuration": 6.5
+      },
+      {
+        "id": "scene_005",
+        "type": "example",
+        "content": {
+          "type": "example",
+          "english": "The door was tightly shut.",
+          "chinese": "门关得严严实实的.",
+          "highlights": [
+            {
+              "text": "tightly",
+              "color": "#FFD93D"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.pexels.com/photos/331985/pexels-photo-331985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "A red closed sign hangs on a glass door, reflecting cars and trees outside.",
+              "position": "center",
+              "size": "medium"
+            }
+          ],
+          "englishAudioUrl": "/audio/tts/example_en_scene_005_ef84de.wav",
+          "englishAudioDuration": 1.8
+        },
+        "narration": "The door was tightly shut. 意思是:门关得严严实实的.",
+        "narrationLang": "zh",
+        "durationSeconds": 8,
+        "audioUrl": "/audio/tts/narration_scene_005_6201ca.wav",
+        "audioDuration": 5.2
+      },
+      {
+        "id": "scene_006",
+        "type": "summary",
+        "content": {
+          "type": "summary",
+          "points": [
+            "tightly是由形容词tight加上副词后缀-ly构成的",
+            "tightly的基本含义是紧密地、牢固地",
+            "常见的搭配有hold tightly(紧紧握住)、shut tightly(关紧)等",
+            "注意区分tight作为形容词和tightly作为副词的使用"
+          ]
+        },
+        "narration": "今天我们学习了副词tightly,它由词根tight加后缀-ly构成,表示紧密地、牢固地的方式.希望大家能够掌握这个词的用法！",
+        "narrationLang": "zh",
+        "durationSeconds": 15,
+        "audioUrl": "/audio/tts/narration_scene_006_7d7f7f.wav",
+        "audioDuration": 11.0
+      }
+    ],
+    "createdAt": "2024-01-01"
+  },
+  "audioUrls": {
+    "scene_001_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_001_fe2bd5.wav",
+    "scene_002_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_002_ce7a04.wav",
+    "scene_003_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_003_734620.wav",
+    "scene_003_root_tight": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_tight_c169.wav",
+    "scene_003_rw_tight": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_tight_c8ee.wav",
+    "scene_003_rw_tighten": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_tighten_9d88.wav",
+    "scene_003_rw_tightness": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_tightness_2193.wav",
+    "scene_003_root_-ly": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\root_-ly_f240.wav",
+    "scene_003_rw_quickly": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_quickly_a222.wav",
+    "scene_003_rw_carefully": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_carefully_a56d.wav",
+    "scene_003_rw_clearly": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\rw_clearly_bdbc.wav",
+    "scene_004_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_004_0cc03a.wav",
+    "scene_004_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_004_3d3f1c.wav",
+    "scene_005_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_005_6201ca.wav",
+    "scene_005_english": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\example_en_scene_005_ef84de.wav",
+    "scene_006_narration": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\audio\\tts\\narration_scene_006_7d7f7f.wav"
+  },
+  "outputPath": "C:\\Users\\Administrator\\.openclaw\\workspace-english\\skills\\vocab-teaching-video-generator\\public\\videos\\teaching-tightly-318699d9.mp4"
+}
