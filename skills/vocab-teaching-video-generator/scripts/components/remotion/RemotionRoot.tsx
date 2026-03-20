@@ -1,5 +1,13 @@
 import React from "react";
 import { Composition, registerRoot } from "remotion";
+
+// 注入 Google Fonts: Poppins (英文) + Noto Sans SC (中文)
+if (typeof document !== "undefined") {
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.href = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap";
+  document.head.appendChild(link);
+}
 // import { DialogueVideo } from "./DialogueVideo";
 // import type { DialogueVideoProps } from "./DialogueVideo";
 import { TeachingVideo } from "./TeachingVideo";

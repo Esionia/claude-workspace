@@ -24,6 +24,7 @@ import { SummaryScene } from "./scenes/SummaryScene";
 import { ExampleScene } from "./scenes/ExampleScene";
 import { PracticeScene } from "./scenes/PracticeScene";
 import { VocabularyCardScene } from "./scenes/VocabularyCardScene";
+import { CoverScene } from "./scenes/CoverScene";
 import { BackgroundMusic } from "./BackgroundMusic";
 import { VIDEO_FPS, THEME_COLORS, resolveAudioSrc } from "./shared";
 
@@ -43,6 +44,8 @@ const DEFAULT_BGM_VOLUME = 0.09;
 const renderScene = (scene: Scene, durationInFrames: number) => {
   const c = scene.content;
   switch (scene.type) {
+    case "cover":
+      return <CoverScene word={c.word || ""} translation={c.translation || ""} subtitle={c.subtitle} audioUrl={scene.audioUrl} />;
     case "title":
       return <TitleScene content={c as TitleContent} audioUrl={scene.audioUrl} />;
     case "text-animation":

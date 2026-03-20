@@ -2,6 +2,7 @@
 
 // 场景类型
 export type SceneType =
+  | "cover"           // 视频封面
   | "title"           // 标题场景
   | "text-animation"  // 文字动画
   | "highlight"       // 高亮讲解
@@ -27,6 +28,7 @@ export interface Scene {
 
 // 场景内容（根据类型不同）
 export type SceneContent =
+  | CoverContent
   | TitleContent
   | TextAnimationContent
   | HighlightContent
@@ -36,6 +38,14 @@ export type SceneContent =
   | PracticeContent
   | SummaryContent
   | VocabularyCardContent;
+
+// 封面场景
+export interface CoverContent {
+  type: "cover";
+  word: string;           // 英文单词
+  translation: string;     // 中文翻译
+  subtitle?: string;      // 副标题（默认"英语词汇课堂"）
+}
 
 // 标题场景
 export interface TitleContent {

@@ -62,13 +62,14 @@ DEFAULT_OUTPUT = "public/videos"
 VOCABULARY_SYSTEM_PROMPT = """你是一个专业的英语教学视频脚本生成助手。
 
 **【必须严格遵守】词汇教学场景顺序：**
-1. **title** - 介绍要学习的单词
-2. **vocabulary-card** - 展示单词卡片（词性、释义）
-3. **highlight** - 词根词缀讲解
-4. **example** - 例句演示（需要2个例句）
-5. **summary** - 要点总结
+1. **cover** - 视频封面，展示单词和中文翻译
+2. **title** - 介绍要学习的单词
+3. **vocabulary-card** - 展示单词卡片（词性、释义）
+4. **highlight** - 词根词缀讲解
+5. **example** - 例句演示（需要2个例句）
+6. **summary** - 要点总结
 
-⚠️ 场景必须按照上述 1→2→3→4→5 的顺序生成，不得调换顺序！
+⚠️ 场景必须按照上述 1→2→3→4→5→6 的顺序生成，不得调换顺序！
 
 重要要求：
 1. vocabulary-card场景（推荐使用定义模式）：
@@ -132,12 +133,13 @@ highlight场景的content结构：
   "targetAudience": "英语学习者",
   "totalDuration": 180,
   "scenes": [
-    {"id": "scene_001", "type": "title", "content": {"type":"title","mainTitle":"单词","subtitle":"中文"}, "narration": "中文旁白", "narrationLang": "zh", "durationSeconds": 10},
-    {"id": "scene_002", "type": "vocabulary-card", "content": {"type":"vocabulary-card","phrase":"单词","meaning":"中文","partOfSpeech":"adj.","definitions":["释义1","释义2"]}, "narration": "中文旁白", "narrationLang": "zh", "durationSeconds": 15},
-    {"id": "scene_003", "type": "highlight", "content": {"type":"highlight","sentence":"单词","highlights":[{"text":"词根","color":"#FFD93D","label":"词根"}],"rootAffix":[{"root":"词根","meaning":"含义","label":"词根/后缀","narration":"该词根的详细讲解","relatedWords":[{"word":"相关词","meaning":"含义","highlight":"词根","narration":"词，含义"}]}]}, "narration": "简短的引导语", "narrationLang": "zh", "durationSeconds": 30},
-    {"id": "scene_004", "type": "example", "content": {"type":"example","english":"英文例句1","chinese":"中文翻译1","highlights":[{"text":"单词","color":"#FFD93D"}]}, "narration": "英文例句1. 意思是：中文解释", "narrationLang": "zh", "durationSeconds": 8},
-    {"id": "scene_005", "type": "example", "content": {"type":"example","english":"英文例句2","chinese":"中文翻译2","highlights":[{"text":"单词","color":"#FFD93D"}]}, "narration": "英文例句2. 意思是：中文解释", "narrationLang": "zh", "durationSeconds": 8},
-    {"id": "scene_006", "type": "summary", "content": {"type":"summary","points":["要点1","要点2","要点3"]}, "narration": "总结旁白", "narrationLang": "zh", "durationSeconds": 20}
+    {"id": "scene_001", "type": "cover", "content": {"type":"cover","word":"单词","translation":"中文释义"}, "narration": "简短的开场白", "narrationLang": "zh", "durationSeconds": 5},
+    {"id": "scene_002", "type": "title", "content": {"type":"title","mainTitle":"单词","subtitle":"中文"}, "narration": "中文旁白", "narrationLang": "zh", "durationSeconds": 10},
+    {"id": "scene_003", "type": "vocabulary-card", "content": {"type":"vocabulary-card","phrase":"单词","meaning":"中文","partOfSpeech":"adj.","definitions":["释义1","释义2"]}, "narration": "中文旁白", "narrationLang": "zh", "durationSeconds": 15},
+    {"id": "scene_004", "type": "highlight", "content": {"type":"highlight","sentence":"单词","highlights":[{"text":"词根","color":"#FFD93D","label":"词根"}],"rootAffix":[{"root":"词根","meaning":"含义","label":"词根/后缀","narration":"该词根的详细讲解","relatedWords":[{"word":"相关词","meaning":"含义","highlight":"词根","narration":"词，含义"}]}]}, "narration": "简短的引导语", "narrationLang": "zh", "durationSeconds": 30},
+    {"id": "scene_005", "type": "example", "content": {"type":"example","english":"英文例句1","chinese":"中文翻译1","highlights":[{"text":"单词","color":"#FFD93D"}]}, "narration": "英文例句1. 意思是：中文解释", "narrationLang": "zh", "durationSeconds": 8},
+    {"id": "scene_006", "type": "example", "content": {"type":"example","english":"英文例句2","chinese":"中文翻译2","highlights":[{"text":"单词","color":"#FFD93D"}]}, "narration": "英文例句2. 意思是：中文解释", "narrationLang": "zh", "durationSeconds": 8},
+    {"id": "scene_007", "type": "summary", "content": {"type":"summary","points":["要点1","要点2","要点3"]}, "narration": "总结旁白", "narrationLang": "zh", "durationSeconds": 20}
   ],
   "createdAt": "2024-01-01"
 }
