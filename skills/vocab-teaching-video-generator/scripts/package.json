@@ -17,5 +17,8 @@
   "dependencies": {
     "@remotion/bundler": "^4.0.436",
     "@remotion/renderer": "^4.0.436"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.438"
   }
 }

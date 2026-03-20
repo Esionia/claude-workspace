@@ -123,10 +123,10 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
 
       return (
         <>
-          <div style={{ fontSize: 48, fontWeight: "bold", marginBottom: 12 }}>
+          <div style={{ fontSize: 64, fontWeight: "bold", marginBottom: 12 }}>
             {word}
           </div>
-          <div style={{ fontSize: 28, color: "#A8DADC" }}>
+          <div style={{ fontSize: 36, color: "#A8DADC" }}>
             {rest}
           </div>
           {renderRootBreakdown()}
@@ -347,20 +347,20 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
               >
                 <div
                   style={{
-                    fontSize: 30,
+                    fontSize: 48,
                     fontWeight: "bold",
                     color: color,
-                    padding: "6px 20px",
+                    padding: "10px 36px",
                     background: hexToRgba(color, 0.15),
-                    borderRadius: 10,
-                    border: `2px solid ${color}`,
+                    borderRadius: 12,
+                    border: `3px solid ${color}`,
                   }}
                 >
                   {item.root}
                 </div>
                 <div
                   style={{
-                    fontSize: 24,
+                    fontSize: 40,
                     color: "#A8DADC",
                   }}
                 >
@@ -368,7 +368,7 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
                 </div>
                 <div
                   style={{
-                    fontSize: 26,
+                    fontSize: 40,
                     color: "#A8DADC",
                     fontWeight: "500",
                   }}
@@ -469,20 +469,20 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
                               border: showHlStyle
                                 ? `2px solid ${color}`
                                 : "2px solid rgba(255, 255, 255, 0.25)",
-                              borderRadius: 10,
-                              padding: "10px 16px",
+                              borderRadius: 12,
+                              padding: "16px 28px",
                               display: "flex",
                               flexDirection: "column",
                               alignItems: "center",
-                              gap: 4,
-                              minWidth: 140,
-                              maxWidth: 200,
+                              gap: 8,
+                              minWidth: 220,
+                              maxWidth: 280,
                             }}
                           >
                             {/* 单词（高亮词根部分，使用对应颜色） */}
                             <div
                               style={{
-                                fontSize: 22,
+                                fontSize: 36,
                                 fontWeight: "bold",
                                 color: "#fff",
                                 textAlign: "center",
@@ -509,7 +509,7 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
                             {/* 含义 */}
                             <div
                               style={{
-                                fontSize: 16,
+                                fontSize: 26,
                                 color: "#A8DADC",
                                 textAlign: "center",
                               }}
@@ -583,8 +583,8 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
             <span
               style={{
                 color: "#fff",
-                margin: "0 16px",
-                fontSize: 48,
+                margin: "0 20px",
+                fontSize: 60,
                 opacity: partOpacity,
                 transform: `translateX(${partX}px)`,
                 display: "inline-block",
@@ -608,10 +608,10 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
             {/* 上方小标签 */}
             <div
               style={{
-                fontSize: 20,
+                fontSize: 28,
                 color: color,
-                marginBottom: 8,
-                fontWeight: "500",
+                marginBottom: 12,
+                fontWeight: "600",
               }}
             >
               {item.label || getLabel(item.root)}
@@ -622,7 +622,7 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
               style={{
                 color: color,
                 fontWeight: "bold",
-                fontSize: 56,
+                fontSize: 88,
               }}
             >
               {item.root}
@@ -654,7 +654,7 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
             style={{
               color: "#FFD93D",
               fontWeight: "bold",
-              fontSize: 64,
+              fontSize: 96,
               opacity: wordOpacity,
               transform: `translateY(${wordY}px)`,
               display: "inline-block",
@@ -667,8 +667,8 @@ export const HighlightScene: React.FC<Props> = ({ content, audioDurationInFrames
           <span
             style={{
               color: "#fff",
-              fontSize: 52,
-              margin: "0 16px",
+              fontSize: 72,
+              margin: "0 24px",
               opacity: wordOpacity,
               transform: `translateY(${wordY}px)`,
               display: "inline-block",
