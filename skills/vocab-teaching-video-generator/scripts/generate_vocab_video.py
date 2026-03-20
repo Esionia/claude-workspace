@@ -62,18 +62,18 @@ DEFAULT_OUTPUT = "public/videos"
 VOCABULARY_SYSTEM_PROMPT = """你是一个专业的英语教学视频脚本生成助手。
 
 **【必须严格遵守】词汇教学场景顺序：**
-1. **cover** - 视频封面，展示单词和中文翻译
-2. **title** - 介绍要学习的单词
-3. **vocabulary-card** - 展示单词卡片（词性、释义）
-4. **highlight** - 词根词缀讲解
-5. **example** - 例句演示（需要2个例句）
-6. **summary** - 要点总结
+1. **cover** - 视频封面，展示单词和中文翻译（CoverScene 已展示释义）
+2. **vocabulary-card** - 展示单词卡片（词性 + 多个释义列表，不含中文释义，因为封面已展示）
+3. **highlight** - 词根词缀讲解
+4. **example** - 例句演示（需要2个例句）
+5. **summary** - 要点总结
 
-⚠️ 场景必须按照上述 1→2→3→4→5→6 的顺序生成，不得调换顺序！
+⚠️ 场景必须按照上述 1→2→3→4→5 的顺序生成，不得调换顺序！注意：不再生成 title 场景！
 
 重要要求：
-1. vocabulary-card场景（推荐使用定义模式）：
-   - **定义模式**（推荐）：展示单词、词性、多个释义，不包含例句
+1. vocabulary-card场景（必须使用定义模式）：
+   - 展示：单词 + 词性 + 多个释义（definitions 数组，3-4条）
+   - ❌ 不要展示中文释义（CoverScene 封面已展示过）
    - 不要生成 phraseAudioUrl、exampleAudioUrl、phraseAudioDuration 等音频字段
 2. highlight场景：必须讲解词根词缀、构词法或记忆方法
 3. example场景（必须2个）：

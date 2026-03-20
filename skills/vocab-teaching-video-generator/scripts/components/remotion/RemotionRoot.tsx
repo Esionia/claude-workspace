@@ -35,14 +35,14 @@ const defaultTeachingScript: TeachingScript = {
   scenes: [
     {
       id: "scene-1",
-      type: "title",
+      type: "cover",
       durationSeconds: 5,
       narration: "欢迎来到教学视频预览",
       narrationLang: "zh",
       content: {
-        type: "title",
-        mainTitle: "Preview Teaching Video",
-        subtitle: "Remotion Studio Preview",
+        type: "cover",
+        word: "Preview",
+        translation: "预览",
       },
     },
   ],

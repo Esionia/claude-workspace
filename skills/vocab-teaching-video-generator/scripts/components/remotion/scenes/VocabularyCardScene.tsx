@@ -88,8 +88,8 @@ export const VocabularyCardScene: React.FC<VocabularyCardSceneProps> = ({
 
   if (isDefinitionMode) {
     // ========== 定义模式时间线 ==========
-    // 使用 definitions 数组或 meaning
-    const definitionList = definitions && definitions.length > 0 ? definitions : [meaning];
+    // 使用 definitions 数组（CoverScene 已展示中文释义，定义模式只展示释义列表）
+    const definitionList = definitions && definitions.length > 0 ? definitions : [];
 
     // 渲染定义列表（逐个淡入）
     const renderDefinitions = () => {

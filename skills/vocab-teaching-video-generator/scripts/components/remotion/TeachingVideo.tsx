@@ -5,7 +5,6 @@ import { AbsoluteFill, Audio, Sequence, staticFile } from "remotion";
 import {
   Scene,
   TeachingScript,
-  TitleContent,
   TextAnimationContent,
   HighlightContent,
   ComparisonContent,
@@ -15,7 +14,6 @@ import {
   PracticeContent,
   VocabularyCardContent,
 } from "@/lib/script-types";
-import { TitleScene } from "./scenes/TitleScene";
 import { TextAnimationScene } from "./scenes/TextAnimationScene";
 import { HighlightScene } from "./scenes/HighlightScene";
 import { ComparisonScene } from "./scenes/ComparisonScene";
@@ -46,8 +44,6 @@ const renderScene = (scene: Scene, durationInFrames: number) => {
   switch (scene.type) {
     case "cover":
       return <CoverScene word={c.word || ""} translation={c.translation || ""} subtitle={c.subtitle} audioUrl={scene.audioUrl} />;
-    case "title":
-      return <TitleScene content={c as TitleContent} audioUrl={scene.audioUrl} />;
     case "text-animation":
       return <TextAnimationScene content={c as TextAnimationContent} />;
     case "highlight": {

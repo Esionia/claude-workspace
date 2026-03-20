@@ -157,11 +157,11 @@ export const SummaryScene: React.FC<Props> = ({ content, audioDurationInFrames =
         {/* Title */}
         <div
           style={{
-            fontSize: 56,
+            fontSize: 72,
             fontWeight: 700,
             color: "#4ECDC4",
             textAlign: "center",
-            marginBottom: 40,
+            marginBottom: 50,
             transform: `scale(${titleSpring})`,
             opacity: titleSpring,
             textShadow: `0 0 20px rgba(78,205,196,${glowPulse * 0.6})`,
@@ -179,14 +179,14 @@ export const SummaryScene: React.FC<Props> = ({ content, audioDurationInFrames =
             background: "rgba(255,255,255,0.05)",
             backdropFilter: "blur(10px)",
             borderRadius: 24,
-            padding: "40px 50px",
+            padding: "48px 60px",
             border: "1px solid rgba(255,255,255,0.1)",
             boxShadow: "0 20px 60px rgba(0,0,0,0.3)",
             transform: `translateY(${(1 - cardSpring) * 30}px)`,
             opacity: cardSpring,
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
             {points.map((point, index) => {
               const pointSpring = spring({
                 frame,
@@ -220,19 +220,19 @@ export const SummaryScene: React.FC<Props> = ({ content, audioDurationInFrames =
                   {/* Number badge */}
                   <div
                     style={{
-                      width: 44,
-                      height: 44,
+                      width: 56,
+                      height: 56,
                       borderRadius: "50%",
                       background: "linear-gradient(135deg, #FFD93D 0%, #FF9A3C 100%)",
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      fontSize: 22,
+                      fontSize: 30,
                       fontWeight: 800,
                       color: "#1a1a2e",
                       flexShrink: 0,
                       transform: `scale(${numSpring})`,
-                      boxShadow: "0 0 15px rgba(255,217,61,0.4)",
+                      boxShadow: "0 0 20px rgba(255,217,61,0.5)",
                     }}
                   >
                     {index + 1}
@@ -241,7 +241,7 @@ export const SummaryScene: React.FC<Props> = ({ content, audioDurationInFrames =
                   {/* Point text */}
                   <div
                     style={{
-                      fontSize: 28,
+                      fontSize: 40,
                       color: "#fff",
                       fontFamily: "'Noto Sans SC', sans-serif",
                       fontWeight: 500,
